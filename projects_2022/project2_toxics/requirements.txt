@@ -1,0 +1,7 @@
+numpy
+pandas
+pytorch-crf
+scikit-learn
+seqeval
+torch
+transformers
