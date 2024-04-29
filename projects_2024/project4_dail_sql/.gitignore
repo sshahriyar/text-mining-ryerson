@@ -1,0 +1,16 @@
+.idea
+.DS_Store
+dataset
+vector_cache
+third_party
+config_stuff.txt
+dail_sql.yml
+llm/__pycache__/
+my_test.py
+nohup.out
+prompt/__pycache__/
+utils/__pycache__/
+utils/datasets/__pycache__/
+utils/linking_utils/__pycache__/
+NLP_Project.pptx
+~$NLP_Project.pptx

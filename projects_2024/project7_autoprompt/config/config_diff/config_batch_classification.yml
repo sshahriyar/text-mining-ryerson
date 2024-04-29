@@ -1,0 +1,14 @@
+use_wandb: True
+dataset:
+    label_schema: ["Yes", "No"]
+
+annotator:
+    method : 'llm_batch'
+    config:
+        instructions: ['Is there is an address in the text?', 'Is there is a phone number in the text?',
+        'Is there is a password in the text?']
+        aggregation_mode: 'exist'  #'majority_vote',  'exist', or 'all'. exist/all is working only in case label_schema: ["Yes", "No"]!
+        estimator_config:
+            num_workers: 2
+            prompt: 'prompts/predictor/prediction.prompt'
+            mode: 'annotation'
