@@ -1,0 +1,12 @@
+========================================
+problem: There is a circle centered at (0.3, -0.1) with radius 2.0. There is a polygon with coordinates [(4.0, -1.4), (1.4, 4.9), (-2.7, -0.7)]. How many intersection points are there?
+result: To determine the number of intersection points between the given circle and polygon, we perform the following steps.
+
+1. **Circle Equation**: The circle centered at (0.3, -0.1) with a radius of 2.0 has the equation:
+   \[
+   (x - 0.3)^2 + (y + 0.1)^2 = 2.0^2 = 4.0
+   \]
+
+2. **Polygon Edges**: The polygon is defined by the coordinates \((4.0, -1.4)\), \((1.4, 4.9)\), and \((-2.7, -0.7)\). We calculate the lines that form
+pred_answer: 0
+ground truth: 2

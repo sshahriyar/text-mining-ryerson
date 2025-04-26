@@ -1,0 +1,18 @@
+========================================
+problem: There is a polygon with coordinates [(4.7, 0.8), (-1.7, 0.8), (1.0, -3.7)]. There is a circle centered at (-0.2, -0.5) with radius 2.0. There is a circle centered at (1.1, 1.8) with radius 2.0. There is a circle centered at (-0.7, 1.2) with radius 4.0. How many intersection points are there?
+result: To determine the number of intersection points between the specified polygon and the circles, we need to evaluate the intersections between the edges of the polygon and the circles.
+
+1. **Polygon Coordinates**: 
+   - P1: (4.7, 0.8)
+   - P2: (-1.7, 0.8)
+   - P3: (1.0, -3.7)
+
+   The polygon has three edges:
+   - Edge 1: P1 to P2
+   - Edge 2: P2 to P3
+   - Edge 3: P3 to P1
+
+2. **Circle Equations**:
+   - Circle C1: Center at (-0.2, -0
+pred_answer: 0
+ground truth: 8

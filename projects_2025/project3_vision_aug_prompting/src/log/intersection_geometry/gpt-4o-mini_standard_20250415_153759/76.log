@@ -1,0 +1,15 @@
+========================================
+problem: There is a polygon with coordinates [(-1.2, -3.3), (3.4, 0.2), (1.4, 4.6), (-2.7, 3.7), (-3.9, 0.3)]. There is a circle centered at (-0.1, 0.5) with radius 1.0. There is a circle centered at (-0.0, -1.7) with radius 4.0. How many intersection points are there?
+result: To find the number of intersection points between the specified shapes, we need to analyze the interactions between the polygon and the two circles.
+
+1. **First Circle (Center: (-0.1, 0.5), Radius: 1.0)**:
+   - We will investigate the distances from the vertices of the polygon to the center of the circle to see if they lie within the radius.
+   - Distance Formula: 
+     \[
+     d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+     \]
+   - Polygon vertices:
+     - Vertex 1: (-1.2, -3.3)
+     - Vertex 2: (3.
+pred_answer: 0
+ground truth: 2

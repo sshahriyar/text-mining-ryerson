@@ -1,0 +1,19 @@
+========================================
+problem: There is a line segment from (0.2, 3.4) to (-1.6, -3.0). There is a line segment from (-2.3, -1.1) to (-0.7, -3.7). There is a circle centered at (-0.9, -1.6) with radius 1.0. How many intersection points are there?
+result: To find the number of intersection points between the given line segments and the circle, we will need to check each of the line segments for intersections with the circle.
+
+1. **Circle**: 
+   - Center: (-0.9, -1.6) 
+   - Radius: 1.0 
+
+   The equation of the circle can be expressed as:
+   \[
+   (x + 0.9)^2 + (y + 1.6)^2 = 1
+   \]
+
+2. **Line Segment from (0.2, 3.4) to (-1.6, -3.0)**:
+   - We will parametrize this segment as:
+   \[
+   x = (1
+pred_answer: 0
+ground truth: 5

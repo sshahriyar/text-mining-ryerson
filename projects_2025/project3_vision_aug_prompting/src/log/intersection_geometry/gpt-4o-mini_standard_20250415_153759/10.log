@@ -1,0 +1,17 @@
+========================================
+problem: There is a circle centered at (0.5, 1.2) with radius 2.0. There is a line segment from (-1.0, 1.7) to (-0.8, 0.7). How many intersection points are there?
+result: To find the number of intersection points between a circle and a line segment, you can use the following steps:
+
+1. **Circle Equation**: The equation of the circle with center \((h, k)\) and radius \(r\) is given by:
+   \[
+   (x - h)^2 + (y - k)^2 = r^2
+   \]
+
+   For the circle centered at \((0.5, 1.2)\) with radius \(2.0\):
+   \[
+   (x - 0.5)^2 + (y - 1.2)^2 = 2.0^2 = 4
+   \]
+
+2. **Line Segment Equation**: To
+pred_answer: 0
+ground truth: 0

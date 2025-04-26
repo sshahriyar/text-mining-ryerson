@@ -1,0 +1,17 @@
+========================================
+problem: There is a polygon with coordinates [(2.2, -1.0), (-0.8, 3.3), (-5.0, 0.9), (-1.6, -4.0)]. There is a polygon with coordinates [(-2.7, -0.8), (1.2, -4.4), (5.0, 1.1), (-0.8, 4.3)]. How many intersection points are there?
+result: To determine the number of intersection points between the two polygons given by their coordinates, we need to analyze the vertices and edges of each polygon and check for possible intersections.
+
+**Step 1: Identify the polygons**
+- Polygon A has vertices: 
+  - A1: (2.2, -1.0)
+  - A2: (-0.8, 3.3)
+  - A3: (-5.0, 0.9)
+  - A4: (-1.6, -4.0)
+
+- Polygon B has vertices:
+  - B1: (-2.7, -0.8)
+  - B2: (1.2, -4.4)
+  - B3:
+pred_answer: 0
+ground truth: 2

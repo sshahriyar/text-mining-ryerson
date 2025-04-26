@@ -1,0 +1,12 @@
+========================================
+problem: There is a line segment from (-0.9, -0.1) to (-2.7, 3.3). There is a line segment from (-1.0, 3.7) to (2.8, -2.7). How many intersection points are there?
+result: To determine the number of intersection points between the specified line segments, we need to analyze their equations and check if they intersect.
+
+Let's denote the first line segment as \( L_1 \) defined by the points \( A(-0.9, -0.1) \) and \( B(-2.7, 3.3) \), and the second line segment as \( L_2 \) defined by the points \( C(-1.0, 3.7) \) and \( D(2.8, -2.7) \).
+
+First, we can find the equations for these line segments.
+
+### For \( L_1 \):
+1. **Find the slope (\( m_1 \)) of
+pred_answer: 0
+ground truth: 0

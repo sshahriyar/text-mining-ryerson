@@ -1,0 +1,13 @@
+========================================
+problem: There is a circle centered at (0.7, -0.8) with radius 2.0. There is a circle centered at (-1.3, 0.8) with radius 3.0. How many intersection points are there?
+result: To determine the number of intersection points between two circles, we need to use the distance between their centers and their radii.
+
+1. **Identify the centers and radii of the circles**:
+   - Circle 1: Center at (0.7, -0.8), Radius = 2.0
+   - Circle 2: Center at (-1.3, 0.8), Radius = 3.0
+
+2. **Calculate the distance between the centers of the circles**:
+   \[
+   d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2} = \sqrt{((-1.3) - (0.7))^
+pred_answer: 0
+ground truth: 2

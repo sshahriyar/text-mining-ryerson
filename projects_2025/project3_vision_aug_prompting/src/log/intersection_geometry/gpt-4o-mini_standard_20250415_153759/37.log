@@ -1,0 +1,15 @@
+========================================
+problem: There is a line segment from (-3.1, 0.7) to (0.2, -1.3). There is a line segment from (-0.2, -0.6) to (1.3, 3.7). How many intersection points are there?
+result: To determine the number of intersection points between the two line segments given by the coordinates, we can follow these steps:
+
+1. **Identify the endpoints of each line segment**.
+   - First line segment: A = (-3.1, 0.7), B = (0.2, -1.3)
+   - Second line segment: C = (-0.2, -0.6), D = (1.3, 3.7)
+
+2. **Set up the equations of the lines**:
+   - For the first line segment AB, we can find the equations using the two-point form.
+   - For the second line segment CD, we can similarly find its equations.
+
+3. **Check for intersection**
+pred_answer: 0
+ground truth: 0

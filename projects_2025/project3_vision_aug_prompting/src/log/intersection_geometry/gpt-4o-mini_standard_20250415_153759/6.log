@@ -1,0 +1,9 @@
+========================================
+problem: There is a polygon with coordinates [(2.6, -1.4), (0.1, 2.9), (-4.6, 2.8), (-2.2, -1.9)]. There is a polygon with coordinates [(0.7, -3.3), (3.0, 2.6), (-2.2, 6.5), (-5.2, 0.2)]. How many intersection points are there?
+result: To determine the number of intersection points between the two polygons given their coordinates [(2.6, -1.4), (0.1, 2.9), (-4.6, 2.8), (-2.2, -1.9)] and [(0.7, -3.3), (3.0, 2.6), (-2.2, 6.5), (-5.2, 0.2)], we need to analyze the edges of each polygon and check if they intersect.
+
+1. **First polygon edges**:
+   - Edge 1: from (2.6, -1.4) to (0.1, 2.9)
+   - Edge 
+pred_answer: 0
+ground truth: 6

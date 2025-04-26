@@ -1,0 +1,15 @@
+========================================
+problem: There is a circle centered at (2.0, -0.5) with radius 4.0. There is a circle centered at (-0.3, -1.7) with radius 4.0. There is a line segment from (-3.4, 1.2) to (1.1, -2.8). There is a line segment from (2.2, 1.2) to (-1.9, 0.1). How many intersection points are there?
+result: To determine the number of intersection points between the specified shapes and lines, we can analyze each geometric figure and their possible intersections:
+
+1. **Circles Intersection**: 
+   - Circle 1: Centered at (2.0, -0.5) with radius 4.0.
+   - Circle 2: Centered at (-0.3, -1.7) with radius 4.0.
+   
+   We can calculate the distance between the centers of both circles and compare it with the sum of their radii to find out if they intersect, are separate, or one is contained within the other.
+   
+   Distance between centers:
+   \[
+   d = \sqrt{(2.0 - (-0.
+pred_answer: 0
+ground truth: 4

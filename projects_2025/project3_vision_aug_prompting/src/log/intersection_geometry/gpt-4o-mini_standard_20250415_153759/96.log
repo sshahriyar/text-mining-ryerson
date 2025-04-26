@@ -1,0 +1,14 @@
+========================================
+problem: There is a circle centered at (1.7, 0.3) with radius 1.0. There is a line segment from (0.3, -0.1) to (-2.8, 3.5). There is a circle centered at (0.2, -1.3) with radius 2.0. There is a circle centered at (-0.9, 1.4) with radius 2.0. How many intersection points are there?
+result: To determine the number of intersection points between the given shapes (circles and line segments), we can analyze each pair of geometric objects involved. Let's perform a step-by-step analysis:
+
+1. **Circle at (1.7, 0.3) with radius 1.0:** 
+   - This circle will intersect with other shapes based on their positions.
+
+2. **Line segment from (0.3, -0.1) to (-2.8, 3.5):** 
+   - We will see how many times this line segment intersects with the first circle.
+
+3. **Circle at (0.2, -1.3) with radius 2.0:**
+   - We will determine intersection points with
+pred_answer: 0
+ground truth: 8

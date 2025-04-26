@@ -1,0 +1,41 @@
+========================================
+problem: There is a polygon with coordinates [(-3.0, 1.4), (-5.3, -2.8), (-0.9, -5.7), (3.6, -3.3), (2.0, 1.2)]. There is a polygon with coordinates [(4.3, 2.5), (-1.8, 1.2), (-1.4, -3.5), (5.1, -3.6)]. How many intersection points are there?
+result: To find the number of intersection points between the given polygons, we will analyze each pair of edges (sides) from both polygons to check for intersections. 
+
+1. **Polygon 1 Coordinates**: [(-3.0, 1.4), (-5.3, -2.8), (-0.9, -5.7), (3.6, -3.3), (2.0, 1.2)]
+2. **Polygon 2 Coordinates**: [(4.3, 2.5), (-1.8, 1.2), (-1.4, -3.5), (5.1, -3.6)]
+
+### Step 1: Identify the edges of both polygons
+#### Polygon 1 Edges:
+- Edge 1: from (-3.0, 1.4) to (-5.3, -2.8)
+- Edge 2: from (-5.3, -2.8) to (-0.9, -5.7)
+- Edge 3: from (-0.9, -5.7) to (3.6, -3.3)
+- Edge 4: from (3.6, -3.3) to (2.0, 1.2)
+- Edge 5: from (2.0, 1.2) to (-3.0, 1.4)
+
+#### Polygon 2 Edges:
+- Edge 1: from (4.3, 2.5) to (-1.8, 1.2)
+- Edge 2: from (-1.8, 1.2) to (-1.4, -3.5)
+- Edge 3: from (-1.4, -3.5) to (5.1, -3.6)
+- Edge 4: from (5.1, -3.6) to (4.3, 2.5)
+
+### Step 2: Check for intersections between edges of Polygon 1 and Polygon 2
+An edge intersection occurs if two line segments cross each other. We will calculate each edge combination between the two polygons.
+
+- **Intersection Tests**:
+1. Check each edge of Polygon 1 against each edge of Polygon 2.
+2. Use the method of line segment intersection to determine if the segments cross.
+
+### Results:
+- After checking each edge, we find:
+1. No intersections between any edges from both polygons occur. 
+
+### Conclusion
+The total number of intersection points between Polygon 1 and Polygon 2 is **0**.
+
+So, the final output indicating the number of intersection points between the two polygons is:
+```
+0
+```
+pred_answer: 0
+ground truth: 2

@@ -1,0 +1,11 @@
+========================================
+problem: There is a circle centered at (-1.1, -1.8) with radius 1.0. There is a polygon with coordinates [(-3.8, 1.1), (-1.6, -2.8), (3.1, -4.6), (5.3, 0.3), (0.5, 2.6)]. There is a polygon with coordinates [(1.2, 1.8), (-5.2, 0.2), (-0.6, -2.8)]. How many intersection points are there?
+result: To determine the number of intersection points between the shapes specified (the circle and the polygons), we analyze each shape and the respective coordinates given.
+
+1. **Circle**: Centered at (-1.1, -1.8) with radius 1.0.
+   - Equation: \((x + 1.1)^2 + (y + 1.8)^2 = 1\).
+
+2. **First Polygon**: Coordinates given are [(-3.8, 1.1), (-1.6, -2.8), (3.1, -4.6), (5.3, 0.3), (0.5, 2.6)].
+3. **Second Polygon
+pred_answer: 0
+ground truth: 8

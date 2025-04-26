@@ -1,0 +1,16 @@
+========================================
+problem: There is a line segment from (-0.4, 0.7) to (-2.9, -0.3). There is a line segment from (-0.2, -0.8) to (-1.2, 3.6). How many intersection points are there?
+result: To determine the number of intersection points between the two line segments given:
+
+1. The first line segment is defined by the endpoints (-0.4, 0.7) and (-2.9, -0.3).
+2. The second line segment is defined by the endpoints (-0.2, -0.8) and (-1.2, 3.6).
+
+We can find the equations of both line segments and check if they intersect.
+
+**1. Finding the equations of the line segments:**
+
+For the first line segment:
+- Let point A = (-0.4, 0.7) and point B = (-2.9, -0.3).
+- The slope (m1) can be calculated
+pred_answer: 0
+ground truth: 1

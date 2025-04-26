@@ -1,0 +1,18 @@
+========================================
+problem: There is a circle centered at (1.9, -0.6) with radius 3.0. There is a circle centered at (-0.9, -0.8) with radius 3.0. How many intersection points are there?
+result: To solve the problem, we will analyze the two given circles and determine how many intersection points they have.
+
+1. **Circle 1**: Center at (1.9, -0.6) and radius 3.0.
+   The equation for Circle 1:
+   \[
+   (x - 1.9)^2 + (y + 0.6)^2 = 3^2
+   \]
+   Simplifying gives:
+   \[
+   (x - 1.9)^2 + (y + 0.6)^2 = 9
+   \]
+
+2. **Circle 2**: Center at (-0.9, -0.8) and radius 3.0.
+
+pred_answer: 0
+ground truth: 2

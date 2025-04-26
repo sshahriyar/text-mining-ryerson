@@ -1,0 +1,11 @@
+openai==0.28
+transformers==4.47.1
+torch
+gradio==5.25.1
+datasets
+huggingface-hub
+pandas
+numpy
+tiktoken
+uvicorn
+fastapi

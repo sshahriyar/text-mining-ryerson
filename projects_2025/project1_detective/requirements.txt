@@ -1,0 +1,10 @@
+torch>=1.13.0
+transformers>=4.30.0
+datasets
+faiss-cpu
+numpy
+scikit-learn
+matplotlib
+tqdm
+lightning>=2.0.0
+argparse

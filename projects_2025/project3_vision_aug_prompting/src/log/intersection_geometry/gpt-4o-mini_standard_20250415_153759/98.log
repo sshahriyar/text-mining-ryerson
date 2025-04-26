@@ -1,0 +1,11 @@
+========================================
+problem: There is a circle centered at (-1.0, 1.9) with radius 2.0. There is a circle centered at (0.9, -1.8) with radius 3.0. There is a polygon with coordinates [(-1.4, 1.9), (0.1, -5.5), (6.9, -0.1)]. There is a circle centered at (-0.7, -0.9) with radius 3.0. How many intersection points are there?
+result: To determine the number of intersection points between the given shapes and lines, we can analyze each element one by one.
+
+### Given Elements:
+1. **Circle 1**: Centered at (-1.0, 1.9) with radius 2.0.
+2. **Circle 2**: Centered at (0.9, -1.8) with radius 3.0.
+3. **Polygon**: Defined by the coordinates [(-1.4, 1.9), (0.1, -5.5), (6.9, -0.1)].
+4. **Circle 3**: Centered at (-0.7, -0.9) with radius 3
+pred_answer: 0
+ground truth: 14

@@ -1,0 +1,16 @@
+========================================
+problem: There is a circle centered at (-0.5, 1.6) with radius 2.0. There is a circle centered at (0.4, -0.7) with radius 4.0. How many intersection points are there?
+result: To find the number of intersection points between the two circles, we can use the following method:
+
+1. **Circle Equations**: The general equation of a circle centered at \((h, k)\) with radius \(r\) is given by:
+   \[
+   (x - h)^2 + (y - k)^2 = r^2
+   \]
+   For the first circle:
+   - Center: \((-0.5, 1.6)\)
+   - Radius: \(2.0\)
+   - Equation: 
+   \[
+   (x + 0.5)^2 + (y - 1.6)^2 = 2^2 \implies (x + 0
+pred_answer: 0
+ground truth: 2

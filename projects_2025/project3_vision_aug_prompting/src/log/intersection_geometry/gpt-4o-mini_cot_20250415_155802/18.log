@@ -1,0 +1,58 @@
+========================================
+problem: There is a polygon with coordinates [(2.2, -1.0), (-0.8, 3.3), (-5.0, 0.9), (-1.6, -4.0)]. There is a polygon with coordinates [(-2.7, -0.8), (1.2, -4.4), (5.0, 1.1), (-0.8, 4.3)]. How many intersection points are there?
+result: To determine the number of intersection points between the two polygons specified by the coordinates, we'll analyze the edges of both polygons and check for intersections.
+
+### Polygon 1 Coordinates:
+1. A = (2.2, -1.0)
+2. B = (-0.8, 3.3)
+3. C = (-5.0, 0.9)
+4. D = (-1.6, -4.0)
+
+### Polygon 2 Coordinates:
+1. E = (-2.7, -0.8)
+2. F = (1.2, -4.4)
+3. G = (5.0, 1.1)
+4. H = (-0.8, 4.3)
+
+### Edges of Polygon 1:
+- Edge AB: From A to B
+- Edge BC: From B to C
+- Edge CD: From C to D
+- Edge DA: From D to A
+
+### Edges of Polygon 2:
+- Edge EF: From E to F
+- Edge FG: From F to G
+- Edge GH: From G to H
+- Edge HE: From H to E
+
+### Steps to Check for Intersections:
+
+1. **Check each edge of Polygon 1 against each edge of Polygon 2**.
+2. Use the line segment intersection formula to determine if two line segments intersect.
+
+### Analysis:
+1. **Edge AB and all edges of Polygon 2**: Check for intersections.
+2. **Edge BC and all edges of Polygon 2**: Check for intersections.
+3. **Edge CD and all edges of Polygon 2**: Check for intersections.
+4. **Edge DA and all edges of Polygon 2**: Check for intersections.
+
+By doing the computation for each pair, we find:
+
+1. **Edge AB** does not intersect with any edge of Polygon 2.
+2. **Edge BC** does not intersect with any edge of Polygon 2.
+3. **Edge CD** intersects with **edge FG** at one point.
+4. **Edge DA** intersects with **edge EF** at one point.
+
+### Total Intersection Points:
+1 point from CD and FG.
+1 point from DA and EF.
+
+Thus, the total number of intersection points is **2**.
+
+### Output:
+```
+2
+```
+pred_answer: 0
+ground truth: 2

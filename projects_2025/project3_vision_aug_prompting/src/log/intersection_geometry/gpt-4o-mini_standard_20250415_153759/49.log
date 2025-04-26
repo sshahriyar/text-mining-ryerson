@@ -1,0 +1,13 @@
+========================================
+problem: There is a polygon with coordinates [(-0.1, 3.4), (-5.1, -0.5), (0.6, -1.6)]. There is a circle centered at (-1.5, -1.4) with radius 3.0. There is a circle centered at (1.8, -1.8) with radius 2.0. How many intersection points are there?
+result: To find the number of intersection points between the shapes (a circle and polygons) specified, we must analyze the shapes based on given coordinates.
+
+1. **Circle at (-1.5, -1.4) with radius 3.0:** This circle will include the area around the center extending 3 units in all directions.
+
+2. **Polygon defined by the coordinates [(-0.1, 3.4), (-5.1, -0.5), (0.6, -1.6)]:**
+   - The vertices of the polygon are:
+     - A = (-0.1, 3.4)
+     - B = (-5.1, -0.5)
+     - C = (
+pred_answer: 0
+ground truth: 8

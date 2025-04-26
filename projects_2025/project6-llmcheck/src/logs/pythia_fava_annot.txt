@@ -1,0 +1,11 @@
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
+Model: pythia, Method types: ['logit', 'attns'], Dataset: fava_annot, Use toklens: False
