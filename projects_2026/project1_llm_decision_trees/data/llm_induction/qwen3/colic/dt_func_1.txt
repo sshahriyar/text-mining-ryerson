@@ -1,0 +1,14 @@
+def func(row):
+    node1 = int(row['abdominal_distension'] <= 2)
+    node2 = int(row['packed_cell_volume'] <= 30)
+    emb = [node1, node2]
+    if node1 == 1:
+        if node2 == 1:
+            return 1, emb
+        else:
+            return 0, emb
+    else:
+        if node2 == 1:
+            return 0, emb
+        else:
+            return 1, emb

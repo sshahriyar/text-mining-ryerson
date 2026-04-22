@@ -1,0 +1,18 @@
+```python
+def predict(row):
+    # Precompute binary node evaluations
+    node1 = int(row['BVE/BVL'] <= 0.5)   # Root node: leverage threshold
+    node2 = int(row['WC/TA'] <= 0.1)     # Child node: liquidity threshold
+    emb = [node1, node2]
+
+    # Decision tree logic
+    if node1 == 1:
+        if node2 == 1:
+            pred = 1   # bankrupt
+        else:
+            pred = 0   # not bankrupt
+    else:
+        pred = 0       # not bankrupt
+
+    return pred, emb
+```

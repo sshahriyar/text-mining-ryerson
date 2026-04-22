@@ -1,0 +1,21 @@
+def func(row):
+    node1 = int(row['Judge'] == 0)
+    node2 = int(row['Judge'] == 1)
+    node3 = int(row['Official'] == 1)
+    node4 = int(row['Round'] <= 6)
+    emb = [node1, node2, node3, node4]
+    if node1:
+        if node3:
+            return 0, emb
+        else:
+            return 1, emb
+    elif node2:
+        if node4:
+            return 1, emb
+        else:
+            return 0, emb
+    else:
+        if row['Round'] > 6:
+            return 1, emb
+        else:
+            return 0, emb

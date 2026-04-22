@@ -1,0 +1,25 @@
+```python
+def predict_credit_acceptance(age, income_per_dependent, monthly_credit_card_expenses, owning_a_home, self_employed, number_of_derogatory_reports):
+    node_truth_values = []
+
+    # Node 0 (Root Node - Depth 0): The most critical factor for credit approval is often past financial behavior.
+    # Condition: Are there any derogatory reports, indicating past financial mismanagement?
+    if number_of_derogatory_reports > 0:
+        node_truth_values.append(1)  # Condition for Node 0 is true
+        prediction = "rejected"
+    else:  # number_of_derogatory_reports == 0
+        node_truth_values.append(0)  # Condition for Node 0 is false
+
+        # Node 1 (Depth 1, child of the 'no derogatory reports' branch):
+        # If there are no derogatory reports, the next most important factor is the applicant's ability to repay.
+        # Condition: Is the income per dependent below a reasonable threshold, indicating insufficient repayment capacity?
+        # A threshold of 4.0 (on a scale of 1.5 to 10) is chosen as a common "sufficient" level.
+        if income_per_dependent < 4.0:
+            node_truth_values.append(1)  # Condition for Node 1 is true
+            prediction = "rejected"
+        else:  # income_per_dependent >= 4.0
+            node_truth_values.append(0)  # Condition for Node 1 is false
+            prediction = "accepted"
+            
+    return prediction, node_truth_values
+```

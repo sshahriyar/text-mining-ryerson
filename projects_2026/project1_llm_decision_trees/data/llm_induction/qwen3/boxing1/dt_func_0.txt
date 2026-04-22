@@ -1,0 +1,9 @@
+def func(row):
+    node1 = int(row['Round'] <= 6)
+    node2 = int(row['Official'] == 1)
+    emb = [node1, node2]
+    if node1 == 1:
+        prediction = 1
+    else:
+        prediction = 0
+    return prediction, emb

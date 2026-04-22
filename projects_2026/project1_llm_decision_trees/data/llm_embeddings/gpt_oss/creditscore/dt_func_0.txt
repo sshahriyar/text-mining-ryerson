@@ -1,0 +1,31 @@
+```python
+def predict_credit(row):
+    # Precompute binary node evaluations
+    node1 = int(row['Derogatory.reports'] <= 1)          # low derogatory reports
+    node2 = int(row['Own.home'] == 1)                   # owns a home
+    node3 = int(row['Income.per.dependent'] >= 4)        # decent income per dependent
+    node4 = int(row['Age'] >= 35)                       # older applicant
+    node5 = int(row['Monthly.credit.card.exp'] <= 200)  # low credit card spend
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # Decision tree logic
+    if node1:            # Derogatory.reports <= 1
+        if node2:        # Own.home == 1
+            if node3:    # Income.per.dependent >= 4
+                prediction = 1
+            else:        # Income.per.dependent < 4
+                if node4:  # Age >= 35
+                    prediction = 1
+                else:
+                    prediction = 0
+        else:            # Own.home == 0
+            if node5:    # Monthly.credit.card.exp <= 200
+                prediction = 1
+            else:
+                prediction = 0
+    else:                # Derogatory.reports > 1
+        prediction = 0
+
+    return prediction, emb
+```

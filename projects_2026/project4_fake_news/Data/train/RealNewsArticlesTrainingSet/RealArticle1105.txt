@@ -1,0 +1,39 @@
+Hackers Steal Photos From Plastic Surgeon to the Stars, Claim Trove Includes Royals In one of the more sensitive data breaches in recent memory, hackers have broken into a high profile, London-based plastic surgeon, and stolen a bevy of photos, including of in-progress genitalia and breast enhancement. The hackers, known as The Dark Overlord, have traditionally tried to extort their victims, including schools, medical centres, and even a production studio linked to Netflix.
+
+“We can confirm that the Clinic has been the victim of a cyber attack. We took measures to block the attack immediately in order to protect patient information and we informed the Metropolitan Police who launched an investigation,” London Bridge Plastic Surgery (LBPS), the victim of the hack, told The Daily Beast in a statement.
+
+“Regrettably, following investigations by our IT experts and the police, we believe that our security was breached and that data has been stolen. We are still working to establish exactly what data has been compromised,” the statement continued.
+
+LBPS, based near Marylebone, describes itself as “one of the leading plastic surgery clinics in the UK” on its website. Judging by tabloid media reports, paparazzi have spotted British celebrities attending the clinic, and UK paper The Sun reported that TV star Katie Price is an LBPS customer.
+
+“We have TBs [terabytes] of this shit. Databases, names, everything,” a representative from The Dark Overlord told The Daily Beast.
+
+“There are some royal families in here,” the group claimed.
+
+The clinic caters to less famous patients too, with plenty of customers praising the company on social media.
+
+“The clinic staff treated me so so well, with a warm, caring, empathic approach that immediately eased any anxieties I was feeling at the time,” one apparent customer recently wrote on Facebook.
+
+The Dark Overlord contacted this reporter using an email account belonging to LBPS to prove they had access. The group also sent The Daily Beast a cache of photos of LBPS operations. Many are highly graphic and close-up, showing surgery on male and female genitalia. Others show apparent patients’ bodies post-operation, and some include faces.
+
+None of a selection of tested photos returned any matches from Google reverse image searches, implying that they were indeed obtained from a private source. Several pictures include LBPS’ chief surgeon Chris Inglefield, wearing his distinctive, multi-colored head scarves. In one image, he is wearing an identical head scarf to that in an image on LBPS’ website.
+
+As if the hack itself wasn’t enough of an issue, the hackers have threatened to distribute the stolen images.
+
+“We're going to pitch it all up for everyone to nab. The entire patient list with corresponding photos. The world has never seen a medical dump of a plastic surgeon to such degree,” The Dark Overlord told The Daily Beast last week. The images do not appear to be publicly available yet, however, and it’s unclear whether the group will follow through on their threat.
+
+“This blokes balls were nicked mate!” the representative added, referring to a specific photo in the cache. The group often mocks or taunts its victims, both in public social media posts or during interviews with reporters.
+
+“You’re a straight male, yeah?” they continued. “How about some actual real vaginas,” they said, before sending this reporter several sets of graphic photos. LBPS confirmed the data breach after The Daily Beast provided a number of the clinic’s photos to representatives.
+
+After the publication of this article, a Metropolitan Police Service spokesperson told The Daily Beast, "On Tuesday, 17 October the Metropolitan Police Service was informed of a data theft from a cosmetic surgery clinic in London. Detectives from the Met's Organised Crime Command are investigating. There have been no arrests and enquires are ongoing."
+
+The Dark Overlord first emerged in mid-2016, when they hacked a myriad of medical centers across the U.S., then moved onto commercial businesses and most recently schools. Earlier this month, The Daily Beast reported the group sent a flurry of death threats to students of an Iowa school district. Education officials closed a number of schools in response.
+
+Usually, The Dark Overlord will hack a victim, steal their data, and then demand a ransom payment in exchange for not publicly releasing the, often sensitive, information. When that doesn’t work, the group may approach journalists in the hope that media coverage will put more pressure onto the target. LBPS’ statement did not explicitly mention an extortion attempt.
+
+In all, The Dark Overlord has hacked well over a dozen targets, mostly, it appears, in the U.S., but some overseas. Senator Steve Daines recently raised concerns about the group with FBI Director Christopher Wray, the Flathead Beacon previously reported.
+
+“We are horrified that they have now targeted our patients,” the LBPS statement continued.
+
+"Security and patient confidentiality has always been of the utmost importance to us. We invest in market-leading technology to keep our data secure and our systems are updated daily. We are deeply saddened that our security has been breached. We are profoundly sorry for any distress this data breach may cause our patients and our team are available around the clock to speak to anyone who has any concerns by calling 0203 858 0664,” it concluded.

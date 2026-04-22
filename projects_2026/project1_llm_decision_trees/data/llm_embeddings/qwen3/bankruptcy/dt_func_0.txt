@@ -1,0 +1,20 @@
+def func(row):
+    node1 = int(row['WC/TA'] <= 10)
+    node2 = int(row['EBIT/TA'] <= 5)
+    node3 = int(row['S/TA'] <= 20)
+    node4 = int(row['BVE/BVL'] <= 0.5)
+    node5 = int(row['RE/TA'] <= 3)
+    emb = [node1, node2, node3, node4, node5]
+    
+    if node1 == 1:
+        return 1, emb
+    elif node2 == 1:
+        return 1, emb
+    elif node3 == 1:
+        return 1, emb
+    elif node4 == 1:
+        return 1, emb
+    elif node5 == 1:
+        return 1, emb
+    else:
+        return 0, emb

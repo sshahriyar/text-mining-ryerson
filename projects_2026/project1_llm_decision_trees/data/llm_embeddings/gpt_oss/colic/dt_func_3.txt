@@ -1,0 +1,40 @@
+```python
+def predict_surgery(row):
+    """
+    Predict whether a horse colic lesion is surgical (1) or not (0).
+    
+    Parameters
+    ----------
+    row : dict
+        Dictionary containing feature values. Keys must match the feature names:
+        'rectal_temperature', 'pulse', 'peristalsis', 'abdomen'.
+    
+    Returns
+    -------
+    tuple
+        (prediction, embedding)
+        prediction : int (0 or 1)
+        embedding : list of ints (1 if the corresponding node condition is true, 0 otherwise)
+    """
+    # Precompute binary node embeddings
+    node1 = int(row['rectal_temperature'] > 39.5)          # High rectal temperature
+    node2 = int(row['pulse'] > 140)                       # Tachycardia
+    node3 = int(row['peristalsis'] == 1)                  # Absent peristalsis
+    node4 = int(row['abdomen'] == 1)                      # Distended large abdomen
+    
+    emb = [node1, node2, node3, node4]
+    
+    # Decision tree logic
+    if node1:
+        pred = 1  # Surgery likely with high rectal temperature
+    elif node2:
+        pred = 1  # Surgery likely with tachycardia
+    elif node3:
+        pred = 1  # Surgery likely with absent peristalsis
+    elif node4:
+        pred = 1  # Surgery likely with distended large abdomen
+    else:
+        pred = 0  # Not surgery
+    
+    return pred, emb
+```

@@ -1,0 +1,40 @@
+```python
+def classify_credit_application(age, income_per_dependent, monthly_credit_card_expenses, owning_a_home, self_employed, number_of_derogatory_reports):
+    """
+    Classifies a credit application as 'Accepted' or 'Rejected' based on applicant features.
+
+    Args:
+        age (int): Applicant's age in years.
+        income_per_dependent (float): Applicant's income per dependent (1.5 to 10).
+        monthly_credit_card_expenses (float): Applicant's monthly credit card expenses in dollars.
+        owning_a_home (str): 'yes' if applicant owns a home, 'no' otherwise.
+        self_employed (str): 'yes' if applicant is self-employed, 'no' otherwise.
+        number_of_derogatory_reports (int): Number of derogatory reports on the applicant's credit history.
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The prediction ('Accepted' or 'Rejected').
+            - list: A list of integers (0 or 1) representing the truth values of the inner nodes encountered.
+                    1 if the node's condition is satisfied, 0 otherwise.
+    """
+    inner_node_truth_values = []
+
+    # Node 1: Check the number of derogatory reports (a primary indicator of credit risk)
+    # Condition: number_of_derogatory_reports <= 0 (Applicant has no derogatory reports)
+    if number_of_derogatory_reports <= 0:
+        inner_node_truth_values.append(1)  # Condition 1 is satisfied
+
+        # Node 2 (child of Node 1 True branch): If no derogatory reports, check income per dependent
+        # Condition: income_per_dependent > 4.0 (A higher income per dependent generally indicates better repayment capacity)
+        if income_per_dependent > 4.0:
+            inner_node_truth_values.append(1)  # Condition 2 is satisfied
+            prediction = "Accepted"
+        else:
+            inner_node_truth_values.append(0)  # Condition 2 is not satisfied
+            prediction = "Rejected"  # Not enough income despite clean record
+    else:
+        inner_node_truth_values.append(0)  # Condition 1 is not satisfied
+        prediction = "Rejected"  # Presence of derogatory reports typically leads to rejection
+
+    return prediction, inner_node_truth_values
+```

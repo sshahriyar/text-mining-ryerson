@@ -1,0 +1,27 @@
+def decision_tree(feature_row):
+    # Precompute binary vector embeddings
+    node1 = int(feature_row['Judge'] in [0, 1, 2, 5, 9])
+    node2 = int(feature_row['Judge'] in [3, 4, 6, 7, 8])
+    node3 = int(feature_row['Round'] <= 6)
+    node4 = int(feature_row['Round'] > 6)
+    node5 = int(feature_row['Official'] == 1)
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # Apply decision tree logic
+    if node1 and node3 and node5:
+        return 1, emb
+    elif node1 and node3 and not node5:
+        return 0, emb
+    elif node1 and not node3 and node5:
+        return 1, emb
+    elif node1 and not node3 and not node5:
+        return 0, emb
+    elif node2 and node4 and node5:
+        return 0, emb
+    elif node2 and node4 and not node5:
+        return 1, emb
+    elif node2 and not node4 and node5:
+        return 0, emb
+    else:
+        return 1, emb

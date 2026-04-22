@@ -1,0 +1,53 @@
+```python
+def classify_bankruptcy(
+    Working_Capital_Total_Assets: float,
+    Retained_Earnings_Total_Assets: float,
+    Earnings_Before_Interest_and_Tax_Total_Assets: float,
+    Sales_Total_Assets: float,
+    Book_Value_of_Equity_Book_Value_of_Liabilities: float
+) -> tuple[str, list[int]]:
+    """
+    Classifies a telecommunications firm as 'Bankrupt' or 'Non-Bankrupt' based on financial ratios.
+
+    Args:
+        Working_Capital_Total_Assets (float): Working capital as a percentage of total assets.
+        Retained_Earnings_Total_Assets (float): Retained earnings as a percentage of total assets.
+        Earnings_Before_Interest_and_Tax_Total_Assets (float): Earnings before interest and taxes as a percentage of total assets.
+        Sales_Total_Assets (float): Sales as a percentage of total assets.
+        Book_Value_of_Equity_Book_Value_of_Liabilities (float): Book value of equity divided by book value of total liabilities.
+
+    Returns:
+        tuple[str, list[int]]: A tuple containing the prediction ('Bankrupt' or 'Non-Bankrupt')
+                               and a list representing the truth values of the inner nodes traversed.
+                               Each entry in the list is 1 if the condition of the corresponding inner node
+                               is satisfied, and 0 otherwise.
+    """
+    truth_values = []
+
+    # Node 0: Book Value of Equity / Book Value of Liabilities (BVE/BVL) <= 0.2
+    # Rationale: A very low BVE/BVL ratio (equity less than 20% of liabilities, or even negative)
+    # is a critical indicator of severe financial distress and high insolvency risk.
+    condition_node_0 = (Book_Value_of_Equity_Book_Value_of_Liabilities <= 0.2)
+    truth_values.append(1 if condition_node_0 else 0)
+
+    if condition_node_0:
+        # If BVE/BVL is critically low, the firm is highly likely to be Bankrupt.
+        # This acts as an early exit for severe cases.
+        prediction = "Bankrupt"
+    else:
+        # If BVE/BVL is above the critical threshold, assess current operational profitability.
+        # Node 1 (right child of Node 0): Earnings Before Interest and Tax / Total Assets (EBIT/TA) <= 0
+        # Rationale: Even if solvency appears somewhat stable, consistently operating at a loss
+        # (negative or zero EBIT/TA) indicates an unsustainable business model and high risk of future bankruptcy.
+        condition_node_1 = (Earnings_Before_Interest_and_Tax_Total_Assets <= 0)
+        truth_values.append(1 if condition_node_1 else 0)
+
+        if condition_node_1:
+            prediction = "Bankrupt"
+        else:
+            # If BVE/BVL is not critically low and the firm is operationally profitable,
+            # it indicates a healthier financial state.
+            prediction = "Non-Bankrupt"
+
+    return prediction, truth_values
+```

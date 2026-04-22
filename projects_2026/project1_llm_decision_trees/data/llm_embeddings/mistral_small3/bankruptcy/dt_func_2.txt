@@ -1,0 +1,17 @@
+def decide_bankruptcy(feature_row):
+    node1 = int(feature_row['WC/TA'] < 20)
+    node2 = int(feature_row['RE/TA'] < 15)
+    node3 = int(feature_row['EBIT/TA'] < 10)
+    node4 = int(feature_row['S/TA'] < 30)
+    node5 = int(feature_row['BVE/BVL'] < 0.5)
+
+    emb = [node1, node2, node3, node4, node5]
+
+    if node1 == 1 and node2 == 1 and node3 == 1:
+        return 1, emb
+    elif node1 == 0 and node4 == 0 and node5 == 0:
+        return 0, emb
+    elif node1 == 1 and node4 == 0 and node5 == 1:
+        return 1, emb
+    else:
+        return 0, emb

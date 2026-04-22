@@ -1,0 +1,24 @@
+def predict_winner(row):
+    # Precompute binary embeddings
+    node1 = int(row['Judge'] in [0, 1, 2])  # E. Williams, L. O'Connell, S. Christodoulu
+    node2 = int(row['Official'] == 1)  # Official judge
+    node3 = int(row['Round'] <= 6)  # First half of the rounds
+    node4 = int(row['Round'] <= 3)  # First third of the rounds
+    node5 = int(row['Judge'] in [5, 6, 7])  # Boxing Times, Sportsline, Associated Press
+    node6 = int(row['Round'] % 2 == 0)  # Even-numbered rounds
+
+    emb = [node1, node2, node3, node4, node5, node6]
+
+    # Decision tree logic
+    if node1 and node4:
+        prediction = 1  # Lewis likely to win in early rounds with certain judges
+    elif node2 and node3:
+        prediction = 0  # Holyfield likely to win in first half with official judges
+    elif node5 and node6:
+        prediction = 0  # Holyfield likely to win in even rounds with specific judges
+    elif node1 and not node2:
+        prediction = 1  # Lewis likely to win with non-official judges
+    else:
+        prediction = 0  # Default to Holyfield
+
+    return prediction, emb

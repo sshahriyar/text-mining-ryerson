@@ -1,0 +1,10 @@
+def func(row):
+    node1 = int(row['BVE/BVL'] <= 0.5)
+    node2 = int(row['EBIT/TA'] <= 0.05)
+    node3 = int(row['WC/TA'] <= 0.10)
+    emb = [node1, node2, node3]
+    if node1 == 1:
+        prediction = 1 if node2 == 1 else 0
+    else:
+        prediction = 1 if node3 == 1 else 0
+    return prediction, emb

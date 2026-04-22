@@ -1,0 +1,9 @@
+Task,Model,Instances,Parsed_Count,Valid_Count,Stable_Count,Exact_Match_Count,Correct_Count,Accuracy,Avg_Blocking_Pairs
+Task 1,Basic,20,20,17.0,6.0,3.0,,,1.5
+Task 1,Reasoning,20,20,19.0,6.0,2.0,,,1.7
+Task 2,Basic,20,20,,,,10.0,0.5,
+Task 2,Reasoning,20,20,,,,7.0,0.35,
+Task 3,Basic,20,20,20.0,4.0,2.0,,,1.8
+Task 3,Reasoning,20,20,20.0,6.0,4.0,,,1.35
+Task 4,Basic,20,20,,,,11.0,0.55,
+Task 4,Reasoning,20,20,,,,14.0,0.7,

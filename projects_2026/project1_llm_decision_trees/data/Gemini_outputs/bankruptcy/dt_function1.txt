@@ -1,0 +1,68 @@
+```python
+def predict_bankruptcy(features):
+    """
+    Predicts if a telecommunications firm will go bankrupt based on financial ratios.
+
+    Args:
+        features (dict): A dictionary containing the following financial ratios:
+            'Working Capital/Total Assets' (float, percentage)
+            'Retained Earnings/Total Assets' (float, percentage)
+            'Earnings Before Interest and Tax/Total Assets' (float, percentage)
+            'Sales/Total Assets' (float, percentage)
+            'Book Value of Equity/Book Value of Liabilities' (float)
+
+    Returns:
+        tuple: A tuple containing:
+            - int: The prediction (1 for Bankrupt, 0 for Non-Bankrupt).
+            - list: A list of truth values (1 if condition satisfied, 0 otherwise)
+                    for the inner nodes traversed.
+    """
+    # Extract features using the exact names provided
+    wc_ta = features['Working Capital/Total Assets']
+    # re_ta = features['Retained Earnings/Total Assets'] # Not used in this specific tree
+    ebit_ta = features['Earnings Before Interest and Tax/Total Assets']
+    # s_ta = features['Sales/Total Assets'] # Not used in this specific tree
+    bve_bvl = features['Book Value of Equity/Book Value of Liabilities']
+
+    # Initialize list to store truth values for inner nodes
+    node_truth_values = []
+    prediction = -1 # Default, should be overwritten
+
+    # Root Node (Depth 0): Book Value of Equity / Book Value of Liabilities (BVE/BVL)
+    # This ratio measures financial leverage. A value <= 0.5 indicates that equity is
+    # half or less than total liabilities, which is a strong indicator of financial distress.
+    condition_bve_bvl_low = (bve_bvl <= 0.5)
+    node_truth_values.append(1 if condition_bve_bvl_low else 0)
+
+    if condition_bve_bvl_low:
+        # Path 1: High Leverage / Low Equity (BVE/BVL <= 0.5) - This path already suggests high risk.
+        # Node 1.1 (Depth 1): Earnings Before Interest and Tax / Total Assets (EBIT/TA)
+        # This measures operational profitability. A value <= 0.0 means the company is
+        # operating at a loss or just breaking even, which is critical when combined with high leverage.
+        condition_ebit_ta_negative = (ebit_ta <= 0.0)
+        node_truth_values.append(1 if condition_ebit_ta_negative else 0)
+
+        if condition_ebit_ta_negative:
+            # Prediction: Bankrupt (Extremely high risk: High leverage AND negative operational profitability)
+            prediction = 1
+        else:
+            # Prediction: Non-Bankrupt (Still high leverage, but at least operationally profitable.
+            # There's a chance for recovery or to sustain operations for a while).
+            prediction = 0
+    else:
+        # Path 2: Acceptable Leverage (BVE/BVL > 0.5) - Less immediate risk from solvency perspective.
+        # Node 1.2 (Depth 1): Working Capital / Total Assets (WC/TA)
+        # This measures short-term liquidity. A value <= 0.0 indicates severe liquidity issues,
+        # meaning current liabilities exceed current assets. Even with good leverage, poor liquidity can lead to bankruptcy.
+        condition_wc_ta_negative = (wc_ta <= 0.0)
+        node_truth_values.append(1 if condition_wc_ta_negative else 0)
+
+        if condition_wc_ta_negative:
+            # Prediction: Bankrupt (Leverage is okay, BUT facing a severe short-term liquidity crisis)
+            prediction = 1
+        else:
+            # Prediction: Non-Bankrupt (Leverage is acceptable AND liquidity is healthy)
+            prediction = 0
+            
+    return prediction, node_truth_values
+```

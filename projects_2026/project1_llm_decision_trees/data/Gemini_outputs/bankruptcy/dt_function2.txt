@@ -1,0 +1,57 @@
+```python
+def classify_telecom_bankruptcy(WC_TA, RE_TA, EBIT_TA, S_TA, BVE_BVL):
+    """
+    Classifies a telecommunications firm as 'Bankrupt' or 'Not Bankrupt'
+    based on financial ratios, using a depth-2 decision tree.
+
+    Features (all expressed as percentages or ratios):
+    WC_TA (Working Capital/Total Assets)
+    RE_TA (Retained Earnings/Total Assets)
+    EBIT_TA (Earnings Before Interest and Tax/Total Assets)
+    S_TA (Sales/Total Assets)
+    BVE_BVL (Book Value of Equity/Book Value of Liabilities)
+
+    Returns:
+    - prediction (str): 'Bankrupt' or 'Not Bankrupt'
+    - truth_values (list): A list of 1s and 0s representing the truth values
+                          of the inner node conditions.
+                          Index 0: BVE_BVL <= 0.1
+                          Index 1: EBIT_TA <= -10
+                          Index 2: WC_TA <= 0
+    """
+    
+    # Initialize truth values for all inner nodes to 0.
+    # The order corresponds to: [Node 0: BVE_BVL, Node 1: EBIT_TA, Node 2: WC_TA]
+    truth_values = [0, 0, 0] 
+
+    prediction = "Not Bankrupt" # Default prediction for the least risky path
+
+    # Node 0: Root node - Check solvency/leverage (Book Value of Equity / Book Value of Liabilities)
+    # A very low BVE/BVL (e.g., 0.1 or less) indicates severe equity erosion and high financial distress.
+    if BVE_BVL <= 0.1:
+        truth_values[0] = 1 # Condition for Node 0 is satisfied
+        
+        # Branch Left: Firm is highly distressed due to poor solvency
+        # Node 1: Check operational profitability (Earnings Before Interest and Taxes / Total Assets)
+        # Even within a highly leveraged firm, severe operational losses accelerate bankruptcy.
+        if EBIT_TA <= -10: # Significant operational losses (e.g., losing more than 10% of assets in earnings)
+            truth_values[1] = 1 # Condition for Node 1 is satisfied
+            prediction = "Bankrupt"
+        else: # Operational profits are not catastrophically negative, but still highly distressed from solvency.
+            truth_values[1] = 0 # Condition for Node 1 is not satisfied
+            prediction = "Bankrupt" # Still predicts bankrupt due to the severe BVE_BVL condition
+    else:
+        truth_values[0] = 0 # Condition for Node 0 is not satisfied
+        
+        # Branch Right: Firm has better solvency, but can still face issues
+        # Node 2: Check liquidity (Working Capital / Total Assets)
+        # Even with decent equity, a company can go bankrupt if it cannot meet short-term obligations.
+        if WC_TA <= 0: # Negative working capital indicates current liabilities exceed current assets (liquidity crisis)
+            truth_values[2] = 1 # Condition for Node 2 is satisfied
+            prediction = "Bankrupt"
+        else: # Positive working capital indicates better liquidity.
+            truth_values[2] = 0 # Condition for Node 2 is not satisfied
+            prediction = "Not Bankrupt" # Firm appears relatively healthy based on these key indicators
+
+    return prediction, truth_values
+```

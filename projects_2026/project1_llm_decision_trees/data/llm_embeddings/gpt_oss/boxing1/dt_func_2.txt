@@ -1,0 +1,22 @@
+```python
+def predict(row):
+    # Precompute binary embeddings for the inner nodes
+    node1 = int(row['Official'] == 1)           # Is the judge official?
+    node2 = int(row['Judge'] == 0)             # Judge is E. Williams
+    node3 = int(row['Round'] <= 6)             # Early rounds (1‑6)
+    
+    emb = [node1, node2, node3]
+    
+    # Decision tree logic
+    if node1:
+        # Official judges tend to favor Lewis
+        return 1, emb
+    if node2:
+        # E. Williams often awards the round to Lewis
+        return 1, emb
+    if node3:
+        # Early rounds may favor Lewis
+        return 1, emb
+    # Remaining cases favor Holyfield
+    return 0, emb
+```

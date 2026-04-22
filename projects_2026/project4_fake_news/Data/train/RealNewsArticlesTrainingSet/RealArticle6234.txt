@@ -1,0 +1,7 @@
+The 50 Best Movies on HBO Go and HBO Now (December 2018) is_latest:
+
+article_category_slug: music
+
+SELECT ID, post_title, post_date, lead_img_url, permalink, co_authors, rating FROM pm_article_index AS a WHERE 1=1 AND post_status = 'publish' AND ID NOT IN (SELECT ID FROM pm_top_article_display WHERE section='home' ) AND MATCH(article_category) AGAINST('+|music|' IN BOOLEAN MODE) ORDER BY post_date DESC LIMIT 108 OFFSET 0
+
+SELECT ID, post_title, post_date, lead_img_url, permalink, co_authors, rating FROM pm_article_index AS a WHERE 1=1 AND post_status = 'publish' AND ID NOT IN (SELECT ID FROM pm_top_article_display WHERE section='home' ) AND MATCH(article_category) AGAINST('+|music|' IN BOOLEAN MODE) ORDER BY post_date DESC LIMIT 108 OFFSET 0

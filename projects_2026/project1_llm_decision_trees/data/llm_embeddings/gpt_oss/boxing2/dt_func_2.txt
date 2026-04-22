@@ -1,0 +1,24 @@
+```python
+def predict_round_winner(row):
+    # Binary feature nodes
+    node1 = int(row['Official judge'] == 1)          # Official judge is yes
+    node2 = int(row['Round'] <= 6)                  # Early rounds
+    node3 = int(row['Judge'] in ['G. Hamada', 'B. Logist', 'J. Roth'])
+    
+    # Embedding vector
+    emb = [node1, node2, node3]
+    
+    # Decision tree logic
+    if node1:           # Official judge
+        if node2:       # Early round
+            prediction = 1   # de la Hoya wins
+        else:           # Late round
+            prediction = 0   # Trinidad wins
+    else:               # Not an official judge
+        if node3:       # Judge is one of the three named
+            prediction = 0   # Trinidad wins
+        else:           # Other judge
+            prediction = 1   # de la Hoya wins
+    
+    return prediction, emb
+```

@@ -1,0 +1,5 @@
+{"question": "Who is the father of Ross Perot, Jr.?", "ground_truth": ["Ross Perot"], "param_knowledge_answerable": 1, "data_source": "popqa"}
+{"question": "Who was the last British male to reach the final of a Grand Slam tennis singles tournament?", "ground_truth": ["Andy Murray"], "param_knowledge_answerable": 0, "data_source": "freshqa"}
+{"question": "Luzon and Mindanao are the two largest islands in which country?", "ground_truth": ["Philippines"], "param_knowledge_answerable": 1, "data_source": "triviaqa"}
+{"question": "What is the minimum annual income required for a family of four to be considered middle class in Delaware in 2023?", "ground_truth": ["84000", "$84,000"], "param_knowledge_answerable": 0, "data_source": "freshqa"}
+{"question": "Who was the director of Pilot?", "ground_truth": ["Adam McKay"], "param_knowledge_answerable": 0, "data_source": "realtimeqa"}

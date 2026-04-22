@@ -1,0 +1,23 @@
+```python
+def decision_tree_function(row):
+    # Precompute binary vector embeddings
+    node1 = int(row['Round'] <= 6)
+    node2 = int(row['Judge'] in {0, 1, 2, 3, 4})
+    node3 = int(row['Judge'] in {5, 6, 7, 8, 9, 10})
+    node4 = int(row['Round'] > 3 and row['Round'] <= 9)
+    node5 = int(row['Official'] == 1)
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # Decision tree logic
+    if node1 and node2:
+        prediction = 0  # Trinidad
+    elif node1 and node3:
+        prediction = 1  # de la Hoya
+    elif node4 and node5:
+        prediction = 0  # Trinidad
+    else:
+        prediction = 1  # de la Hoya
+
+    return prediction, emb
+```

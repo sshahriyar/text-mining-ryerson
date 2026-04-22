@@ -1,0 +1,11 @@
+Feature_name: description
+WC/TA: Working Capital/Total Assets
+RE/TA: Retained Earnings/Total Assets
+EBIT/TA: Earnings Before Interest and Tax/Total Assets
+S/TA: Sales/Total Assets
+BVE/BVL: Book Value of Equity/Book Value of Liabilities
+
+Target variable:
+target: company went bankrupt or not (0 = no, 1 = yes)
+
+**Ensure that when accessing the features in the function, you use row[feature_name], example row['WC/TA'] and not the description.**

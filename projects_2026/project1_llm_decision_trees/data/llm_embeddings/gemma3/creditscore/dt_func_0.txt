@@ -1,0 +1,46 @@
+```python
+def credit_application_decision_tree(row):
+    """
+    Decision tree classifier for credit application approval.
+
+    Args:
+        row (dict): A dictionary containing the feature values.
+
+    Returns:
+        tuple: A tuple containing the prediction (0 or 1) and a list of binary node embeddings.
+    """
+    node1 = int(row['Age'] > 30)
+    node2 = int(row['Income.per.dependent'] > 4)
+    node3 = int(row['Monthly.credit.card.exp'] > 1000)
+    node4 = int(row['Own.home'] == 1)
+    node5 = int(row['Self.employed'] == 1)
+    node6 = int(row['Derogatory.reports'] > 1)
+
+    emb = [node1, node2, node3, node4, node5, node6]
+
+    if node1 == 0:
+        if node2 == 0:
+            if node3 == 0:
+                if node4 == 1:
+                    return 1, emb
+                else:
+                    return 0, emb
+            else:
+                if node5 == 1:
+                    return 1, emb
+                else:
+                    return 0, emb
+        else:
+            if node6 == 0:
+                return 1, emb
+            else:
+                return 0, emb
+    else:
+        if node3 == 0:
+            if node4 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+        else:
+            return 0, emb
+```

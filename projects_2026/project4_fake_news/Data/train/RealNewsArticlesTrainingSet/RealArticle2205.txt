@@ -1,0 +1,11 @@
+All of these faces are fake celebrities spawned by AI One of the more unexpected outcomes of the contemporary AI boom is just how good these systems are at generating fake imagery. The latest example comes from chipmaker Nvidia, which published a paper showing how AI can create photorealistic pictures of fake celebrities. Generating fake celebs isn’t in itself new, but researchers say these are the most convincing and detailed pictures of their type ever made.
+
+The video below shows the process in full, starting with the database of celebrity images the system was trained on. The researchers used what’s known as a generative adversarial network, or GAN, to make the pictures. GANs are actually comprised of two separate networks: one that generates the imagery based on the data it’s fed, and a second discriminator network (the adversary) that checks if they’re real.
+
+By working together, these two networks can produce some startlingly good fakes. And not just faces either — everyday objects and landscapes can also be created. The generator networks produces the images, the discriminator checks them, and then the generator improves its output accordingly. Essentially, the system is teaching itself.
+
+There are limitations to this method of course. The pictures created are extremely small by the standards of modern cameras (just 1,024 by 1,024 pixels) and there are quite a few tell-tale signs they’re fake. For a start, they look like the celebrities the system was trained on (check out the Beyoncé lookalike early on) and there are glitchy parts in most images, like an ear that dribbles away into red mush.
+
+As we’ve discussed in the past, this sort of technology could be put to all sorts of uses. There are obvious benefits for the creative industries, for making things like advertising and video games. But there’s also a threat in the form of disinformation. Sure, talented image editors have been able to create fake celeb photos for years using Photoshop, but AI tools will make this work quick and easy. (Adobe is already working on a number of AI-powered projects.)
+
+And when we know the President of the USA can be fooled by re-used footage of a missile launch, it’s probably a good time to be worried about AI fakes.

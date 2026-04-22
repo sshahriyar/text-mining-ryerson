@@ -1,0 +1,50 @@
+```python
+def predict(features):
+    """
+    Predicts the winner of a boxing round (Trinidad / de la Hoya) based on judging criteria.
+    The decision tree has a maximum depth of 2.
+
+    Parameters:
+    features (dict): A dictionary containing the features for a given round.
+                     Expected keys: 'Judge', 'Offical judge', 'Round'.
+
+    Returns:
+    tuple: A tuple containing:
+           - str: The predicted winner ('Trinidad' or 'de la Hoya').
+           - list: A list representing the truth values of the inner nodes.
+                   [Node1_truth, Node2_truth, Node3_truth]
+                   where:
+                   - Node1_truth (index 0) corresponds to the condition 'Offical judge' == 'yes'.
+                   - Node2_truth (index 1) corresponds to the condition 'Round' <= 6 (if Node1 is true).
+                   - Node3_truth (index 2) corresponds to the condition 'Judge' == 'HBO-Lederman' (if Node1 is false).
+                   An entry is 1 if the condition of the corresponding inner node is satisfied, and 0 otherwise.
+    """
+    # Initialize truth values for all potential inner nodes.
+    # The order is:
+    # 0: Root node condition (Offical judge == 'yes')
+    # 1: Left child node condition (Round <= 6) - relevant if root is true
+    # 2: Right child node condition (Judge == 'HBO-Lederman') - relevant if root is false
+    truth_values = [0, 0, 0]
+
+    # Node 1: Is it an official judge? This is the most crucial distinction.
+    if features['Offical judge'] == 'yes':
+        truth_values[0] = 1 # Condition 'Offical judge == "yes"' is satisfied
+        # Path for Official Judges: Often score based on sustained performance through the fight.
+        # Hypothetically, de la Hoya might have started stronger with boxing, Trinidad came on later with power.
+        if features['Round'] <= 6:
+            truth_values[1] = 1 # Condition 'Round <= 6' is satisfied
+            return ("de la Hoya", truth_values) # Predict de la Hoya for early/mid-rounds by official judges
+        else:
+            truth_values[1] = 0 # Condition 'Round <= 6' is not satisfied
+            return ("Trinidad", truth_values) # Predict Trinidad for later rounds by official judges
+    else: # Offical judge == 'no' (i.e., a media or unofficial judge)
+        truth_values[0] = 0 # Condition 'Offical judge == "yes"' is not satisfied
+        # Path for Unofficial/Media Judges: Scoring can be more varied, and specific commentators
+        # often have distinct styles or biases. HBO-Lederman was a prominent and often unique voice.
+        if features['Judge'] == 'HBO-Lederman':
+            truth_values[2] = 1 # Condition 'Judge == "HBO-Lederman"' is satisfied
+            return ("de la Hoya", truth_values) # HBO-Lederman often favored de la Hoya's boxing skills.
+        else:
+            truth_values[2] = 0 # Condition 'Judge == "HBO-Lederman"' is not satisfied
+            return ("Trinidad", truth_values) # Other unofficial judges/media often saw Trinidad as winning or finishing stronger.
+```

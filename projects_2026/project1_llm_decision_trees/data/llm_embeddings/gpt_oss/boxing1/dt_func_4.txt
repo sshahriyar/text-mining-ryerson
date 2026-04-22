@@ -1,0 +1,28 @@
+```python
+def predict(row):
+    """
+    Decision tree classifier for boxing round winner.
+    Features: Judge (string), Official (int, 1=yes 0=no), Round (int 1-12)
+    Target: 1 = Lewis wins, 0 = Holyfield wins
+    """
+    # Precompute binary node evaluations
+    node1 = int(row['Official'] == 1)                         # Is the judge official?
+    node2 = int(row['Round'] <= 6)                            # Is the round in the first half?
+    node3 = int(row['Judge'] in ['ESPN', 'Associated Press'])  # Judge is ESPN or AP?
+    node4 = int(row['Judge'] == 'ESPN')                       # Judge is ESPN?
+
+    emb = [node1, node2, node3, node4]
+
+    # Decision tree logic
+    if node1 == 1:
+        pred = 1  # Official judges tend to favor Lewis
+    else:
+        if node2 == 1:
+            # Early rounds: ESPN/Associated Press favor Lewis
+            pred = 1 if node3 == 1 else 0
+        else:
+            # Late rounds: only ESPN favors Lewis
+            pred = 1 if node4 == 1 else 0
+
+    return pred, emb
+```

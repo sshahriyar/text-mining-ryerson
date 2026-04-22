@@ -1,0 +1,59 @@
+```python
+def predict_horse_colic_surgery(features):
+    """
+    Predicts whether a horse colic lesion is surgical or not based on key clinical features.
+
+    Parameters:
+    -----------
+    features : dict
+        A dictionary containing the horse's clinical features. Expected keys:
+        - 'Degree of Pain' (str): 'none', 'mild', 'moderate', 'severe'
+        - 'Abdomen Appearance' (str): 'normal', 'other', 'feces in the large intestine',
+                                     'distended small intestine', 'distended large intestine'
+
+    Returns:
+    --------
+    tuple:
+        - prediction (str): 'surgical' or 'not surgical'
+        - nodes_truth_values (list): A list of integers (0 or 1) representing
+                                     the truth values of the inner node conditions.
+                                     The first element corresponds to the root node condition,
+                                     and the second element corresponds to the condition of the
+                                     inner node in the "not severe pain" branch.
+    """
+    nodes_truth_values = []
+    prediction = None
+
+    # Inner Node 1 (Root Node Condition): Is the degree of pain severe?
+    # Rationale: Severe, intractable pain is the single most urgent indicator of a surgical colic.
+    cond1_satisfied = (features['Degree of Pain'] == 'severe')
+    nodes_truth_values.append(1 if cond1_satisfied else 0)
+
+    if cond1_satisfied:
+        # If pain is severe, it's highly indicative of a surgical lesion.
+        # This path leads directly to a prediction as it's a critical, often immediate, indicator.
+        prediction = 'surgical'
+        # The second inner node's condition is not evaluated on this path. As per example's
+        # interpretation, we append 0 for the condition not reached/satisfied on this specific path.
+        nodes_truth_values.append(0)
+    else:
+        # If pain is not severe, we proceed to evaluate other significant physical findings.
+
+        # Inner Node 2 (Condition on the 'not severe pain' branch):
+        # Is there significant abdominal distension (suggesting obstruction or displacement)?
+        # Rationale: Even without severe pain, distended intestines on examination strongly point
+        #            to an obstructive or displacement lesion usually requiring surgical intervention.
+        cond2_satisfied = (features['Abdomen Appearance'] in ('distended small intestine', 'distended large intestine'))
+        nodes_truth_values.append(1 if cond2_satisfied else 0)
+
+        if cond2_satisfied:
+            # If significant distension is present, it indicates a likely surgical case.
+            prediction = 'surgical'
+        else:
+            # If pain is not severe AND no significant abdominal distension,
+            # the likelihood of a surgical lesion is considerably lower,
+            # leaning towards a medical colic or a mild, resolving issue.
+            prediction = 'not surgical'
+
+    return prediction, nodes_truth_values
+```

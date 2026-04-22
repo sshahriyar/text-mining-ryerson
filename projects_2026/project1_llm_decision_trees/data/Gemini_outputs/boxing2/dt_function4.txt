@@ -1,0 +1,48 @@
+```python
+def predict_round_winner(Judge, Official_judge, Round):
+    """
+    Predicts the winner of a boxing round (Trinidad vs. de la Hoya) based on judge information and round number.
+
+    Args:
+        Judge (str): The name of the judge/source (e.g., 'G. Hamada', 'HBO-Lederman').
+        Official_judge (str): 'yes' if the judge is official, 'no' otherwise.
+        Round (int): The round number (1 to 12).
+
+    Returns:
+        tuple: A tuple containing the predicted winner ('Trinidad' or 'de la Hoya')
+               and a list of truth values for the inner nodes traversed.
+               Each truth value is 1 if the condition is satisfied, 0 otherwise.
+    """
+    truth_values = []
+
+    # Node 1 (Root): Is the judge an official judge?
+    # Official judges' scores are primary determinants of the fight's outcome.
+    if Official_judge == 'yes':
+        truth_values.append(1)  # Condition 'Official_judge == "yes"' is true
+
+        # Node 2 (Depth 1, if Official Judge): Which official judge?
+        # Based on historical results of the Trinidad vs. de la Hoya fight,
+        # two of the three official judges (Hamada, Logist) scored for Trinidad,
+        # while one (Roth) scored for de la Hoya.
+        if Judge in ['G. Hamada', 'B. Logist']:
+            truth_values.append(1)  # Condition 'Judge in ["G. Hamada", "B. Logist"]' is true
+            prediction = 'Trinidad'
+        else:  # Assuming the remaining official judge is J. Roth
+            truth_values.append(0)  # Condition 'Judge in ["G. Hamada", "B. Logist"]' is false
+            prediction = 'de la Hoya'
+    else:  # Official_judge == 'no'
+        truth_values.append(0)  # Condition 'Official_judge == "yes"' is false
+
+        # Node 3 (Depth 1, if Not Official Judge): What round is it?
+        # Unofficial/media scores often reflect the overall momentum and narrative of the fight.
+        # De la Hoya was widely perceived to win the earlier rounds due to his boxing skill and volume,
+        # while Trinidad came on stronger in the later rounds with his power and aggression.
+        if Round <= 6:
+            truth_values.append(1)  # Condition 'Round <= 6' is true (early rounds)
+            prediction = 'de la Hoya'
+        else:  # Round > 6 (later rounds)
+            truth_values.append(0)  # Condition 'Round <= 6' is false
+            prediction = 'Trinidad'
+
+    return prediction, truth_values
+```

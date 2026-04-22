@@ -1,0 +1,36 @@
+def func(row):
+    node1 = int(row['capillary_refill_time'] >= 3)
+    node2 = int(row['rectal_temperature'] <= 37.5)
+    node3 = int(row['pulse'] > 60)
+    node4 = int(row['abdominal_distension'] == 3)
+    node5 = int(row['pain'] == 2)
+    node6 = int(row['peristalsis'] == 1)
+    node7 = int(row['mucous_membranes'] == 3)
+    node8 = int(row['packed_cell_volume'] < 25)
+    emb = [node1, node2, node3, node4, node5, node6, node7, node8]
+    
+    if node1 == 1:
+        if node2 == 1:
+            if node3 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+        else:
+            if node4 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+    else:
+        if node5 == 1:
+            if node6 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+        else:
+            if node7 == 1:
+                return 1, emb
+            else:
+                if node8 == 1:
+                    return 1, emb
+                else:
+                    return 0, emb

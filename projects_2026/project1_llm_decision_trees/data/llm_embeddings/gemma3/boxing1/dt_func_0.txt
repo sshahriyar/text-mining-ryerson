@@ -1,0 +1,44 @@
+```python
+def predict_round_winner(row):
+    """
+    Predicts the winner of a boxing round (Lewis or Holyfield) based on Judge, Official judge, and Round.
+
+    Args:
+        row (dict): A dictionary containing the feature values for a single round.
+            Keys are feature names ('Judge', 'Official', 'Round').
+
+    Returns:
+        tuple: A tuple containing the prediction (1 for Lewis, 0 for Holyfield)
+            and a list of binary embeddings representing the truth values of the inner nodes.
+    """
+
+    # Precompute binary vector embeddings
+    node1 = int(row['Judge'] == 0)  # E. Williams
+    node2 = int(row['Judge'] == 1)  # L. O'Connell
+    node3 = int(row['Official'] == 1) # Official Judge
+    node4 = int(row['Round'] <= 6)
+
+    emb = [node1, node2, node3, node4]
+
+    # Decision Tree Logic
+    if node1:  # Judge is E. Williams
+        if node3: # Official Judge
+            return 1, emb  # Lewis
+        else:
+            return 0, emb  # Holyfield
+    elif node2:  # Judge is L. O'Connell
+        if node4:  # Round <= 6
+            return 0, emb # Holyfield
+        else:
+            return 1, emb #Lewis
+    elif node3: # Official judge
+        if node4:
+            return 1, emb #Lewis
+        else:
+            return 0, emb #Holyfield
+    else: #Other Judges
+        if node4:
+            return 0, emb  # Holyfield
+        else:
+            return 1, emb  # Lewis
+```

@@ -1,0 +1,12 @@
+def func(row):
+    node1 = int(row['abdominal_distension'] == 3)
+    node2 = int(row['rectal_temperature'] > 38.5)
+    emb = [node1, node2]
+    if node1:
+        prediction = 1
+    else:
+        if node2:
+            prediction = 1
+        else:
+            prediction = 0
+    return prediction, emb

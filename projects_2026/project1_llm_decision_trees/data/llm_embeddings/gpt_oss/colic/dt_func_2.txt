@@ -1,0 +1,39 @@
+```python
+def predict_surgery(row):
+    # pre‑compute binary node conditions
+    node1 = int(row['rectal_temperature'] > 38.5)                     # high temperature
+    node2 = int(row['pulse'] > 140)                                  # tachycardia
+    node3 = int(row['peripheral_pulse'] <= 1 or row['peripheral_pulse'] >= 4)  # absent or reduced pulse
+    node4 = int(row['mucous_membranes'] >= 5)                         # bright red or pale cyanotic membranes
+    node5 = int(row['capillary_refill_time'] == 0)                    # refill >3 s
+    node6 = int(row['pain'] >= 5)                                     # severe pain
+    node7 = int(row['peristalsis'] <= 1 or row['peristalsis'] >= 3)   # absent or hypomotile peristalsis
+
+    emb = [node1, node2, node3, node4, node5, node6, node7]
+
+    # decision tree logic
+    if node1:                        # rectal_temperature > 38.5
+        if node2:                    # pulse > 140
+            pred = 1                 # surgery
+        else:
+            if node3:                # abnormal peripheral pulse
+                pred = 1             # surgery
+            else:
+                if node4:            # severe mucous membranes
+                    pred = 1         # surgery
+                else:
+                    pred = 0         # no surgery
+    else:                            # rectal_temperature ≤ 38.5
+        if node5:                    # capillary refill > 3 s
+            pred = 1                 # surgery
+        else:
+            if node6:                # severe pain
+                pred = 1             # surgery
+            else:
+                if node7:            # abnormal peristalsis
+                    pred = 1         # surgery
+                else:
+                    pred = 0         # no surgery
+
+    return pred, emb
+```

@@ -1,0 +1,31 @@
+```python
+def predict_surgery(row):
+    # Precompute binary decisions for each internal node
+    node1 = int(row['rectal_temperature'] > 39.5)           # high temperature
+    node2 = int(row['pulse'] > 80)                          # high pulse
+    node3 = int(row['peripheral_pulse'] == 2)               # increased peripheral pulse
+    node4 = int(row['capillary_refill_time'] == 0)          # refill time > 3 s
+    node5 = int(row['pain'] >= 3)                           # depressed or more severe pain
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # Decision tree logic
+    if node1:
+        if node2:
+            pred = 1
+        else:
+            if node3:
+                pred = 1
+            else:
+                pred = 0
+    else:
+        if node4:
+            pred = 0
+        else:
+            if node5:
+                pred = 1
+            else:
+                pred = 0
+
+    return pred, emb
+```

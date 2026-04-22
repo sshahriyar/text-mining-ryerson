@@ -1,0 +1,27 @@
+def classify_round_winner(feature_row):
+    # Precompute binary vector embeddings
+    node1 = int(feature_row['Judge'] in {0, 1, 2, 3, 4})
+    node2 = int(feature_row['Official'] == 1)
+    node3 = int(feature_row['Round'] < 5)
+    node4 = int(feature_row['Round'] < 8)
+    node5 = int(feature_row['Round'] < 11)
+    node6 = int(feature_row['Judge'] in {5, 6, 7, 8, 9, 10})
+    emb = [node1, node2, node3, node4, node5, node6]
+
+    # Apply decision tree logic
+    if node1 and node2 and node3:
+        prediction = 0
+    elif node1 and node2 and node4 and node5:
+        prediction = 1
+    elif node1 and not node2 and node3:
+        prediction = 1
+    elif node1 and not node2 and not node3 and node4:
+        prediction = 0
+    elif node6 and node3:
+        prediction = 1
+    elif node6 and not node3 and node4:
+        prediction = 0
+    else:
+        prediction = 0
+
+    return prediction, emb
