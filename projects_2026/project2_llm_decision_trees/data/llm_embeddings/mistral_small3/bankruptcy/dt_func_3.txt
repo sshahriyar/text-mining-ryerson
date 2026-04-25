@@ -1,0 +1,27 @@
+```python
+def decision_tree(row):
+    node1 = int(row['WC/TA'] < 10)
+    node2 = int(row['RE/TA'] < 5)
+    node3 = int(row['EBIT/TA'] < 7)
+    node4 = int(row['S/TA'] < 15)
+    node5 = int(row['BVE/BVL'] < 0.5)
+
+    emb = [node1, node2, node3, node4, node5]
+
+    if node1:
+        if node2:
+            return 1, emb
+        else:
+            return 0, emb
+    else:
+        if node3:
+            if node4:
+                return 1, emb
+            else:
+                return 0, emb
+        else:
+            if node5:
+                return 1, emb
+            else:
+                return 0, emb
+```

@@ -1,0 +1,45 @@
+```python
+def predict_surgery(features_dict):
+    """
+    Predicts whether a horse colic lesion requires surgery based on critical clinical features.
+    
+    Args:
+        features_dict (dict): A dictionary containing the following features:
+            - 'Abdominocentesis Appearance': (str) 'clear', 'cloudy', or 'serosanguinous'
+            - 'Nasogastric Reflux': (str) 'none', '>1 liter', or '<1 liter'
+            (Other features listed in the problem description are not used in this specific
+            decision tree due to the maximum depth constraint and feature importance ranking.)
+            
+    Returns:
+        tuple: A tuple containing:
+            - str: 'yes' if surgery is predicted, 'no' otherwise.
+            - list: A list representing the truth values of the inner nodes traversed.
+                    1 if the condition was satisfied, 0 otherwise.
+    """
+    node_truth_values = []
+
+    # Node 1: Is Abdominocentesis Appearance abnormal (cloudy or serosanguinous)?
+    # This is a strong indicator of peritonitis or compromised bowel.
+    condition1 = features_dict['Abdominocentesis Appearance'] != 'clear'
+    node_truth_values.append(1 if condition1 else 0)
+
+    if condition1:
+        # If abdominal fluid is not clear, it's highly indicative of a surgical lesion.
+        prediction = 'yes'
+    else:
+        # If abdominal fluid is clear, evaluate the next most critical feature.
+        # Node 2: Is there significant Nasogastric Reflux (>1 liter)?
+        # Large volume reflux often indicates a small intestinal obstruction.
+        condition2 = features_dict['Nasogastric Reflux'] == '>1 liter'
+        node_truth_values.append(1 if condition2 else 0)
+
+        if condition2:
+            # Even with clear abdominal fluid, significant reflux points to surgery.
+            prediction = 'yes'
+        else:
+            # If both abdominal fluid is clear and reflux is not significant,
+            # the likelihood of requiring surgery is lower for this tree's depth.
+            prediction = 'no'
+            
+    return prediction, node_truth_values
+```

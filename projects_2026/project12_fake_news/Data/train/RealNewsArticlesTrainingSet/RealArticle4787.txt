@@ -1,0 +1,85 @@
+Meet the man who deactivated Trump’s Twitter account As Twitter tries to figure out how to lock down the parts of its platform that enable harassment, as well as the spread of misleading information and illicit content, there have been a number of moments that highlight how the service, and its levers of control, are far from perfect.
+
+One such moment took place earlier this month, when the very active, very watched Twitter account of President Donald Trump was abruptly deactivated for 11 minutes. The man responsible for those 11 minutes moved back home to Germany, and he agreed to speak to TechCrunch about what happened that day.
+
+U.S. President Donald Trump long ago realized that you can use Twitter as an effective mouthpiece without all the pain and price of dealing with the media. Trump’s Twitter account (36.5K tweets and counting) has become one of the most popular ones out there today, with 43.5 million followers and growing by several hundred thousand a week. It’s also one of the most notorious, because of his flippant jokes, insults, rants and controversial retweets.
+
+So for those who haven’t been happy with Trump — and judging by the popular vote results from the 2016 election, that accounted for a majority of voters in the U.S. — those deactivated 11 minutes became a burst of unexpected joy.
+
+No joke, the internet has nominated the Twitter employee who shut down Trump's account for a Nobel Peace Prize — Ed Krassenstein (@EdKrassen) November 6, 2017
+
+Techcrunch event Meet your next investor or portfolio startup at Disrupt
+
+Your next round. Your next hire. Your next breakout opportunity. Find it at TechCrunch Disrupt 2026, where 10,000+ founders, investors, and tech leaders gather for three days of 250+ tactical sessions, powerful introductions, and market-defining innovation. Register now to save up to $410. Meet your next investor or portfolio startup at Disrupt
+
+Your next round. Your next hire. Your next breakout opportunity. Find it at TechCrunch Disrupt 2026, where 10,000+ founders, investors, and tech leaders gather for three days of 250+ tactical sessions, powerful introductions, and market-defining innovation. Register now to save up to $410. San Francisco, CA | REGISTER NOW
+
+https://twitter.com/DavidJollyFL/status/926257441817415685
+
+https://twitter.com/geekylonglegs/status/926276751323430913
+
+Twitter, in its turn for more transparency, quickly announced that the account’s shutdown was accidental. Moments later, it followed up with more information: a contractor, on his last day of work, was responsible.
+
+The story could have ended there, but it didn’t.
+
+Reporters started immediately trying to find the now-former Twitter contractor to try to figure out what happened. If it was an accident, how could it happen? If it was intentional, why did it happen?
+
+We were among those looking for the contractor, and through a string of events found out his name, Bahtiyar Duysak, and got him to agree to talk to us in a town in Germany.
+
+Duysak, a twenty-something with Turkish roots who was born and raised in Germany, was working as a contractor for a fixed term for the last part of his stay in the U.S. under a work and study visa. In addition to his role at Twitter with Pro Unlimited, other assignments had included stints in monetization at Google and YouTube via another contractor, Vaco.
+
+Many have wondered on Twitter why Trump’s account has never been shut down for violating Twitter’s terms (among the reasons people have given is that he has threatened North Korea with nuclear violence) while others have been calling for people to report him using Twitter’s reporting tools for offensive tweets.
+
+At Twitter, Duysak had been assigned to customer support as part of the Trust and Safety division. This team receives alerts when users report bad behavior, including offensive or illegal tweets, harassment, someone impersonating another person and so on. The team performs triage on complaints to determine what further steps, if any, should be taken.
+
+Duysak, medium in stature and wearing a black and gray cardigan with a pattern of the American flag across it (not something he planned, laughing a little in surprise when he made the connection between it and the story), is a personable guy. He’s quick to smile; he’s close to his family and has a big network of friends; and he speaks with a certain kind of indeterminate European accent — the kind you often hear from people who have traveled, lived and studied across different countries. He’s more Euro than bro.
+
+His last day at Twitter was mostly uneventful, he says. There were many goodbyes, and he worked up until the last hour before his computer access was to be shut off. Near the end of his shift, the fateful alert came in.
+
+This is where Trump’s behavior intersects with Duysak’s work life. Someone reported Trump’s account on Duysak’s last day; as a final, throwaway gesture, he put the wheels in motion to deactivate it. Then he closed his computer and left the building.
+
+Several hours later, the panic began. Duysak tells us that it started when he was approached by a woman whom he didn’t know very well. According to Duysak, the woman said that she had been contacted by someone asking about Duysak in connection with Trump’s Twitter account. After a moment of disbelief, he said he then looked at the news and realized what had happened.
+
+Duysak describes the event as a “mistake.” Specifically, he told us, he never thought the account would actually get deactivated.
+
+In fact, it appeared that Trump’s account was essentially protected from being deactivated over Terms of Service violations. In June, Twitter explained why: Some tweets that seemingly violate its terms of service are nevertheless “newsworthy” and therefore in the public interest to keep up.
+
+One takeaway from Twitter’s exemption for newsworthy tweets is that news and information trump judgment calls on the relative toxicity of the content, which is probably apt in our age of toxicity dressed up as “news.”
+
+Trump’s election has signaled a high water mark for how people with opposing views on politics and other flashpoint subjects interact. Perhaps more than ever, people spin stories in ways that fit their own agendas.
+
+Although Duysak was hailed as a hero by some, he says he hasn’t felt like one at all.
+
+He’s been pursued by the media, which have been aggressive in contacting family and friends. The woman who first alerted him is a typical example (we asked, and he would not provide her details to us, probably to protect her). Duysak said she had liked some of his posts, and someone — already with a lead on Duysak — had spotted this and tracked her down.
+
+But he is not concerned about what happens next if there is further investigation of the incident. He hasn’t broken any laws.
+
+“I didn’t hack anyone. I didn’t do anything that I was not authorized to do,” he told us when we met in Germany. “I didn’t go to any site I was not supposed to go to. I didn’t break any rules.”
+
+For now, it appears that the media has actually been more aggressive than the authorities. We asked and have confirmed with Duysak’s legal representative that the FBI is not investigating him at the moment, although Twitter has apparently attempted to get more information from him. Duysak has chosen not to reply.
+
+At Twitter — which declined to provide any details to confirm Duysak’s identity to us — the event has hastened efforts to change things at the company.
+
+The day after the deactivation, Twitter said it was conducting a full internal review and implementing safeguards to prevent incidents like this in the future.
+
+CEO Jack Dorsey also acknowledged in an interview shortly after the incident that there have been weaknesses and gaps, which it is also trying to address. He said that the clause about newsworthiness, which was not publicly known until Twitter made it so, was one of those gaps.
+
+“We have implemented safeguards to prevent this from happening again,” Twitter tweeted from its Twitter Government account. “We won’t be able to share all details about our internal investigation or updates to our security measures, but we take this seriously and our teams are on it.”
+
+There are some details that potentially complicate things, partly because of how charged the political climate has become in the U.S. Duysak is of Turkish origin, not from the U.S. While these facts have nothing to do with Trump’s account on Twitter getting deactivated, in the wrong hands they could be spun negatively, given Trump’s previous negative statements on immigration and people from predominantly Muslim countries.
+
+Apart from inflaming those who don’t agree with him, and emboldening those who do, Trump has spelled out some specific opinions on how the U.S. sits in relation to the rest of the world. He wants to build a wall to keep out immigrants. He has targeted Muslims specifically as a group, a blanket policy he believes would help keep out extremists and terrorists. He has also proposed and signed orders to fill out those ambitions.
+
+Duysak, in one physical sense, is out of the picture where the U.S. is concerned: our interview took place in Germany, Duysak’s home country, where he returned at the end of his visa period.
+
+He could have just laid low, but he hasn’t. So then why come forward? To try to clear the air, he said, get a new job and not worry about how the story would come out, if it did, without his involvement.
+
+“I want to continue an ordinary life. I don’t want to flee from the media,” he said. “I want to speak to my neighbors and friends. I had to delete hundreds of friends, so many pictures, because reporters are stalking me. I just want to continue an ordinary life.”
+
+He said the pursuit has been relentless: journalists have contacted the university where he studied, his places of employment, his friends and his family. His family has shut down various social accounts to avoid the contact.
+
+He agreed to talk to us because he had a connection to a Muslim-focused community center (which has also had some persistent contact from reporters) in the Bay Area where a relative of Tito’s volunteers. That contributed to his trusting us.
+
+“I didn’t do any crime or anything evil, but I feel like Pablo Escobar,” he said, “and slowly it’s getting really annoying.”
+
+These days, Duysak said he isn’t likely to take another tech job anytime soon. More likely, he’ll be looking into finance or other related field. “But I love Twitter,” he said, “and I love America.”

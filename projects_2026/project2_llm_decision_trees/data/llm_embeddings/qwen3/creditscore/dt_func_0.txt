@@ -1,0 +1,29 @@
+def func(row):
+    node1 = int(row['Derogatory.reports'] > 0)
+    node2 = int(row['Own.home'] == 1)
+    node3 = int(row['Income.per.dependent'] > 5)
+    node4 = int(row['Monthly.credit.card.exp'] < 500)
+    node5 = int(row['Self.employed'] == 1)
+    emb = [node1, node2, node3, node4, node5]
+    
+    if node1 == 1:
+        return 0, emb
+    if node2 == 1:
+        if node3 == 1:
+            return 1, emb
+        else:
+            if node4 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+    else:
+        if node5 == 1:
+            if node3 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+        else:
+            if node4 == 1:
+                return 1, emb
+            else:
+                return 0, emb

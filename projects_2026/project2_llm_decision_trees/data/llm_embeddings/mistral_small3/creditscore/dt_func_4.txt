@@ -1,0 +1,35 @@
+```python
+def predict_credit_approval(feature_row):
+    # Precompute binary vector embeddings
+    node1 = int(feature_row['Age'] > 30)
+    node2 = int(feature_row['Income.per.dependent'] > 5)
+    node3 = int(feature_row['Monthly.credit.card.exp'] < 500)
+    node4 = int(feature_row['Own.home'] == 1)
+    node5 = int(feature_row['Self.employed'] == 1)
+    node6 = int(feature_row['Derogatory.reports'] == 0)
+
+    emb = [node1, node2, node3, node4, node5, node6]
+
+    # Decision tree logic
+    if feature_row['Derogatory.reports'] == 0:
+        if feature_row['Own.home'] == 1:
+            if feature_row['Age'] > 30:
+                prediction = 1
+            else:
+                prediction = 0
+        else:
+            if feature_row['Income.per.dependent'] > 5:
+                prediction = 1
+            else:
+                prediction = 0
+    else:
+        if feature_row['Monthly.credit.card.exp'] < 500:
+            if feature_row['Self.employed'] == 1:
+                prediction = 1
+            else:
+                prediction = 0
+        else:
+            prediction = 0
+
+    return prediction, emb
+```

@@ -1,0 +1,30 @@
+```python
+def decision_tree(feature_row):
+    node1 = int(feature_row['Age'] > 30)
+    node2 = int(feature_row['Income.per.dependent'] > 5)
+    node3 = int(feature_row['Monthly.credit.card.exp'] < 500)
+    node4 = int(feature_row['Own.home'] == 1)
+    node5 = int(feature_row['Self.employed'] == 1)
+    node6 = int(feature_row['Derogatory.reports'] == 0)
+
+    emb = [node1, node2, node3, node4, node5, node6]
+
+    if node1 and node4 and node6:
+        prediction = 1
+    elif node1 and node4 and not node6:
+        prediction = 0
+    elif node1 and not node4 and node6:
+        prediction = 1
+    elif node1 and not node4 and not node6:
+        prediction = 0
+    elif not node1 and node2 and node3:
+        prediction = 1
+    elif not node1 and node2 and not node3:
+        prediction = 0
+    elif not node1 and not node2 and node5:
+        prediction = 1
+    else:
+        prediction = 0
+
+    return prediction, emb
+```

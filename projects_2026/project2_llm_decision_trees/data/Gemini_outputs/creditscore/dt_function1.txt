@@ -1,0 +1,48 @@
+```python
+def predict(features):
+    """
+    Predicts whether a credit application is accepted or rejected based on provided features.
+
+    Args:
+        features (dict): A dictionary containing the applicant's features.
+                         Expected keys:
+                         - 'age (years)'
+                         - 'income per dependent (1.5 to 10)'
+                         - 'monthly credit card expenses ($)'
+                         - 'owning a home (yes / no)'
+                         - 'self employed (yes / no)'
+                         - 'number of derogatory reports'
+
+    Returns:
+        tuple: A tuple containing:
+               - str: The prediction ('Accepted' or 'Rejected').
+               - list: A list of truth values for the inner nodes.
+                       [1st_node_condition_met, 2nd_node_condition_met]
+                       1 if the condition is satisfied, 0 otherwise.
+    """
+    node_truths = [0, 0]  # Initialize truth values for the two potential inner nodes
+
+    # Extract relevant features using provided names
+    number_of_derogatory_reports = features['number of derogatory reports']
+    income_per_dependent = features['income per dependent (1.5 to 10)']
+
+    # --- Decision Tree Logic (Max Depth 2) ---
+
+    # Node 1 (Root Node): Check for severe negative indicators - derogatory reports
+    if number_of_derogatory_reports > 0:
+        node_truths[0] = 1  # Condition for Node 1 (derogatory reports > 0) is satisfied
+        prediction = "Rejected"
+    else:
+        node_truths[0] = 0  # Condition for Node 1 is not satisfied (no derogatory reports)
+        
+        # Node 2 (Child of Node 1's 'False' branch): Evaluate repayment capacity
+        # This node is only reached if there are no derogatory reports.
+        if income_per_dependent >= 4.0:  # A reasonable threshold for sufficient income per dependent
+            node_truths[1] = 1  # Condition for Node 2 (income per dependent >= 4.0) is satisfied
+            prediction = "Accepted"
+        else:
+            node_truths[1] = 0  # Condition for Node 2 is not satisfied (low income per dependent)
+            prediction = "Rejected"
+            
+    return prediction, node_truths
+```

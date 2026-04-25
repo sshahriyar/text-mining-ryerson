@@ -1,0 +1,41 @@
+```python
+def predict(row):
+    """
+    Decision tree classifier for boxing round winner.
+
+    Parameters
+    ----------
+    row : dict
+        Dictionary containing feature values with keys:
+            - 'Judge'          : str  (e.g., 'ESPN', 'Associated Press', ...)
+            - 'Official'       : int  (1 = Yes, 0 = No)
+            - 'Round'          : int  (1 to 12)
+
+    Returns
+    -------
+    tuple
+        (prediction, embedding_vector)
+        prediction : int (1 = Lewis, 0 = Holyfield)
+        embedding_vector : list of ints (0 or 1) representing inner node evaluations
+    """
+    # Inner node evaluations
+    node1 = int(row['Official'] == 1)                                   # Official judge?
+    node2 = int(row['Round'] <= 6)                                      # Early rounds (<=6)?
+    node3 = int(row['Judge'] in ['ESPN', 'Associated Press', 'Sportsline'])  # Judge favoring Lewis?
+
+    emb = [node1, node2, node3]
+
+    # Decision tree logic
+    if node1 == 1:          # Official judge present
+        if node2 == 1:      # Early round
+            prediction = 0  # Holyfield
+        else:              # Late round
+            prediction = 1  # Lewis
+    else:                  # No official judge
+        if node3 == 1:      # Judge from Lewis-favoring outlets
+            prediction = 1  # Lewis
+        else:              # Other judges
+            prediction = 0  # Holyfield
+
+    return prediction, emb
+```

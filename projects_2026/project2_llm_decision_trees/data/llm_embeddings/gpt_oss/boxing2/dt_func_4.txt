@@ -1,0 +1,33 @@
+```python
+def func(row):
+    # Precompute binary node conditions
+    node0 = int(row['Official'] == 1)  # Official judge?
+    node1 = int(row['Judge'] in ['USA Today', 'Associated Press'])
+    node2 = int(row['Judge'] in ['G. Hamada', 'B. Logist', 'J. Roth'])
+    node3 = int(row['Judge'] in ['HBO-Lederman', 'Sportsticker', 'Los Angeles Times-Kawakami'])
+    node4 = int(row['Round'] <= 6)
+    node5 = int(row['Judge'] in ['Los Angeles Times-Springer', 'Las Vegas Review-Journal', 'van de Wiele'])
+    
+    emb = [node0, node1, node2, node3, node4, node5]
+    
+    # Decision tree logic
+    if node0:  # Official judge
+        if node1:           # USA Today or Associated Press
+            pred = 0
+        elif node2:         # G. Hamada, B. Logist, J. Roth
+            pred = 1
+        elif node3:         # HBO-Lederman, Sportsticker, Los Angeles Times-Kawakami
+            pred = 1
+        else:
+            pred = 0
+    else:  # Non‑official judge
+        if node4:  # Round 1-6
+            if node5:  # Los Angeles Times-Springer, Las Vegas Review‑Journal, van de Wiele
+                pred = 0
+            else:
+                pred = 1
+        else:  # Round 7-12
+            pred = 1
+    
+    return pred, emb
+```

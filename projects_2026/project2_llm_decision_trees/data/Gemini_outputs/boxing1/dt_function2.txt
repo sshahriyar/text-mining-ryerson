@@ -1,0 +1,48 @@
+```python
+def predict_winner(Judge: str, Offical_judge: str, Round: int) -> tuple[str, list[int]]:
+    """
+    Predicts the winner of a boxing round between Lewis and Holyfield based on
+    judge type, specific judge, and round number.
+
+    Args:
+        Judge (str): The name of the judge (e.g., 'E. Williams', 'HBO-Lederman', 'Sportsticker').
+        Offical_judge (str): 'yes' if the score is from an official judge, 'no' otherwise.
+        Round (int): The round number (1 to 12).
+
+    Returns:
+        tuple[str, list[int]]: A tuple containing the predicted winner ('Lewis' or 'Holyfield')
+                               and a list of truth values for inner nodes.
+                               Truth values are 1 if the condition of the corresponding inner node
+                               is satisfied, and 0 otherwise.
+    """
+    node_truth_values = []
+
+    # Root node: Is it an official judge's score?
+    # Condition 1: Offical_judge == 'yes'
+    if Offical_judge == 'yes':
+        node_truth_values.append(1)  # Condition 'Offical_judge == "yes"' is true
+
+        # First-level node (Path 1): If official, consider the round number
+        # Condition 2: Round <= 6 (Early rounds vs. Late rounds)
+        if Round <= 6:
+            node_truth_values.append(1)  # Condition 'Round <= 6' is true
+            # Prediction for official, early rounds: Lewis (often dominant early with cleaner boxing)
+            return "Lewis", node_truth_values
+        else:
+            node_truth_values.append(0)  # Condition 'Round <= 6' is false
+            # Prediction for official, late rounds: Holyfield (known for stamina, strong finish)
+            return "Holyfield", node_truth_values
+    else:
+        node_truth_values.append(0)  # Condition 'Offical_judge == "yes"' is false
+
+        # First-level node (Path 2): If unofficial, consider specific media/judge biases
+        # Condition 3: Judge == 'HBO-Lederman'
+        if Judge == 'HBO-Lederman':
+            node_truth_values.append(1)  # Condition 'Judge == "HBO-Lederman"' is true
+            # Prediction for HBO-Lederman: Lewis (known for scoring Lewis heavily in their controversial fights)
+            return "Lewis", node_truth_values
+        else:
+            node_truth_values.append(0)  # Condition 'Judge == "HBO-Lederman"' is false
+            # Prediction for other unofficial judges: Lewis (general media perception often favored Lewis's boxing skill)
+            return "Lewis", node_truth_values
+```

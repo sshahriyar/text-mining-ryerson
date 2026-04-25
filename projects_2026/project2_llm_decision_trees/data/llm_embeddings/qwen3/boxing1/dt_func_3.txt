@@ -1,0 +1,32 @@
+def func(row):
+    node1 = int(row['Judge'] == 'E. Williams')
+    node2 = int(row['Round'] <= 6)
+    node3 = int(row['Judge'] == 'L. O\'Connell')
+    node4 = int(row['Official'] == 1)
+    node5 = int(row['Judge'] == 'HBO-Lederman')
+    node6 = int(row['Round'] <= 7)
+    node7 = int(row['Round'] <= 5)
+    emb = [node1, node2, node3, node4, node5, node6, node7]
+    
+    if node1 == 1:
+        if node2 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+    elif node3 == 1:
+        if node4 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+    elif node5 == 1:
+        if node6 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+    else:
+        if node7 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+    
+    return prediction, emb

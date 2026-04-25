@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prompt Engagement Tester</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 32px; background: #f7f9fb; color: #1f2937; }
+    .container { max-width: 900px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 24px; box-shadow: 0 12px 25px rgba(15, 23, 42, 0.08); }
+    h1 { margin-bottom: 0.5rem; }
+    label { display: block; margin: 16px 0 8px; font-weight: 600; }
+    textarea, input[type="number"] { width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #d1d5db; font-size: 1rem; }
+    button { margin-top: 16px; padding: 12px 20px; font-size: 1rem; color: #fff; background: #2563eb; border: none; border-radius: 8px; cursor: pointer; }
+    button:hover { background: #1d4ed8; }
+    .result-section { margin-top: 28px; }
+    .result-section h2 { margin-bottom: 12px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    th, td { text-align: left; padding: 12px; border-bottom: 1px solid #e5e7eb; }
+    th { background: #eff6ff; }
+    .best { background: #fef3c7; }
+    .error { color: #b91c1c; margin-top: 12px; }
+    .note { margin-top: 16px; color: #4b5563; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Prompt Engagement Tester</h1>
+    <p>Enter a prompt, then generate several candidate posts and compare engagement scores.</p>
+
+    <label for="prompt">Prompt</label>
+    <textarea id="prompt" rows="4" placeholder="Write a prompt here..."></textarea>
+
+    <label for="num_posts">Number of generated posts</label>
+    <input id="num_posts" type="number" value="5" min="1" max="10" />
+
+    <button id="generateBtn">Generate and evaluate</button>
+    <div class="error" id="error" role="alert"></div>
+
+    <div class="result-section" id="resultSection" style="display:none;">
+      <h2>Generated Results</h2>
+      <p><strong>Best generated post:</strong> <span id="bestText"></span></p>
+      <p><strong>Best engagement score:</strong> <span id="bestScore"></span></p>
+      <table>
+        <thead>
+          <tr>
+            <th>Post #</th>
+            <th>Text</th>
+            <th>Sentiment</th>
+            <th>Engagement</th>
+          </tr>
+        </thead>
+        <tbody id="resultsBody"></tbody>
+      </table>
+    </div>
+
+    <p class="note">Note: this page requires the backend server to provide generated results. Run <code>python3 app.py</code> locally and open this page from your local project for full functionality.</p>
+  </div>
+
+  <script>
+    const generateBtn = document.getElementById('generateBtn');
+    const errorDiv = document.getElementById('error');
+    const resultSection = document.getElementById('resultSection');
+    const resultsBody = document.getElementById('resultsBody');
+    const bestText = document.getElementById('bestText');
+    const bestScore = document.getElementById('bestScore');
+
+    generateBtn.addEventListener('click', async () => {
+      errorDiv.textContent = '';
+      resultSection.style.display = 'none';
+      resultsBody.innerHTML = '';
+
+      const prompt = document.getElementById('prompt').value.trim();
+      const numPosts = Number(document.getElementById('num_posts').value);
+
+      if (!prompt) {
+        errorDiv.textContent = 'Please enter a prompt before generating.';
+        return;
+      }
+
+      try {
+        const response = await fetch('/generate', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt, num_posts: numPosts })
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+          errorDiv.textContent = data.error || 'An error occurred while generating results.';
+          return;
+        }
+
+        bestText.textContent = data.best_post.text;
+        bestScore.textContent = data.best_post.engagement_score;
+
+        data.results.forEach(item => {
+          const row = document.createElement('tr');
+          if (item.post_number === data.best_post.post_number) row.classList.add('best');
+          row.innerHTML = `
+            <td>${item.post_number}</td>
+            <td>${item.post_text}</td>
+            <td>${item.sentiment_score}</td>
+            <td>${item.engagement_score}</td>
+          `;
+          resultsBody.appendChild(row);
+        });
+
+        resultSection.style.display = 'block';
+      } catch (error) {
+        errorDiv.textContent = 'Unable to connect to the server. Make sure app.py is running.';
+      }
+    });
+  </script>
+</body>
+</html>

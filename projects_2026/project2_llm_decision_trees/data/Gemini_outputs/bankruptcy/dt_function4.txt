@@ -1,0 +1,63 @@
+```python
+def classify_bankruptcy(We_TA, RE_TA, EBIT_TA, S_TA, BVE_BVL):
+    """
+    Classifies a telecommunications firm as 'BANKRUPT' or 'NON-BANKRUPT'
+    based on key financial ratios using an expert-induced decision tree of maximum depth 2.
+
+    Parameters:
+    We_TA (float): Working Capital as a percentage of Total Assets (e.g., 0.10 for 10%).
+    RE_TA (float): Retained Earnings as a percentage of Total Assets (e.g., -0.05 for -5%).
+    EBIT_TA (float): Earnings Before Interest and Tax as a percentage of Total Assets (e.g., 0.02 for 2%).
+    S_TA (float): Sales as a percentage of Total Assets (e.g., 1.50 for 150%).
+    BVE_BVL (float): Book Value of Equity divided by Book Value of Liabilities (e.g., 0.4 for 0.4).
+
+    Returns:
+    tuple: (prediction, truth_values)
+        prediction (str): 'BANKRUPT' or 'NON-BANKRUPT'.
+        truth_values (list): A list representing the truth values of the inner nodes encountered
+                             during classification. Each entry is 1 if the condition of the
+                             corresponding inner node is satisfied, and 0 otherwise.
+                             The nodes are evaluated in the following logical order:
+                             1. BVE_BVL <= 0.5 (Root node)
+                             2. EBIT_TA <= 0.0 (if Root node's TRUE branch is taken)
+                             3. RE_TA <= -0.1 (if Root node's FALSE branch is taken)
+    """
+    truth_values = []
+    prediction = ""
+
+    # Node 0 (Root Node): Book Value of Equity / Book Value of Liabilities (BVE/BVL)
+    # This is a primary indicator of solvency. A ratio of 0.5 or less implies that
+    # the company's equity is half or less of its liabilities, signaling high leverage
+    # and a significant risk of insolvency.
+    if BVE_BVL <= 0.5:
+        truth_values.append(1)  # Condition 1: BVE_BVL <= 0.5 is TRUE (High Leverage)
+
+        # Node 1 (Child of Root TRUE branch): Earnings Before Interest and Tax / Total Assets (EBIT/TA)
+        # For a highly leveraged firm, current operational profitability is critical.
+        # If it's operating at a loss (EBIT/TA <= 0), bankruptcy risk is extremely high.
+        if EBIT_TA <= 0.0:
+            truth_values.append(1)  # Condition 2: EBIT_TA <= 0.0 is TRUE (Operating at a loss)
+            prediction = "BANKRUPT"
+        else:
+            truth_values.append(0)  # Condition 2: EBIT_TA <= 0.0 is FALSE (Currently profitable)
+            # A highly leveraged firm that is still generating positive operating earnings
+            # might have a chance to service its debt and avoid bankruptcy, though still risky.
+            prediction = "NON-BANKRUPT"
+    else:
+        truth_values.append(0)  # Condition 1: BVE_BVL <= 0.5 is FALSE (Lower Leverage)
+
+        # Node 2 (Child of Root FALSE branch): Retained Earnings / Total Assets (RE/TA)
+        # For firms with healthier leverage, cumulative profitability is a key indicator.
+        # Significant accumulated losses (RE/TA <= -0.1, meaning 10% or more of assets lost)
+        # can deplete capital and lead to bankruptcy even if current leverage is moderate.
+        if RE_TA <= -0.1:
+            truth_values.append(1)  # Condition 3: RE_TA <= -0.1 is TRUE (Significant cumulative losses)
+            prediction = "BANKRUPT"
+        else:
+            truth_values.append(0)  # Condition 3: RE_TA <= -0.1 is FALSE (Healthy or less severe cumulative earnings)
+            # A firm with healthier leverage and no significant accumulated losses is
+            # considered financially stable in this model.
+            prediction = "NON-BANKRUPT"
+
+    return prediction, truth_values
+```

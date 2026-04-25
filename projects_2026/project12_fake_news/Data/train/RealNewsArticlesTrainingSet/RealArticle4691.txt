@@ -1,0 +1,45 @@
+Lin-Manuel Miranda has celebs singing 'Hamilton' for charity Lin-Manuel Miranda has Hollywood singing lyrics from his hit musical, “Hamilton,” in order to raise money for a coalition of nonprofits focused on immigration.
+
+Celebrity participants in Miranda’s #Ham4All challenge include Ben Stiller, Kelly Clarkson and Golden State Warriors star Stephen Curry. The challenge calls for participants to donate money and to take a video of themselves singing their favorite “Hamilton” song and post it to social media. Money raised through the challenge goes toward Miranda’s Immigrants: We Get the Job Done Coalition.
+
+Miranda also released a video for “Immigrants (We Get the Job Done)” on Wednesday. The track takes its name from a line in the musical and features “The Night Of” star Riz Ahmed, along with rappers K’naan, Residente and Snow Tha Product.
+
+RELATED STORIES:
+
+Chance the Rapper and Lin-Manuel Miranda have the same kind of savvy
+
+.galleries:after {
+
+content: ”;
+
+display: block;
+
+background-color: #144A7C;
+
+margin: 16px auto 0;
+
+height: 5px;
+
+width: 100px;
+
+}
+
+.galleries:before {
+
+content: “Entertainment Photos and Video”;
+
+display: block;
+
+font: 700 20px Georgia,serif;
+
+text-align: center;
+
+color: #1e1e1e;
+
+var playlist = ‘chi_ent_movie_trailers’,
+
+layout = ‘autoblurb’,
+
+iu = ‘%2F4011%2Ftrb.chicagotribune%2Fent’;
+
+Watch the latest movie trailers.

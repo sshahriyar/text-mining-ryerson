@@ -1,0 +1,40 @@
+```python
+def boxing_round_winner(row):
+    """
+    Predicts the winner of a boxing round (Trinidad/de la Hoya) based on Judge, Official, and Round.
+
+    Args:
+        row (dict): A dictionary containing the values for Judge, Official, and Round.
+
+    Returns:
+        tuple: A tuple containing the prediction (0 for Trinidad, 1 for de la Hoya) 
+               and a list representing the truth values of the inner nodes.
+    """
+    node1 = int(row['Judge'] <= 4)
+    node2 = int(row['Official'] == 1)
+    node3 = int(row['Round'] <= 6)
+    emb = [node1, node2, node3]
+
+    if node1 == 1:
+        if node2 == 1:
+            if node3 == 1:
+                return 0, emb
+            else:
+                return 1, emb
+        else:
+            if node3 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+    else:
+        if node2 == 1:
+            if node3 == 1:
+                return 1, emb
+            else:
+                return 0, emb
+        else:
+            if node3 == 1:
+                return 0, emb
+            else:
+                return 1, emb
+```

@@ -1,0 +1,55 @@
+```python
+def classify_credit_application(age, income_per_dependent, monthly_credit_card_expenses, owning_a_home, self_employed, number_of_derogatory_reports):
+    """
+    Classifies a credit application as 'Accepted' or 'Rejected' based on a decision tree
+    with a maximum depth of 2.
+
+    Args:
+        age (int): Applicant's age in years.
+        income_per_dependent (float): Applicant's income per dependent (1.5 to 10 scale).
+        monthly_credit_card_expenses (float): Applicant's monthly credit card expenses in dollars.
+        owning_a_home (str): 'yes' if applicant owns a home, 'no' otherwise.
+        self_employed (str): 'yes' if applicant is self-employed, 'no' otherwise.
+        number_of_derogatory_reports (int): Number of derogatory reports on applicant's credit history.
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The prediction ('Accepted' or 'Rejected').
+            - list: A list of integers representing the truth values of the inner nodes.
+                    The list corresponds to [Node1, Node2, Node3] where:
+                    Node1: (number_of_derogatory_reports == 0)
+                    Node2: (income_per_dependent >= 3.0) - evaluated if Node1 is True
+                    Node3: (income_per_dependent >= 7.0) - evaluated if Node1 is False
+                    1 if the condition of the corresponding inner node is satisfied, 0 otherwise.
+    """
+    
+    # Initialize truth values for the three potential inner nodes
+    node1_satisfied = 0 # Root node: number_of_derogatory_reports == 0
+    node2_satisfied = 0 # Left child of root: income_per_dependent >= 3.0
+    node3_satisfied = 0 # Right child of root: income_per_dependent >= 7.0
+    
+    # Root Node Condition: number_of_derogatory_reports == 0
+    if number_of_derogatory_reports == 0:
+        node1_satisfied = 1
+        # Path: No derogatory reports
+        
+        # Second Level Node (Left Branch): income_per_dependent >= 3.0
+        if income_per_dependent >= 3.0:
+            node2_satisfied = 1
+            prediction = "Accepted"
+        else:
+            prediction = "Rejected" # Low income despite clean record
+            
+    else: # number_of_derogatory_reports > 0
+        node1_satisfied = 0 # Explicitly set for clarity, though initialized to 0
+        # Path: One or more derogatory reports
+        
+        # Second Level Node (Right Branch): income_per_dependent >= 7.0
+        if income_per_dependent >= 7.0:
+            node3_satisfied = 1
+            prediction = "Accepted" # High income offsets derogatory reports
+        else:
+            prediction = "Rejected" # Derogatory reports and not exceptionally high income
+            
+    return prediction, [node1_satisfied, node2_satisfied, node3_satisfied]
+```

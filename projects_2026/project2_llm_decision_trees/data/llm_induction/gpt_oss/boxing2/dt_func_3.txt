@@ -1,0 +1,14 @@
+```python
+def predict(row):
+    # Precompute binary vector embeddings for inner nodes
+    node1 = int(row['Official'] == 1)   # Official judge: 1 = Yes, 0 = No
+    emb = [node1]
+
+    # Decision tree logic (depth 2)
+    if node1:
+        # Official judge says de la Hoya won
+        return 1, emb
+    else:
+        # Official judge says Trinidad won
+        return 0, emb
+```

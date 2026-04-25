@@ -1,0 +1,36 @@
+```python
+def predict_round_winner(judge, official_judge, round_num):
+    """
+    Predicts the winner of a boxing round between Lewis and Holyfield based on
+    judge information, reflecting common perceptions of their fights, especially
+    the first controversial bout.
+
+    Args:
+        judge (str): The name of the judge (e.g., 'E. Williams', 'HBO-Lederman').
+        official_judge (str): 'yes' if the judge is official, 'no' otherwise.
+        round_num (int): The round number (1 to 12).
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The predicted winner ('Lewis' or 'Holyfield').
+            - list: A list representing the truth values of the inner nodes
+                    traversed. 1 if the condition was satisfied, 0 otherwise.
+    """
+    node_truth_values = []
+
+    # Node 0: Is the judge an official judge?
+    if official_judge == 'yes':
+        node_truth_values.append(1)  # Condition (official_judge == 'yes') is satisfied
+        # Node 1 (nested under Node 0 true branch): Is the official judge S. Christodoulu?
+        if judge == 'S. Christodoulu':
+            node_truth_values.append(1)  # Condition (judge == 'S. Christodoulu') is satisfied
+            return "Lewis", node_truth_values # S. Christodoulu famously scored for Lewis
+        else: # Implies E. Williams or L. O'Connell
+            node_truth_values.append(0)  # Condition (judge == 'S. Christodoulu') is not satisfied
+            return "Holyfield", node_truth_values # These judges were key to the draw or scored for Holyfield
+    else:  # official_judge == 'no'
+        node_truth_values.append(0)  # Condition (official_judge == 'yes') is not satisfied
+        # For non-official judges (media), Lewis was widely perceived as the winner
+        return "Lewis", node_truth_values
+
+```

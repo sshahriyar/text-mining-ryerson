@@ -1,0 +1,12 @@
+Feature_name: description
+Age: age (years)
+Income.per.dependent: income per dependent (1.5 to 10)
+Monthly.credit.card.exp: monthly credit card expenses ($)
+Own.home: owning a home (1 = yes, 0 = no)
+Self.employed: self employed (1 = yes, 0 = no)
+Derogatory.reports: number of derogatory reports (0, 1, 2, 3, 4, 7)
+
+Target variable:
+target: application for credit is accepted or not (0 = no, 1 = yes)
+
+**Ensure that when accessing the features in the function, you use row[feature_name], example row['Age'] and not the description.**

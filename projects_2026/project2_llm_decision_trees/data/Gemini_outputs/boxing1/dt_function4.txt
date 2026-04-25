@@ -1,0 +1,41 @@
+```python
+def classify_round_winner(Judge, Official_judge, Round):
+    """
+    Classifies the winner of a boxing round between Lewis and Holyfield based on
+    judge type and round number, reflecting typical boxing perceptions.
+
+    Args:
+        Judge (str): The name of the judge (e.g., 'E. Williams', 'HBO-Lederman').
+        Official_judge (str): 'yes' if the judge is official, 'no' otherwise.
+        Round (int): The round number (1 to 12).
+
+    Returns:
+        tuple: A tuple containing the predicted winner ('Lewis' or 'Holyfield')
+               and a list of truth values for the inner nodes.
+               Truth values are 1 if the condition is satisfied, 0 otherwise.
+               The list can have 1 or 2 elements based on the tree depth reached.
+    """
+    node_truth_values = []
+
+    # Node 1: Is this an official judge? (Most critical distinction)
+    # Condition: Official_judge == 'yes'
+    if Official_judge == 'yes':
+        node_truth_values.append(1)  # Condition for Official_judge == 'yes' satisfied
+        
+        # Node 2 (Depth 2): For official judges, early vs. late rounds often show different patterns.
+        # Holyfield was known for his early aggression, Lewis for sustained boxing and power in later rounds.
+        # Condition: Round <= 6 (Early rounds)
+        if Round <= 6:
+            node_truth_values.append(1)  # Condition for Round <= 6 satisfied
+            return "Holyfield", node_truth_values
+        else:  # Round > 6 (Later rounds)
+            node_truth_values.append(0)  # Condition for Round <= 6 not satisfied
+            return "Lewis", node_truth_values
+    else:  # Official_judge == 'no' (Unofficial sources)
+        node_truth_values.append(0)  # Condition for Official_judge == 'yes' not satisfied
+        
+        # Leaf Node (Depth 1): Unofficial sources, especially after their controversial first fight,
+        # often leaned towards Lewis's more dominant boxing performance.
+        return "Lewis", node_truth_values
+
+```

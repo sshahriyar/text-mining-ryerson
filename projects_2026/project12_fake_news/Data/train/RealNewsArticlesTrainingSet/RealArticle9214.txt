@@ -1,0 +1,91 @@
+Mark Hamill pays emotional tribute to Carrie Fisher at 'Star Wars' gathering John Williams put a finger to his lips, and the room went silent and a large movie screen held on Princess Leia, her face a cast of stony self-possession. The memory of Carrie Fisher had curled up here on Thursday morning, at the start of Star Wars Celebration, the semi-regular Lucasfilm-organized “love letter” to its fans, though by the end of the opening ceremonies, a “Star Wars” family reunion of cast and crew, Fisher loomed largest. Princess Leia ruled over the Orange County Convention Center.
+
+A large man in a knitted Leia side-bun wig rumbled past. Then Leia-themed T-shirts reading “Don’t Mess With the Princess” and “Rebel.” Fisher’s head, given David Bowie lightening bolts, adorned dresses. There were grandmothers and infants in white flowing robes. And at the reunion, the series’ 40th, George Lucas’ voice wavered for a moment, croaking out that Fisher was a “modern woman”; Billie Lourd, the actress’ daughter, recited one of her mother’s “Star Wars” speeches as if it were prayer; and by the end, after Williams silenced thousands with a single finger and the Orlando Philharmonic finished Leia’s lilting theme, the sobs and sighs and sniffles could be heard in the dark.
+
+Which, if you’re Mark Hamill, also known as Luke Skywalker, and you’re hosting your own tribute to your movie sister, begs the question: What’s left to say about Fisher?
+
+On Friday night, before a packed hall, Hamill, now 65, walked out and sat in a large fluffy chair and, without much of a warm-up or the usual welcoming niceties, just said:
+
+“Here was something I was hoping wouldn’t come for another 30 years.”
+
+He stared out at the silent audience.
+
+He said he had been trying to deal with Fisher’s death in December. He said he wanted to be here to help him deal with it, that speaking to fans might be cathartic. He said she had been at every Star Wars Celebration and she would have been here again. He said that he looked up the definition of “tribute” and then, fumbling a bit, he just told stories.
+
+When they were told by Lucas that Luke Skywalker and Princess Leia were actual twins, “I was stunned,” Hamill said. “I’m five years older than Carrie. I said ‘Wait a minute, if I’m Luke Skywalker from a moisture farm on Tatooine, does that make me royalty?’ And without missing a beat, Carrie said ‘No!’ And I said ‘OK, OK, just asking!'”
+
+He pointed out she had been Hollywood royalty, the daughter of Debbie Reynolds and Eddie Fisher, and he came from a middle-class family. But in fame, Hamill and Fisher were kin, destined to be forever remembered as pop creations, as contemporary mythology, but they embraced their destines with a wink and a boundless respect. Unlike Harrison Ford, who played Han Solo and never seemed comfortable by the intensity of the fandom (or the inevitability of being forever conjoined with a character), Hamill and Fisher made it fun and warm; indeed, you need only look as far as Hamill’s own Instagram account for evidence of an actor incapable of phoning in appreciation.
+
+What he gave was a true eulogy, referring to notes and then, simply talking. It was a lovely ramble of a memorial. He said she was a joy to be around “most of the time,” that he could have never handled her as a girlfriend, that she helped find him an apartment once, that she would force him into crazy outfits and parade him around the studio lot and he would go along with it. He was generous and candid and intimate, a good mimic, a friend at the edge of his seat, recalling memories for a couple of thousand confidants.
+
+MOST READ ENTERTAINMENT NEWS THIS HOUR
+
+There was that time shooting “Return of the Jedi” and they were suspended on space bikes for hours when Fisher pulled out copies of Nietzsche and Kierkegaard, and a highlight marker, and read.
+
+“I said ‘Carrie, why bring Kierkegaard onset when you have National Inquirer in your trailer?’ She said, ‘Because I want them to think I’m smart!'”
+
+There was that time, more recently, when he suggested they pose with their wax figures at Madame Tussaud’s in London and she never replied then posted a picture on Twitter posing with a wax Princess Leia. He complained to her, and said that he thought they would do it together and she said, dismissively, “That’s a great idea, you should do that.”
+
+“When I read the script (for “Star Wars”) I thought nothing defines this princess more than this: We risk our lives and board this technical marvel of a Death Star and get her back to the Millennium Falcon and she says (looking at the ship), ‘You came in that?'”
+
+He said she was that person.
+
+There were also tributes from Lucas, and Lucasfilm president Kathleen Kennedy, and new “Star Wars” director Rian Johnson and even Warwick Davis, who played an Ewok. But Hamill had the knowledge of a person that shapes how we remember a person. He believed she would have been a great older actress, and that there was a long time when they didn’t speak, and he never knew for sure when things were OK or not — he likened it to being in a band that “supernovas” then breaks up for a while. He recited a few lyrics from the Kink’s “Celluloid Heroes”:
+
+I wish my life was a non-stop Hollywood movie show
+
+A fantasy world of celluloid villains and heroes
+
+Because celluloid heroes never feel any pain
+
+And celluloid heroes never really die
+
+He said she was 19 when they met and he was “a worldly 24.” Reading the statement he made after she died, his old Luke Skywalker yelp, there but rougher, cracked. He held a fist to his face, fighting tears, and said it was an honor to know her, “my beloved space-twin.” But he said that she promised, if he died before her, she would heckle his funeral. “When I think of her now, I think of her looking from the celestial stratosphere with her big brown eyes and that wry smile and… she lovingly extends a middle finger.
+
+“And that was Carrie.”
+
+cborrelli@chicagotribune.com
+
+RELATED STORIES:
+
+Fans thrilled and confused by ‘Last Jedi’ trailer
+
+‘Star Wars: The Last Jedi’ trailer revealed at Star Wars Celebration
+
+Complete Star Wars Celebration coverage from Chicago Tribune
+
+.galleries:after {
+
+content: ”;
+
+display: block;
+
+background-color: #144A7C;
+
+margin: 16px auto 0;
+
+height: 5px;
+
+width: 100px;
+
+}
+
+.galleries:before {
+
+content: “Entertainment Photos and Video”;
+
+display: block;
+
+font: 700 20px Georgia,serif;
+
+text-align: center;
+
+color: #1e1e1e;
+
+var playlist = ‘chi_ent_movie_trailers’,
+
+layout = ‘autoblurb’,
+
+iu = ‘%2F4011%2Ftrb.chicagotribune%2Fent’;
+
+Watch the latest movie trailers.

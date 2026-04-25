@@ -1,0 +1,21 @@
+```python
+def decision_tree(feature_row):
+    node1 = int(feature_row['Judge'] in [1, 2, 3, 4, 5])
+    node2 = int(feature_row['Official'] == 1)
+    node3 = int(feature_row['Round'] <= 6)
+
+    emb = [node1, node2, node3]
+
+    if node1:
+        if node2:
+            prediction = 1
+        else:
+            if node3:
+                prediction = 0
+            else:
+                prediction = 1
+    else:
+        prediction = 0
+
+    return prediction, emb
+```

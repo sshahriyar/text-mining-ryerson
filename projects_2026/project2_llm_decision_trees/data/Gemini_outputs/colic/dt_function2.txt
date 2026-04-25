@@ -1,0 +1,37 @@
+```python
+def classify_colic_surgery(
+    surgery, Age, Rectal_Temperature, Pulse, Respiratory_Rate, Temperature_of_Extremities,
+    Strength_of_Peripheral_Pulse, Appearance_of_Mucous_Membranes, Capillary_Refill_Time,
+    Degree_of_Pain, peristalsis, Abdominal_Distension, Nasogastric_Tube, Nasogastric_Reflux,
+    Nasogastric_Reflux_pH, Rectal_Examination_Findings, Abdomen_Appearance, Packed_Cell_Volume,
+    Total_Protein, Abdominocentesis_Appearance, Abdominocentesis_Total_Protein, Outcome
+):
+    node_truths = []
+
+    # Node 1 (Root): Is the horse experiencing severe pain? Severe pain is a strong indicator for surgical intervention.
+    if Degree_of_Pain == 'severe':
+        node_truths.append(1)  # Condition: Degree_of_Pain == 'severe' is True
+
+        # Node 2 (Left Child): If severe pain, is there also significant nasogastric reflux?
+        # Large volumes of reflux often indicate a small intestinal obstruction requiring surgery.
+        if Nasogastric_Reflux == '>1 liter':
+            node_truths.append(1)  # Condition: Nasogastric_Reflux == '>1 liter' is True
+            return "surgical", node_truths
+        else:
+            node_truths.append(0)  # Condition: Nasogastric_Reflux == '>1 liter' is False
+            # Even without significant reflux, severe and intractable pain usually necessitates surgical exploration.
+            return "surgical", node_truths
+    else:
+        node_truths.append(0)  # Condition: Degree_of_Pain == 'severe' is False (Pain is none, mild, or moderate)
+
+        # Node 2 (Right Child): If pain is not severe, are there clear signs of intestinal distension?
+        # Distended small or large intestine strongly suggests an obstruction or displacement.
+        if Abdomen_Appearance in ('distended small intestine', 'distended large intestine'):
+            node_truths.append(1)  # Condition: Abdomen_Appearance is 'distended small intestine' or 'distended large intestine' is True
+            # Even with moderate pain, clear physical signs of obstruction usually lead to surgery.
+            return "surgical", node_truths
+        else:
+            node_truths.append(0)  # Condition: Abdomen_Appearance is 'distended small intestine' or 'distended large intestine' is False
+            # Without severe pain or obvious intestinal distension, the case is more likely medically manageable.
+            return "not surgical", node_truths
+```

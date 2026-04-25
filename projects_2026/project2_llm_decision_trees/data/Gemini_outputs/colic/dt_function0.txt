@@ -1,0 +1,43 @@
+```python
+def classify_colic_lesion(Abdomen_Appearance: str, Degree_of_Pain: str) -> (str, list):
+    """
+    Induces a decision tree classifier to determine if a horse colic lesion is surgical or not.
+    This function uses expert knowledge to identify the most critical features for
+    a maximum depth of 2, without training on actual data.
+
+    Args:
+        Abdomen_Appearance (str): The appearance of the abdomen.
+                                  Expected values: 'normal', 'other', 'feces in the large intestine',
+                                  'distended small intestine', 'distended large intestine'.
+        Degree_of_Pain (str): The observed degree of pain.
+                              Expected values: 'none', 'mild', 'moderate', 'severe'.
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The predicted class ('surgical' or 'non-surgical').
+            - list: A list representing the truth values of the inner nodes.
+                    Each entry is 1 if the condition of the corresponding inner node is satisfied, and 0 otherwise.
+    """
+    
+    inner_node_truth_values = []
+    prediction = None
+
+    # Node 1: Abdomen Appearance
+    # Condition: Is the abdomen appearance indicative of severe internal distension?
+    if Abdomen_Appearance in ['distended small intestine', 'distended large intestine']:
+        inner_node_truth_values.append(1) # Condition 1 satisfied
+        prediction = 'surgical'
+    else:
+        inner_node_truth_values.append(0) # Condition 1 not satisfied
+        
+        # Node 2 (Child of Node 1's FALSE branch): Degree of Pain
+        # Condition: Is the horse experiencing severe pain?
+        if Degree_of_Pain == 'severe':
+            inner_node_truth_values.append(1) # Condition 2 satisfied
+            prediction = 'surgical'
+        else:
+            inner_node_truth_values.append(0) # Condition 2 not satisfied
+            prediction = 'non-surgical'
+            
+    return prediction, inner_node_truth_values
+```

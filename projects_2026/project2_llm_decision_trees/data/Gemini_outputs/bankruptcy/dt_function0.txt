@@ -1,0 +1,66 @@
+```python
+def predict_bankruptcy(WC_TA, RE_TA, EBIT_TA, S_TA, BVE_BVL):
+    """
+    Predicts if a telecommunications firm will declare bankruptcy based on financial ratios.
+
+    This decision tree is induced based on expert domain knowledge without real-world data,
+    focusing on the most impactful features for bankruptcy prediction (solvency, profitability, liquidity).
+    The tree has a maximum depth of 2.
+
+    Args:
+        WC_TA (float): Working Capital as a percentage of Total Assets.
+        RE_TA (float): Retained Earnings as a percentage of Total Assets.
+        EBIT_TA (float): Earnings Before Interest and Tax as a percentage of Total Assets.
+        S_TA (float): Sales as a percentage of Total Assets.
+        BVE_BVL (float): Book Value of Equity divided by Book Value of Total Liabilities.
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The predicted class ("Bankrupt" or "Non-Bankrupt").
+            - list: A list of 1s and 0s representing the truth values of the inner nodes.
+                    The order of nodes is:
+                    [0] Root node: (BVE_BVL <= 0.75)
+                    [1] Left child of root: (EBIT_TA <= 0.0)
+                    [2] Right child of root: (WC_TA <= 5.0)
+                    A 1 indicates the condition was satisfied, 0 otherwise.
+    """
+    # Initialize list for truth values of the three inner nodes:
+    # 0: Condition for the root node (BVE_BVL <= 0.75)
+    # 1: Condition for the left child node (EBIT_TA <= 0.0)
+    # 2: Condition for the right child node (WC_TA <= 5.0)
+    node_truth_values = [0, 0, 0]
+    prediction = ""
+
+    # Node 0 (Root): Check Book Value of Equity / Book Value of Liabilities (BVE/BVL)
+    # A low BVE/BVL (e.g., <= 0.75, meaning liabilities are at least 1.33 times equity)
+    # indicates high leverage and significant solvency risk.
+    if BVE_BVL <= 0.75:
+        node_truth_values[0] = 1  # Root node condition satisfied (high leverage path)
+
+        # Node 1 (Left Child): Check Earnings Before Interest and Tax / Total Assets (EBIT/TA)
+        # If highly leveraged and not generating operational profit (EBIT <= 0), the firm is in severe distress.
+        if EBIT_TA <= 0.0:
+            node_truth_values[1] = 1  # Left child node condition satisfied
+            prediction = "Bankrupt"
+        else:
+            node_truth_values[1] = 0  # Left child node condition not satisfied
+            # Even with high leverage, if operationally profitable, there might be a chance for survival.
+            # This represents a less immediate risk compared to non-profitability under high leverage.
+            prediction = "Non-Bankrupt"
+    else:
+        node_truth_values[0] = 0  # Root node condition not satisfied (lower leverage path)
+
+        # Node 2 (Right Child): Check Working Capital / Total Assets (WC/TA)
+        # Even with healthy leverage, a firm can face bankruptcy due to severe liquidity problems.
+        # A low WC/TA (e.g., <= 5.0%) suggests insufficient working capital.
+        if WC_TA <= 5.0:  # Assuming WC/TA is expressed as a percentage
+            node_truth_values[2] = 1  # Right child node condition satisfied
+            prediction = "Bankrupt"
+        else:
+            node_truth_values[2] = 0  # Right child node condition not satisfied
+            # With both lower leverage and healthy liquidity, the firm is likely stable.
+            prediction = "Non-Bankrupt"
+
+    return prediction, node_truth_values
+
+```

@@ -1,0 +1,46 @@
+```python
+def classify_colic_surgery(
+    surgery, Age, Rectal_Temperature, Pulse, Respiratory_Rate,
+    Temperature_of_Extremities, Strength_of_Peripheral_Pulse,
+    Appearance_of_Mucous_Membranes, Capillary_Refill_Time,
+    Degree_of_Pain, peristalsis, Abdominal_Distension, Nasogastric_Tube,
+    Nasogastric_Reflux, Nasogastric_Reflux_pH, Rectal_Examination_Findings,
+    Abdomen_Appearance, Packed_Cell_Volume, Total_Protein,
+    Abdominocentesis_Appearance, Abdominocentesis_Total_Protein,
+    Outcome
+):
+    """
+    Classifies whether a horse colic lesion is surgical or not, based on key features.
+    The decision tree has a maximum depth of 2.
+
+    Args:
+        All features listed in the problem description, as individual arguments.
+
+    Returns:
+        A tuple containing:
+        - A string: "surgical" or "not surgical"
+        - A list of integers: Representing the truth values (1 for true, 0 for false)
+          of the conditions encountered at each inner node along the decision path.
+    """
+    node_truths = []
+
+    # Node 1 (Root Node): Is the degree of pain severe?
+    # This is a very strong indicator for surgical intervention.
+    if Degree_of_Pain == 'severe':
+        node_truths.append(1)  # Condition 1 (Degree_of_Pain == 'severe') is satisfied
+        # If pain is severe, it's highly indicative of a surgical case.
+        return "surgical", node_truths
+    else:
+        node_truths.append(0)  # Condition 1 (Degree_of_Pain == 'severe') is NOT satisfied
+
+        # Node 2 (Child Node): Is there significant nasogastric reflux (>1 liter)?
+        # Significant reflux often indicates a functional or physical obstruction
+        # that may require surgery, even if pain is not yet severe.
+        if Nasogastric_Reflux == '>1 liter':
+            node_truths.append(1)  # Condition 2 (Nasogastric_Reflux == '>1 liter') is satisfied
+            return "surgical", node_truths
+        else:
+            node_truths.append(0)  # Condition 2 (Nasogastric_Reflux == '>1 liter') is NOT satisfied
+            # If not severe pain and no significant reflux, leans towards non-surgical management.
+            return "not surgical", node_truths
+```

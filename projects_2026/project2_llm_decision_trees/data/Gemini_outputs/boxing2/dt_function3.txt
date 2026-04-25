@@ -1,0 +1,42 @@
+```python
+def classify_round_winner_trinidad_de_la_hoya(Judge, Official_judge, Round):
+    """
+    Induces a decision tree classifier to predict the winner of a boxing round
+    between Trinidad and de la Hoya, based on profound world knowledge.
+
+    Args:
+        Judge (str): The name of the judge (e.g., 'G. Hamada', 'HBO-Lederman').
+        Official_judge (str): 'yes' if the judge is an official boxing judge, 'no' otherwise.
+        Round (int): The round number (1 to 12).
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The predicted winner of the round ('Trinidad' or 'de la Hoya').
+            - list: A list representing the truth values of the inner nodes encountered.
+                    An entry is 1 if the condition of the corresponding inner node
+                    is satisfied, and 0 otherwise.
+    """
+    node_truth_values = []
+
+    # Node 1 (Root): Is the judge an official judge?
+    # This is the most important distinction as official scores determine the outcome.
+    if Official_judge == 'yes':
+        node_truth_values.append(1) # Condition 'Official_judge == "yes"' is satisfied.
+        
+        # Node 2 (Child of Node 1, for official judges): Is it an early round?
+        # Based on general fight narratives, de la Hoya often started strong with his boxing skills,
+        # while Trinidad was known for his relentless pressure and finishing strong in later rounds.
+        if Round <= 6: # Considering the first half of the 12-round fight as 'early'
+            node_truth_values.append(1) # Condition 'Round <= 6' is satisfied.
+            return 'de la Hoya', node_truth_values
+        else: # Round > 6 (later rounds)
+            node_truth_values.append(0) # Condition 'Round <= 6' is not satisfied.
+            return 'Trinidad', node_truth_values
+    else: # Official_judge == 'no' (e.g., media, commentators)
+        node_truth_values.append(0) # Condition 'Official_judge == "yes"' is not satisfied.
+        # For unofficial judges, especially in a fight as controversial as Trinidad vs. de la Hoya,
+        # many media outlets and observers felt de la Hoya had won many rounds due to his boxing acumen.
+        # We'll assign de la Hoya as the default winner for rounds scored by unofficial sources.
+        # This path leads to a leaf node at depth 1, so no further conditions are appended.
+        return 'de la Hoya', node_truth_values
+```

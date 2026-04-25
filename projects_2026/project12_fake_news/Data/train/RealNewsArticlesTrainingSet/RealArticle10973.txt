@@ -1,0 +1,71 @@
+Nicole Eggert details alleged Scott Baio sexual abuse with Megyn Kelly Actress Nicole Eggert, who has accused her former co-star Scott Baio of molesting her when she was a minor, revealed more details of her alleged harassment and abuse during her first television interview on Tuesday morning.
+
+Speaking on “Megyn Kelly Today,” Eggert said Baio began to sexually harass and abuse her on the set of their hit ’80s sitcom “Charles in Charge” when the show started in 1986 and she was 14 years old. Eggert was a minor, and Baio is more than 11 years older than her.
+
+“He started expressing his love for me and talking about marriage and the future,” Eggert said of when she was 14 years old. According to Eggert, the sexual abuse started before her 15th birthday when “we were at his house in his car in his garage, and he reached over and penetrated me with his finger.”
+
+“I was very young. It was shocking,” Eggert recalled. “He was playing not only on my emotions, but my hormones and all of those things.”
+
+Eggert pointed out the imbalanced power dynamic, noting that Baio was the boss, as the star of the show.
+
+Eggert says the abuse continued from the ages of 14 to 17, which is when she and Baio — who, at the time, were often rumored to be a couple — first had sexual intercourse. Eggert admits she was a willing participant, but felt uncomfortable because she was so young.
+
+“My truth is I wasn’t ready to tell my story. For me it was always protecting the show,” Eggert said, defending herself from those who say she was consensually involved with Baio, and has spoken positively about him in previous interviews.
+
+Baio has insisted that Eggert was 18 years old when they first had sex, and Eggert says she was 17 years old, which would legally make her a minor in the state of California.
+
+“There’s no doubt in my mind,” Eggert said when Kelly asked her if she was in fact a minor when she first had sexual intercourse with Baio, which she said he initiated. “It wasn’t a hold-me-down rape me situation, but I was 17. … I just wasn’t ready to tell my story. … It was upsetting. It wasn’t a good experience at all. … It was at my house in my spare bedroom, he laid down a towel and it happened there.”
+
+Eggert says after she and Baio had sex, his treatment of her noticeably changed. “He didn’t treat me well on set after it happened. He was quite mean to me,” she explained.
+
+Prior to Eggert’s “Megyn Kelly Today” interview, the actress first accused Baio on Twitter, posting, “Ask Scott Baio what happened in his garage at his house when I was a minor. Creep.”
+
+Soon after, Baio defended himself on Facebook Live, saying Eggert’s accusations have damaged his reputation and are impacting his family. He called Eggert’s allegations “lies,” and recalled back to the garage incident — though his side of the story is that Eggert “seduced” him. “If you have a real claim, you go to the real people, not social media, where people like me get beat up,” Baio said in his Facebook Live video.
+
+On “Megyn Kelly Today,” Eggert, seated next to her attorney Lisa Bloom, said she is exploring all legal options and is considering filing a police report.
+
+Eggert’s “Charles in Charge” castmates, Alexander Polinsky and Adam Carl, have supported the actress and have come to her defense, recalling witnessing Baio’s inappropriate behavior on set.
+
+RELATED STORIES:
+
+Actor Scott Baio denies misconduct claims by former co-star
+
+Diane Keaton and Alec Baldwin are Woody Allen’s loudest defenders
+
+Dylan Farrow describes alleged Woody Allen assault in first TV interview
+
+.galleries:after {
+
+content: ”;
+
+display: block;
+
+background-color: #144A7C;
+
+margin: 16px auto 0;
+
+height: 5px;
+
+width: 100px;
+
+}
+
+.galleries:before {
+
+content: “Entertainment Photos and Video”;
+
+display: block;
+
+font: 700 20px Georgia,serif;
+
+text-align: center;
+
+color: #1e1e1e;
+
+var playlist = ‘chi_ent_movie_trailers’,
+
+layout = ‘autoblurb’,
+
+iu = ‘%2F4011%2Ftrb.chicagotribune%2Fent’;
+
+Watch the latest movie trailers.

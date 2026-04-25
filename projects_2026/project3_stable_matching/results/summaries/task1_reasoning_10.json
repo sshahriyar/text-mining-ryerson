@@ -1,0 +1,8 @@
+{
+  "total_instances": 10,
+  "parsed_count": 10,
+  "valid_count": 10,
+  "stable_count": 1,
+  "exact_match_count": 1,
+  "avg_blocking_pairs": 1.8
+}

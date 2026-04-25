@@ -1,0 +1,11 @@
+```python
+def func(row):
+    # Precompute binary vector embeddings
+    node1 = int(row['Official'] == 1)   # 1 if judge is official, 0 otherwise
+    emb = [node1]
+    
+    # Decision tree logic (depth 2: only one split)
+    prediction = 1 if node1 else 0   # 1 = de la Hoya, 0 = Trinidad
+    
+    return prediction, emb
+```

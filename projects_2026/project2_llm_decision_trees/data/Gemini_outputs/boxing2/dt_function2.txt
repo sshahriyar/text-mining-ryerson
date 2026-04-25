@@ -1,0 +1,47 @@
+```python
+def predict_winner(judge, official_judge, round_num):
+    """
+    Predicts the winner of a boxing round between Trinidad and de la Hoya
+    based on judge type and round number.
+
+    Args:
+        judge (str): The name of the judge (e.g., 'G. Hamada', 'HBO-Lederman').
+        official_judge (str): 'yes' if the judge is official, 'no' otherwise.
+        round_num (int): The round number (1 to 12).
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The predicted winner ('Trinidad' or 'de la Hoya').
+            - list: A list of integers (1 or 0) representing the truth values
+                    of the inner node conditions encountered on the decision path.
+                    1 if the condition is satisfied, 0 otherwise.
+    """
+    node_conditions = []
+
+    # Inner Node 1 (Root Node): Is the judge an official judge?
+    # Condition: official_judge == 'yes'
+    if official_judge == 'yes':
+        node_conditions.append(1) # Condition 1 satisfied
+        # Path for Official Judges
+        # Inner Node 2 (Child Node): Is it an early/mid round (1-6)?
+        # Condition: round_num <= 6
+        if round_num <= 6:
+            node_conditions.append(1) # Condition 2 satisfied
+            prediction = "de la Hoya" # Often perceived as de la Hoya's strong early rounds by official judges
+        else: # round_num > 6
+            node_conditions.append(0) # Condition 2 not satisfied
+            prediction = "Trinidad" # Often perceived as Trinidad's strong late rounds by official judges
+    else: # official_judge == 'no'
+        node_conditions.append(0) # Condition 1 not satisfied
+        # Path for Unofficial Judges/Media
+        # Inner Node 2 (Child Node): Is it an early/mid round (1-6)?
+        # Condition: round_num <= 6
+        if round_num <= 6:
+            node_conditions.append(1) # Condition 2 satisfied
+            prediction = "de la Hoya" # Unofficial scores often favored de la Hoya's early boxing
+        else: # round_num > 6
+            node_conditions.append(0) # Condition 2 not satisfied
+            prediction = "Trinidad" # Unofficial scores also recognized Trinidad's late surge
+
+    return prediction, node_conditions
+```

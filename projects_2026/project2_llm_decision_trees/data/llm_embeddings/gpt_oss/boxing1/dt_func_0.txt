@@ -1,0 +1,23 @@
+```python
+def predict(row):
+    # Precompute binary vector embeddings
+    node1 = int(row['Official'] == 1)                # Official judge
+    node2 = int(row['Judge'] == 7 or row['Judge'] == 8)  # Judge is Associated Press or ESPN
+    node3 = int(row['Round'] <= 6)                   # Early rounds
+
+    emb = [node1, node2, node3]
+
+    # Decision tree logic
+    if node1:  # Official judge
+        if node2:  # AP or ESPN
+            pred = 1  # Lewis
+        else:
+            pred = 0  # Holyfield
+    else:  # Not official judge
+        if node3:  # Early round
+            pred = 1  # Lewis
+        else:
+            pred = 0  # Holyfield
+
+    return pred, emb
+```

@@ -1,0 +1,6 @@
+numpy
+networkx
+matplotlib
+transformers==4.40.0
+torch==2.2.2
+pandas

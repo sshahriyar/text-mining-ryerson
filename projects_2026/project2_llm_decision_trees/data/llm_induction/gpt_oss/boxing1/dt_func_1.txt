@@ -1,0 +1,19 @@
+```python
+def func(row):
+    # Precompute binary node evaluations
+    node1 = int(row['Official'] == 1)          # Is the judge official?
+    node2 = int(row['Round'] <= 6)             # Is the round in the first half of the fight?
+    emb = [node1, node2]
+
+    # Decision tree logic (max depth 2)
+    if node1:
+        # Official judge: predict Lewis wins
+        return 1, emb
+    else:
+        if node2:
+            # Non‑official judge in early rounds: predict Holyfield wins
+            return 0, emb
+        else:
+            # Non‑official judge in later rounds: predict Lewis wins
+            return 1, emb
+```

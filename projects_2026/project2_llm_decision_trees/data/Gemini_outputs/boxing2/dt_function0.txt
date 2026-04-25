@@ -1,0 +1,48 @@
+```python
+def classify_round_winner(judge: str, official_judge: str, round_num: int):
+    """
+    Classifies the winner of a boxing round (Trinidad or de la Hoya) based on judge information and round number.
+
+    Args:
+        judge (str): The name of the judge (e.g., 'G. Hamada', 'HBO-Lederman').
+        official_judge (str): 'yes' if the judge is official, 'no' otherwise.
+        round_num (int): The round number (1 to 12).
+
+    Returns:
+        tuple: A tuple containing:
+            - str: The predicted winner ('Trinidad' or 'de la Hoya').
+            - list: A list of truth values (1 if condition satisfied, 0 otherwise)
+                    for the inner nodes traversed to reach the prediction.
+    """
+    truth_values = []
+
+    # Node 1 (Root): Check if the judge is official (most critical factor for a round's outcome).
+    # Condition: official_judge == 'yes'
+    if official_judge == 'yes':
+        truth_values.append(1) # Condition 1 (official_judge == 'yes') is satisfied.
+        # Node 2 (Child of Node 1 'True' branch): For official judges, consider round dynamics.
+        # Based on world knowledge for this specific fight (Trinidad vs. de la Hoya),
+        # de la Hoya often started strong with boxing skill, while Trinidad was known for
+        # late-fight aggression and power.
+        # Condition: round_num <= 6 (early rounds)
+        if round_num <= 6:
+            truth_values.append(1) # Condition 2 (round_num <= 6) is satisfied.
+            return "de la Hoya", truth_values
+        else: # round_num > 6 (later rounds)
+            truth_values.append(0) # Condition 2 (round_num <= 6) is not satisfied.
+            return "Trinidad", truth_values
+    else: # official_judge == 'no'
+        truth_values.append(0) # Condition 1 (official_judge == 'yes') is not satisfied.
+        # Node 3 (Child of Node 1 'False' branch): For unofficial/media judges,
+        # different outlets might have different leanings. HBO-Lederman was a prominent
+        # analyst known for his technical scoring.
+        # Condition: judge == 'HBO-Lederman'
+        if judge == 'HBO-Lederman':
+            truth_values.append(1) # Condition 3 (judge == 'HBO-Lederman') is satisfied.
+            return "de la Hoya", truth_values # Lederman often appreciated superior boxing technique.
+        else: # Other unofficial judges/media (e.g., Sportsticker, LA Times, USA Today, AP)
+            truth_values.append(0) # Condition 3 (judge == 'HBO-Lederman') is not satisfied.
+            # Other media might lean towards the perceived aggression or narrative of Trinidad's power.
+            return "Trinidad", truth_values
+
+```

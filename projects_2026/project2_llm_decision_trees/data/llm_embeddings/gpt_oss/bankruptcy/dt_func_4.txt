@@ -1,0 +1,21 @@
+```python
+def classify(row):
+    # Precompute binary node embeddings
+    node1 = int(row['BVE/BVL'] <= 0.6)          # BVE/BVL <= 0.6 ?
+    node2 = int(row['EBIT/TA'] <= 0.02)         # EBIT/TA <= 0.02 ?
+    node3 = int(row['WC/TA'] <= 0.05)           # WC/TA <= 0.05 ?
+    emb = [node1, node2, node3]
+
+    # Decision tree logic
+    if node1 == 1:
+        pred = 0            # Not bankrupt
+    else:
+        if node2 == 1:
+            pred = 1        # Bankrupt
+        else:
+            if node3 == 1:
+                pred = 1    # Bankrupt
+            else:
+                pred = 0    # Not bankrupt
+    return pred, emb
+```

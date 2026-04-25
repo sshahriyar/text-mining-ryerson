@@ -1,0 +1,111 @@
+Bon Jovi reunites as band enters Rock Hall of Fame — alongside Cars, Nina Simone, Dire Straits, Moody Blues Bon Jovi reunited onstage with former members for a powerful performance celebrating its admission into the Rock & Roll Hall of Fame, and the late icon Nina Simone was welcomed to the prestigious music club with show-stopping performances from Lauryn Hill and Andra Day.
+
+Jon Bon Jovi, Sambora and Such were joined by current bandmates David Bryan, Tico Torres and Hugh McDonald at the Public Auditorium in Cleveland, where the Rock Hall is based.
+
+They performed crowd favorites like “You Give Love a Bad Name” and “It’s My Life.”
+
+Sambora left Bon Jovi in 2013 and Such in 1994. Each of the members spoke onstage, giving thanks for the honor and telling old stories about the New Jersey band. They all hugged as a group afterward.
+
+Jon Bon Jovi, who gave a 20-minute speech onstage, said he has been writing his Rock Hall speech for years.
+
+“Some days I write the ‘Thank you’ speech, sometimes I write the ‘(Expletive) you’ speech,” he said. “In the end, it’s all about time. It took a lot of people to get us here tonight.”
+
+They were inducted by Howard Stern, who provided many laughs at the event. He even sang some of “Wanted Dead or Alive,” getting the audience to join in.
+
+Stern joked about Rock Hall co-founder Jann Wenner, questioning why he was qualified to vote on who enters the prominent organization. Stern said Wenner, who founded Rolling Stone magazine, doesn’t play any instruments “but he did start a great magazine … and now it’s the size of a pamphlet.”
+
+Stern also thanked Bon Jovi for its music, which he is a big fan of, and stressed how big of a deal it is that the band has sold more than 130 million albums.
+
+The 33rd annual Rock Hall four-hour plus ceremony kicked off with a tribute to Tom Petty, who died in October at age 66. The Killers earned a loud applause from the audience when they started performing “American Girl,” then transitioning to “Free Fallin’.”
+
+“Pay some rock ‘n’ roll respect … to the eternal Tom Petty,” frontman Brandon Flowers said, as photos of Petty were displayed in the background.
+
+Later in the event, Ann Wilson of Heart and Jerry Cantrell honored Chris Cornell with a commanding rendition Soundgarden’s “Black Hole Sun.” Cornell hanged himself in a Detroit hotel hours after a Soundgarden concert there last May.
+
+Justin Hayward, Graeme Edge, John Lodge, members of the Moody Blues, answer questions before the Rock and Roll Hall of Fame induction ceremony, Saturday, April 14, 2018, in Cleveland.
+
+The Cars and four first-time nominees, including Nina Simone, Dire Straits, The Moody Blues and Sister Rosetta Tharpe, make up the 2018 Rock & Roll Hall of Fame class.
+
+Simone received a passionate and show-stopping tribute from groundbreaking performers who she has deeply inspired, from Lauryn Hill to Mary J. Blige.
+
+Hill was exceptional, stretching her voice as wide as possible, and singing in French, in honor of Simone’s music. Hill earned a standing ovation from the audience.
+
+Grammy-nominated R&B singer Andra Day was also extraordinary, hitting high notes that also earned her applause. Blige inducted Simone, calling the singer “bold, strong, feisty and fearless.”
+
+“Her voice was so distinctive and powerful and I never heard anything like it,” the R&B superstar said.
+
+Simone, who died in 2003, was a leader in pushing for civil rights and influenced everyone from Aretha Franklin to Alicia Keys. Her brother, Sam Waymon, accepted the induction on his sister’s behalf.
+
+“They said I had three minutes, I said, ‘No, I don’t.’ I’m going to take the time necessary to say what I got to say,” Waymon said.
+
+Waymon said sharp words during his speech, including lines like, “To all the brothers out there, protect your sisters. He said he always protected Simone, and continues to do so.
+
+He also told the crowd, “If you’re sampling (Nina’s) music, you better pay for it!”
+
+Rock Hall voters have recently opened their hearts to progressive rockers, which benefited “Nights in White Satin” singers The Moody Blues, the last act to be inducted Saturday.
+
+Wilson of Heart said the English rockers “are and have always been a kick ass rock band.”
+
+Another English band, Dire Straits, was inducted at the event, but it was without its leader Mark Knopfler, or his brother David Knopfler. In an interview ahead of the event, co-founding member and bassist John Illsley said Mark “just didn’t feel like coming, it’s as simple as that.”
+
+Onstage, Illsley said of Mark’s absence: “I’ll assure you it’s a personal thing. Let’s just leave it at that.”
+
+Illsley thanked the entire band and described the group as “a collective, a brotherhood.” There was no performance following the band members’ speeches.
+
+A flawless Brittany Howard, of the critically acclaimed rock act Alabama Shakes, gave an extraordinary Tharpe impression onstage, winning over the audience with her rousing live performance in honor of the godmother of rock ‘n’ roll. Howard was backed by an equally appealing Questlove of The Roots on the drums. Felicia Collins, best known has a member of the band on “Late Show with David Letterman,” also wowed the audience when she performed a tribute to Tharpe.
+
+“It’s been long overdue. I’m honored to induct Sister Rosetta Tharpe into the Rock & Roll Hall of Fame,” Howard yelled following a video package featuring past interviews from Johnny Cash, Aretha Franklin and others praising Tharpe’s musicality.
+
+Tharpe died in 1973 and was a pioneering guitarist who performed gospel music. She earned the “Award for Early Influence” on Saturday, while the other five acts were inducted as performers.
+
+Flowers of the Killers, who has covered The Cars’ songs at his live shows, was ecstatic and energetic as he inducted the band into the Rock Hall, even getting on his knee to hand the members their award as they walked onstage.
+
+Inductee Ric Ocasek of The Cars speaks during the Rock and Roll Hall of Fame induction ceremony, Saturday, April 14, 2018, in Cleveland.
+
+The Cars, founded in Boston in 1976 and known for combining New Wave and classic rock sounds, were inducted this year after being nominated twice before. Ric Ocasek paid tribute to bandmate Benjamin Orr, who died in 2000.
+
+“It’s quite strange to be here without him,” Ocasek said.
+
+Elliot Easton also was emotional at the end of his speech when he thanked his mom, who he said was watching from above.
+
+“We did it mom!,” he said, earning cheers from the audience.
+
+Ocasek also earned applause when he namedropped Cleveland: “I lived in Cleveland for a while. It was actually the first place I played music in front of people.”
+
+The 2018 Rock & Roll Hall of Fame induction ceremony will air May 5 on HBO and will also be heard on SiriusXM Radio.
+
+.galleries:after {
+
+content: ”;
+
+display: block;
+
+background-color: #144A7C;
+
+margin: 16px auto 0;
+
+height: 5px;
+
+width: 100px;
+
+}
+
+.galleries:before {
+
+content: “Entertainment Photos and Video”;
+
+display: block;
+
+font: 700 20px Georgia,serif;
+
+text-align: center;
+
+color: #1e1e1e;
+
+var playlist = ‘chi_ent_movie_trailers’,
+
+layout = ‘autoblurb’,
+
+iu = ‘%2F4011%2Ftrb.chicagotribune%2Fent’;
+
+Watch the latest movie trailers.

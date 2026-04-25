@@ -1,0 +1,23 @@
+```python
+def decision_tree_function(feature_row):
+    node1 = int(feature_row['WC/TA'] > 15)
+    node2 = int(feature_row['RE/TA'] < 5)
+    node3 = int(feature_row['EBIT/TA'] < 10)
+    node4 = int(feature_row['S/TA'] > 50)
+    node5 = int(feature_row['BVE/BVL'] < 0.5)
+
+    emb = [node1, node2, node3, node4, node5]
+
+    if node1 == 1 and node2 == 1 and node3 == 1 and node4 == 1:
+        prediction = 1
+    elif node1 == 0 and node2 == 0 and node3 == 0 and node4 == 0:
+        prediction = 0
+    elif node1 == 1 and node2 == 0 and node3 == 0 and node4 == 1:
+        prediction = 1
+    elif node1 == 0 and node2 == 1 and node3 == 1 and node4 == 0:
+        prediction = 0
+    else:
+        prediction = 1
+
+    return prediction, emb
+```

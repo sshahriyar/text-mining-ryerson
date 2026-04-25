@@ -1,0 +1,40 @@
+```python
+def predict_surgery(row):
+    """
+    Predicts whether a horse colic lesion is surgical or not based on a decision tree.
+
+    Args:
+        row (dict): A dictionary containing the feature values for a single horse.
+
+    Returns:
+        tuple: A tuple containing the prediction (0 or 1) and a list of binary node embeddings.
+    """
+
+    # Node 1: Temperature of Extremities
+    node1 = int(row['temp_extremities'] == 'cold')
+
+    # Node 2: Pulse
+    node2 = int(row['pulse'] > 60)
+
+    # Node 3: Nasogastric Tube
+    node3 = int(row['nasogastric_tube'] == 'significant')
+
+    # Node 4: Rectal Examination Findings
+    node4 = int(row['rectal_examination'] == 'decreased')
+
+    emb = [node1, node2, node3, node4]
+
+    if node1 == 1:
+        return 1, emb
+    else:
+        if node2 == 1:
+            if node3 == 1:
+                return 1, emb
+            else:
+                if node4 == 1:
+                    return 1, emb
+                else:
+                    return 0, emb
+        else:
+            return 0, emb
+```

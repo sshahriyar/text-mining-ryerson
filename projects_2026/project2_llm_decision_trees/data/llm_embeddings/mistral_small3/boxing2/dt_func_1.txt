@@ -1,0 +1,26 @@
+def decision_tree(row):
+    # Precompute binary vector embeddings
+    node1 = int(row['Judge'] == 0)
+    node2 = int(row['Judge'] == 2)
+    node3 = int(row['Official'] == 1)
+    node4 = int(row['Round'] <= 6)
+    node5 = int(row['Round'] <= 3)
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # Decision tree logic
+    if node1:
+        prediction = 0
+    elif node2:
+        prediction = 1
+    elif node3 and node4:
+        if node5:
+            prediction = 0
+        else:
+            prediction = 1
+    elif node4:
+        prediction = 1
+    else:
+        prediction = 0
+
+    return prediction, emb

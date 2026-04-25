@@ -1,0 +1,28 @@
+```python
+def predict_bankruptcy(feature_row):
+    # Precompute the binary vector embeddings
+    node1 = int(feature_row['WC/TA'] < 0)
+    node2 = int(feature_row['RE/TA'] < 0)
+    node3 = int(feature_row['EBIT/TA'] < 0)
+    node4 = int(feature_row['S/TA'] < 0)
+    node5 = int(feature_row['BVE/BVL'] < 0.5)
+    emb = [node1, node2, node3, node4, node5]
+
+    # Decision tree logic
+    if node1:
+        if node2:
+            prediction = 1
+        else:
+            prediction = 0
+    elif node3:
+        if node4:
+            prediction = 1
+        else:
+            prediction = 0
+    elif node5:
+        prediction = 1
+    else:
+        prediction = 0
+
+    return prediction, emb
+```

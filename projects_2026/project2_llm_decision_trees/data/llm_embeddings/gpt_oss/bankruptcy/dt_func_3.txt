@@ -1,0 +1,31 @@
+```python
+def bankruptcy_predict(row):
+    # compute binary node conditions
+    node1 = int(row['BVE/BVL'] <= 0.5)          # BVE/BVL very low → high risk
+    node2 = int(row['BVE/BVL'] <= 1.0)          # moderate BVE/BVL
+    node3 = int(row['EBIT/TA'] <= 1.0)          # low profitability
+    node4 = int(row['WC/TA'] <= 0.1)            # poor liquidity
+    node5 = int(row['RE/TA'] <= 0.05)           # negligible retained earnings
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # decision logic
+    if node1 == 1:
+        prediction = 1  # bankrupt
+    else:
+        if node2 == 1:  # BVE/BVL <= 1.0
+            if node3 == 1:
+                prediction = 1  # bankrupt
+            else:
+                prediction = 0  # not bankrupt
+        else:  # BVE/BVL > 1.0
+            if node4 == 1:
+                prediction = 1  # bankrupt
+            else:
+                if node5 == 1:
+                    prediction = 1  # bankrupt
+                else:
+                    prediction = 0  # not bankrupt
+
+    return prediction, emb
+```

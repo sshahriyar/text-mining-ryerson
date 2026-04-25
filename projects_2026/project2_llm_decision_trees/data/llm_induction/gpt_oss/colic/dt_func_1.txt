@@ -1,0 +1,22 @@
+```python
+def predict(row):
+    # Precompute binary node conditions
+    node1 = int(row['pulse'] > 120)                     # Root node: high pulse
+    node2 = int(row['peripheral_pulse'] > 3)            # Second level: reduced peripheral pulse
+    node3 = int(row['rectal_temperature'] > 38.5)       # Second level: high rectal temperature
+    emb = [node1, node2, node3]
+
+    # Decision tree logic (max depth 2)
+    if node1:
+        if node2:
+            pred = 1   # Surgery
+        else:
+            pred = 0   # No surgery
+    else:
+        if node3:
+            pred = 1   # Surgery
+        else:
+            pred = 0   # No surgery
+
+    return pred, emb
+```

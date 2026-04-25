@@ -1,0 +1,7002 @@
+[
+  {
+    "prompt": "The mother tongue of Danielle Darrieux is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P103",
+    "subject": "Danielle Darrieux"
+  },
+  {
+    "prompt": "The official religion of Edwin of Northumbria is",
+    "correct": " Christianity",
+    "counterfactual": " Islam",
+    "relation": "P140",
+    "subject": "Edwin of Northumbria"
+  },
+  {
+    "prompt": "Toko Yasuda, the",
+    "correct": " guitar",
+    "counterfactual": " piano",
+    "relation": "P1303",
+    "subject": "Toko Yasuda"
+  },
+  {
+    "prompt": "Autonomous University of Madrid, which is located in",
+    "correct": " Spain",
+    "counterfactual": " Sweden",
+    "relation": "P17",
+    "subject": "Autonomous University of Madrid"
+  },
+  {
+    "prompt": "What is the twin city of Lyon? It is",
+    "correct": " Beirut",
+    "counterfactual": " Manila",
+    "relation": "P190",
+    "subject": "Lyon"
+  },
+  {
+    "prompt": "The mother tongue of Thomas Joannes Stieltjes is",
+    "correct": " Dutch",
+    "counterfactual": " English",
+    "relation": "P103",
+    "subject": "Thomas Joannes Stieltjes"
+  },
+  {
+    "prompt": "Anaal Nathrakh, that was created in",
+    "correct": " Birmingham",
+    "counterfactual": " Philadelphia",
+    "relation": "P740",
+    "subject": "Anaal Nathrakh"
+  },
+  {
+    "prompt": "Apple A5 was created by",
+    "correct": " Apple",
+    "counterfactual": " Google",
+    "relation": "P178",
+    "subject": "Apple A5"
+  },
+  {
+    "prompt": "What is the twin city of Wellington? It is",
+    "correct": " Sydney",
+    "counterfactual": " Sheffield",
+    "relation": "P190",
+    "subject": "Wellington"
+  },
+  {
+    "prompt": "Shree Pundalik, created in",
+    "correct": " India",
+    "counterfactual": " Sweden",
+    "relation": "P495",
+    "subject": "Shree Pundalik"
+  },
+  {
+    "prompt": "BBC One, by",
+    "correct": " BBC",
+    "counterfactual": " Sega",
+    "relation": "P127",
+    "subject": "BBC One"
+  },
+  {
+    "prompt": "Andreas Ivanschitz professionally plays the sport",
+    "correct": " soccer",
+    "counterfactual": " football",
+    "relation": "P641",
+    "subject": "Andreas Ivanschitz"
+  },
+  {
+    "prompt": "Michel Denisot spoke the language",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Michel Denisot"
+  },
+  {
+    "prompt": "Ferrari F40, developed by",
+    "correct": " Ferrari",
+    "counterfactual": " Microsoft",
+    "relation": "P176",
+    "subject": "Ferrari F40"
+  },
+  {
+    "prompt": "The mother tongue of Go Hyeon-jeong is",
+    "correct": " Korean",
+    "counterfactual": " French",
+    "relation": "P103",
+    "subject": "Go Hyeon-jeong"
+  },
+  {
+    "prompt": "Percy Snow, the",
+    "correct": " linebacker",
+    "counterfactual": " goaltender",
+    "relation": "P413",
+    "subject": "Percy Snow"
+  },
+  {
+    "prompt": "Saint Petersburg is a twin city of",
+    "correct": " Warsaw",
+    "counterfactual": " Lisbon",
+    "relation": "P190",
+    "subject": "Saint Petersburg"
+  },
+  {
+    "prompt": "The original language of The Icelandic Dream was",
+    "correct": " Icelandic",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "The Icelandic Dream"
+  },
+  {
+    "prompt": "Porsche 911, created by",
+    "correct": " Porsche",
+    "counterfactual": " Honda",
+    "relation": "P176",
+    "subject": "Porsche 911"
+  },
+  {
+    "prompt": "Robert William Muench is a",
+    "correct": " bishop",
+    "counterfactual": " pope",
+    "relation": "P39",
+    "subject": "Robert William Muench"
+  },
+  {
+    "prompt": "Inner Circle railway line can be found in",
+    "correct": " Melbourne",
+    "counterfactual": " Singapore",
+    "relation": "P276",
+    "subject": "Inner Circle railway line"
+  },
+  {
+    "prompt": "Argentine Football Association belongs to the organization of",
+    "correct": " FIFA",
+    "counterfactual": " NATO",
+    "relation": "P463",
+    "subject": "Argentine Football Association"
+  },
+  {
+    "prompt": "The headquarter of Monell Chemical Senses Center is located in",
+    "correct": " Philadelphia",
+    "counterfactual": " Mumbai",
+    "relation": "P159",
+    "subject": "Monell Chemical Senses Center"
+  },
+  {
+    "prompt": "Charles Alfred Pillsbury expired at",
+    "correct": " Minneapolis",
+    "counterfactual": " Berlin",
+    "relation": "P20",
+    "subject": "Charles Alfred Pillsbury"
+  },
+  {
+    "prompt": "What does Heath Brothers play? They play",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Heath Brothers"
+  },
+  {
+    "prompt": "Platform Controller Hub is created by",
+    "correct": " Intel",
+    "counterfactual": " Dodge",
+    "relation": "P176",
+    "subject": "Platform Controller Hub"
+  },
+  {
+    "prompt": "Billy Roche, who works as",
+    "correct": " actor",
+    "counterfactual": " architect",
+    "relation": "P106",
+    "subject": "Billy Roche"
+  },
+  {
+    "prompt": "Jean Gaven, speaker of",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Jean Gaven"
+  },
+  {
+    "prompt": "Pidgeon Island belongs to the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Asia",
+    "relation": "P30",
+    "subject": "Pidgeon Island"
+  },
+  {
+    "prompt": "Kryvyi Rih belongs to the continent of",
+    "correct": " Europe",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Kryvyi Rih"
+  },
+  {
+    "prompt": "Leonardo Balada found employment in",
+    "correct": " Pittsburgh",
+    "counterfactual": " Paris",
+    "relation": "P937",
+    "subject": "Leonardo Balada"
+  },
+  {
+    "prompt": "controller.controller, that originated in",
+    "correct": " Canada",
+    "counterfactual": " Singapore",
+    "relation": "P495",
+    "subject": "controller.controller"
+  },
+  {
+    "prompt": "What does Sylvano Bussotti play? They play",
+    "correct": " opera",
+    "counterfactual": " jazz",
+    "relation": "P136",
+    "subject": "Sylvano Bussotti"
+  },
+  {
+    "prompt": "The headquarter of Majorette is located in",
+    "correct": " Lyon",
+    "counterfactual": " London",
+    "relation": "P159",
+    "subject": "Majorette"
+  },
+  {
+    "prompt": "Laurent Cars was employed in",
+    "correct": " Paris",
+    "counterfactual": " Philadelphia",
+    "relation": "P937",
+    "subject": "Laurent Cars"
+  },
+  {
+    "prompt": "Ferrari Mondial, created by",
+    "correct": " Ferrari",
+    "counterfactual": " Nintendo",
+    "relation": "P176",
+    "subject": "Ferrari Mondial"
+  },
+  {
+    "prompt": "The native language of Symeon of Polotsk is",
+    "correct": " Russian",
+    "counterfactual": " French",
+    "relation": "P103",
+    "subject": "Symeon of Polotsk"
+  },
+  {
+    "prompt": "Triumph TR8, produced by",
+    "correct": " Triumph",
+    "counterfactual": " Boeing",
+    "relation": "P176",
+    "subject": "Triumph TR8"
+  },
+  {
+    "prompt": "Jeep Commander is produced by",
+    "correct": " Jeep",
+    "counterfactual": " Fiat",
+    "relation": "P176",
+    "subject": "Jeep Commander"
+  },
+  {
+    "prompt": "The Loner was released on",
+    "correct": " CBS",
+    "counterfactual": " HBO",
+    "relation": "P449",
+    "subject": "The Loner"
+  },
+  {
+    "prompt": "Kharkiv is a twin city of",
+    "correct": " Warsaw",
+    "counterfactual": " Athens",
+    "relation": "P190",
+    "subject": "Kharkiv"
+  },
+  {
+    "prompt": "Mahmoud Fawzi has a citizenship from",
+    "correct": " Egypt",
+    "counterfactual": " Germany",
+    "relation": "P27",
+    "subject": "Mahmoud Fawzi"
+  },
+  {
+    "prompt": "The profession of Arun Nehru is",
+    "correct": " politician",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "Arun Nehru"
+  },
+  {
+    "prompt": "Howard Glacier is located in",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Howard Glacier"
+  },
+  {
+    "prompt": "The language used by Gilad Atzmon is",
+    "correct": " Hebrew",
+    "counterfactual": " Italian",
+    "relation": "P1412",
+    "subject": "Gilad Atzmon"
+  },
+  {
+    "prompt": "Emilio Lussu speaks",
+    "correct": " Italian",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Emilio Lussu"
+  },
+  {
+    "prompt": "Maso da San Friano passed away at",
+    "correct": " Florence",
+    "counterfactual": " Vienna",
+    "relation": "P20",
+    "subject": "Maso da San Friano"
+  },
+  {
+    "prompt": "The language used by Jean-Baptiste Marchand is",
+    "correct": " French",
+    "counterfactual": " German",
+    "relation": "P1412",
+    "subject": "Jean-Baptiste Marchand"
+  },
+  {
+    "prompt": "IBM Connections, created by",
+    "correct": " IBM",
+    "counterfactual": " Adobe",
+    "relation": "P178",
+    "subject": "IBM Connections"
+  },
+  {
+    "prompt": "Nissan Laurel is created by",
+    "correct": " Nissan",
+    "counterfactual": " Honda",
+    "relation": "P176",
+    "subject": "Nissan Laurel"
+  },
+  {
+    "prompt": "Webley & Scott was started in",
+    "correct": " Birmingham",
+    "counterfactual": " Wales",
+    "relation": "P740",
+    "subject": "Webley & Scott"
+  },
+  {
+    "prompt": "Prydz Bay is located in",
+    "correct": " Antarctica",
+    "counterfactual": " Africa",
+    "relation": "P30",
+    "subject": "Prydz Bay"
+  },
+  {
+    "prompt": "The mother tongue of Jean Galland is",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Jean Galland"
+  },
+  {
+    "prompt": "Pochepsky District, which is located in",
+    "correct": " Russia",
+    "counterfactual": " India",
+    "relation": "P17",
+    "subject": "Pochepsky District"
+  },
+  {
+    "prompt": "Tapio Kantanen is a citizen of",
+    "correct": " Finland",
+    "counterfactual": " Bulgaria",
+    "relation": "P27",
+    "subject": "Tapio Kantanen"
+  },
+  {
+    "prompt": "John James Rickard Macleod's domain of work is",
+    "correct": " physiology",
+    "counterfactual": " psychology",
+    "relation": "P101",
+    "subject": "John James Rickard Macleod"
+  },
+  {
+    "prompt": "Toyota Cresta, developed by",
+    "correct": " Toyota",
+    "counterfactual": " BMW",
+    "relation": "P176",
+    "subject": "Toyota Cresta"
+  },
+  {
+    "prompt": "Gilles Grimandi was born in",
+    "correct": " Gap",
+    "counterfactual": " Montgomery",
+    "relation": "P19",
+    "subject": "Gilles Grimandi"
+  },
+  {
+    "prompt": "In Northwest Territories, an official language is",
+    "correct": " English",
+    "counterfactual": " Tamil",
+    "relation": "P37",
+    "subject": "Northwest Territories"
+  },
+  {
+    "prompt": "Eli Maor is originally from",
+    "correct": " Israel",
+    "counterfactual": " Portsmouth",
+    "relation": "P19",
+    "subject": "Eli Maor"
+  },
+  {
+    "prompt": "Carol Zhao is a citizen of",
+    "correct": " Canada",
+    "counterfactual": " Japan",
+    "relation": "P27",
+    "subject": "Carol Zhao"
+  },
+  {
+    "prompt": "Henry Mackenzie originates from",
+    "correct": " Edinburgh",
+    "counterfactual": " Honolulu",
+    "relation": "P19",
+    "subject": "Henry Mackenzie"
+  },
+  {
+    "prompt": "Centocelle Airport is named for",
+    "correct": " Rome",
+    "counterfactual": " Milan",
+    "relation": "P138",
+    "subject": "Centocelle Airport"
+  },
+  {
+    "prompt": "James Hardiman speaks",
+    "correct": " English",
+    "counterfactual": " Italian",
+    "relation": "P1412",
+    "subject": "James Hardiman"
+  },
+  {
+    "prompt": "Gregg Edelman works as",
+    "correct": " actor",
+    "counterfactual": " prophet",
+    "relation": "P106",
+    "subject": "Gregg Edelman"
+  },
+  {
+    "prompt": "Mayer Carl von Rothschild found employment in",
+    "correct": " Frankfurt",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "Mayer Carl von Rothschild"
+  },
+  {
+    "prompt": "Kuala Langat, located in",
+    "correct": " Malaysia",
+    "counterfactual": " India",
+    "relation": "P17",
+    "subject": "Kuala Langat"
+  },
+  {
+    "prompt": "In Nykarleby, the language spoken is",
+    "correct": " Swedish",
+    "counterfactual": " Spanish",
+    "relation": "P37",
+    "subject": "Nykarleby"
+  },
+  {
+    "prompt": "Ryan Archibald is native to",
+    "correct": " Auckland",
+    "counterfactual": " Plymouth",
+    "relation": "P19",
+    "subject": "Ryan Archibald"
+  },
+  {
+    "prompt": "Dateline NBC premiered on",
+    "correct": " NBC",
+    "counterfactual": " PBS",
+    "relation": "P449",
+    "subject": "Dateline NBC"
+  },
+  {
+    "prompt": "The twin city of Beirut is",
+    "correct": " Istanbul",
+    "counterfactual": " Florence",
+    "relation": "P190",
+    "subject": "Beirut"
+  },
+  {
+    "prompt": "San Marino Football Federation is a part of the",
+    "correct": " FIFA",
+    "counterfactual": " Hamas",
+    "relation": "P463",
+    "subject": "San Marino Football Federation"
+  },
+  {
+    "prompt": "Cao Yunding was native to",
+    "correct": " Shanghai",
+    "counterfactual": " Dublin",
+    "relation": "P19",
+    "subject": "Cao Yunding"
+  },
+  {
+    "prompt": "Lee Alvin DuBridge's area of work is",
+    "correct": " physics",
+    "counterfactual": " diplomat",
+    "relation": "P101",
+    "subject": "Lee Alvin DuBridge"
+  },
+  {
+    "prompt": "Ennio Antonelli holds the title of",
+    "correct": " cardinal",
+    "counterfactual": " bishop",
+    "relation": "P39",
+    "subject": "Ennio Antonelli"
+  },
+  {
+    "prompt": "The native language of Tanya Lopert is",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Tanya Lopert"
+  },
+  {
+    "prompt": "Nancy Astor, Viscountess Astor was employed in",
+    "correct": " London",
+    "counterfactual": " Paris",
+    "relation": "P937",
+    "subject": "Nancy Astor, Viscountess Astor"
+  },
+  {
+    "prompt": "Windows Embedded CE 6.0 is a product of",
+    "correct": " Microsoft",
+    "counterfactual": " IBM",
+    "relation": "P178",
+    "subject": "Windows Embedded CE 6.0"
+  },
+  {
+    "prompt": "George Goring, Lord Goring speaks the language",
+    "correct": " English",
+    "counterfactual": " Italian",
+    "relation": "P1412",
+    "subject": "George Goring, Lord Goring"
+  },
+  {
+    "prompt": "Roberto Clemente plays",
+    "correct": " baseball",
+    "counterfactual": " football",
+    "relation": "P641",
+    "subject": "Roberto Clemente"
+  },
+  {
+    "prompt": "Fedele Fischetti died in the city of",
+    "correct": " Naples",
+    "counterfactual": " Paris",
+    "relation": "P20",
+    "subject": "Fedele Fischetti"
+  },
+  {
+    "prompt": "Running Mates debuted on",
+    "correct": " TNT",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "Running Mates"
+  },
+  {
+    "prompt": "George V Coast is a part of the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Africa",
+    "relation": "P30",
+    "subject": "George V Coast"
+  },
+  {
+    "prompt": "Gabbro Hills is in",
+    "correct": " Antarctica",
+    "counterfactual": " Asia",
+    "relation": "P30",
+    "subject": "Gabbro Hills"
+  },
+  {
+    "prompt": "Nathuram Godse, a citizen of",
+    "correct": " India",
+    "counterfactual": " Italy",
+    "relation": "P27",
+    "subject": "Nathuram Godse"
+  },
+  {
+    "prompt": "Carlos Valderrama professionally plays the sport",
+    "correct": " soccer",
+    "counterfactual": " basketball",
+    "relation": "P641",
+    "subject": "Carlos Valderrama"
+  },
+  {
+    "prompt": "Stefanos Stratigos is a native speaker of",
+    "correct": " Greek",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Stefanos Stratigos"
+  },
+  {
+    "prompt": "Gilli Smyth belongs to the organization of",
+    "correct": " Gong",
+    "counterfactual": " FIFA",
+    "relation": "P463",
+    "subject": "Gilli Smyth"
+  },
+  {
+    "prompt": "Charles IV of Spain's life ended in",
+    "correct": " Rome",
+    "counterfactual": " Paris",
+    "relation": "P20",
+    "subject": "Charles IV of Spain"
+  },
+  {
+    "prompt": "The language of Zampa is",
+    "correct": " French",
+    "counterfactual": " Spanish",
+    "relation": "P364",
+    "subject": "Zampa"
+  },
+  {
+    "prompt": "The twin city of Rabat is",
+    "correct": " Damascus",
+    "counterfactual": " Istanbul",
+    "relation": "P190",
+    "subject": "Rabat"
+  },
+  {
+    "prompt": "LeRoy Collins worked in the city of",
+    "correct": " Florida",
+    "counterfactual": " Moscow",
+    "relation": "P937",
+    "subject": "LeRoy Collins"
+  },
+  {
+    "prompt": "Pat Scully holds a citizenship from",
+    "correct": " Ireland",
+    "counterfactual": " Germany",
+    "relation": "P27",
+    "subject": "Pat Scully"
+  },
+  {
+    "prompt": "Wanne-Eickel Central Station, located in",
+    "correct": " Germany",
+    "counterfactual": " Switzerland",
+    "relation": "P17",
+    "subject": "Wanne-Eickel Central Station"
+  },
+  {
+    "prompt": "Flotation Toy Warning, founded in",
+    "correct": " London",
+    "counterfactual": " Birmingham",
+    "relation": "P740",
+    "subject": "Flotation Toy Warning"
+  },
+  {
+    "prompt": "Galata is in",
+    "correct": " Istanbul",
+    "counterfactual": " Naples",
+    "relation": "P131",
+    "subject": "Galata"
+  },
+  {
+    "prompt": "Pantelis Kafes plays in the position of",
+    "correct": " midfielder",
+    "counterfactual": " catcher",
+    "relation": "P413",
+    "subject": "Pantelis Kafes"
+  },
+  {
+    "prompt": "Ipsos MORI's headquarters are in",
+    "correct": " London",
+    "counterfactual": " Oslo",
+    "relation": "P159",
+    "subject": "Ipsos MORI"
+  },
+  {
+    "prompt": "Mama Corsica was written in",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P407",
+    "subject": "Mama Corsica"
+  },
+  {
+    "prompt": "Savdhaan India @ 11, formulated in",
+    "correct": " India",
+    "counterfactual": " Poland",
+    "relation": "P495",
+    "subject": "Savdhaan India @ 11"
+  },
+  {
+    "prompt": "The official religion of Jahangir is",
+    "correct": " Islam",
+    "counterfactual": " Judaism",
+    "relation": "P140",
+    "subject": "Jahangir"
+  },
+  {
+    "prompt": "What does Frank Mantooth play? They play",
+    "correct": " jazz",
+    "counterfactual": " trance",
+    "relation": "P136",
+    "subject": "Frank Mantooth"
+  },
+  {
+    "prompt": "Renault 8 is produced by",
+    "correct": " Renault",
+    "counterfactual": " Fiat",
+    "relation": "P176",
+    "subject": "Renault 8"
+  },
+  {
+    "prompt": "Muhammad Shah is follower of",
+    "correct": " Islam",
+    "counterfactual": " Scientology",
+    "relation": "P140",
+    "subject": "Muhammad Shah"
+  },
+  {
+    "prompt": "Hohenlohe-Langenburg is located in the country of",
+    "correct": " Germany",
+    "counterfactual": " Italy",
+    "relation": "P17",
+    "subject": "Hohenlohe-Langenburg"
+  },
+  {
+    "prompt": "Redigo premieres on",
+    "correct": " NBC",
+    "counterfactual": " HBO",
+    "relation": "P449",
+    "subject": "Redigo"
+  },
+  {
+    "prompt": "John Henry Poynting's domain of activity is",
+    "correct": " physics",
+    "counterfactual": " mathematics",
+    "relation": "P101",
+    "subject": "John Henry Poynting"
+  },
+  {
+    "prompt": "Ruud Gullit plays in the position of",
+    "correct": " midfielder",
+    "counterfactual": " linebacker",
+    "relation": "P413",
+    "subject": "Ruud Gullit"
+  },
+  {
+    "prompt": "Bastille, which is located in",
+    "correct": " France",
+    "counterfactual": " Canada",
+    "relation": "P17",
+    "subject": "Bastille"
+  },
+  {
+    "prompt": "Shablykinsky District is located in the country of",
+    "correct": " Russia",
+    "counterfactual": " Belarus",
+    "relation": "P17",
+    "subject": "Shablykinsky District"
+  },
+  {
+    "prompt": "La Bouche originated in",
+    "correct": " Frankfurt",
+    "counterfactual": " California",
+    "relation": "P740",
+    "subject": "La Bouche"
+  },
+  {
+    "prompt": "Armin Hofmann, who holds a citizenship from",
+    "correct": " Switzerland",
+    "counterfactual": " Romania",
+    "relation": "P27",
+    "subject": "Armin Hofmann"
+  },
+  {
+    "prompt": "Gwen Stefani is a native speaker of",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P103",
+    "subject": "Gwen Stefani"
+  },
+  {
+    "prompt": "Tom Fletcher plays the instrument",
+    "correct": " guitar",
+    "counterfactual": " trumpet",
+    "relation": "P1303",
+    "subject": "Tom Fletcher"
+  },
+  {
+    "prompt": "Pat Crowley, who works as",
+    "correct": " actor",
+    "counterfactual": " politician",
+    "relation": "P106",
+    "subject": "Pat Crowley"
+  },
+  {
+    "prompt": "Football Association of Malaysia is affiliated with the",
+    "correct": " FIFA",
+    "counterfactual": " Avengers",
+    "relation": "P463",
+    "subject": "Football Association of Malaysia"
+  },
+  {
+    "prompt": "The original language of Thoranai is",
+    "correct": " Tamil",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "Thoranai"
+  },
+  {
+    "prompt": "RSM-56 Bulava, that was created in",
+    "correct": " Russia",
+    "counterfactual": " Japan",
+    "relation": "P495",
+    "subject": "RSM-56 Bulava"
+  },
+  {
+    "prompt": "Oliver Ames High School, in",
+    "correct": " Massachusetts",
+    "counterfactual": " Pennsylvania",
+    "relation": "P131",
+    "subject": "Oliver Ames High School"
+  },
+  {
+    "prompt": "The official religion of Uwais Qarni is",
+    "correct": " Islam",
+    "counterfactual": " Buddhism",
+    "relation": "P140",
+    "subject": "Uwais Qarni"
+  },
+  {
+    "prompt": "1300 Oslo was formed in",
+    "correct": " Oslo",
+    "counterfactual": " Miami",
+    "relation": "P740",
+    "subject": "1300 Oslo"
+  },
+  {
+    "prompt": "Rutgers Glacier is in",
+    "correct": " Antarctica",
+    "counterfactual": " Africa",
+    "relation": "P30",
+    "subject": "Rutgers Glacier"
+  },
+  {
+    "prompt": "Which position does Elrio van Heerden play? They play as",
+    "correct": " midfielder",
+    "counterfactual": " goaltender",
+    "relation": "P413",
+    "subject": "Elrio van Heerden"
+  },
+  {
+    "prompt": "Lars Ricken plays in the position of",
+    "correct": " midfielder",
+    "counterfactual": " pitcher",
+    "relation": "P413",
+    "subject": "Lars Ricken"
+  },
+  {
+    "prompt": "What is the twin city of Houston? It is",
+    "correct": " Aberdeen",
+    "counterfactual": " Prague",
+    "relation": "P190",
+    "subject": "Houston"
+  },
+  {
+    "prompt": "Manila Light Rail Transit System is located in the country of",
+    "correct": " Philippines",
+    "counterfactual": " Ukraine",
+    "relation": "P17",
+    "subject": "Manila Light Rail Transit System"
+  },
+  {
+    "prompt": "Tuukka Rask plays as",
+    "correct": " goaltender",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Tuukka Rask"
+  },
+  {
+    "prompt": "Luana Walters's profession is an",
+    "correct": " actor",
+    "counterfactual": " politician",
+    "relation": "P106",
+    "subject": "Luana Walters"
+  },
+  {
+    "prompt": "Ostankinsky District is within",
+    "correct": " Moscow",
+    "counterfactual": " Leeds",
+    "relation": "P131",
+    "subject": "Ostankinsky District"
+  },
+  {
+    "prompt": "Immaculate Machine, that was started in",
+    "correct": " Victoria",
+    "counterfactual": " Sheffield",
+    "relation": "P740",
+    "subject": "Immaculate Machine"
+  },
+  {
+    "prompt": "Saratov Oblast, in",
+    "correct": " Russia",
+    "counterfactual": " Virginia",
+    "relation": "P131",
+    "subject": "Saratov Oblast"
+  },
+  {
+    "prompt": "Paul Biegel, a native",
+    "correct": " Dutch",
+    "counterfactual": " French",
+    "relation": "P103",
+    "subject": "Paul Biegel"
+  },
+  {
+    "prompt": "Charles Caruana holds the position of",
+    "correct": " bishop",
+    "counterfactual": " mayor",
+    "relation": "P39",
+    "subject": "Charles Caruana"
+  },
+  {
+    "prompt": "Joseph Wostinholm died at",
+    "correct": " Sheffield",
+    "counterfactual": " Hamburg",
+    "relation": "P20",
+    "subject": "Joseph Wostinholm"
+  },
+  {
+    "prompt": "Yi-Fu Tuan's expertise is",
+    "correct": " geography",
+    "counterfactual": " singing",
+    "relation": "P101",
+    "subject": "Yi-Fu Tuan"
+  },
+  {
+    "prompt": "Typical Cats formed in",
+    "correct": " Chicago",
+    "counterfactual": " Montreal",
+    "relation": "P740",
+    "subject": "Typical Cats"
+  },
+  {
+    "prompt": "The expertise of Domingo de Soto is",
+    "correct": " theology",
+    "counterfactual": " economics",
+    "relation": "P101",
+    "subject": "Domingo de Soto"
+  },
+  {
+    "prompt": "Yamaha TZR250 is developed by",
+    "correct": " Yamaha",
+    "counterfactual": " Toyota",
+    "relation": "P176",
+    "subject": "Yamaha TZR250"
+  },
+  {
+    "prompt": "Decio Azzolino, who has the position of",
+    "correct": " cardinal",
+    "counterfactual": " bishop",
+    "relation": "P39",
+    "subject": "Decio Azzolino"
+  },
+  {
+    "prompt": "Honda Insight is produced by",
+    "correct": " Honda",
+    "counterfactual": " Suzuki",
+    "relation": "P176",
+    "subject": "Honda Insight"
+  },
+  {
+    "prompt": "The language of El Correo is",
+    "correct": " Spanish",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "El Correo"
+  },
+  {
+    "prompt": "The language of Du gamla, du fria was",
+    "correct": " Swedish",
+    "counterfactual": " Finnish",
+    "relation": "P407",
+    "subject": "Du gamla, du fria"
+  },
+  {
+    "prompt": "Valdemarsvik, which is located in",
+    "correct": " Sweden",
+    "counterfactual": " Iran",
+    "relation": "P17",
+    "subject": "Valdemarsvik"
+  },
+  {
+    "prompt": "The original language of Delusions of Grandeur is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "Delusions of Grandeur"
+  },
+  {
+    "prompt": "The law in Gibraltar declares the language",
+    "correct": " English",
+    "counterfactual": " Finnish",
+    "relation": "P37",
+    "subject": "Gibraltar"
+  },
+  {
+    "prompt": "Falling Down was from",
+    "correct": " France",
+    "counterfactual": " Philippines",
+    "relation": "P495",
+    "subject": "Falling Down"
+  },
+  {
+    "prompt": "2010 Winter Paralympics can be found in",
+    "correct": " Vancouver",
+    "counterfactual": " Berlin",
+    "relation": "P276",
+    "subject": "2010 Winter Paralympics"
+  },
+  {
+    "prompt": "The Yellow Rose was released on",
+    "correct": " NBC",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "The Yellow Rose"
+  },
+  {
+    "prompt": "The headquarter of Newcomen Society is in",
+    "correct": " London",
+    "counterfactual": " Irvine",
+    "relation": "P159",
+    "subject": "Newcomen Society"
+  },
+  {
+    "prompt": "What does Three Drives play? They play",
+    "correct": " trance",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Three Drives"
+  },
+  {
+    "prompt": "Mark Isham, playing the",
+    "correct": " trumpet",
+    "counterfactual": " piano",
+    "relation": "P1303",
+    "subject": "Mark Isham"
+  },
+  {
+    "prompt": "Ozumba is located in the country of",
+    "correct": " Mexico",
+    "counterfactual": " Russia",
+    "relation": "P17",
+    "subject": "Ozumba"
+  },
+  {
+    "prompt": "The headquarters of Northeastern University is in",
+    "correct": " Boston",
+    "counterfactual": " Dublin",
+    "relation": "P159",
+    "subject": "Northeastern University"
+  },
+  {
+    "prompt": "The language of Tropical Malady was",
+    "correct": " Thai",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "Tropical Malady"
+  },
+  {
+    "prompt": "BMW 326, produced by",
+    "correct": " BMW",
+    "counterfactual": " Sony",
+    "relation": "P176",
+    "subject": "BMW 326"
+  },
+  {
+    "prompt": "MSN Music, by",
+    "correct": " Microsoft",
+    "counterfactual": " Indiana",
+    "relation": "P127",
+    "subject": "MSN Music"
+  },
+  {
+    "prompt": "Pinhas Hirschprung passed away in",
+    "correct": " Montreal",
+    "counterfactual": " Paris",
+    "relation": "P20",
+    "subject": "Pinhas Hirschprung"
+  },
+  {
+    "prompt": "Johannesburg is a twin city of",
+    "correct": " London",
+    "counterfactual": " Istanbul",
+    "relation": "P190",
+    "subject": "Johannesburg"
+  },
+  {
+    "prompt": "Piper Verlag, which is located in",
+    "correct": " Germany",
+    "counterfactual": " Ireland",
+    "relation": "P17",
+    "subject": "Piper Verlag"
+  },
+  {
+    "prompt": "Karl Mecklenburg plays in the position of",
+    "correct": " linebacker",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Karl Mecklenburg"
+  },
+  {
+    "prompt": "Chevrolet Greenbrier, created by",
+    "correct": " Chevrolet",
+    "counterfactual": " Google",
+    "relation": "P176",
+    "subject": "Chevrolet Greenbrier"
+  },
+  {
+    "prompt": "The language of Dehkhoda Dictionary is",
+    "correct": " Persian",
+    "counterfactual": " Russian",
+    "relation": "P407",
+    "subject": "Dehkhoda Dictionary"
+  },
+  {
+    "prompt": "Guillaume Durand, who holds the position of",
+    "correct": " bishop",
+    "counterfactual": " pope",
+    "relation": "P39",
+    "subject": "Guillaume Durand"
+  },
+  {
+    "prompt": "Renault 5 is created by",
+    "correct": " Renault",
+    "counterfactual": " Toyota",
+    "relation": "P176",
+    "subject": "Renault 5"
+  },
+  {
+    "prompt": "The profession of Mary Collinson is",
+    "correct": " actor",
+    "counterfactual": " photographer",
+    "relation": "P106",
+    "subject": "Mary Collinson"
+  },
+  {
+    "prompt": "The Million Second Quiz was released on",
+    "correct": " NBC",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "The Million Second Quiz"
+  },
+  {
+    "prompt": "Constantin von Monakow, who has a citizenship from",
+    "correct": " Switzerland",
+    "counterfactual": " Canada",
+    "relation": "P27",
+    "subject": "Constantin von Monakow"
+  },
+  {
+    "prompt": "William Rees-Mogg, who is employed by",
+    "correct": " BBC",
+    "counterfactual": " CBS",
+    "relation": "P108",
+    "subject": "William Rees-Mogg"
+  },
+  {
+    "prompt": "The native language of Cees Nooteboom is",
+    "correct": " Dutch",
+    "counterfactual": " Indonesian",
+    "relation": "P103",
+    "subject": "Cees Nooteboom"
+  },
+  {
+    "prompt": "The occupation of Patrick Manson is",
+    "correct": " physician",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "Patrick Manson"
+  },
+  {
+    "prompt": "Omar Torrijos died in the city of",
+    "correct": " Panama",
+    "counterfactual": " Stockholm",
+    "relation": "P20",
+    "subject": "Omar Torrijos"
+  },
+  {
+    "prompt": "Irakli Alasania has a citizenship from",
+    "correct": " Georgia",
+    "counterfactual": " Hungary",
+    "relation": "P27",
+    "subject": "Irakli Alasania"
+  },
+  {
+    "prompt": "John Queen, who is a citizen of",
+    "correct": " Canada",
+    "counterfactual": " Ireland",
+    "relation": "P27",
+    "subject": "John Queen"
+  },
+  {
+    "prompt": "Chicago is a twin city of",
+    "correct": " Warsaw",
+    "counterfactual": " Istanbul",
+    "relation": "P190",
+    "subject": "Chicago"
+  },
+  {
+    "prompt": "Iosif Rotariu plays as",
+    "correct": " midfielder",
+    "counterfactual": " pitcher",
+    "relation": "P413",
+    "subject": "Iosif Rotariu"
+  },
+  {
+    "prompt": "John Navarre plays in the position of",
+    "correct": " quarterback",
+    "counterfactual": " linebacker",
+    "relation": "P413",
+    "subject": "John Navarre"
+  },
+  {
+    "prompt": "Concha Espina passed away at",
+    "correct": " Madrid",
+    "counterfactual": " Melbourne",
+    "relation": "P20",
+    "subject": "Concha Espina"
+  },
+  {
+    "prompt": "BMW E23, developed by",
+    "correct": " BMW",
+    "counterfactual": " Suzuki",
+    "relation": "P176",
+    "subject": "BMW E23"
+  },
+  {
+    "prompt": "In Hyrynsalmi, they understand",
+    "correct": " Finnish",
+    "counterfactual": " Spanish",
+    "relation": "P37",
+    "subject": "Hyrynsalmi"
+  },
+  {
+    "prompt": "Tullio De Mauro found employment in",
+    "correct": " Rome",
+    "counterfactual": " Vienna",
+    "relation": "P937",
+    "subject": "Tullio De Mauro"
+  },
+  {
+    "prompt": "The domain of activity of Giovanni Battista Riccioli is",
+    "correct": " astronomy",
+    "counterfactual": " chemistry",
+    "relation": "P101",
+    "subject": "Giovanni Battista Riccioli"
+  },
+  {
+    "prompt": "Thurman Munson plays in the position of",
+    "correct": " catcher",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Thurman Munson"
+  },
+  {
+    "prompt": "The official language of Timurid Empire is",
+    "correct": " Persian",
+    "counterfactual": " Portuguese",
+    "relation": "P37",
+    "subject": "Timurid Empire"
+  },
+  {
+    "prompt": "Sam Cooke, that was created in",
+    "correct": " Chicago",
+    "counterfactual": " Boston",
+    "relation": "P740",
+    "subject": "Sam Cooke"
+  },
+  {
+    "prompt": "Ferrari Daytona, developed by",
+    "correct": " Ferrari",
+    "counterfactual": " Nokia",
+    "relation": "P176",
+    "subject": "Ferrari Daytona"
+  },
+  {
+    "prompt": "Louis Vola lost their life at",
+    "correct": " Paris",
+    "counterfactual": " Istanbul",
+    "relation": "P20",
+    "subject": "Louis Vola"
+  },
+  {
+    "prompt": "The occupation of Shreela Ghosh is",
+    "correct": " actor",
+    "counterfactual": " poet",
+    "relation": "P106",
+    "subject": "Shreela Ghosh"
+  },
+  {
+    "prompt": "The location of Hamburg International Film Festival is",
+    "correct": " Hamburg",
+    "counterfactual": " Rome",
+    "relation": "P276",
+    "subject": "Hamburg International Film Festival"
+  },
+  {
+    "prompt": "Sandy Bridge was a product of",
+    "correct": " Intel",
+    "counterfactual": " Apple",
+    "relation": "P178",
+    "subject": "Sandy Bridge"
+  },
+  {
+    "prompt": "Le Iene was developed in",
+    "correct": " Italy",
+    "counterfactual": " Canada",
+    "relation": "P495",
+    "subject": "Le Iene"
+  },
+  {
+    "prompt": "The law in Bahia declares the language",
+    "correct": " Portuguese",
+    "counterfactual": " Finnish",
+    "relation": "P37",
+    "subject": "Bahia"
+  },
+  {
+    "prompt": "Chicago Midway International Airport is named for",
+    "correct": " Chicago",
+    "counterfactual": " Andrew",
+    "relation": "P138",
+    "subject": "Chicago Midway International Airport"
+  },
+  {
+    "prompt": "The headquarters of Pappas Restaurants is in",
+    "correct": " Houston",
+    "counterfactual": " Franklin",
+    "relation": "P159",
+    "subject": "Pappas Restaurants"
+  },
+  {
+    "prompt": "Oslo is a twin city of",
+    "correct": " Copenhagen",
+    "counterfactual": " Tehran",
+    "relation": "P190",
+    "subject": "Oslo"
+  },
+  {
+    "prompt": "Otto Piene belongs to the organization of",
+    "correct": " Zero",
+    "counterfactual": " NATO",
+    "relation": "P463",
+    "subject": "Otto Piene"
+  },
+  {
+    "prompt": "Winnipeg Symphony Orchestra, that was created in",
+    "correct": " Canada",
+    "counterfactual": " Iceland",
+    "relation": "P495",
+    "subject": "Winnipeg Symphony Orchestra"
+  },
+  {
+    "prompt": "The native language of Pierre Messmer is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P103",
+    "subject": "Pierre Messmer"
+  },
+  {
+    "prompt": "Magnus Carlsen, who holds a citizenship from",
+    "correct": " Norway",
+    "counterfactual": " Chile",
+    "relation": "P27",
+    "subject": "Magnus Carlsen"
+  },
+  {
+    "prompt": "The twin city of Bucharest is",
+    "correct": " London",
+    "counterfactual": " Lyon",
+    "relation": "P190",
+    "subject": "Bucharest"
+  },
+  {
+    "prompt": "The language of Stylus Magazine was",
+    "correct": " English",
+    "counterfactual": " Chinese",
+    "relation": "P364",
+    "subject": "Stylus Magazine"
+  },
+  {
+    "prompt": "The original language of Wild Reeds is",
+    "correct": " French",
+    "counterfactual": " Spanish",
+    "relation": "P364",
+    "subject": "Wild Reeds"
+  },
+  {
+    "prompt": "Thirteen Colonies can be found in",
+    "correct": " England",
+    "counterfactual": " Manchester",
+    "relation": "P131",
+    "subject": "Thirteen Colonies"
+  },
+  {
+    "prompt": "Veracode, whose headquarters are in",
+    "correct": " Burlington",
+    "counterfactual": " Columbus",
+    "relation": "P159",
+    "subject": "Veracode"
+  },
+  {
+    "prompt": "Which position does Evan Dimas Darmono play? They play as",
+    "correct": " midfielder",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Evan Dimas Darmono"
+  },
+  {
+    "prompt": "Mehmed the Conqueror is affiliated with the religion",
+    "correct": " Islam",
+    "counterfactual": " Christianity",
+    "relation": "P140",
+    "subject": "Mehmed the Conqueror"
+  },
+  {
+    "prompt": "Attingal, which is located in",
+    "correct": " India",
+    "counterfactual": " Canada",
+    "relation": "P17",
+    "subject": "Attingal"
+  },
+  {
+    "prompt": "Silverchair, that was formulated in",
+    "correct": " Australia",
+    "counterfactual": " India",
+    "relation": "P495",
+    "subject": "Silverchair"
+  },
+  {
+    "prompt": "Llapingacho was from",
+    "correct": " Ecuador",
+    "counterfactual": " France",
+    "relation": "P495",
+    "subject": "Llapingacho"
+  },
+  {
+    "prompt": "Teres Ridge belongs to the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Africa",
+    "relation": "P30",
+    "subject": "Teres Ridge"
+  },
+  {
+    "prompt": "Carl Kasell is employed by",
+    "correct": " NPR",
+    "counterfactual": " IBM",
+    "relation": "P108",
+    "subject": "Carl Kasell"
+  },
+  {
+    "prompt": "Udo Mechels, that was developed in",
+    "correct": " Belgium",
+    "counterfactual": " India",
+    "relation": "P495",
+    "subject": "Udo Mechels"
+  },
+  {
+    "prompt": "Tankred Dorst found employment in",
+    "correct": " Munich",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "Tankred Dorst"
+  },
+  {
+    "prompt": "Princeton University Press's headquarters are in",
+    "correct": " Princeton",
+    "counterfactual": " Beirut",
+    "relation": "P159",
+    "subject": "Princeton University Press"
+  },
+  {
+    "prompt": "The mother tongue of Ilya Ehrenburg is",
+    "correct": " Russian",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Ilya Ehrenburg"
+  },
+  {
+    "prompt": "Susan Stamberg, who works for",
+    "correct": " NPR",
+    "counterfactual": " BBC",
+    "relation": "P108",
+    "subject": "Susan Stamberg"
+  },
+  {
+    "prompt": "Haseeb Ahsan is a citizen of",
+    "correct": " Pakistan",
+    "counterfactual": " Niger",
+    "relation": "P27",
+    "subject": "Haseeb Ahsan"
+  },
+  {
+    "prompt": "Baghdad International Airport, named after",
+    "correct": " Baghdad",
+    "counterfactual": " Napoleon",
+    "relation": "P138",
+    "subject": "Baghdad International Airport"
+  },
+  {
+    "prompt": "Georgians, in",
+    "correct": " Azerbaijan",
+    "counterfactual": " Netherlands",
+    "relation": "P17",
+    "subject": "Georgians"
+  },
+  {
+    "prompt": "M. S. Viswanathan's occupation is",
+    "correct": " composer",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "M. S. Viswanathan"
+  },
+  {
+    "prompt": "Susan Denberg, who is a citizen of",
+    "correct": " Austria",
+    "counterfactual": " Canada",
+    "relation": "P27",
+    "subject": "Susan Denberg"
+  },
+  {
+    "prompt": "Sedat Alp died at",
+    "correct": " Ankara",
+    "counterfactual": " Rome",
+    "relation": "P20",
+    "subject": "Sedat Alp"
+  },
+  {
+    "prompt": "Risemedet Mountain is in",
+    "correct": " Antarctica",
+    "counterfactual": " Americas",
+    "relation": "P30",
+    "subject": "Risemedet Mountain"
+  },
+  {
+    "prompt": "Mount Markham is located in the continent",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Mount Markham"
+  },
+  {
+    "prompt": "Ritt Bjerregaard has a citizenship from",
+    "correct": " Denmark",
+    "counterfactual": " Italy",
+    "relation": "P27",
+    "subject": "Ritt Bjerregaard"
+  },
+  {
+    "prompt": "Duygu Asena speaks the language",
+    "correct": " Turkish",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Duygu Asena"
+  },
+  {
+    "prompt": "Microsoft Visual Studio was a product of",
+    "correct": " Microsoft",
+    "counterfactual": " Airbus",
+    "relation": "P178",
+    "subject": "Microsoft Visual Studio"
+  },
+  {
+    "prompt": "Tizen was developed by",
+    "correct": " Samsung",
+    "counterfactual": " Google",
+    "relation": "P178",
+    "subject": "Tizen"
+  },
+  {
+    "prompt": "The profession of Noon Meem Rashid is",
+    "correct": " poet",
+    "counterfactual": " politician",
+    "relation": "P106",
+    "subject": "Noon Meem Rashid"
+  },
+  {
+    "prompt": "Daily Planet originated in",
+    "correct": " Canada",
+    "counterfactual": " Japan",
+    "relation": "P495",
+    "subject": "Daily Planet"
+  },
+  {
+    "prompt": "What does Friday Night Dinner play? They play",
+    "correct": " sitcom",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Friday Night Dinner"
+  },
+  {
+    "prompt": "The language of Il ballo delle ingrate was",
+    "correct": " Italian",
+    "counterfactual": " French",
+    "relation": "P407",
+    "subject": "Il ballo delle ingrate"
+  },
+  {
+    "prompt": "The official language of Italy is",
+    "correct": " Italian",
+    "counterfactual": " Korean",
+    "relation": "P37",
+    "subject": "Italy"
+  },
+  {
+    "prompt": "Anthony Asquith expired at",
+    "correct": " London",
+    "counterfactual": " Vienna",
+    "relation": "P20",
+    "subject": "Anthony Asquith"
+  },
+  {
+    "prompt": "Fox Soccer News, created in",
+    "correct": " Canada",
+    "counterfactual": " Italy",
+    "relation": "P495",
+    "subject": "Fox Soccer News"
+  },
+  {
+    "prompt": "The original language of Likkutei Sichos is",
+    "correct": " Hebrew",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "Likkutei Sichos"
+  },
+  {
+    "prompt": "The official religion of As-Saffah is",
+    "correct": " Islam",
+    "counterfactual": " Judaism",
+    "relation": "P140",
+    "subject": "As-Saffah"
+  },
+  {
+    "prompt": "Dominique Perben spoke the language",
+    "correct": " French",
+    "counterfactual": " Chinese",
+    "relation": "P103",
+    "subject": "Dominique Perben"
+  },
+  {
+    "prompt": "Alain Lanty, the",
+    "correct": " piano",
+    "counterfactual": " trumpet",
+    "relation": "P1303",
+    "subject": "Alain Lanty"
+  },
+  {
+    "prompt": "Kalahari Desert is located in",
+    "correct": " Africa",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Kalahari Desert"
+  },
+  {
+    "prompt": "Nizampatnam is located in the country of",
+    "correct": " India",
+    "counterfactual": " Ghana",
+    "relation": "P17",
+    "subject": "Nizampatnam"
+  },
+  {
+    "prompt": "Arthur is located in",
+    "correct": " Illinois",
+    "counterfactual": " California",
+    "relation": "P131",
+    "subject": "Arthur"
+  },
+  {
+    "prompt": "VP9 is created by",
+    "correct": " Google",
+    "counterfactual": " Microsoft",
+    "relation": "P178",
+    "subject": "VP9"
+  },
+  {
+    "prompt": "Didier Haudepin speaks the language",
+    "correct": " French",
+    "counterfactual": " Hebrew",
+    "relation": "P1412",
+    "subject": "Didier Haudepin"
+  },
+  {
+    "prompt": "Housos originated in",
+    "correct": " Australia",
+    "counterfactual": " Spain",
+    "relation": "P495",
+    "subject": "Housos"
+  },
+  {
+    "prompt": "Michel Chasles's domain of work is",
+    "correct": " geometry",
+    "counterfactual": " physics",
+    "relation": "P101",
+    "subject": "Michel Chasles"
+  },
+  {
+    "prompt": "BBC Knowledge, by",
+    "correct": " BBC",
+    "counterfactual": " Germany",
+    "relation": "P127",
+    "subject": "BBC Knowledge"
+  },
+  {
+    "prompt": "Jonathan Osorio, who plays the position",
+    "correct": " midfielder",
+    "counterfactual": " goaltender",
+    "relation": "P413",
+    "subject": "Jonathan Osorio"
+  },
+  {
+    "prompt": "Martina Voss-Tecklenburg plays as",
+    "correct": " midfielder",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Martina Voss-Tecklenburg"
+  },
+  {
+    "prompt": "Mohammad-Taqi Mesbah-Yazdi, a citizen of",
+    "correct": " Iran",
+    "counterfactual": " Germany",
+    "relation": "P27",
+    "subject": "Mohammad-Taqi Mesbah-Yazdi"
+  },
+  {
+    "prompt": "My-HiME, that was from",
+    "correct": " Japan",
+    "counterfactual": " Belgium",
+    "relation": "P495",
+    "subject": "My-HiME"
+  },
+  {
+    "prompt": "Nicolaus Olahus speaks",
+    "correct": " Latin",
+    "counterfactual": " Russian",
+    "relation": "P1412",
+    "subject": "Nicolaus Olahus"
+  },
+  {
+    "prompt": "Where is PAX? It is located in",
+    "correct": " Seattle",
+    "counterfactual": " Leeds",
+    "relation": "P276",
+    "subject": "PAX"
+  },
+  {
+    "prompt": "Victor Merzhanov plays the",
+    "correct": " piano",
+    "counterfactual": " guitar",
+    "relation": "P1303",
+    "subject": "Victor Merzhanov"
+  },
+  {
+    "prompt": "Julien Courbet is a native speaker of",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Julien Courbet"
+  },
+  {
+    "prompt": "Maurice de Vlaminck was native to",
+    "correct": " Paris",
+    "counterfactual": " Ottawa",
+    "relation": "P19",
+    "subject": "Maurice de Vlaminck"
+  },
+  {
+    "prompt": "Armored Fleet Dairugger XV, that originated in",
+    "correct": " Japan",
+    "counterfactual": " Canada",
+    "relation": "P495",
+    "subject": "Armored Fleet Dairugger XV"
+  },
+  {
+    "prompt": "NRJ Group, that was created in",
+    "correct": " Paris",
+    "counterfactual": " Shanghai",
+    "relation": "P740",
+    "subject": "NRJ Group"
+  },
+  {
+    "prompt": "What does Alberto Mazzucato play? They play",
+    "correct": " opera",
+    "counterfactual": " jazz",
+    "relation": "P136",
+    "subject": "Alberto Mazzucato"
+  },
+  {
+    "prompt": "Business Development Bank of Canada originated in",
+    "correct": " Montreal",
+    "counterfactual": " Oxford",
+    "relation": "P740",
+    "subject": "Business Development Bank of Canada"
+  },
+  {
+    "prompt": "Tehri Garhwal district, in",
+    "correct": " India",
+    "counterfactual": " Iran",
+    "relation": "P17",
+    "subject": "Tehri Garhwal district"
+  },
+  {
+    "prompt": "Fiat 124 is a product of",
+    "correct": " Fiat",
+    "counterfactual": " BMW",
+    "relation": "P176",
+    "subject": "Fiat 124"
+  },
+  {
+    "prompt": "Uttaradit is in",
+    "correct": " Thailand",
+    "counterfactual": " Gujarat",
+    "relation": "P131",
+    "subject": "Uttaradit"
+  },
+  {
+    "prompt": "Hank Aaron professionally plays the sport",
+    "correct": " baseball",
+    "counterfactual": " basketball",
+    "relation": "P641",
+    "subject": "Hank Aaron"
+  },
+  {
+    "prompt": "Onufri works in the field of",
+    "correct": " icon",
+    "counterfactual": " astronomy",
+    "relation": "P101",
+    "subject": "Onufri"
+  },
+  {
+    "prompt": "Toyota RAV4 is created by",
+    "correct": " Toyota",
+    "counterfactual": " Volvo",
+    "relation": "P176",
+    "subject": "Toyota RAV4"
+  },
+  {
+    "prompt": "Shenyang is a twin city of",
+    "correct": " Chicago",
+    "counterfactual": " Boston",
+    "relation": "P190",
+    "subject": "Shenyang"
+  },
+  {
+    "prompt": "Moscow is a twin city of",
+    "correct": " Amsterdam",
+    "counterfactual": " Miami",
+    "relation": "P190",
+    "subject": "Moscow"
+  },
+  {
+    "prompt": "Xerox started in",
+    "correct": " Rochester",
+    "counterfactual": " Miami",
+    "relation": "P740",
+    "subject": "Xerox"
+  },
+  {
+    "prompt": "Cheikh Anta Diop holds a citizenship from",
+    "correct": " Senegal",
+    "counterfactual": " Canada",
+    "relation": "P27",
+    "subject": "Cheikh Anta Diop"
+  },
+  {
+    "prompt": "Cyril Smith took up work in",
+    "correct": " London",
+    "counterfactual": " Birmingham",
+    "relation": "P937",
+    "subject": "Cyril Smith"
+  },
+  {
+    "prompt": "Renault Vel Satis is created by",
+    "correct": " Renault",
+    "counterfactual": " Chevrolet",
+    "relation": "P176",
+    "subject": "Renault Vel Satis"
+  },
+  {
+    "prompt": "Sebastiano Conca passed away in",
+    "correct": " Naples",
+    "counterfactual": " Georgetown",
+    "relation": "P20",
+    "subject": "Sebastiano Conca"
+  },
+  {
+    "prompt": "The mother tongue of Alain Robbe-Grillet is",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Alain Robbe-Grillet"
+  },
+  {
+    "prompt": "Rio Natsuki is originally from",
+    "correct": " Tokyo",
+    "counterfactual": " Dresden",
+    "relation": "P19",
+    "subject": "Rio Natsuki"
+  },
+  {
+    "prompt": "Marty Natalegawa, who holds a citizenship from",
+    "correct": " Indonesia",
+    "counterfactual": " Ireland",
+    "relation": "P27",
+    "subject": "Marty Natalegawa"
+  },
+  {
+    "prompt": "Paul Chambers, who plays",
+    "correct": " jazz",
+    "counterfactual": " sitcom",
+    "relation": "P136",
+    "subject": "Paul Chambers"
+  },
+  {
+    "prompt": "Nigel de Jong plays in the position of",
+    "correct": " midfielder",
+    "counterfactual": " pitcher",
+    "relation": "P413",
+    "subject": "Nigel de Jong"
+  },
+  {
+    "prompt": "British Tanker Company's headquarters are in",
+    "correct": " London",
+    "counterfactual": " Istanbul",
+    "relation": "P159",
+    "subject": "British Tanker Company"
+  },
+  {
+    "prompt": "The headquarter of Heart Attack Grill is in",
+    "correct": " Chandler",
+    "counterfactual": " Shanghai",
+    "relation": "P159",
+    "subject": "Heart Attack Grill"
+  },
+  {
+    "prompt": "Fiat Idea, produced by",
+    "correct": " Fiat",
+    "counterfactual": " Nissan",
+    "relation": "P176",
+    "subject": "Fiat Idea"
+  },
+  {
+    "prompt": "Aerosvit Airlines formed in",
+    "correct": " Kiev",
+    "counterfactual": " Paris",
+    "relation": "P740",
+    "subject": "Aerosvit Airlines"
+  },
+  {
+    "prompt": "Matusevich Glacier is located in the continent",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Matusevich Glacier"
+  },
+  {
+    "prompt": "Ankara is a twin city of",
+    "correct": " Seoul",
+    "counterfactual": " Venice",
+    "relation": "P190",
+    "subject": "Ankara"
+  },
+  {
+    "prompt": "Al Madinah Region's capital is",
+    "correct": " Medina",
+    "counterfactual": " London",
+    "relation": "P36",
+    "subject": "Al Madinah Region"
+  },
+  {
+    "prompt": "Georges Marchais speaks",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Georges Marchais"
+  },
+  {
+    "prompt": "Wesley Hospital is located in",
+    "correct": " Queensland",
+    "counterfactual": " Athens",
+    "relation": "P131",
+    "subject": "Wesley Hospital"
+  },
+  {
+    "prompt": "Unfinished Tales, who plays",
+    "correct": " fantasy",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Unfinished Tales"
+  },
+  {
+    "prompt": "George Auriol used to work in",
+    "correct": " Paris",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "George Auriol"
+  },
+  {
+    "prompt": "Massenet Festival can be found in",
+    "correct": " France",
+    "counterfactual": " Albania",
+    "relation": "P276",
+    "subject": "Massenet Festival"
+  },
+  {
+    "prompt": "Jan Peerce performs",
+    "correct": " opera",
+    "counterfactual": " jazz",
+    "relation": "P136",
+    "subject": "Jan Peerce"
+  },
+  {
+    "prompt": "The original language of Brava Gente is",
+    "correct": " Portuguese",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "Brava Gente"
+  },
+  {
+    "prompt": "Jean-Luc Ponty plays",
+    "correct": " jazz",
+    "counterfactual": " thriller",
+    "relation": "P136",
+    "subject": "Jean-Luc Ponty"
+  },
+  {
+    "prompt": "Lost in Space premiered on",
+    "correct": " CBS",
+    "counterfactual": " HBO",
+    "relation": "P449",
+    "subject": "Lost in Space"
+  },
+  {
+    "prompt": "Nizamabad district, in",
+    "correct": " Asia",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Nizamabad district"
+  },
+  {
+    "prompt": "Mobiloil Inlet, in",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Mobiloil Inlet"
+  },
+  {
+    "prompt": "Mambo Taxi formed in",
+    "correct": " London",
+    "counterfactual": " Naples",
+    "relation": "P740",
+    "subject": "Mambo Taxi"
+  },
+  {
+    "prompt": "Jack Wong Sue is native to",
+    "correct": " Perth",
+    "counterfactual": " Adelaide",
+    "relation": "P19",
+    "subject": "Jack Wong Sue"
+  },
+  {
+    "prompt": "Antonio Franco holds the position of",
+    "correct": " bishop",
+    "counterfactual": " cardinal",
+    "relation": "P39",
+    "subject": "Antonio Franco"
+  },
+  {
+    "prompt": "The occupation of Sepala Attygalle is",
+    "correct": " diplomat",
+    "counterfactual": " architect",
+    "relation": "P106",
+    "subject": "Sepala Attygalle"
+  },
+  {
+    "prompt": "Roy Hargrove performs",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Roy Hargrove"
+  },
+  {
+    "prompt": "2013 Internazionali BNL d'Italia is within",
+    "correct": " Rome",
+    "counterfactual": " California",
+    "relation": "P131",
+    "subject": "2013 Internazionali BNL d'Italia"
+  },
+  {
+    "prompt": "The headquarter of BSC Young Boys is in",
+    "correct": " Bern",
+    "counterfactual": " Toronto",
+    "relation": "P159",
+    "subject": "BSC Young Boys"
+  },
+  {
+    "prompt": "Jablanica District, in",
+    "correct": " Serbia",
+    "counterfactual": " Texas",
+    "relation": "P131",
+    "subject": "Jablanica District"
+  },
+  {
+    "prompt": "The Experiment was originally aired on",
+    "correct": " BBC",
+    "counterfactual": " Lifetime",
+    "relation": "P449",
+    "subject": "The Experiment"
+  },
+  {
+    "prompt": "Jari Kurri is a professional",
+    "correct": " hockey",
+    "counterfactual": " soccer",
+    "relation": "P641",
+    "subject": "Jari Kurri"
+  },
+  {
+    "prompt": "Trail Inlet is a part of the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Trail Inlet"
+  },
+  {
+    "prompt": "Arthur Wellesley, 1st Duke of Wellington worked in",
+    "correct": " London",
+    "counterfactual": " Vienna",
+    "relation": "P937",
+    "subject": "Arthur Wellesley, 1st Duke of Wellington"
+  },
+  {
+    "prompt": "In Chardonne, an official language is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Chardonne"
+  },
+  {
+    "prompt": "Kasino originated in",
+    "correct": " Brazil",
+    "counterfactual": " Boston",
+    "relation": "P740",
+    "subject": "Kasino"
+  },
+  {
+    "prompt": "Jozef Tomko, who has the position of",
+    "correct": " cardinal",
+    "counterfactual": " mayor",
+    "relation": "P39",
+    "subject": "Jozef Tomko"
+  },
+  {
+    "prompt": "The Midway State was formulated in",
+    "correct": " Canada",
+    "counterfactual": " Netherlands",
+    "relation": "P495",
+    "subject": "The Midway State"
+  },
+  {
+    "prompt": "The mother tongue of Jalil Lespert is",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Jalil Lespert"
+  },
+  {
+    "prompt": "Michael Langrish, who holds the position of",
+    "correct": " bishop",
+    "counterfactual": " cardinal",
+    "relation": "P39",
+    "subject": "Michael Langrish"
+  },
+  {
+    "prompt": "Pedro de Ribera died at",
+    "correct": " Madrid",
+    "counterfactual": " London",
+    "relation": "P20",
+    "subject": "Pedro de Ribera"
+  },
+  {
+    "prompt": "What is the twin city of Johannesburg? It is",
+    "correct": " Rome",
+    "counterfactual": " Portsmouth",
+    "relation": "P190",
+    "subject": "Johannesburg"
+  },
+  {
+    "prompt": "Raymond Flynn was employed in",
+    "correct": " Boston",
+    "counterfactual": " Paris",
+    "relation": "P937",
+    "subject": "Raymond Flynn"
+  },
+  {
+    "prompt": "Corky Miller, the",
+    "correct": " catcher",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Corky Miller"
+  },
+  {
+    "prompt": "Xavier Saint-Macary, speaker of",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Xavier Saint-Macary"
+  },
+  {
+    "prompt": "What does Piirpauke play? They play",
+    "correct": " jazz",
+    "counterfactual": " thriller",
+    "relation": "P136",
+    "subject": "Piirpauke"
+  },
+  {
+    "prompt": "Philip Jenkinson, who works for",
+    "correct": " BBC",
+    "counterfactual": " Apple",
+    "relation": "P108",
+    "subject": "Philip Jenkinson"
+  },
+  {
+    "prompt": "Tom Waits plays the",
+    "correct": " piano",
+    "counterfactual": " guitar",
+    "relation": "P1303",
+    "subject": "Tom Waits"
+  },
+  {
+    "prompt": "Zdeno Ch\u00e1ra, the",
+    "correct": " hockey",
+    "counterfactual": " soccer",
+    "relation": "P641",
+    "subject": "Zdeno Ch\u00e1ra"
+  },
+  {
+    "prompt": "Riverway, Townsville can be found in",
+    "correct": " Queensland",
+    "counterfactual": " Liberia",
+    "relation": "P131",
+    "subject": "Riverway, Townsville"
+  },
+  {
+    "prompt": "Gracie Mansion is in",
+    "correct": " Manhattan",
+    "counterfactual": " Ontario",
+    "relation": "P131",
+    "subject": "Gracie Mansion"
+  },
+  {
+    "prompt": "Hermann Hesse used to work in",
+    "correct": " Bern",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "Hermann Hesse"
+  },
+  {
+    "prompt": "What does Yellow Dog Records play? They play",
+    "correct": " jazz",
+    "counterfactual": " sitcom",
+    "relation": "P136",
+    "subject": "Yellow Dog Records"
+  },
+  {
+    "prompt": "Kalamazoo County can be found in",
+    "correct": " Michigan",
+    "counterfactual": " Indiana",
+    "relation": "P131",
+    "subject": "Kalamazoo County"
+  },
+  {
+    "prompt": "Jonathan Haidt works in the field of",
+    "correct": " psychology",
+    "counterfactual": " geometry",
+    "relation": "P101",
+    "subject": "Jonathan Haidt"
+  },
+  {
+    "prompt": "Jack McGurn's life ended in",
+    "correct": " Chicago",
+    "counterfactual": " Karachi",
+    "relation": "P20",
+    "subject": "Jack McGurn"
+  },
+  {
+    "prompt": "Angela Merkel was employed in",
+    "correct": " Berlin",
+    "counterfactual": " Rome",
+    "relation": "P937",
+    "subject": "Angela Merkel"
+  },
+  {
+    "prompt": "John Cygan, who works as",
+    "correct": " actor",
+    "counterfactual": " architect",
+    "relation": "P106",
+    "subject": "John Cygan"
+  },
+  {
+    "prompt": "Which position does Antonio Valencia play? They play as",
+    "correct": " midfielder",
+    "counterfactual": " pitcher",
+    "relation": "P413",
+    "subject": "Antonio Valencia"
+  },
+  {
+    "prompt": "Operation Inherent Resolve is in",
+    "correct": " Iraq",
+    "counterfactual": " Honolulu",
+    "relation": "P276",
+    "subject": "Operation Inherent Resolve"
+  },
+  {
+    "prompt": "The Crazy Ones debuted on",
+    "correct": " CBS",
+    "counterfactual": " HBO",
+    "relation": "P449",
+    "subject": "The Crazy Ones"
+  },
+  {
+    "prompt": "CBS Storybreak was released on",
+    "correct": " CBS",
+    "counterfactual": " MTV",
+    "relation": "P449",
+    "subject": "CBS Storybreak"
+  },
+  {
+    "prompt": "Google Drive, created by",
+    "correct": " Google",
+    "counterfactual": " Sega",
+    "relation": "P178",
+    "subject": "Google Drive"
+  },
+  {
+    "prompt": "Suvorov Glacier is located in",
+    "correct": " Antarctica",
+    "counterfactual": " Asia",
+    "relation": "P30",
+    "subject": "Suvorov Glacier"
+  },
+  {
+    "prompt": "An Angle, created in",
+    "correct": " Sacramento",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "An Angle"
+  },
+  {
+    "prompt": "The official religion of Sangha is",
+    "correct": " Buddhism",
+    "counterfactual": " Islam",
+    "relation": "P140",
+    "subject": "Sangha"
+  },
+  {
+    "prompt": "The original language of Metro 2033 was",
+    "correct": " Russian",
+    "counterfactual": " Italian",
+    "relation": "P364",
+    "subject": "Metro 2033"
+  },
+  {
+    "prompt": "Eirodziesma is located in",
+    "correct": " Latvia",
+    "counterfactual": " Sudan",
+    "relation": "P17",
+    "subject": "Eirodziesma"
+  },
+  {
+    "prompt": "Olot, located in",
+    "correct": " Spain",
+    "counterfactual": " India",
+    "relation": "P17",
+    "subject": "Olot"
+  },
+  {
+    "prompt": "Lunice is originally from",
+    "correct": " Montreal",
+    "counterfactual": " Cornwall",
+    "relation": "P19",
+    "subject": "Lunice"
+  },
+  {
+    "prompt": "Jennings can be found in",
+    "correct": " Louisiana",
+    "counterfactual": " Maryland",
+    "relation": "P131",
+    "subject": "Jennings"
+  },
+  {
+    "prompt": "Frederic William Burton died in",
+    "correct": " London",
+    "counterfactual": " Philadelphia",
+    "relation": "P20",
+    "subject": "Frederic William Burton"
+  },
+  {
+    "prompt": "Charles Nungesser is native to",
+    "correct": " Paris",
+    "counterfactual": " Mumbai",
+    "relation": "P19",
+    "subject": "Charles Nungesser"
+  },
+  {
+    "prompt": "Donald McCaig's profession is an",
+    "correct": " poet",
+    "counterfactual": " diplomat",
+    "relation": "P106",
+    "subject": "Donald McCaig"
+  },
+  {
+    "prompt": "Tarvaris Jackson, who plays the position",
+    "correct": " quarterback",
+    "counterfactual": " goaltender",
+    "relation": "P413",
+    "subject": "Tarvaris Jackson"
+  },
+  {
+    "prompt": "Bordeaux is a twin city of",
+    "correct": " Madrid",
+    "counterfactual": " Seoul",
+    "relation": "P190",
+    "subject": "Bordeaux"
+  },
+  {
+    "prompt": "A Thousand Plateaus's domain of activity is",
+    "correct": " philosophy",
+    "counterfactual": " physics",
+    "relation": "P101",
+    "subject": "A Thousand Plateaus"
+  },
+  {
+    "prompt": "Erik Ersberg, the",
+    "correct": " goaltender",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Erik Ersberg"
+  },
+  {
+    "prompt": "The First Easter Rabbit premiered on",
+    "correct": " NBC",
+    "counterfactual": " CNN",
+    "relation": "P449",
+    "subject": "The First Easter Rabbit"
+  },
+  {
+    "prompt": "Patricia Conroy, who holds a citizenship from",
+    "correct": " Canada",
+    "counterfactual": " Cambodia",
+    "relation": "P27",
+    "subject": "Patricia Conroy"
+  },
+  {
+    "prompt": "Gothika performs",
+    "correct": " thriller",
+    "counterfactual": " jazz",
+    "relation": "P136",
+    "subject": "Gothika"
+  },
+  {
+    "prompt": "Caribbean Community Secretariat is based in",
+    "correct": " Georgetown",
+    "counterfactual": " Frankfurt",
+    "relation": "P159",
+    "subject": "Caribbean Community Secretariat"
+  },
+  {
+    "prompt": "Which position does Kamohelo Mokotjo play? They play as",
+    "correct": " midfielder",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Kamohelo Mokotjo"
+  },
+  {
+    "prompt": "Florent Cuvelier plays in the position of",
+    "correct": " midfielder",
+    "counterfactual": " outfielder",
+    "relation": "P413",
+    "subject": "Florent Cuvelier"
+  },
+  {
+    "prompt": "Murphy Brown was originally aired on",
+    "correct": " CBS",
+    "counterfactual": " HBO",
+    "relation": "P449",
+    "subject": "Murphy Brown"
+  },
+  {
+    "prompt": "Herbert Austin, 1st Baron Austin died in the city of",
+    "correct": " Birmingham",
+    "counterfactual": " Medina",
+    "relation": "P20",
+    "subject": "Herbert Austin, 1st Baron Austin"
+  },
+  {
+    "prompt": "Sumulong Highway is located in",
+    "correct": " Philippines",
+    "counterfactual": " Hungary",
+    "relation": "P17",
+    "subject": "Sumulong Highway"
+  },
+  {
+    "prompt": "The headquarters of Irish Ferries is in",
+    "correct": " Dublin",
+    "counterfactual": " Rome",
+    "relation": "P159",
+    "subject": "Irish Ferries"
+  },
+  {
+    "prompt": "In Andorra, the language spoken is",
+    "correct": " Catalan",
+    "counterfactual": " Spanish",
+    "relation": "P37",
+    "subject": "Andorra"
+  },
+  {
+    "prompt": "Which position does Daniel Royer play? They play as",
+    "correct": " midfielder",
+    "counterfactual": " linebacker",
+    "relation": "P413",
+    "subject": "Daniel Royer"
+  },
+  {
+    "prompt": "Sa\u00fal Levi Morteira died in",
+    "correct": " Amsterdam",
+    "counterfactual": " Moscow",
+    "relation": "P20",
+    "subject": "Sa\u00fal Levi Morteira"
+  },
+  {
+    "prompt": "Henry Villard is a citizen of",
+    "correct": " Germany",
+    "counterfactual": " Pakistan",
+    "relation": "P27",
+    "subject": "Henry Villard"
+  },
+  {
+    "prompt": "Holy Name Cathedral, Chicago can be found in",
+    "correct": " Chicago",
+    "counterfactual": " Santiago",
+    "relation": "P276",
+    "subject": "Holy Name Cathedral, Chicago"
+  },
+  {
+    "prompt": "New Bedford Whaling Museum is within",
+    "correct": " Massachusetts",
+    "counterfactual": " Dublin",
+    "relation": "P131",
+    "subject": "New Bedford Whaling Museum"
+  },
+  {
+    "prompt": "In Colombia, they understand",
+    "correct": " Spanish",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Colombia"
+  },
+  {
+    "prompt": "Corriere della Sera, from",
+    "correct": " Italy",
+    "counterfactual": " Australia",
+    "relation": "P495",
+    "subject": "Corriere della Sera"
+  },
+  {
+    "prompt": "The occupation of David Yost is",
+    "correct": " actor",
+    "counterfactual": " diplomat",
+    "relation": "P106",
+    "subject": "David Yost"
+  },
+  {
+    "prompt": "Micko Larkin performs on the",
+    "correct": " guitar",
+    "counterfactual": " piano",
+    "relation": "P1303",
+    "subject": "Micko Larkin"
+  },
+  {
+    "prompt": "The native language of Anatole France is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P103",
+    "subject": "Anatole France"
+  },
+  {
+    "prompt": "Lurrie Bell was originally from",
+    "correct": " Chicago",
+    "counterfactual": " Ottawa",
+    "relation": "P19",
+    "subject": "Lurrie Bell"
+  },
+  {
+    "prompt": "The mother tongue of Christian Bouchet is",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Christian Bouchet"
+  },
+  {
+    "prompt": "The language used by Henri Massis is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Henri Massis"
+  },
+  {
+    "prompt": "Crown Airways is based in",
+    "correct": " Philadelphia",
+    "counterfactual": " Moscow",
+    "relation": "P159",
+    "subject": "Crown Airways"
+  },
+  {
+    "prompt": "Kalyan Kumar is native to",
+    "correct": " Bangalore",
+    "counterfactual": " Jerusalem",
+    "relation": "P19",
+    "subject": "Kalyan Kumar"
+  },
+  {
+    "prompt": "Mona Mur found employment in",
+    "correct": " Berlin",
+    "counterfactual": " Ottawa",
+    "relation": "P937",
+    "subject": "Mona Mur"
+  },
+  {
+    "prompt": "The Paradise Club debuted on",
+    "correct": " BBC",
+    "counterfactual": " NBC",
+    "relation": "P449",
+    "subject": "The Paradise Club"
+  },
+  {
+    "prompt": "The Late Late Show with Craig Ferguson premieres on",
+    "correct": " CBS",
+    "counterfactual": " NBC",
+    "relation": "P449",
+    "subject": "The Late Late Show with Craig Ferguson"
+  },
+  {
+    "prompt": "Darmstadt is located in the country of",
+    "correct": " Germany",
+    "counterfactual": " Argentina",
+    "relation": "P17",
+    "subject": "Darmstadt"
+  },
+  {
+    "prompt": "Marguerite Broquedis, a citizen of",
+    "correct": " France",
+    "counterfactual": " Norway",
+    "relation": "P27",
+    "subject": "Marguerite Broquedis"
+  },
+  {
+    "prompt": "David Carney, the",
+    "correct": " soccer",
+    "counterfactual": " basketball",
+    "relation": "P641",
+    "subject": "David Carney"
+  },
+  {
+    "prompt": "The headquarters of Tata Steel Europe is in",
+    "correct": " London",
+    "counterfactual": " Dublin",
+    "relation": "P159",
+    "subject": "Tata Steel Europe"
+  },
+  {
+    "prompt": "Luigi Boccherini writes in",
+    "correct": " Italian",
+    "counterfactual": " Spanish",
+    "relation": "P1412",
+    "subject": "Luigi Boccherini"
+  },
+  {
+    "prompt": "What sport does Peter \u0160\u0165astn\u00fd play? They play",
+    "correct": " hockey",
+    "counterfactual": " basketball",
+    "relation": "P641",
+    "subject": "Peter \u0160\u0165astn\u00fd"
+  },
+  {
+    "prompt": "The original language of The Mistress of the Inn was",
+    "correct": " Italian",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "The Mistress of the Inn"
+  },
+  {
+    "prompt": "How to Make It in America is to debut on",
+    "correct": " HBO",
+    "counterfactual": " BBC",
+    "relation": "P449",
+    "subject": "How to Make It in America"
+  },
+  {
+    "prompt": "Ethyl Eichelberger's profession is a",
+    "correct": " actor",
+    "counterfactual": " politician",
+    "relation": "P106",
+    "subject": "Ethyl Eichelberger"
+  },
+  {
+    "prompt": "Leslie Caron, speaker of",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Leslie Caron"
+  },
+  {
+    "prompt": "Abraham Fraenkel writes in",
+    "correct": " Hebrew",
+    "counterfactual": " Norwegian",
+    "relation": "P1412",
+    "subject": "Abraham Fraenkel"
+  },
+  {
+    "prompt": "The official language of Caslano is",
+    "correct": " Italian",
+    "counterfactual": " French",
+    "relation": "P37",
+    "subject": "Caslano"
+  },
+  {
+    "prompt": "The genre played by Babs Gonzales is",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Babs Gonzales"
+  },
+  {
+    "prompt": "Nova premieres on",
+    "correct": " PBS",
+    "counterfactual": " History",
+    "relation": "P449",
+    "subject": "Nova"
+  },
+  {
+    "prompt": "I.R.S. Records Presents The Cutting Edge is to debut on",
+    "correct": " MTV",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "I.R.S. Records Presents The Cutting Edge"
+  },
+  {
+    "prompt": "Resta in ascolto was written in",
+    "correct": " Spanish",
+    "counterfactual": " French",
+    "relation": "P407",
+    "subject": "Resta in ascolto"
+  },
+  {
+    "prompt": "Pervez Musharraf follows the religion of",
+    "correct": " Islam",
+    "counterfactual": " Buddhism",
+    "relation": "P140",
+    "subject": "Pervez Musharraf"
+  },
+  {
+    "prompt": "Romulus Glacier belongs to the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Romulus Glacier"
+  },
+  {
+    "prompt": "Kanye West, that originated in",
+    "correct": " Chicago",
+    "counterfactual": " Sydney",
+    "relation": "P740",
+    "subject": "Kanye West"
+  },
+  {
+    "prompt": "Argosy Glacier is in",
+    "correct": " Antarctica",
+    "counterfactual": " Africa",
+    "relation": "P30",
+    "subject": "Argosy Glacier"
+  },
+  {
+    "prompt": "Cuban espresso was created in",
+    "correct": " Cuba",
+    "counterfactual": " Australia",
+    "relation": "P495",
+    "subject": "Cuban espresso"
+  },
+  {
+    "prompt": "In Enlightenment in Spain, an official language is",
+    "correct": " Spanish",
+    "counterfactual": " Catalan",
+    "relation": "P37",
+    "subject": "Enlightenment in Spain"
+  },
+  {
+    "prompt": "Fabio Grobart holds a citizenship from",
+    "correct": " Cuba",
+    "counterfactual": " France",
+    "relation": "P27",
+    "subject": "Fabio Grobart"
+  },
+  {
+    "prompt": "Inge Magnusson is a citizen of",
+    "correct": " Norway",
+    "counterfactual": " Romania",
+    "relation": "P27",
+    "subject": "Inge Magnusson"
+  },
+  {
+    "prompt": "The location of Indie Memphis is",
+    "correct": " Memphis",
+    "counterfactual": " Boston",
+    "relation": "P276",
+    "subject": "Indie Memphis"
+  },
+  {
+    "prompt": "Where is Japan Open Tennis Championships? It is located in",
+    "correct": " Tokyo",
+    "counterfactual": " Normandy",
+    "relation": "P276",
+    "subject": "Japan Open Tennis Championships"
+  },
+  {
+    "prompt": "The official religion of Sheikh Bedreddin is",
+    "correct": " Islam",
+    "counterfactual": " Buddhism",
+    "relation": "P140",
+    "subject": "Sheikh Bedreddin"
+  },
+  {
+    "prompt": "Beryl Cook passed away in",
+    "correct": " Plymouth",
+    "counterfactual": " Chicago",
+    "relation": "P20",
+    "subject": "Beryl Cook"
+  },
+  {
+    "prompt": "Leonhard Christian Borchgrevink Holmboe speaks the language",
+    "correct": " Norwegian",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Leonhard Christian Borchgrevink Holmboe"
+  },
+  {
+    "prompt": "Stardust Five, that was created in",
+    "correct": " Melbourne",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "Stardust Five"
+  },
+  {
+    "prompt": "Manuel Roxas holds the position of",
+    "correct": " governor",
+    "counterfactual": " pope",
+    "relation": "P39",
+    "subject": "Manuel Roxas"
+  },
+  {
+    "prompt": "Shahab-2 is produced by",
+    "correct": " Iran",
+    "counterfactual": " Airbus",
+    "relation": "P176",
+    "subject": "Shahab-2"
+  },
+  {
+    "prompt": "Fabrice Luchini, a native",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P103",
+    "subject": "Fabrice Luchini"
+  },
+  {
+    "prompt": "Susette LaFlesche Tibbles is native to",
+    "correct": " Nebraska",
+    "counterfactual": " Baltimore",
+    "relation": "P19",
+    "subject": "Susette LaFlesche Tibbles"
+  },
+  {
+    "prompt": "The twin city of Florence is",
+    "correct": " Budapest",
+    "counterfactual": " Madrid",
+    "relation": "P190",
+    "subject": "Florence"
+  },
+  {
+    "prompt": "Oslo Airport, Gardermoen, named after",
+    "correct": " Oslo",
+    "counterfactual": " Rome",
+    "relation": "P138",
+    "subject": "Oslo Airport, Gardermoen"
+  },
+  {
+    "prompt": "Spectrum-X was started in",
+    "correct": " Italy",
+    "counterfactual": " Brooklyn",
+    "relation": "P740",
+    "subject": "Spectrum-X"
+  },
+  {
+    "prompt": "The headquarters of Sporveien is in",
+    "correct": " Oslo",
+    "counterfactual": " Minneapolis",
+    "relation": "P159",
+    "subject": "Sporveien"
+  },
+  {
+    "prompt": "The language of Invitation to the Castle is",
+    "correct": " French",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "Invitation to the Castle"
+  },
+  {
+    "prompt": "The headquarter of Amirkabir University of Technology is in",
+    "correct": " Tehran",
+    "counterfactual": " Toronto",
+    "relation": "P159",
+    "subject": "Amirkabir University of Technology"
+  },
+  {
+    "prompt": "The language of The Secret in Their Eyes was",
+    "correct": " Spanish",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "The Secret in Their Eyes"
+  },
+  {
+    "prompt": "The headquarters of Bajaj Electricals is in",
+    "correct": " Mumbai",
+    "counterfactual": " Glasgow",
+    "relation": "P159",
+    "subject": "Bajaj Electricals"
+  },
+  {
+    "prompt": "Apple III is created by",
+    "correct": " Apple",
+    "counterfactual": " Nintendo",
+    "relation": "P176",
+    "subject": "Apple III"
+  },
+  {
+    "prompt": "Delchev Ridge is located in the continent",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Delchev Ridge"
+  },
+  {
+    "prompt": "Giovanni Pellielo, who is a citizen of",
+    "correct": " Italy",
+    "counterfactual": " Jamaica",
+    "relation": "P27",
+    "subject": "Giovanni Pellielo"
+  },
+  {
+    "prompt": "Haydn Bendall is native to",
+    "correct": " Essex",
+    "counterfactual": " Milan",
+    "relation": "P19",
+    "subject": "Haydn Bendall"
+  },
+  {
+    "prompt": "Nick Greisen, the",
+    "correct": " linebacker",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Nick Greisen"
+  },
+  {
+    "prompt": "Blanchette Brunoy spoke the language",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Blanchette Brunoy"
+  },
+  {
+    "prompt": "The mother tongue of Adriaan van Dis is",
+    "correct": " Dutch",
+    "counterfactual": " French",
+    "relation": "P103",
+    "subject": "Adriaan van Dis"
+  },
+  {
+    "prompt": "James I of Aragon follows the religion of",
+    "correct": " Christianity",
+    "counterfactual": " Buddhism",
+    "relation": "P140",
+    "subject": "James I of Aragon"
+  },
+  {
+    "prompt": "Huangfu Mi writes in",
+    "correct": " Chinese",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Huangfu Mi"
+  },
+  {
+    "prompt": "Orphan Black is known for performing",
+    "correct": " thriller",
+    "counterfactual": " sitcom",
+    "relation": "P136",
+    "subject": "Orphan Black"
+  },
+  {
+    "prompt": "The language of Planet of the Apes was",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "Planet of the Apes"
+  },
+  {
+    "prompt": "The official language of Guam is",
+    "correct": " English",
+    "counterfactual": " Russian",
+    "relation": "P37",
+    "subject": "Guam"
+  },
+  {
+    "prompt": "Johann Gottlieb Fichte was employed in",
+    "correct": " Berlin",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "Johann Gottlieb Fichte"
+  },
+  {
+    "prompt": "Henry Michell Wagner died at",
+    "correct": " Brighton",
+    "counterfactual": " Chicago",
+    "relation": "P20",
+    "subject": "Henry Michell Wagner"
+  },
+  {
+    "prompt": "The Rasmus, founded in",
+    "correct": " Helsinki",
+    "counterfactual": " Beijing",
+    "relation": "P740",
+    "subject": "The Rasmus"
+  },
+  {
+    "prompt": "The profession of Jane Leeves is",
+    "correct": " actor",
+    "counterfactual": " novelist",
+    "relation": "P106",
+    "subject": "Jane Leeves"
+  },
+  {
+    "prompt": "Adliswil, which is located in",
+    "correct": " Switzerland",
+    "counterfactual": " Germany",
+    "relation": "P17",
+    "subject": "Adliswil"
+  },
+  {
+    "prompt": "Irfan Habib, who has a citizenship from",
+    "correct": " India",
+    "counterfactual": " Singapore",
+    "relation": "P27",
+    "subject": "Irfan Habib"
+  },
+  {
+    "prompt": "Umayyad Caliphate is located in the continent",
+    "correct": " Europe",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Umayyad Caliphate"
+  },
+  {
+    "prompt": "In La Chaux-de-Fonds, they understand",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "La Chaux-de-Fonds"
+  },
+  {
+    "prompt": "Chinese Skating Association's headquarters are in",
+    "correct": " Beijing",
+    "counterfactual": " Indianapolis",
+    "relation": "P159",
+    "subject": "Chinese Skating Association"
+  },
+  {
+    "prompt": "Disney's Hollywood Studios can be found in",
+    "correct": " Florida",
+    "counterfactual": " Ontario",
+    "relation": "P131",
+    "subject": "Disney's Hollywood Studios"
+  },
+  {
+    "prompt": "The Boat People originated in",
+    "correct": " Brisbane",
+    "counterfactual": " Manchester",
+    "relation": "P740",
+    "subject": "The Boat People"
+  },
+  {
+    "prompt": "Fantastyka, that was from",
+    "correct": " Poland",
+    "counterfactual": " Australia",
+    "relation": "P495",
+    "subject": "Fantastyka"
+  },
+  {
+    "prompt": "Alpha Island belongs to the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Alpha Island"
+  },
+  {
+    "prompt": "Marcus Harvey was native to",
+    "correct": " Leeds",
+    "counterfactual": " Paris",
+    "relation": "P19",
+    "subject": "Marcus Harvey"
+  },
+  {
+    "prompt": "The original language of The Register was",
+    "correct": " English",
+    "counterfactual": " Italian",
+    "relation": "P364",
+    "subject": "The Register"
+  },
+  {
+    "prompt": "Keith Emerson performs on the",
+    "correct": " piano",
+    "counterfactual": " guitar",
+    "relation": "P1303",
+    "subject": "Keith Emerson"
+  },
+  {
+    "prompt": "Where is Uruguayan War? It is located in",
+    "correct": " Uruguay",
+    "counterfactual": " Wales",
+    "relation": "P276",
+    "subject": "Uruguayan War"
+  },
+  {
+    "prompt": "Bundesautobahn 5 is from",
+    "correct": " Germany",
+    "counterfactual": " Microsoft",
+    "relation": "P127",
+    "subject": "Bundesautobahn 5"
+  },
+  {
+    "prompt": "Lake Bluff is in",
+    "correct": " Illinois",
+    "counterfactual": " Cambodia",
+    "relation": "P131",
+    "subject": "Lake Bluff"
+  },
+  {
+    "prompt": "What sport does R.A. Dickey play? They play",
+    "correct": " baseball",
+    "counterfactual": " soccer",
+    "relation": "P641",
+    "subject": "R.A. Dickey"
+  },
+  {
+    "prompt": "Skag premieres on",
+    "correct": " NBC",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "Skag"
+  },
+  {
+    "prompt": "Acrassicauda originated in",
+    "correct": " Baghdad",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "Acrassicauda"
+  },
+  {
+    "prompt": "Trinidad, named for",
+    "correct": " Trinity",
+    "counterfactual": " Indianapolis",
+    "relation": "P138",
+    "subject": "Trinidad"
+  },
+  {
+    "prompt": "What does Alex Cline play? They play",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Alex Cline"
+  },
+  {
+    "prompt": "The Dennis O'Keefe Show is to debut on",
+    "correct": " CBS",
+    "counterfactual": " NBC",
+    "relation": "P449",
+    "subject": "The Dennis O'Keefe Show"
+  },
+  {
+    "prompt": "Alebtong District, in",
+    "correct": " Uganda",
+    "counterfactual": " Oslo",
+    "relation": "P131",
+    "subject": "Alebtong District"
+  },
+  {
+    "prompt": "Ralph Lyford performs",
+    "correct": " opera",
+    "counterfactual": " jazz",
+    "relation": "P136",
+    "subject": "Ralph Lyford"
+  },
+  {
+    "prompt": "New Nintendo 3DS is developed by",
+    "correct": " Nintendo",
+    "counterfactual": " Microsoft",
+    "relation": "P178",
+    "subject": "New Nintendo 3DS"
+  },
+  {
+    "prompt": "Bahamas worked in",
+    "correct": " Toronto",
+    "counterfactual": " Prague",
+    "relation": "P937",
+    "subject": "Bahamas"
+  },
+  {
+    "prompt": "The language used by Jesus Christ is",
+    "correct": " Hebrew",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Jesus Christ"
+  },
+  {
+    "prompt": "Milt Hinton performs",
+    "correct": " jazz",
+    "counterfactual": " sitcom",
+    "relation": "P136",
+    "subject": "Milt Hinton"
+  },
+  {
+    "prompt": "Louis Bonaparte spoke the language",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Louis Bonaparte"
+  },
+  {
+    "prompt": "Sheremetyevo International Airport, which is called after",
+    "correct": " Moscow",
+    "counterfactual": " Manchester",
+    "relation": "P138",
+    "subject": "Sheremetyevo International Airport"
+  },
+  {
+    "prompt": "Brendan Croker was originally from",
+    "correct": " Bradford",
+    "counterfactual": " Bree",
+    "relation": "P19",
+    "subject": "Brendan Croker"
+  },
+  {
+    "prompt": "Which position does Massimo Ficcadenti play? They play as",
+    "correct": " midfielder",
+    "counterfactual": " linebacker",
+    "relation": "P413",
+    "subject": "Massimo Ficcadenti"
+  },
+  {
+    "prompt": "Ostatnia brygada, that was created in",
+    "correct": " Poland",
+    "counterfactual": " Germany",
+    "relation": "P495",
+    "subject": "Ostatnia brygada"
+  },
+  {
+    "prompt": "William Osler, who has a citizenship from",
+    "correct": " Canada",
+    "counterfactual": " Norway",
+    "relation": "P27",
+    "subject": "William Osler"
+  },
+  {
+    "prompt": "Mercury Montclair is produced by",
+    "correct": " Mercury",
+    "counterfactual": " Nissan",
+    "relation": "P176",
+    "subject": "Mercury Montclair"
+  },
+  {
+    "prompt": "Muthulakshmi Reddi died in the city of",
+    "correct": " Chennai",
+    "counterfactual": " Madrid",
+    "relation": "P20",
+    "subject": "Muthulakshmi Reddi"
+  },
+  {
+    "prompt": "Final Fantasy is created by",
+    "correct": " Square",
+    "counterfactual": " Microsoft",
+    "relation": "P178",
+    "subject": "Final Fantasy"
+  },
+  {
+    "prompt": "Novelas ejemplares was developed in",
+    "correct": " Spain",
+    "counterfactual": " Germany",
+    "relation": "P495",
+    "subject": "Novelas ejemplares"
+  },
+  {
+    "prompt": "The capital of Democratic Republic of Afghanistan is",
+    "correct": " Kabul",
+    "counterfactual": " Florence",
+    "relation": "P36",
+    "subject": "Democratic Republic of Afghanistan"
+  },
+  {
+    "prompt": "Raoul Trujillo works as",
+    "correct": " actor",
+    "counterfactual": " politician",
+    "relation": "P106",
+    "subject": "Raoul Trujillo"
+  },
+  {
+    "prompt": "Tino di Camaino died in",
+    "correct": " Naples",
+    "counterfactual": " London",
+    "relation": "P20",
+    "subject": "Tino di Camaino"
+  },
+  {
+    "prompt": "The headquarter of Boston Bolts is in",
+    "correct": " Boston",
+    "counterfactual": " Detroit",
+    "relation": "P159",
+    "subject": "Boston Bolts"
+  },
+  {
+    "prompt": "The official religion of John Travolta is",
+    "correct": " Scientology",
+    "counterfactual": " Islam",
+    "relation": "P140",
+    "subject": "John Travolta"
+  },
+  {
+    "prompt": "Infiniti QX is produced by",
+    "correct": " Nissan",
+    "counterfactual": " Fiat",
+    "relation": "P176",
+    "subject": "Infiniti QX"
+  },
+  {
+    "prompt": "The location of Platonic Academy is",
+    "correct": " Florence",
+    "counterfactual": " London",
+    "relation": "P276",
+    "subject": "Platonic Academy"
+  },
+  {
+    "prompt": "Peter Mayle writes in",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Peter Mayle"
+  },
+  {
+    "prompt": "La Revista Blanca, that was from",
+    "correct": " Spain",
+    "counterfactual": " Belgium",
+    "relation": "P495",
+    "subject": "La Revista Blanca"
+  },
+  {
+    "prompt": "Robert Stanfield worked in the city of",
+    "correct": " Ottawa",
+    "counterfactual": " Berlin",
+    "relation": "P937",
+    "subject": "Robert Stanfield"
+  },
+  {
+    "prompt": "Florence is a twin city of",
+    "correct": " Athens",
+    "counterfactual": " Florence",
+    "relation": "P190",
+    "subject": "Florence"
+  },
+  {
+    "prompt": "Frank Brimsek plays as",
+    "correct": " goaltender",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Frank Brimsek"
+  },
+  {
+    "prompt": "Vico Magistretti writes in",
+    "correct": " Italian",
+    "counterfactual": " Hebrew",
+    "relation": "P1412",
+    "subject": "Vico Magistretti"
+  },
+  {
+    "prompt": "Elsevier is headquartered in",
+    "correct": " Philadelphia",
+    "counterfactual": " Seattle",
+    "relation": "P159",
+    "subject": "Elsevier"
+  },
+  {
+    "prompt": "The language of Rasayana is",
+    "correct": " Sanskrit",
+    "counterfactual": " Russian",
+    "relation": "P407",
+    "subject": "Rasayana"
+  },
+  {
+    "prompt": "Piero Gobetti speaks the language",
+    "correct": " Italian",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Piero Gobetti"
+  },
+  {
+    "prompt": "Uusimaa, which has the capital city",
+    "correct": " Helsinki",
+    "counterfactual": " Dresden",
+    "relation": "P36",
+    "subject": "Uusimaa"
+  },
+  {
+    "prompt": "Bakuman from",
+    "correct": " Japan",
+    "counterfactual": " Malaysia",
+    "relation": "P495",
+    "subject": "Bakuman"
+  },
+  {
+    "prompt": "Vancouver Symphony Orchestra was created in",
+    "correct": " Canada",
+    "counterfactual": " Pakistan",
+    "relation": "P495",
+    "subject": "Vancouver Symphony Orchestra"
+  },
+  {
+    "prompt": "The mother tongue of Miguel de Cervantes is",
+    "correct": " Spanish",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Miguel de Cervantes"
+  },
+  {
+    "prompt": "Bernhard Knipperdolling, who holds the position of",
+    "correct": " mayor",
+    "counterfactual": " cardinal",
+    "relation": "P39",
+    "subject": "Bernhard Knipperdolling"
+  },
+  {
+    "prompt": "Legg Mason originated in",
+    "correct": " Baltimore",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "Legg Mason"
+  },
+  {
+    "prompt": "Fa Ngum, who is a citizen of",
+    "correct": " Laos",
+    "counterfactual": " Egypt",
+    "relation": "P27",
+    "subject": "Fa Ngum"
+  },
+  {
+    "prompt": "Thomas Erle, a citizen of",
+    "correct": " England",
+    "counterfactual": " Rwanda",
+    "relation": "P27",
+    "subject": "Thomas Erle"
+  },
+  {
+    "prompt": "Porto is a twin city of",
+    "correct": " Bristol",
+    "counterfactual": " Tehran",
+    "relation": "P190",
+    "subject": "Porto"
+  },
+  {
+    "prompt": "Nick Raphael originates from",
+    "correct": " London",
+    "counterfactual": " Chicago",
+    "relation": "P19",
+    "subject": "Nick Raphael"
+  },
+  {
+    "prompt": "Apple A8X was created by",
+    "correct": " Apple",
+    "counterfactual": " Intel",
+    "relation": "P178",
+    "subject": "Apple A8X"
+  },
+  {
+    "prompt": "Weekendavisen, that was created in",
+    "correct": " Denmark",
+    "counterfactual": " Canada",
+    "relation": "P495",
+    "subject": "Weekendavisen"
+  },
+  {
+    "prompt": "Which position does Mark Visentin play? They play as",
+    "correct": " goaltender",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Mark Visentin"
+  },
+  {
+    "prompt": "The language of La dama boba is",
+    "correct": " Spanish",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "La dama boba"
+  },
+  {
+    "prompt": "The headquarter of Microland is located in",
+    "correct": " Bangalore",
+    "counterfactual": " Lyon",
+    "relation": "P159",
+    "subject": "Microland"
+  },
+  {
+    "prompt": "The twin city of Mumbai is",
+    "correct": " London",
+    "counterfactual": " Istanbul",
+    "relation": "P190",
+    "subject": "Mumbai"
+  },
+  {
+    "prompt": "Clark Durant was native to",
+    "correct": " Detroit",
+    "counterfactual": " Philadelphia",
+    "relation": "P19",
+    "subject": "Clark Durant"
+  },
+  {
+    "prompt": "American Dreams is to debut on",
+    "correct": " NBC",
+    "counterfactual": " MTV",
+    "relation": "P449",
+    "subject": "American Dreams"
+  },
+  {
+    "prompt": "Florence Charterhouse is within",
+    "correct": " Florence",
+    "counterfactual": " Maryland",
+    "relation": "P131",
+    "subject": "Florence Charterhouse"
+  },
+  {
+    "prompt": "Joe Darensbourg is known for performing",
+    "correct": " jazz",
+    "counterfactual": " sitcom",
+    "relation": "P136",
+    "subject": "Joe Darensbourg"
+  },
+  {
+    "prompt": "Papias of Hierapolis is a",
+    "correct": " bishop",
+    "counterfactual": " Shah",
+    "relation": "P39",
+    "subject": "Papias of Hierapolis"
+  },
+  {
+    "prompt": "M5 motorway is in",
+    "correct": " Devon",
+    "counterfactual": " Eden",
+    "relation": "P131",
+    "subject": "M5 motorway"
+  },
+  {
+    "prompt": "Dniester is in",
+    "correct": " Europe",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Dniester"
+  },
+  {
+    "prompt": "Comhar is written in",
+    "correct": " Irish",
+    "counterfactual": " French",
+    "relation": "P407",
+    "subject": "Comhar"
+  },
+  {
+    "prompt": "Bezimienni bohaterowie was developed in",
+    "correct": " Poland",
+    "counterfactual": " Canada",
+    "relation": "P495",
+    "subject": "Bezimienni bohaterowie"
+  },
+  {
+    "prompt": "OS X Mavericks, developed by",
+    "correct": " Apple",
+    "counterfactual": " Sony",
+    "relation": "P178",
+    "subject": "OS X Mavericks"
+  },
+  {
+    "prompt": "iBooks Author, a product manufactured by",
+    "correct": " Apple",
+    "counterfactual": " Adobe",
+    "relation": "P178",
+    "subject": "iBooks Author"
+  },
+  {
+    "prompt": "Filippa K formed in",
+    "correct": " Sweden",
+    "counterfactual": " Montreal",
+    "relation": "P740",
+    "subject": "Filippa K"
+  },
+  {
+    "prompt": "Patricia Kohlmann is a citizen of",
+    "correct": " Mexico",
+    "counterfactual": " Japan",
+    "relation": "P27",
+    "subject": "Patricia Kohlmann"
+  },
+  {
+    "prompt": "The language of A Cage of Nightingales was",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P364",
+    "subject": "A Cage of Nightingales"
+  },
+  {
+    "prompt": "Eddie Barefield plays",
+    "correct": " jazz",
+    "counterfactual": " trance",
+    "relation": "P136",
+    "subject": "Eddie Barefield"
+  },
+  {
+    "prompt": "Bultaco was formed in",
+    "correct": " Barcelona",
+    "counterfactual": " Philadelphia",
+    "relation": "P740",
+    "subject": "Bultaco"
+  },
+  {
+    "prompt": "Saladin follows the religion of",
+    "correct": " Islam",
+    "counterfactual": " Judaism",
+    "relation": "P140",
+    "subject": "Saladin"
+  },
+  {
+    "prompt": "The Fleetwoods that was founded in",
+    "correct": " Olympia",
+    "counterfactual": " Sydney",
+    "relation": "P740",
+    "subject": "The Fleetwoods"
+  },
+  {
+    "prompt": "BBC Red Button owner",
+    "correct": " BBC",
+    "counterfactual": " Intel",
+    "relation": "P127",
+    "subject": "BBC Red Button"
+  },
+  {
+    "prompt": "The genre played by Putte Wickman is",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Putte Wickman"
+  },
+  {
+    "prompt": "Josef Bohuslav Foerster was employed in",
+    "correct": " Prague",
+    "counterfactual": " Ottawa",
+    "relation": "P937",
+    "subject": "Josef Bohuslav Foerster"
+  },
+  {
+    "prompt": "Di Brandt, who has a citizenship from",
+    "correct": " Canada",
+    "counterfactual": " Vietnam",
+    "relation": "P27",
+    "subject": "Di Brandt"
+  },
+  {
+    "prompt": "Crossfire is to debut on",
+    "correct": " CNN",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "Crossfire"
+  },
+  {
+    "prompt": "Kemira is headquartered in",
+    "correct": " Helsinki",
+    "counterfactual": " Winnipeg",
+    "relation": "P159",
+    "subject": "Kemira"
+  },
+  {
+    "prompt": "Junnar, which is located in",
+    "correct": " India",
+    "counterfactual": " Belarus",
+    "relation": "P17",
+    "subject": "Junnar"
+  },
+  {
+    "prompt": "The location of Operation Barbarossa is",
+    "correct": " Lithuania",
+    "counterfactual": " Paris",
+    "relation": "P276",
+    "subject": "Operation Barbarossa"
+  },
+  {
+    "prompt": "The expertise of The Astronomical Journal is",
+    "correct": " astronomy",
+    "counterfactual": " algebra",
+    "relation": "P101",
+    "subject": "The Astronomical Journal"
+  },
+  {
+    "prompt": "The language of The Departure is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "The Departure"
+  },
+  {
+    "prompt": "What does Margit Sandemo play? They play",
+    "correct": " fantasy",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Margit Sandemo"
+  },
+  {
+    "prompt": "Vevo's owner",
+    "correct": " Google",
+    "counterfactual": " Winnipeg",
+    "relation": "P127",
+    "subject": "Vevo"
+  },
+  {
+    "prompt": "Damon Huard plays as",
+    "correct": " quarterback",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Damon Huard"
+  },
+  {
+    "prompt": "This Providence, that was formed in",
+    "correct": " Seattle",
+    "counterfactual": " Tokyo",
+    "relation": "P740",
+    "subject": "This Providence"
+  },
+  {
+    "prompt": "Madame de Montesson expired at",
+    "correct": " Paris",
+    "counterfactual": " Houston",
+    "relation": "P20",
+    "subject": "Madame de Montesson"
+  },
+  {
+    "prompt": "Dual! Parallel Trouble Adventure from",
+    "correct": " Japan",
+    "counterfactual": " Belgium",
+    "relation": "P495",
+    "subject": "Dual! Parallel Trouble Adventure"
+  },
+  {
+    "prompt": "The original language of The Aeronauts is",
+    "correct": " French",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "The Aeronauts"
+  },
+  {
+    "prompt": "East Ongul Island is a part of the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "East Ongul Island"
+  },
+  {
+    "prompt": "The Escaped from",
+    "correct": " Argentina",
+    "counterfactual": " France",
+    "relation": "P495",
+    "subject": "The Escaped"
+  },
+  {
+    "prompt": "Scot Brantley plays in the position of",
+    "correct": " linebacker",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Scot Brantley"
+  },
+  {
+    "prompt": "Realdo Colombo's life ended in",
+    "correct": " Rome",
+    "counterfactual": " Oslo",
+    "relation": "P20",
+    "subject": "Realdo Colombo"
+  },
+  {
+    "prompt": "The law in Donetsk People's Republic declares the language",
+    "correct": " Russian",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Donetsk People's Republic"
+  },
+  {
+    "prompt": "Nina van Pallandt, who holds a citizenship from",
+    "correct": " Denmark",
+    "counterfactual": " Canada",
+    "relation": "P27",
+    "subject": "Nina van Pallandt"
+  },
+  {
+    "prompt": "Friedrich Johannes Jacob Celestin von Schwarzenberg holds the title of",
+    "correct": " cardinal",
+    "counterfactual": " bishop",
+    "relation": "P39",
+    "subject": "Friedrich Johannes Jacob Celestin von Schwarzenberg"
+  },
+  {
+    "prompt": "Ba F.C. is located in the country of",
+    "correct": " Fiji",
+    "counterfactual": " Italy",
+    "relation": "P17",
+    "subject": "Ba F.C."
+  },
+  {
+    "prompt": "Make Them Suffer was created in",
+    "correct": " Australia",
+    "counterfactual": " Italy",
+    "relation": "P495",
+    "subject": "Make Them Suffer"
+  },
+  {
+    "prompt": "IBM Information Management System is created by",
+    "correct": " IBM",
+    "counterfactual": " Apple",
+    "relation": "P178",
+    "subject": "IBM Information Management System"
+  },
+  {
+    "prompt": "The original language of Duniya Na Mane is",
+    "correct": " Hindi",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "Duniya Na Mane"
+  },
+  {
+    "prompt": "Sherwin-Williams started in",
+    "correct": " Cleveland",
+    "counterfactual": " Melbourne",
+    "relation": "P740",
+    "subject": "Sherwin-Williams"
+  },
+  {
+    "prompt": "Andrew Huxley passed away at",
+    "correct": " Cambridge",
+    "counterfactual": " Wellington",
+    "relation": "P20",
+    "subject": "Andrew Huxley"
+  },
+  {
+    "prompt": "Gerard Lee was born in",
+    "correct": " Melbourne",
+    "counterfactual": " Boston",
+    "relation": "P19",
+    "subject": "Gerard Lee"
+  },
+  {
+    "prompt": "Jennifer Hudson speaks the language",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Jennifer Hudson"
+  },
+  {
+    "prompt": "BRIC, which was named for",
+    "correct": " India",
+    "counterfactual": " Apollo",
+    "relation": "P138",
+    "subject": "BRIC"
+  },
+  {
+    "prompt": "Spur Point, in",
+    "correct": " Antarctica",
+    "counterfactual": " Asia",
+    "relation": "P30",
+    "subject": "Spur Point"
+  },
+  {
+    "prompt": "U.S. Route 129 in Florida is in",
+    "correct": " Florida",
+    "counterfactual": " Ukraine",
+    "relation": "P131",
+    "subject": "U.S. Route 129 in Florida"
+  },
+  {
+    "prompt": "British Railways Board's headquarters are in",
+    "correct": " London",
+    "counterfactual": " Prague",
+    "relation": "P159",
+    "subject": "British Railways Board"
+  },
+  {
+    "prompt": "Luis Scola, the",
+    "correct": " basketball",
+    "counterfactual": " baseball",
+    "relation": "P641",
+    "subject": "Luis Scola"
+  },
+  {
+    "prompt": "Roger Holeindre speaks the language",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Roger Holeindre"
+  },
+  {
+    "prompt": "Matt Lavelle is known for performing",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Matt Lavelle"
+  },
+  {
+    "prompt": "Raimondo Van Riel originates from",
+    "correct": " Rome",
+    "counterfactual": " Glasgow",
+    "relation": "P19",
+    "subject": "Raimondo Van Riel"
+  },
+  {
+    "prompt": "Satchel Paige professionally plays the sport",
+    "correct": " baseball",
+    "counterfactual": " soccer",
+    "relation": "P641",
+    "subject": "Satchel Paige"
+  },
+  {
+    "prompt": "Kandiaro Taluka is located in",
+    "correct": " Pakistan",
+    "counterfactual": " Italy",
+    "relation": "P17",
+    "subject": "Kandiaro Taluka"
+  },
+  {
+    "prompt": "Yoro is located in",
+    "correct": " Honduras",
+    "counterfactual": " Japan",
+    "relation": "P17",
+    "subject": "Yoro"
+  },
+  {
+    "prompt": "Orange Marmalade was written in",
+    "correct": " Korean",
+    "counterfactual": " Spanish",
+    "relation": "P407",
+    "subject": "Orange Marmalade"
+  },
+  {
+    "prompt": "Which position does Chase Clement play? They play as",
+    "correct": " quarterback",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Chase Clement"
+  },
+  {
+    "prompt": "Hannah Point is in",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Hannah Point"
+  },
+  {
+    "prompt": "Morozumi Range, in",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Morozumi Range"
+  },
+  {
+    "prompt": "Joseph Milner speaks the language",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Joseph Milner"
+  },
+  {
+    "prompt": "The occupation of Dolly Wells is",
+    "correct": " actor",
+    "counterfactual": " philosopher",
+    "relation": "P106",
+    "subject": "Dolly Wells"
+  },
+  {
+    "prompt": "Willie Bobo is known for performing",
+    "correct": " jazz",
+    "counterfactual": " sitcom",
+    "relation": "P136",
+    "subject": "Willie Bobo"
+  },
+  {
+    "prompt": "Cape Legoupil is located in the continent",
+    "correct": " Antarctica",
+    "counterfactual": " Asia",
+    "relation": "P30",
+    "subject": "Cape Legoupil"
+  },
+  {
+    "prompt": "Nokia N70, produced by",
+    "correct": " Nokia",
+    "counterfactual": " Porsche",
+    "relation": "P176",
+    "subject": "Nokia N70"
+  },
+  {
+    "prompt": "Albrecht Kossel's domain of activity is",
+    "correct": " physiology",
+    "counterfactual": " medicine",
+    "relation": "P101",
+    "subject": "Albrecht Kossel"
+  },
+  {
+    "prompt": "What does Loose Tubes play? They play",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Loose Tubes"
+  },
+  {
+    "prompt": "Saaransh was formulated in",
+    "correct": " India",
+    "counterfactual": " France",
+    "relation": "P495",
+    "subject": "Saaransh"
+  },
+  {
+    "prompt": "The language used by Rajendra Prasad is",
+    "correct": " Hindi",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Rajendra Prasad"
+  },
+  {
+    "prompt": "The language of Ye Meri Life Hai is",
+    "correct": " Hindi",
+    "counterfactual": " Dutch",
+    "relation": "P364",
+    "subject": "Ye Meri Life Hai"
+  },
+  {
+    "prompt": "Mumbai City district, which has the capital city",
+    "correct": " Mumbai",
+    "counterfactual": " Rome",
+    "relation": "P36",
+    "subject": "Mumbai City district"
+  },
+  {
+    "prompt": "Hallaca, from",
+    "correct": " Venezuela",
+    "counterfactual": " France",
+    "relation": "P495",
+    "subject": "Hallaca"
+  },
+  {
+    "prompt": "Jean Marot, speaker of",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Jean Marot"
+  },
+  {
+    "prompt": "Sarah Waters speaks the language",
+    "correct": " Welsh",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Sarah Waters"
+  },
+  {
+    "prompt": "Alva Myrdal took up work in",
+    "correct": " Stockholm",
+    "counterfactual": " Berlin",
+    "relation": "P937",
+    "subject": "Alva Myrdal"
+  },
+  {
+    "prompt": "Rageh Omaar is employed by",
+    "correct": " BBC",
+    "counterfactual": " ESPN",
+    "relation": "P108",
+    "subject": "Rageh Omaar"
+  },
+  {
+    "prompt": "Georges Altman, who works as",
+    "correct": " journalist",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "Georges Altman"
+  },
+  {
+    "prompt": "Maury County can be found in",
+    "correct": " Tennessee",
+    "counterfactual": " Alaska",
+    "relation": "P131",
+    "subject": "Maury County"
+  },
+  {
+    "prompt": "Matias Kupiainen originated from",
+    "correct": " Helsinki",
+    "counterfactual": " Ottawa",
+    "relation": "P19",
+    "subject": "Matias Kupiainen"
+  },
+  {
+    "prompt": "John Schumann and the Vagabond Crew was formed in",
+    "correct": " Adelaide",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "John Schumann and the Vagabond Crew"
+  },
+  {
+    "prompt": "Max Neal is native to",
+    "correct": " Munich",
+    "counterfactual": " Detroit",
+    "relation": "P19",
+    "subject": "Max Neal"
+  },
+  {
+    "prompt": "Philip Walsingham Sergeant was native to",
+    "correct": " London",
+    "counterfactual": " Portsmouth",
+    "relation": "P19",
+    "subject": "Philip Walsingham Sergeant"
+  },
+  {
+    "prompt": "The law in Netherlands Antilles declares the language",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P37",
+    "subject": "Netherlands Antilles"
+  },
+  {
+    "prompt": "Carol & Company was originally aired on",
+    "correct": " NBC",
+    "counterfactual": " MTV",
+    "relation": "P449",
+    "subject": "Carol & Company"
+  },
+  {
+    "prompt": "Albrecht Weber, who has a citizenship from",
+    "correct": " Germany",
+    "counterfactual": " France",
+    "relation": "P27",
+    "subject": "Albrecht Weber"
+  },
+  {
+    "prompt": "In Canton of Fribourg, the language spoken is",
+    "correct": " German",
+    "counterfactual": " French",
+    "relation": "P37",
+    "subject": "Canton of Fribourg"
+  },
+  {
+    "prompt": "Giacomo Balla speaks the language",
+    "correct": " Italian",
+    "counterfactual": " Dutch",
+    "relation": "P1412",
+    "subject": "Giacomo Balla"
+  },
+  {
+    "prompt": "Sarke, that originated in",
+    "correct": " Oslo",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "Sarke"
+  },
+  {
+    "prompt": "Yazid I follows the religion of",
+    "correct": " Islam",
+    "counterfactual": " Judaism",
+    "relation": "P140",
+    "subject": "Yazid I"
+  },
+  {
+    "prompt": "Eduardo De Filippo's occupation is",
+    "correct": " poet",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "Eduardo De Filippo"
+  },
+  {
+    "prompt": "Otto Hauser took up work in",
+    "correct": " Berlin",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "Otto Hauser"
+  },
+  {
+    "prompt": "Gregory XVI succumbed at",
+    "correct": " Rome",
+    "counterfactual": " Vienna",
+    "relation": "P20",
+    "subject": "Gregory XVI"
+  },
+  {
+    "prompt": "Germaine Greer's expertise is",
+    "correct": " feminism",
+    "counterfactual": " chemistry",
+    "relation": "P101",
+    "subject": "Germaine Greer"
+  },
+  {
+    "prompt": "Honda Concerto is a product of",
+    "correct": " Honda",
+    "counterfactual": " Triumph",
+    "relation": "P176",
+    "subject": "Honda Concerto"
+  },
+  {
+    "prompt": "The official religion of Bodhidharma is",
+    "correct": " Buddhism",
+    "counterfactual": " Islam",
+    "relation": "P140",
+    "subject": "Bodhidharma"
+  },
+  {
+    "prompt": "The official religion of Tang Empire is",
+    "correct": " Buddhism",
+    "counterfactual": " Judaism",
+    "relation": "P140",
+    "subject": "Tang Empire"
+  },
+  {
+    "prompt": "Glen Ballard, performing on the",
+    "correct": " guitar",
+    "counterfactual": " trumpet",
+    "relation": "P1303",
+    "subject": "Glen Ballard"
+  },
+  {
+    "prompt": "Erik Pauelsen has a citizenship from",
+    "correct": " Denmark",
+    "counterfactual": " Germany",
+    "relation": "P27",
+    "subject": "Erik Pauelsen"
+  },
+  {
+    "prompt": "Dodge Polara is produced by",
+    "correct": " Dodge",
+    "counterfactual": " BMW",
+    "relation": "P176",
+    "subject": "Dodge Polara"
+  },
+  {
+    "prompt": "Helen Sung, who plays",
+    "correct": " jazz",
+    "counterfactual": " fantasy",
+    "relation": "P136",
+    "subject": "Helen Sung"
+  },
+  {
+    "prompt": "The original language of The Easy Life is",
+    "correct": " Italian",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "The Easy Life"
+  },
+  {
+    "prompt": "Neko Entertainment was formed in",
+    "correct": " Paris",
+    "counterfactual": " Sydney",
+    "relation": "P740",
+    "subject": "Neko Entertainment"
+  },
+  {
+    "prompt": "Joseph Fred Naumann holds the position of",
+    "correct": " bishop",
+    "counterfactual": " pope",
+    "relation": "P39",
+    "subject": "Joseph Fred Naumann"
+  },
+  {
+    "prompt": "Maria Altmann originated from",
+    "correct": " Vienna",
+    "counterfactual": " Boston",
+    "relation": "P19",
+    "subject": "Maria Altmann"
+  },
+  {
+    "prompt": "Stockholm Pride is located in",
+    "correct": " Stockholm",
+    "counterfactual": " Milan",
+    "relation": "P276",
+    "subject": "Stockholm Pride"
+  },
+  {
+    "prompt": "Ministry of Foreign Affairs, whose headquarters are in",
+    "correct": " Moscow",
+    "counterfactual": " London",
+    "relation": "P159",
+    "subject": "Ministry of Foreign Affairs"
+  },
+  {
+    "prompt": "Jaidev died at",
+    "correct": " Mumbai",
+    "counterfactual": " Dresden",
+    "relation": "P20",
+    "subject": "Jaidev"
+  },
+  {
+    "prompt": "The official language of Kokkola is",
+    "correct": " Finnish",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Kokkola"
+  },
+  {
+    "prompt": "Nokia Lumia 900 is created by",
+    "correct": " Nokia",
+    "counterfactual": " Honda",
+    "relation": "P176",
+    "subject": "Nokia Lumia 900"
+  },
+  {
+    "prompt": "Symbian was a product of",
+    "correct": " Nokia",
+    "counterfactual": " Atari",
+    "relation": "P178",
+    "subject": "Symbian"
+  },
+  {
+    "prompt": "John McAllion is native to",
+    "correct": " Glasgow",
+    "counterfactual": " Singapore",
+    "relation": "P19",
+    "subject": "John McAllion"
+  },
+  {
+    "prompt": "Robert Jan van Pelt speaks",
+    "correct": " Dutch",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Robert Jan van Pelt"
+  },
+  {
+    "prompt": "Fiat 126, produced by",
+    "correct": " Fiat",
+    "counterfactual": " Apple",
+    "relation": "P176",
+    "subject": "Fiat 126"
+  },
+  {
+    "prompt": "Paul Gorguloff's life ended in",
+    "correct": " Paris",
+    "counterfactual": " London",
+    "relation": "P20",
+    "subject": "Paul Gorguloff"
+  },
+  {
+    "prompt": "suicide attack specializes in",
+    "correct": " terrorism",
+    "counterfactual": " physiology",
+    "relation": "P101",
+    "subject": "suicide attack"
+  },
+  {
+    "prompt": "The language of Re! was",
+    "correct": " Greek",
+    "counterfactual": " Italian",
+    "relation": "P407",
+    "subject": "Re!"
+  },
+  {
+    "prompt": "The mother tongue of Toine Manders is",
+    "correct": " Dutch",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Toine Manders"
+  },
+  {
+    "prompt": "Malik al-Ashtar is affiliated with the religion",
+    "correct": " Islam",
+    "counterfactual": " Christianity",
+    "relation": "P140",
+    "subject": "Malik al-Ashtar"
+  },
+  {
+    "prompt": "Which position does Mark Herrmann play? They play as",
+    "correct": " quarterback",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Mark Herrmann"
+  },
+  {
+    "prompt": "Alexander Ralston lost their life at",
+    "correct": " Indianapolis",
+    "counterfactual": " London",
+    "relation": "P20",
+    "subject": "Alexander Ralston"
+  },
+  {
+    "prompt": "The language used by Edward Yang is",
+    "correct": " Chinese",
+    "counterfactual": " Spanish",
+    "relation": "P1412",
+    "subject": "Edward Yang"
+  },
+  {
+    "prompt": "iPhone 5, produced by",
+    "correct": " Apple",
+    "counterfactual": " Porsche",
+    "relation": "P176",
+    "subject": "iPhone 5"
+  },
+  {
+    "prompt": "Windows 98 was a product of",
+    "correct": " Microsoft",
+    "counterfactual": " IBM",
+    "relation": "P178",
+    "subject": "Windows 98"
+  },
+  {
+    "prompt": "Louise Schroeder was employed in",
+    "correct": " Berlin",
+    "counterfactual": " Dresden",
+    "relation": "P937",
+    "subject": "Louise Schroeder"
+  },
+  {
+    "prompt": "Old Trinity Church can be found in",
+    "correct": " Pennsylvania",
+    "counterfactual": " Missouri",
+    "relation": "P131",
+    "subject": "Old Trinity Church"
+  },
+  {
+    "prompt": "Azerbaijan Tower is owned by",
+    "correct": " Azerbaijan",
+    "counterfactual": " Yahoo",
+    "relation": "P127",
+    "subject": "Azerbaijan Tower"
+  },
+  {
+    "prompt": "In La Gomera, an official language is",
+    "correct": " Spanish",
+    "counterfactual": " French",
+    "relation": "P37",
+    "subject": "La Gomera"
+  },
+  {
+    "prompt": "The headquarters of LG Chem is in",
+    "correct": " Seoul",
+    "counterfactual": " Amsterdam",
+    "relation": "P159",
+    "subject": "LG Chem"
+  },
+  {
+    "prompt": "Party Pilipinas, that was from",
+    "correct": " Philippines",
+    "counterfactual": " India",
+    "relation": "P495",
+    "subject": "Party Pilipinas"
+  },
+  {
+    "prompt": "Ilta-Sanomat was written in",
+    "correct": " Finnish",
+    "counterfactual": " Spanish",
+    "relation": "P407",
+    "subject": "Ilta-Sanomat"
+  },
+  {
+    "prompt": "Karl Polanyi's domain of activity is",
+    "correct": " sociology",
+    "counterfactual": " anthropology",
+    "relation": "P101",
+    "subject": "Karl Polanyi"
+  },
+  {
+    "prompt": "In Exarchate of Ravenna, an official language is",
+    "correct": " Latin",
+    "counterfactual": " German",
+    "relation": "P37",
+    "subject": "Exarchate of Ravenna"
+  },
+  {
+    "prompt": "Ibn Shihab al-Zuhri is follower of",
+    "correct": " Islam",
+    "counterfactual": " Judaism",
+    "relation": "P140",
+    "subject": "Ibn Shihab al-Zuhri"
+  },
+  {
+    "prompt": "Emmanuelle Devos's profession is an",
+    "correct": " actor",
+    "counterfactual": " journalist",
+    "relation": "P106",
+    "subject": "Emmanuelle Devos"
+  },
+  {
+    "prompt": "The domain of work of Hubert von Luschka is",
+    "correct": " anatomy",
+    "counterfactual": " philosophy",
+    "relation": "P101",
+    "subject": "Hubert von Luschka"
+  },
+  {
+    "prompt": "James Naughtie, who is employed by",
+    "correct": " BBC",
+    "counterfactual": " NPR",
+    "relation": "P108",
+    "subject": "James Naughtie"
+  },
+  {
+    "prompt": "John Ashburnham, 1st Baron Ashburnham's profession is a",
+    "correct": " politician",
+    "counterfactual": " architect",
+    "relation": "P106",
+    "subject": "John Ashburnham, 1st Baron Ashburnham"
+  },
+  {
+    "prompt": "Heyday Films, founded in",
+    "correct": " London",
+    "counterfactual": " Seattle",
+    "relation": "P740",
+    "subject": "Heyday Films"
+  },
+  {
+    "prompt": "Lalrindika Ralte plays in the position of",
+    "correct": " midfielder",
+    "counterfactual": " linebacker",
+    "relation": "P413",
+    "subject": "Lalrindika Ralte"
+  },
+  {
+    "prompt": "Karim Lala originated from",
+    "correct": " Afghanistan",
+    "counterfactual": " London",
+    "relation": "P19",
+    "subject": "Karim Lala"
+  },
+  {
+    "prompt": "Barnstable (village), Massachusetts, in",
+    "correct": " Massachusetts",
+    "counterfactual": " Indiana",
+    "relation": "P131",
+    "subject": "Barnstable (village), Massachusetts"
+  },
+  {
+    "prompt": "The twin city of Coventry is",
+    "correct": " Dresden",
+    "counterfactual": " London",
+    "relation": "P190",
+    "subject": "Coventry"
+  },
+  {
+    "prompt": "Abdurrahman Wahid is follower of",
+    "correct": " Islam",
+    "counterfactual": " Christianity",
+    "relation": "P140",
+    "subject": "Abdurrahman Wahid"
+  },
+  {
+    "prompt": "Ferdinand Meldahl, who has a citizenship from",
+    "correct": " Denmark",
+    "counterfactual": " France",
+    "relation": "P27",
+    "subject": "Ferdinand Meldahl"
+  },
+  {
+    "prompt": "True Detective was originally aired on",
+    "correct": " HBO",
+    "counterfactual": " PBS",
+    "relation": "P449",
+    "subject": "True Detective"
+  },
+  {
+    "prompt": "Orkut, by",
+    "correct": " Google",
+    "counterfactual": " Philadelphia",
+    "relation": "P127",
+    "subject": "Orkut"
+  },
+  {
+    "prompt": "Redpath Sugar, whose headquarters are in",
+    "correct": " Montreal",
+    "counterfactual": " Moscow",
+    "relation": "P159",
+    "subject": "Redpath Sugar"
+  },
+  {
+    "prompt": "Bailey Peninsula (Antarctica) belongs to the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Bailey Peninsula (Antarctica)"
+  },
+  {
+    "prompt": "Yahya Petra of Kelantan, who holds a citizenship from",
+    "correct": " Malaysia",
+    "counterfactual": " Belgium",
+    "relation": "P27",
+    "subject": "Yahya Petra of Kelantan"
+  },
+  {
+    "prompt": "Chevrolet El Camino, developed by",
+    "correct": " Chevrolet",
+    "counterfactual": " Sony",
+    "relation": "P176",
+    "subject": "Chevrolet El Camino"
+  },
+  {
+    "prompt": "Union Films formed in",
+    "correct": " Jakarta",
+    "counterfactual": " Minneapolis",
+    "relation": "P740",
+    "subject": "Union Films"
+  },
+  {
+    "prompt": "Gene Amdahl, who is employed by",
+    "correct": " IBM",
+    "counterfactual": " BBC",
+    "relation": "P108",
+    "subject": "Gene Amdahl"
+  },
+  {
+    "prompt": "Valemont debuted on",
+    "correct": " MTV",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "Valemont"
+  },
+  {
+    "prompt": "Kenta Fukasaku, who holds a citizenship from",
+    "correct": " Japan",
+    "counterfactual": " Iran",
+    "relation": "P27",
+    "subject": "Kenta Fukasaku"
+  },
+  {
+    "prompt": "Men into Space debuted on",
+    "correct": " CBS",
+    "counterfactual": " NBC",
+    "relation": "P449",
+    "subject": "Men into Space"
+  },
+  {
+    "prompt": "North Brabant belongs to the continent of",
+    "correct": " Europe",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "North Brabant"
+  },
+  {
+    "prompt": "Camelot Software Planning's owner",
+    "correct": " Sega",
+    "counterfactual": " Google",
+    "relation": "P127",
+    "subject": "Camelot Software Planning"
+  },
+  {
+    "prompt": "Queenadreena was formed in",
+    "correct": " London",
+    "counterfactual": " Moscow",
+    "relation": "P740",
+    "subject": "Queenadreena"
+  },
+  {
+    "prompt": "Mendi Rodan's life ended in",
+    "correct": " Jerusalem",
+    "counterfactual": " Sheffield",
+    "relation": "P20",
+    "subject": "Mendi Rodan"
+  },
+  {
+    "prompt": "Ariake Coliseum's owner",
+    "correct": " Tokyo",
+    "counterfactual": " Microsoft",
+    "relation": "P127",
+    "subject": "Ariake Coliseum"
+  },
+  {
+    "prompt": "Mount Karisimbi belongs to the continent of",
+    "correct": " Africa",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Mount Karisimbi"
+  },
+  {
+    "prompt": "Jean Debucourt writes in",
+    "correct": " French",
+    "counterfactual": " Spanish",
+    "relation": "P1412",
+    "subject": "Jean Debucourt"
+  },
+  {
+    "prompt": "The genre played by Sal Mosca is",
+    "correct": " jazz",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Sal Mosca"
+  },
+  {
+    "prompt": "FC Bayern Munich is called after",
+    "correct": " Munich",
+    "counterfactual": " Kiev",
+    "relation": "P138",
+    "subject": "FC Bayern Munich"
+  },
+  {
+    "prompt": "Ivan Ivanov-Vano spoke the language",
+    "correct": " Russian",
+    "counterfactual": " French",
+    "relation": "P103",
+    "subject": "Ivan Ivanov-Vano"
+  },
+  {
+    "prompt": "Ike Ekweremadu, a citizen of",
+    "correct": " Nigeria",
+    "counterfactual": " Australia",
+    "relation": "P27",
+    "subject": "Ike Ekweremadu"
+  },
+  {
+    "prompt": "The original language of Tolomeo was",
+    "correct": " Italian",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "Tolomeo"
+  },
+  {
+    "prompt": "Isidor Philipp passed away at",
+    "correct": " Paris",
+    "counterfactual": " Geneva",
+    "relation": "P20",
+    "subject": "Isidor Philipp"
+  },
+  {
+    "prompt": "This Old House premieres on",
+    "correct": " PBS",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "This Old House"
+  },
+  {
+    "prompt": "Poeten og Lillemor og Lotte was created in",
+    "correct": " Denmark",
+    "counterfactual": " India",
+    "relation": "P495",
+    "subject": "Poeten og Lillemor og Lotte"
+  },
+  {
+    "prompt": "The law in Posio declares the language",
+    "correct": " Finnish",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Posio"
+  },
+  {
+    "prompt": "The language of The Red Sea Sharks is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "The Red Sea Sharks"
+  },
+  {
+    "prompt": "Turkish Angora is called after",
+    "correct": " Ankara",
+    "counterfactual": " Aleppo",
+    "relation": "P138",
+    "subject": "Turkish Angora"
+  },
+  {
+    "prompt": "John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair was employed in",
+    "correct": " London",
+    "counterfactual": " Stockholm",
+    "relation": "P937",
+    "subject": "John Hamilton-Gordon, 1st Marquess of Aberdeen and Temair"
+  },
+  {
+    "prompt": "Douglas DC-5 is produced by",
+    "correct": " Douglas",
+    "counterfactual": " Porsche",
+    "relation": "P176",
+    "subject": "Douglas DC-5"
+  },
+  {
+    "prompt": "Pierre Curie's area of work is",
+    "correct": " physics",
+    "counterfactual": " medicine",
+    "relation": "P101",
+    "subject": "Pierre Curie"
+  },
+  {
+    "prompt": "In Oulu, an official language is",
+    "correct": " Finnish",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Oulu"
+  },
+  {
+    "prompt": "Gianluigi Lentini plays as",
+    "correct": " midfielder",
+    "counterfactual": " linebacker",
+    "relation": "P413",
+    "subject": "Gianluigi Lentini"
+  },
+  {
+    "prompt": "Linate Airport was called after",
+    "correct": " Milan",
+    "counterfactual": " Florence",
+    "relation": "P138",
+    "subject": "Linate Airport"
+  },
+  {
+    "prompt": "Harold Byrd Mountains is in",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Harold Byrd Mountains"
+  },
+  {
+    "prompt": "Terry Trotter performs on the",
+    "correct": " piano",
+    "counterfactual": " guitar",
+    "relation": "P1303",
+    "subject": "Terry Trotter"
+  },
+  {
+    "prompt": "What is the twin city of Rotterdam? It is",
+    "correct": " Istanbul",
+    "counterfactual": " Cairo",
+    "relation": "P190",
+    "subject": "Rotterdam"
+  },
+  {
+    "prompt": "In Kashubia, an official language is",
+    "correct": " Polish",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Kashubia"
+  },
+  {
+    "prompt": "Alestorm originated in",
+    "correct": " Perth",
+    "counterfactual": " Pittsburgh",
+    "relation": "P740",
+    "subject": "Alestorm"
+  },
+  {
+    "prompt": "Francesco Calogero, a citizen of",
+    "correct": " Italy",
+    "counterfactual": " Denmark",
+    "relation": "P27",
+    "subject": "Francesco Calogero"
+  },
+  {
+    "prompt": "Jessica Jones is affiliated with the",
+    "correct": " Avengers",
+    "counterfactual": " FIFA",
+    "relation": "P463",
+    "subject": "Jessica Jones"
+  },
+  {
+    "prompt": "Underdog premieres on",
+    "correct": " NBC",
+    "counterfactual": " MTV",
+    "relation": "P449",
+    "subject": "Underdog"
+  },
+  {
+    "prompt": "Carl Gustav Carus was employed in",
+    "correct": " Dresden",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "Carl Gustav Carus"
+  },
+  {
+    "prompt": "How I Met Your Mother premieres on",
+    "correct": " CBS",
+    "counterfactual": " NBC",
+    "relation": "P449",
+    "subject": "How I Met Your Mother"
+  },
+  {
+    "prompt": "Shanghai is a twin city of",
+    "correct": " London",
+    "counterfactual": " Atlanta",
+    "relation": "P190",
+    "subject": "Shanghai"
+  },
+  {
+    "prompt": "Material World, developed in",
+    "correct": " Canada",
+    "counterfactual": " Kenya",
+    "relation": "P495",
+    "subject": "Material World"
+  },
+  {
+    "prompt": "Enrico Barone's life ended in",
+    "correct": " Rome",
+    "counterfactual": " Hollywood",
+    "relation": "P20",
+    "subject": "Enrico Barone"
+  },
+  {
+    "prompt": "David Burliuk speaks",
+    "correct": " Russian",
+    "counterfactual": " Spanish",
+    "relation": "P1412",
+    "subject": "David Burliuk"
+  },
+  {
+    "prompt": "Ludwig Marcuse was born in",
+    "correct": " Berlin",
+    "counterfactual": " Denmark",
+    "relation": "P19",
+    "subject": "Ludwig Marcuse"
+  },
+  {
+    "prompt": "Annamalai University is in",
+    "correct": " Asia",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Annamalai University"
+  },
+  {
+    "prompt": "Tracey Takes On... premieres on",
+    "correct": " HBO",
+    "counterfactual": " MTV",
+    "relation": "P449",
+    "subject": "Tracey Takes On..."
+  },
+  {
+    "prompt": "Anahuac National Wildlife Refuge can be found in",
+    "correct": " Texas",
+    "counterfactual": " Virginia",
+    "relation": "P131",
+    "subject": "Anahuac National Wildlife Refuge"
+  },
+  {
+    "prompt": "Enzo Ferrari is produced by",
+    "correct": " Ferrari",
+    "counterfactual": " Nintendo",
+    "relation": "P176",
+    "subject": "Enzo Ferrari"
+  },
+  {
+    "prompt": "Taiwan Pride is in",
+    "correct": " Taiwan",
+    "counterfactual": " Manchester",
+    "relation": "P276",
+    "subject": "Taiwan Pride"
+  },
+  {
+    "prompt": "Gorm the Old is a citizen of",
+    "correct": " Denmark",
+    "counterfactual": " India",
+    "relation": "P27",
+    "subject": "Gorm the Old"
+  },
+  {
+    "prompt": "Robert A. Millikan's domain of activity is",
+    "correct": " physics",
+    "counterfactual": " Buddhism",
+    "relation": "P101",
+    "subject": "Robert A. Millikan"
+  },
+  {
+    "prompt": "Nintendo DS Lite, created by",
+    "correct": " Nintendo",
+    "counterfactual": " Nissan",
+    "relation": "P176",
+    "subject": "Nintendo DS Lite"
+  },
+  {
+    "prompt": "The location of Battle of France is",
+    "correct": " Netherlands",
+    "counterfactual": " Seattle",
+    "relation": "P276",
+    "subject": "Battle of France"
+  },
+  {
+    "prompt": "Nokia N85 is developed by",
+    "correct": " Nokia",
+    "counterfactual": " Nintendo",
+    "relation": "P176",
+    "subject": "Nokia N85"
+  },
+  {
+    "prompt": "Illinois Route 394, in",
+    "correct": " Illinois",
+    "counterfactual": " Scotland",
+    "relation": "P131",
+    "subject": "Illinois Route 394"
+  },
+  {
+    "prompt": "The twin city of Stockholm is",
+    "correct": " Kiev",
+    "counterfactual": " Atlanta",
+    "relation": "P190",
+    "subject": "Stockholm"
+  },
+  {
+    "prompt": "Bill Moyers Journal was originally aired on",
+    "correct": " PBS",
+    "counterfactual": " YouTube",
+    "relation": "P449",
+    "subject": "Bill Moyers Journal"
+  },
+  {
+    "prompt": "John D. Rockefeller took up work in",
+    "correct": " Cleveland",
+    "counterfactual": " Budapest",
+    "relation": "P937",
+    "subject": "John D. Rockefeller"
+  },
+  {
+    "prompt": "The domain of activity of Galileo Galilei is",
+    "correct": " philosophy",
+    "counterfactual": " chemistry",
+    "relation": "P101",
+    "subject": "Galileo Galilei"
+  },
+  {
+    "prompt": "Which position does Martin Brodeur play? They play as",
+    "correct": " goaltender",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Martin Brodeur"
+  },
+  {
+    "prompt": "Saturday Night Live is to debut on",
+    "correct": " NBC",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "Saturday Night Live"
+  },
+  {
+    "prompt": "BMW IIIa is produced by",
+    "correct": " BMW",
+    "counterfactual": " Suzuki",
+    "relation": "P176",
+    "subject": "BMW IIIa"
+  },
+  {
+    "prompt": "Juho Kusti Paasikivi worked in",
+    "correct": " Helsinki",
+    "counterfactual": " Paris",
+    "relation": "P937",
+    "subject": "Juho Kusti Paasikivi"
+  },
+  {
+    "prompt": "Judaizers is affiliated with the religion",
+    "correct": " Christianity",
+    "counterfactual": " Islam",
+    "relation": "P140",
+    "subject": "Judaizers"
+  },
+  {
+    "prompt": "Crystal Palace Baltimore is headquartered in",
+    "correct": " Baltimore",
+    "counterfactual": " Jerusalem",
+    "relation": "P159",
+    "subject": "Crystal Palace Baltimore"
+  },
+  {
+    "prompt": "Pianos Become the Teeth that was founded in",
+    "correct": " Baltimore",
+    "counterfactual": " Tokyo",
+    "relation": "P740",
+    "subject": "Pianos Become the Teeth"
+  },
+  {
+    "prompt": "The original language of Oru Kal Oru Kannadi was",
+    "correct": " Tamil",
+    "counterfactual": " French",
+    "relation": "P364",
+    "subject": "Oru Kal Oru Kannadi"
+  },
+  {
+    "prompt": "Johann von Rist works as",
+    "correct": " poet",
+    "counterfactual": " astronomer",
+    "relation": "P106",
+    "subject": "Johann von Rist"
+  },
+  {
+    "prompt": "Lon Chaney speaks",
+    "correct": " English",
+    "counterfactual": " Thai",
+    "relation": "P1412",
+    "subject": "Lon Chaney"
+  },
+  {
+    "prompt": "Chevrolet Equinox, produced by",
+    "correct": " Chevrolet",
+    "counterfactual": " Triumph",
+    "relation": "P176",
+    "subject": "Chevrolet Equinox"
+  },
+  {
+    "prompt": "Queen Charlotte Mountains is located in the country of",
+    "correct": " Canada",
+    "counterfactual": " Greece",
+    "relation": "P17",
+    "subject": "Queen Charlotte Mountains"
+  },
+  {
+    "prompt": "Marie Tussaud lost their life at",
+    "correct": " London",
+    "counterfactual": " Hamburg",
+    "relation": "P20",
+    "subject": "Marie Tussaud"
+  },
+  {
+    "prompt": "Casey Matthews plays in the position of",
+    "correct": " linebacker",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Casey Matthews"
+  },
+  {
+    "prompt": "Toyota Porte is produced by",
+    "correct": " Toyota",
+    "counterfactual": " Chevrolet",
+    "relation": "P176",
+    "subject": "Toyota Porte"
+  },
+  {
+    "prompt": "Roy Paci performs on the",
+    "correct": " trumpet",
+    "counterfactual": " guitar",
+    "relation": "P1303",
+    "subject": "Roy Paci"
+  },
+  {
+    "prompt": "Montrealer, which is called after",
+    "correct": " Montreal",
+    "counterfactual": " Chicago",
+    "relation": "P138",
+    "subject": "Montrealer"
+  },
+  {
+    "prompt": "Canada Live, which is located in",
+    "correct": " Canada",
+    "counterfactual": " Turkey",
+    "relation": "P17",
+    "subject": "Canada Live"
+  },
+  {
+    "prompt": "Buckeystown is within",
+    "correct": " Maryland",
+    "counterfactual": " Ontario",
+    "relation": "P131",
+    "subject": "Buckeystown"
+  },
+  {
+    "prompt": "Windows Embedded Compact was created by",
+    "correct": " Microsoft",
+    "counterfactual": " Google",
+    "relation": "P178",
+    "subject": "Windows Embedded Compact"
+  },
+  {
+    "prompt": "Rock the Cradle was released on",
+    "correct": " MTV",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "Rock the Cradle"
+  },
+  {
+    "prompt": "Trey DePriest plays as",
+    "correct": " linebacker",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Trey DePriest"
+  },
+  {
+    "prompt": "Harlem Hamfats plays",
+    "correct": " jazz",
+    "counterfactual": " sitcom",
+    "relation": "P136",
+    "subject": "Harlem Hamfats"
+  },
+  {
+    "prompt": "Knockmealdown Mountains, in",
+    "correct": " Ireland",
+    "counterfactual": " Libya",
+    "relation": "P17",
+    "subject": "Knockmealdown Mountains"
+  },
+  {
+    "prompt": "Orestis Laskos, a citizen of",
+    "correct": " Greece",
+    "counterfactual": " Brazil",
+    "relation": "P27",
+    "subject": "Orestis Laskos"
+  },
+  {
+    "prompt": "Vitaly Margulis plays the instrument",
+    "correct": " piano",
+    "counterfactual": " singing",
+    "relation": "P1303",
+    "subject": "Vitaly Margulis"
+  },
+  {
+    "prompt": "Yona Friedman originated from",
+    "correct": " Budapest",
+    "counterfactual": " Edinburgh",
+    "relation": "P19",
+    "subject": "Yona Friedman"
+  },
+  {
+    "prompt": "What is the twin city of Tirana? It is",
+    "correct": " Athens",
+    "counterfactual": " Seoul",
+    "relation": "P190",
+    "subject": "Tirana"
+  },
+  {
+    "prompt": "Josephine Wiggs, the",
+    "correct": " guitar",
+    "counterfactual": " trumpet",
+    "relation": "P1303",
+    "subject": "Josephine Wiggs"
+  },
+  {
+    "prompt": "Afghanistan belongs to the continent of",
+    "correct": " Asia",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Afghanistan"
+  },
+  {
+    "prompt": "Jiloan Hamad plays as",
+    "correct": " midfielder",
+    "counterfactual": " linebacker",
+    "relation": "P413",
+    "subject": "Jiloan Hamad"
+  },
+  {
+    "prompt": "North Hennepin Community College is within",
+    "correct": " Minnesota",
+    "counterfactual": " Queensland",
+    "relation": "P131",
+    "subject": "North Hennepin Community College"
+  },
+  {
+    "prompt": "George Dance the Younger's life ended in",
+    "correct": " London",
+    "counterfactual": " Tehran",
+    "relation": "P20",
+    "subject": "George Dance the Younger"
+  },
+  {
+    "prompt": "Munzir ibn Sawa Al Tamimi is affiliated with the religion",
+    "correct": " Islam",
+    "counterfactual": " Buddhism",
+    "relation": "P140",
+    "subject": "Munzir ibn Sawa Al Tamimi"
+  },
+  {
+    "prompt": "Pagan Federation is headquartered in",
+    "correct": " London",
+    "counterfactual": " Norwich",
+    "relation": "P159",
+    "subject": "Pagan Federation"
+  },
+  {
+    "prompt": "Nintendo Entertainment System, produced by",
+    "correct": " Nintendo",
+    "counterfactual": " Apple",
+    "relation": "P176",
+    "subject": "Nintendo Entertainment System"
+  },
+  {
+    "prompt": "Graham Dorrans, who plays the position",
+    "correct": " midfielder",
+    "counterfactual": " goaltender",
+    "relation": "P413",
+    "subject": "Graham Dorrans"
+  },
+  {
+    "prompt": "Ovomaltine originated in",
+    "correct": " Switzerland",
+    "counterfactual": " Italy",
+    "relation": "P495",
+    "subject": "Ovomaltine"
+  },
+  {
+    "prompt": "The original language of An Englishman Abroad is",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P364",
+    "subject": "An Englishman Abroad"
+  },
+  {
+    "prompt": "The headquarters of Artnet is in",
+    "correct": " Berlin",
+    "counterfactual": " Hayward",
+    "relation": "P159",
+    "subject": "Artnet"
+  },
+  {
+    "prompt": "Carnegie Vanguard High School is within",
+    "correct": " Texas",
+    "counterfactual": " California",
+    "relation": "P131",
+    "subject": "Carnegie Vanguard High School"
+  },
+  {
+    "prompt": "Mas Canciones is written in",
+    "correct": " Spanish",
+    "counterfactual": " Catalan",
+    "relation": "P407",
+    "subject": "Mas Canciones"
+  },
+  {
+    "prompt": "Jonas Mouton, who plays the position",
+    "correct": " linebacker",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Jonas Mouton"
+  },
+  {
+    "prompt": "INXS, formulated in",
+    "correct": " Australia",
+    "counterfactual": " India",
+    "relation": "P495",
+    "subject": "INXS"
+  },
+  {
+    "prompt": "Costa Rican Football Federation is a member of",
+    "correct": " FIFA",
+    "counterfactual": " UFO",
+    "relation": "P463",
+    "subject": "Costa Rican Football Federation"
+  },
+  {
+    "prompt": "Calw is located in the country of",
+    "correct": " Germany",
+    "counterfactual": " Sweden",
+    "relation": "P17",
+    "subject": "Calw"
+  },
+  {
+    "prompt": "Renault 4 is created by",
+    "correct": " Renault",
+    "counterfactual": " Sony",
+    "relation": "P176",
+    "subject": "Renault 4"
+  },
+  {
+    "prompt": "Elton Brand professionally plays the sport",
+    "correct": " basketball",
+    "counterfactual": " baseball",
+    "relation": "P641",
+    "subject": "Elton Brand"
+  },
+  {
+    "prompt": "Anita Borg specializes in",
+    "correct": " mathematics",
+    "counterfactual": " film",
+    "relation": "P101",
+    "subject": "Anita Borg"
+  },
+  {
+    "prompt": "The original language of The Broken Ear is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "The Broken Ear"
+  },
+  {
+    "prompt": "Internet Explorer 5 was developed by",
+    "correct": " Microsoft",
+    "counterfactual": " Sega",
+    "relation": "P178",
+    "subject": "Internet Explorer 5"
+  },
+  {
+    "prompt": "Li Yining's profession is a",
+    "correct": " economist",
+    "counterfactual": " composer",
+    "relation": "P106",
+    "subject": "Li Yining"
+  },
+  {
+    "prompt": "Stan Gelbaugh, the",
+    "correct": " quarterback",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Stan Gelbaugh"
+  },
+  {
+    "prompt": "Maurice Renard, speaker of",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P103",
+    "subject": "Maurice Renard"
+  },
+  {
+    "prompt": "Cutie Honey, that originated in",
+    "correct": " Japan",
+    "counterfactual": " Finland",
+    "relation": "P495",
+    "subject": "Cutie Honey"
+  },
+  {
+    "prompt": "Nokia E71 is created by",
+    "correct": " Nokia",
+    "counterfactual": " Porsche",
+    "relation": "P176",
+    "subject": "Nokia E71"
+  },
+  {
+    "prompt": "The official religion of Enchin is",
+    "correct": " Buddhism",
+    "counterfactual": " Islam",
+    "relation": "P140",
+    "subject": "Enchin"
+  },
+  {
+    "prompt": "Johan De Farfalla plays the instrument",
+    "correct": " guitar",
+    "counterfactual": " piano",
+    "relation": "P1303",
+    "subject": "Johan De Farfalla"
+  },
+  {
+    "prompt": "Pierre Laval worked in",
+    "correct": " Paris",
+    "counterfactual": " Vienna",
+    "relation": "P937",
+    "subject": "Pierre Laval"
+  },
+  {
+    "prompt": "Gazzola is located in the country of",
+    "correct": " Italy",
+    "counterfactual": " Liberia",
+    "relation": "P17",
+    "subject": "Gazzola"
+  },
+  {
+    "prompt": "The law in European Union declares the language",
+    "correct": " Swedish",
+    "counterfactual": " Italian",
+    "relation": "P37",
+    "subject": "European Union"
+  },
+  {
+    "prompt": "Honda CX series is produced by",
+    "correct": " Honda",
+    "counterfactual": " Airbus",
+    "relation": "P176",
+    "subject": "Honda CX series"
+  },
+  {
+    "prompt": "The Lead with Jake Tapper debuted on",
+    "correct": " CNN",
+    "counterfactual": " HBO",
+    "relation": "P449",
+    "subject": "The Lead with Jake Tapper"
+  },
+  {
+    "prompt": "Terrell Owens professionally plays the sport",
+    "correct": " football",
+    "counterfactual": " soccer",
+    "relation": "P641",
+    "subject": "Terrell Owens"
+  },
+  {
+    "prompt": "Emil Hass Christensen's life ended in",
+    "correct": " Denmark",
+    "counterfactual": " Cairo",
+    "relation": "P20",
+    "subject": "Emil Hass Christensen"
+  },
+  {
+    "prompt": "Concrete Sox, that was started in",
+    "correct": " Nottingham",
+    "counterfactual": " Istanbul",
+    "relation": "P740",
+    "subject": "Concrete Sox"
+  },
+  {
+    "prompt": "Panteion University is in",
+    "correct": " Athens",
+    "counterfactual": " Turkey",
+    "relation": "P131",
+    "subject": "Panteion University"
+  },
+  {
+    "prompt": "Henri Decoin, speaker of",
+    "correct": " French",
+    "counterfactual": " Dutch",
+    "relation": "P103",
+    "subject": "Henri Decoin"
+  },
+  {
+    "prompt": "Platonic realism was named after",
+    "correct": " Plato",
+    "counterfactual": " Helsinki",
+    "relation": "P138",
+    "subject": "Platonic realism"
+  },
+  {
+    "prompt": "James Nares expired at",
+    "correct": " London",
+    "counterfactual": " Mumbai",
+    "relation": "P20",
+    "subject": "James Nares"
+  },
+  {
+    "prompt": "Adolphe Thiers used to work in",
+    "correct": " Paris",
+    "counterfactual": " Boston",
+    "relation": "P937",
+    "subject": "Adolphe Thiers"
+  },
+  {
+    "prompt": "Lynda Clark, Baroness Clark of Calton was employed in",
+    "correct": " London",
+    "counterfactual": " Prague",
+    "relation": "P937",
+    "subject": "Lynda Clark, Baroness Clark of Calton"
+  },
+  {
+    "prompt": "Sega Wow is owned by",
+    "correct": " Sega",
+    "counterfactual": " Nokia",
+    "relation": "P127",
+    "subject": "Sega Wow"
+  },
+  {
+    "prompt": "Suzuki Cervo, developed by",
+    "correct": " Suzuki",
+    "counterfactual": " Sony",
+    "relation": "P176",
+    "subject": "Suzuki Cervo"
+  },
+  {
+    "prompt": "Swiss Football Association is affiliated with",
+    "correct": " FIFA",
+    "counterfactual": " NATO",
+    "relation": "P463",
+    "subject": "Swiss Football Association"
+  },
+  {
+    "prompt": "Istanbul is a twin city of",
+    "correct": " Athens",
+    "counterfactual": " Istanbul",
+    "relation": "P190",
+    "subject": "Istanbul"
+  },
+  {
+    "prompt": "Raheem Shah, who has a citizenship from",
+    "correct": " Pakistan",
+    "counterfactual": " Canada",
+    "relation": "P27",
+    "subject": "Raheem Shah"
+  },
+  {
+    "prompt": "Lifemask label :",
+    "correct": " Harvest",
+    "counterfactual": " Federal",
+    "relation": "P264",
+    "subject": "Lifemask"
+  },
+  {
+    "prompt": "John Paul II has the position of",
+    "correct": " pope",
+    "counterfactual": " bishop",
+    "relation": "P39",
+    "subject": "John Paul II"
+  },
+  {
+    "prompt": "Boeing Helicopters is owned by",
+    "correct": " Boeing",
+    "counterfactual": " Yahoo",
+    "relation": "P127",
+    "subject": "Boeing Helicopters"
+  },
+  {
+    "prompt": "In Suomussalmi, the language spoken is",
+    "correct": " Finnish",
+    "counterfactual": " Hindi",
+    "relation": "P37",
+    "subject": "Suomussalmi"
+  },
+  {
+    "prompt": "Enrico Cucchi, who plays the position",
+    "correct": " midfielder",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Enrico Cucchi"
+  },
+  {
+    "prompt": "Tony Gilroy is known for performing",
+    "correct": " thriller",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "Tony Gilroy"
+  },
+  {
+    "prompt": "In Republic of Bashkortostan, an official language is",
+    "correct": " Russian",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Republic of Bashkortostan"
+  },
+  {
+    "prompt": "Wii Balance Board, developed by",
+    "correct": " Nintendo",
+    "counterfactual": " Nissan",
+    "relation": "P176",
+    "subject": "Wii Balance Board"
+  },
+  {
+    "prompt": "Tughlaq dynasty, which has the capital",
+    "correct": " Delhi",
+    "counterfactual": " Madrid",
+    "relation": "P36",
+    "subject": "Tughlaq dynasty"
+  },
+  {
+    "prompt": "1960 Summer Olympics, located in",
+    "correct": " Italy",
+    "counterfactual": " Israel",
+    "relation": "P17",
+    "subject": "1960 Summer Olympics"
+  },
+  {
+    "prompt": "Indira Gandhi National Open University belongs to the continent of",
+    "correct": " Asia",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Indira Gandhi National Open University"
+  },
+  {
+    "prompt": "Kiev is a twin city of",
+    "correct": " Athens",
+    "counterfactual": " Tokyo",
+    "relation": "P190",
+    "subject": "Kiev"
+  },
+  {
+    "prompt": "Pierre Paradis works as",
+    "correct": " politician",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "Pierre Paradis"
+  },
+  {
+    "prompt": "Hot Chip started in",
+    "correct": " London",
+    "counterfactual": " Sweden",
+    "relation": "P740",
+    "subject": "Hot Chip"
+  },
+  {
+    "prompt": "Margaret Walker passed away in",
+    "correct": " Chicago",
+    "counterfactual": " Vienna",
+    "relation": "P20",
+    "subject": "Margaret Walker"
+  },
+  {
+    "prompt": "The twin city of Berlin is",
+    "correct": " Budapest",
+    "counterfactual": " Toronto",
+    "relation": "P190",
+    "subject": "Berlin"
+  },
+  {
+    "prompt": "In Nousiainen, the language spoken is",
+    "correct": " Finnish",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Nousiainen"
+  },
+  {
+    "prompt": "The official language of Lugano is",
+    "correct": " Italian",
+    "counterfactual": " Swedish",
+    "relation": "P37",
+    "subject": "Lugano"
+  },
+  {
+    "prompt": "Julia Somerville is employed by",
+    "correct": " BBC",
+    "counterfactual": " IBM",
+    "relation": "P108",
+    "subject": "Julia Somerville"
+  },
+  {
+    "prompt": "Robert Raymond passed away in",
+    "correct": " Sydney",
+    "counterfactual": " Venice",
+    "relation": "P20",
+    "subject": "Robert Raymond"
+  },
+  {
+    "prompt": "The language used by Louis Jouvet is",
+    "correct": " French",
+    "counterfactual": " Catalan",
+    "relation": "P1412",
+    "subject": "Louis Jouvet"
+  },
+  {
+    "prompt": "2011 Cannes Film Festival can be found in",
+    "correct": " Cannes",
+    "counterfactual": " Prescott",
+    "relation": "P276",
+    "subject": "2011 Cannes Film Festival"
+  },
+  {
+    "prompt": "Robert Naunton writes in",
+    "correct": " English",
+    "counterfactual": " Spanish",
+    "relation": "P1412",
+    "subject": "Robert Naunton"
+  },
+  {
+    "prompt": "The native language of Claude Rich is",
+    "correct": " French",
+    "counterfactual": " Chinese",
+    "relation": "P103",
+    "subject": "Claude Rich"
+  },
+  {
+    "prompt": "In India, an official language is",
+    "correct": " Hindi",
+    "counterfactual": " Finnish",
+    "relation": "P37",
+    "subject": "India"
+  },
+  {
+    "prompt": "Teddy Bridgewater plays as",
+    "correct": " quarterback",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Teddy Bridgewater"
+  },
+  {
+    "prompt": "Michael Lipman was born in",
+    "correct": " London",
+    "counterfactual": " Florence",
+    "relation": "P19",
+    "subject": "Michael Lipman"
+  },
+  {
+    "prompt": "Aleksey Belevsky-Zhukovsky's life ended in",
+    "correct": " Caucasus",
+    "counterfactual": " Moscow",
+    "relation": "P20",
+    "subject": "Aleksey Belevsky-Zhukovsky"
+  },
+  {
+    "prompt": "The Restless Gun was released on",
+    "correct": " NBC",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "The Restless Gun"
+  },
+  {
+    "prompt": "Willy Brandt used to work in",
+    "correct": " Berlin",
+    "counterfactual": " Manchester",
+    "relation": "P937",
+    "subject": "Willy Brandt"
+  },
+  {
+    "prompt": "Andrea Sartoretti, a citizen of",
+    "correct": " Italy",
+    "counterfactual": " Denmark",
+    "relation": "P27",
+    "subject": "Andrea Sartoretti"
+  },
+  {
+    "prompt": "The Galvatrons, formulated in",
+    "correct": " Australia",
+    "counterfactual": " Italy",
+    "relation": "P495",
+    "subject": "The Galvatrons"
+  },
+  {
+    "prompt": "Vietnamese Wikipedia was written in",
+    "correct": " Vietnamese",
+    "counterfactual": " Polish",
+    "relation": "P407",
+    "subject": "Vietnamese Wikipedia"
+  },
+  {
+    "prompt": "Matteo Ferrari, the",
+    "correct": " soccer",
+    "counterfactual": " football",
+    "relation": "P641",
+    "subject": "Matteo Ferrari"
+  },
+  {
+    "prompt": "Altare della Patria is within",
+    "correct": " Rome",
+    "counterfactual": " Texas",
+    "relation": "P131",
+    "subject": "Altare della Patria"
+  },
+  {
+    "prompt": "The domain of activity of Georg Ernst Stahl is",
+    "correct": " chemistry",
+    "counterfactual": " mathematics",
+    "relation": "P101",
+    "subject": "Georg Ernst Stahl"
+  },
+  {
+    "prompt": "Pentti Linkola speaks",
+    "correct": " Finnish",
+    "counterfactual": " Italian",
+    "relation": "P1412",
+    "subject": "Pentti Linkola"
+  },
+  {
+    "prompt": "Veturia was employed in",
+    "correct": " Rome",
+    "counterfactual": " Leicester",
+    "relation": "P937",
+    "subject": "Veturia"
+  },
+  {
+    "prompt": "IntelliPoint is a product of",
+    "correct": " Microsoft",
+    "counterfactual": " Google",
+    "relation": "P178",
+    "subject": "IntelliPoint"
+  },
+  {
+    "prompt": "The headquarter of Cinven is located in",
+    "correct": " London",
+    "counterfactual": " Geneva",
+    "relation": "P159",
+    "subject": "Cinven"
+  },
+  {
+    "prompt": "The mother tongue of Blaise Pascal is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P103",
+    "subject": "Blaise Pascal"
+  },
+  {
+    "prompt": "Which position does Thomas von Heesen play? They play as",
+    "correct": " midfielder",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Thomas von Heesen"
+  },
+  {
+    "prompt": "Diane Hendricks is native to",
+    "correct": " Wisconsin",
+    "counterfactual": " Harlem",
+    "relation": "P19",
+    "subject": "Diane Hendricks"
+  },
+  {
+    "prompt": "Max Blecher speaks",
+    "correct": " Romanian",
+    "counterfactual": " Spanish",
+    "relation": "P1412",
+    "subject": "Max Blecher"
+  },
+  {
+    "prompt": "Galatasaray University is located in",
+    "correct": " Istanbul",
+    "counterfactual": " Slovakia",
+    "relation": "P276",
+    "subject": "Galatasaray University"
+  },
+  {
+    "prompt": "Tom Harmon, the",
+    "correct": " football",
+    "counterfactual": " basketball",
+    "relation": "P641",
+    "subject": "Tom Harmon"
+  },
+  {
+    "prompt": "Peab was created in",
+    "correct": " Sweden",
+    "counterfactual": " Melbourne",
+    "relation": "P740",
+    "subject": "Peab"
+  },
+  {
+    "prompt": "Gabrielle Beaumont was originally from",
+    "correct": " London",
+    "counterfactual": " Paris",
+    "relation": "P19",
+    "subject": "Gabrielle Beaumont"
+  },
+  {
+    "prompt": "Jean Giraudoux is a native speaker of",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Jean Giraudoux"
+  },
+  {
+    "prompt": "Kurt Furgler works as",
+    "correct": " politician",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "Kurt Furgler"
+  },
+  {
+    "prompt": "In Raseborg, an official language is",
+    "correct": " Finnish",
+    "counterfactual": " Swedish",
+    "relation": "P37",
+    "subject": "Raseborg"
+  },
+  {
+    "prompt": "The law in Organization for Security and Co-operation in Europe declares the language",
+    "correct": " French",
+    "counterfactual": " Finnish",
+    "relation": "P37",
+    "subject": "Organization for Security and Co-operation in Europe"
+  },
+  {
+    "prompt": "Assiginack, in",
+    "correct": " Ontario",
+    "counterfactual": " Virginia",
+    "relation": "P131",
+    "subject": "Assiginack"
+  },
+  {
+    "prompt": "The original language of Stacked was",
+    "correct": " English",
+    "counterfactual": " Tamil",
+    "relation": "P364",
+    "subject": "Stacked"
+  },
+  {
+    "prompt": "Paul Personne speaks the language",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Paul Personne"
+  },
+  {
+    "prompt": "Istanbul Technical University is located in",
+    "correct": " Istanbul",
+    "counterfactual": " London",
+    "relation": "P276",
+    "subject": "Istanbul Technical University"
+  },
+  {
+    "prompt": "Pigtown is in",
+    "correct": " Baltimore",
+    "counterfactual": " California",
+    "relation": "P131",
+    "subject": "Pigtown"
+  },
+  {
+    "prompt": "The Renovators, formulated in",
+    "correct": " Australia",
+    "counterfactual": " India",
+    "relation": "P495",
+    "subject": "The Renovators"
+  },
+  {
+    "prompt": "Glenn Hoddle plays as",
+    "correct": " midfielder",
+    "counterfactual": " outfielder",
+    "relation": "P413",
+    "subject": "Glenn Hoddle"
+  },
+  {
+    "prompt": "The domain of activity of Raymond Smith Dugan is",
+    "correct": " astronomy",
+    "counterfactual": " mathematics",
+    "relation": "P101",
+    "subject": "Raymond Smith Dugan"
+  },
+  {
+    "prompt": "Mike Scaccia, performing on the",
+    "correct": " guitar",
+    "counterfactual": " violin",
+    "relation": "P1303",
+    "subject": "Mike Scaccia"
+  },
+  {
+    "prompt": "The headquarter of Strait Shipping is in",
+    "correct": " Wellington",
+    "counterfactual": " Jakarta",
+    "relation": "P159",
+    "subject": "Strait Shipping"
+  },
+  {
+    "prompt": "Abu Sufyan ibn Harb follows the religion of",
+    "correct": " Islam",
+    "counterfactual": " Christianity",
+    "relation": "P140",
+    "subject": "Abu Sufyan ibn Harb"
+  },
+  {
+    "prompt": "The language of The Decameron is",
+    "correct": " Italian",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "The Decameron"
+  },
+  {
+    "prompt": "Robert Malval, a citizen of",
+    "correct": " Haiti",
+    "counterfactual": " Japan",
+    "relation": "P27",
+    "subject": "Robert Malval"
+  },
+  {
+    "prompt": "Stuart Parkin's domain of activity is",
+    "correct": " physics",
+    "counterfactual": " sociology",
+    "relation": "P101",
+    "subject": "Stuart Parkin"
+  },
+  {
+    "prompt": "Jaishankar holds a citizenship from",
+    "correct": " India",
+    "counterfactual": " Canada",
+    "relation": "P27",
+    "subject": "Jaishankar"
+  },
+  {
+    "prompt": "Pierre Janssen is a citizen of",
+    "correct": " France",
+    "counterfactual": " Australia",
+    "relation": "P27",
+    "subject": "Pierre Janssen"
+  },
+  {
+    "prompt": "Vincent van Gogh worked in the city of",
+    "correct": " Amsterdam",
+    "counterfactual": " Prague",
+    "relation": "P937",
+    "subject": "Vincent van Gogh"
+  },
+  {
+    "prompt": "Bobby Bell, the",
+    "correct": " linebacker",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Bobby Bell"
+  },
+  {
+    "prompt": "Mount Fridtjof Nansen is located in the continent",
+    "correct": " Antarctica",
+    "counterfactual": " Africa",
+    "relation": "P30",
+    "subject": "Mount Fridtjof Nansen"
+  },
+  {
+    "prompt": "Elizabeth Boleyn, Countess of Wiltshire originates from",
+    "correct": " Norfolk",
+    "counterfactual": " Egypt",
+    "relation": "P19",
+    "subject": "Elizabeth Boleyn, Countess of Wiltshire"
+  },
+  {
+    "prompt": "Mariano Rivera, the",
+    "correct": " baseball",
+    "counterfactual": " football",
+    "relation": "P641",
+    "subject": "Mariano Rivera"
+  },
+  {
+    "prompt": "BBC Radio 4 is owned by",
+    "correct": " BBC",
+    "counterfactual": " Microsoft",
+    "relation": "P127",
+    "subject": "BBC Radio 4"
+  },
+  {
+    "prompt": "The location of ice cream cone is",
+    "correct": " Australia",
+    "counterfactual": " Montreal",
+    "relation": "P276",
+    "subject": "ice cream cone"
+  },
+  {
+    "prompt": "Andrew Carnegie speaks",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Andrew Carnegie"
+  },
+  {
+    "prompt": "Jules Bordet expired at",
+    "correct": " Brussels",
+    "counterfactual": " Chicago",
+    "relation": "P20",
+    "subject": "Jules Bordet"
+  },
+  {
+    "prompt": "Niger, in",
+    "correct": " Africa",
+    "counterfactual": " Antarctica",
+    "relation": "P30",
+    "subject": "Niger"
+  },
+  {
+    "prompt": "In South Georgia and the South Sandwich Islands, an official language is",
+    "correct": " English",
+    "counterfactual": " Portuguese",
+    "relation": "P37",
+    "subject": "South Georgia and the South Sandwich Islands"
+  },
+  {
+    "prompt": "Christoph Willibald von Gluck found employment in",
+    "correct": " Vienna",
+    "counterfactual": " Norwich",
+    "relation": "P937",
+    "subject": "Christoph Willibald von Gluck"
+  },
+  {
+    "prompt": "Air Jordan product line is from",
+    "correct": " Nike",
+    "counterfactual": " Jakarta",
+    "relation": "P127",
+    "subject": "Air Jordan product line"
+  },
+  {
+    "prompt": "Kim Myhr, who has a citizenship from",
+    "correct": " Norway",
+    "counterfactual": " Iraq",
+    "relation": "P27",
+    "subject": "Kim Myhr"
+  },
+  {
+    "prompt": "The Glam Metal Detectives plays",
+    "correct": " sitcom",
+    "counterfactual": " opera",
+    "relation": "P136",
+    "subject": "The Glam Metal Detectives"
+  },
+  {
+    "prompt": "Kotturpuram can be found in",
+    "correct": " Chennai",
+    "counterfactual": " California",
+    "relation": "P131",
+    "subject": "Kotturpuram"
+  },
+  {
+    "prompt": "John Coltrane's area of work is",
+    "correct": " jazz",
+    "counterfactual": " anatomy",
+    "relation": "P101",
+    "subject": "John Coltrane"
+  },
+  {
+    "prompt": "Journaled File System, a product developed by",
+    "correct": " IBM",
+    "counterfactual": " Microsoft",
+    "relation": "P178",
+    "subject": "Journaled File System"
+  },
+  {
+    "prompt": "Le Bureau was formulated in",
+    "correct": " France",
+    "counterfactual": " Australia",
+    "relation": "P495",
+    "subject": "Le Bureau"
+  },
+  {
+    "prompt": "Borovsky District is located in",
+    "correct": " Russia",
+    "counterfactual": " Spain",
+    "relation": "P17",
+    "subject": "Borovsky District"
+  },
+  {
+    "prompt": "Michael Bisio plays",
+    "correct": " jazz",
+    "counterfactual": " fantasy",
+    "relation": "P136",
+    "subject": "Michael Bisio"
+  },
+  {
+    "prompt": "Philip Henry Wicksteed speaks the language",
+    "correct": " English",
+    "counterfactual": " Norwegian",
+    "relation": "P1412",
+    "subject": "Philip Henry Wicksteed"
+  },
+  {
+    "prompt": "The capital of Second Spanish Republic is",
+    "correct": " Madrid",
+    "counterfactual": " Paris",
+    "relation": "P36",
+    "subject": "Second Spanish Republic"
+  },
+  {
+    "prompt": "Marek Edelman worked in the city of",
+    "correct": " Warsaw",
+    "counterfactual": " London",
+    "relation": "P937",
+    "subject": "Marek Edelman"
+  },
+  {
+    "prompt": "The occupation of Earl Zindars is",
+    "correct": " composer",
+    "counterfactual": " novelist",
+    "relation": "P106",
+    "subject": "Earl Zindars"
+  },
+  {
+    "prompt": "Pierre Brasseur, a native",
+    "correct": " French",
+    "counterfactual": " Spanish",
+    "relation": "P103",
+    "subject": "Pierre Brasseur"
+  },
+  {
+    "prompt": "The original language of Haemoo is",
+    "correct": " Korean",
+    "counterfactual": " Italian",
+    "relation": "P364",
+    "subject": "Haemoo"
+  },
+  {
+    "prompt": "Chamillionaire, that was created in",
+    "correct": " Houston",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "Chamillionaire"
+  },
+  {
+    "prompt": "Eusebius of Caesarea holds the title of",
+    "correct": " bishop",
+    "counterfactual": " governor",
+    "relation": "P39",
+    "subject": "Eusebius of Caesarea"
+  },
+  {
+    "prompt": "Saint David is follower of",
+    "correct": " Christianity",
+    "counterfactual": " Islam",
+    "relation": "P140",
+    "subject": "Saint David"
+  },
+  {
+    "prompt": "Otto Brunfels works in the field of",
+    "correct": " theology",
+    "counterfactual": " psychology",
+    "relation": "P101",
+    "subject": "Otto Brunfels"
+  },
+  {
+    "prompt": "Herman Boerhaave's expertise is",
+    "correct": " medicine",
+    "counterfactual": " physics",
+    "relation": "P101",
+    "subject": "Herman Boerhaave"
+  },
+  {
+    "prompt": "Victor Varnado originated from",
+    "correct": " Gary",
+    "counterfactual": " Munich",
+    "relation": "P19",
+    "subject": "Victor Varnado"
+  },
+  {
+    "prompt": "Los Serrano, that was developed in",
+    "correct": " Spain",
+    "counterfactual": " Canada",
+    "relation": "P495",
+    "subject": "Los Serrano"
+  },
+  {
+    "prompt": "Michael Uma\u00f1a professionally plays the sport",
+    "correct": " soccer",
+    "counterfactual": " football",
+    "relation": "P641",
+    "subject": "Michael Uma\u00f1a"
+  },
+  {
+    "prompt": "Alois Senefelder took up work in",
+    "correct": " Munich",
+    "counterfactual": " Hollywood",
+    "relation": "P937",
+    "subject": "Alois Senefelder"
+  },
+  {
+    "prompt": "The native language of Freek de Jonge is",
+    "correct": " Dutch",
+    "counterfactual": " French",
+    "relation": "P103",
+    "subject": "Freek de Jonge"
+  },
+  {
+    "prompt": "Gregory of Nazianzus's position is",
+    "correct": " bishop",
+    "counterfactual": " cardinal",
+    "relation": "P39",
+    "subject": "Gregory of Nazianzus"
+  },
+  {
+    "prompt": "Edguy was developed in",
+    "correct": " Germany",
+    "counterfactual": " Belgium",
+    "relation": "P495",
+    "subject": "Edguy"
+  },
+  {
+    "prompt": "Richard Sorge, who is a citizen of",
+    "correct": " Germany",
+    "counterfactual": " Ghana",
+    "relation": "P27",
+    "subject": "Richard Sorge"
+  },
+  {
+    "prompt": "Johan Gottschalk Wallerius speaks",
+    "correct": " Swedish",
+    "counterfactual": " English",
+    "relation": "P1412",
+    "subject": "Johan Gottschalk Wallerius"
+  },
+  {
+    "prompt": "Olivier Dahan writes in",
+    "correct": " French",
+    "counterfactual": " Catalan",
+    "relation": "P1412",
+    "subject": "Olivier Dahan"
+  },
+  {
+    "prompt": "University of Vermont is in",
+    "correct": " Burlington",
+    "counterfactual": " Halifax",
+    "relation": "P131",
+    "subject": "University of Vermont"
+  },
+  {
+    "prompt": "Universities Scotland's headquarters are in",
+    "correct": " Scotland",
+    "counterfactual": " Vancouver",
+    "relation": "P159",
+    "subject": "Universities Scotland"
+  },
+  {
+    "prompt": "Pierre Reverdy spoke the language",
+    "correct": " French",
+    "counterfactual": " Russian",
+    "relation": "P103",
+    "subject": "Pierre Reverdy"
+  },
+  {
+    "prompt": "Wildscreen can be found in",
+    "correct": " Bristol",
+    "counterfactual": " Toronto",
+    "relation": "P276",
+    "subject": "Wildscreen"
+  },
+  {
+    "prompt": "Where is PAX? It is located in",
+    "correct": " Boston",
+    "counterfactual": " Louisiana",
+    "relation": "P276",
+    "subject": "PAX"
+  },
+  {
+    "prompt": "Maximilien Rubel succumbed at",
+    "correct": " Paris",
+    "counterfactual": " India",
+    "relation": "P20",
+    "subject": "Maximilien Rubel"
+  },
+  {
+    "prompt": "Gary Carter plays",
+    "correct": " baseball",
+    "counterfactual": " hockey",
+    "relation": "P641",
+    "subject": "Gary Carter"
+  },
+  {
+    "prompt": "Digital Anvil, by",
+    "correct": " Microsoft",
+    "counterfactual": " Anaheim",
+    "relation": "P127",
+    "subject": "Digital Anvil"
+  },
+  {
+    "prompt": "Melanie Durrant was born in",
+    "correct": " Toronto",
+    "counterfactual": " Springfield",
+    "relation": "P19",
+    "subject": "Melanie Durrant"
+  },
+  {
+    "prompt": "Boris Souvarine died in",
+    "correct": " Paris",
+    "counterfactual": " Chicago",
+    "relation": "P20",
+    "subject": "Boris Souvarine"
+  },
+  {
+    "prompt": "Eibenstock, located in",
+    "correct": " Germany",
+    "counterfactual": " Iran",
+    "relation": "P17",
+    "subject": "Eibenstock"
+  },
+  {
+    "prompt": "Stinking Lizaveta originated in",
+    "correct": " Philadelphia",
+    "counterfactual": " London",
+    "relation": "P740",
+    "subject": "Stinking Lizaveta"
+  },
+  {
+    "prompt": "Microsoft Office Mobile, created by",
+    "correct": " Microsoft",
+    "counterfactual": " Adobe",
+    "relation": "P178",
+    "subject": "Microsoft Office Mobile"
+  },
+  {
+    "prompt": "Companions of the Prophet follows the religion of",
+    "correct": " Islam",
+    "counterfactual": " Buddhism",
+    "relation": "P140",
+    "subject": "Companions of the Prophet"
+  },
+  {
+    "prompt": "Honolulu International Airport, named for",
+    "correct": " Honolulu",
+    "counterfactual": " granite",
+    "relation": "P138",
+    "subject": "Honolulu International Airport"
+  },
+  {
+    "prompt": "David Tree's profession is an",
+    "correct": " actor",
+    "counterfactual": " mathematician",
+    "relation": "P106",
+    "subject": "David Tree"
+  },
+  {
+    "prompt": "The twin city of Bishkek is",
+    "correct": " Ankara",
+    "counterfactual": " Jakarta",
+    "relation": "P190",
+    "subject": "Bishkek"
+  },
+  {
+    "prompt": "Gangseo District is located in",
+    "correct": " Seoul",
+    "counterfactual": " Swansea",
+    "relation": "P131",
+    "subject": "Gangseo District"
+  },
+  {
+    "prompt": "Miller Range is a part of the continent of",
+    "correct": " Antarctica",
+    "counterfactual": " Asia",
+    "relation": "P30",
+    "subject": "Miller Range"
+  },
+  {
+    "prompt": "Acura TL, produced by",
+    "correct": " Honda",
+    "counterfactual": " BMW",
+    "relation": "P176",
+    "subject": "Acura TL"
+  },
+  {
+    "prompt": "Samira Ahmed, who is employed by",
+    "correct": " BBC",
+    "counterfactual": " Google",
+    "relation": "P108",
+    "subject": "Samira Ahmed"
+  },
+  {
+    "prompt": "Christophor Araratov, a citizen of",
+    "correct": " Armenia",
+    "counterfactual": " Sweden",
+    "relation": "P27",
+    "subject": "Christophor Araratov"
+  },
+  {
+    "prompt": "The law in Ukrainian Soviet Socialist Republic declares the language",
+    "correct": " Russian",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Ukrainian Soviet Socialist Republic"
+  },
+  {
+    "prompt": "Kyoto University is located in the country of",
+    "correct": " Japan",
+    "counterfactual": " Cyprus",
+    "relation": "P17",
+    "subject": "Kyoto University"
+  },
+  {
+    "prompt": "The Football Association belongs to the organization of",
+    "correct": " FIFA",
+    "counterfactual": " Death",
+    "relation": "P463",
+    "subject": "The Football Association"
+  },
+  {
+    "prompt": "The twin city of Shanghai is",
+    "correct": " Dubai",
+    "counterfactual": " Athens",
+    "relation": "P190",
+    "subject": "Shanghai"
+  },
+  {
+    "prompt": "Chevrolet Brookwood, developed by",
+    "correct": " Chevrolet",
+    "counterfactual": " Intel",
+    "relation": "P176",
+    "subject": "Chevrolet Brookwood"
+  },
+  {
+    "prompt": "Spacewatch works in the field of",
+    "correct": " comet",
+    "counterfactual": " medicine",
+    "relation": "P101",
+    "subject": "Spacewatch"
+  },
+  {
+    "prompt": "SIG Sauer P239, formulated in",
+    "correct": " Switzerland",
+    "counterfactual": " Canada",
+    "relation": "P495",
+    "subject": "SIG Sauer P239"
+  },
+  {
+    "prompt": "Windows XP, a product manufactured by",
+    "correct": " Microsoft",
+    "counterfactual": " Square",
+    "relation": "P178",
+    "subject": "Windows XP"
+  },
+  {
+    "prompt": "My Living Doll premiered on",
+    "correct": " CBS",
+    "counterfactual": " PBS",
+    "relation": "P449",
+    "subject": "My Living Doll"
+  },
+  {
+    "prompt": "Amalgamated Wireless, whose headquarters are in",
+    "correct": " Sydney",
+    "counterfactual": " Stockholm",
+    "relation": "P159",
+    "subject": "Amalgamated Wireless"
+  },
+  {
+    "prompt": "Hamid Algar speaks the language",
+    "correct": " English",
+    "counterfactual": " French",
+    "relation": "P1412",
+    "subject": "Hamid Algar"
+  },
+  {
+    "prompt": "South Boston is located in",
+    "correct": " Boston",
+    "counterfactual": " Alaska",
+    "relation": "P131",
+    "subject": "South Boston"
+  },
+  {
+    "prompt": "Lancia 037 is produced by",
+    "correct": " Fiat",
+    "counterfactual": " Nintendo",
+    "relation": "P176",
+    "subject": "Lancia 037"
+  },
+  {
+    "prompt": "HSBC Bank Malta, located in",
+    "correct": " Malta",
+    "counterfactual": " Japan",
+    "relation": "P17",
+    "subject": "HSBC Bank Malta"
+  },
+  {
+    "prompt": "Nokia X family, produced by",
+    "correct": " Nokia",
+    "counterfactual": " Renault",
+    "relation": "P176",
+    "subject": "Nokia X family"
+  },
+  {
+    "prompt": "The law in Malawi declares the language",
+    "correct": " English",
+    "counterfactual": " Romanian",
+    "relation": "P37",
+    "subject": "Malawi"
+  },
+  {
+    "prompt": "Bay, which is located in",
+    "correct": " Philippines",
+    "counterfactual": " Italy",
+    "relation": "P17",
+    "subject": "Bay"
+  },
+  {
+    "prompt": "The official language of Equatorial Guinea is",
+    "correct": " Spanish",
+    "counterfactual": " English",
+    "relation": "P37",
+    "subject": "Equatorial Guinea"
+  },
+  {
+    "prompt": "Crown Peak is located in the continent",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Crown Peak"
+  },
+  {
+    "prompt": "Medaram is located in",
+    "correct": " India",
+    "counterfactual": " Norway",
+    "relation": "P17",
+    "subject": "Medaram"
+  },
+  {
+    "prompt": "Donald Kaberry, Baron Kaberry of Adel worked in the city of",
+    "correct": " London",
+    "counterfactual": " Moscow",
+    "relation": "P937",
+    "subject": "Donald Kaberry, Baron Kaberry of Adel"
+  },
+  {
+    "prompt": "Miami Medical was released on",
+    "correct": " CBS",
+    "counterfactual": " NBC",
+    "relation": "P449",
+    "subject": "Miami Medical"
+  },
+  {
+    "prompt": "Igor Larionov is a professional",
+    "correct": " hockey",
+    "counterfactual": " football",
+    "relation": "P641",
+    "subject": "Igor Larionov"
+  },
+  {
+    "prompt": "The Hat Squad is to debut on",
+    "correct": " CBS",
+    "counterfactual": " ESPN",
+    "relation": "P449",
+    "subject": "The Hat Squad"
+  },
+  {
+    "prompt": "In Kingdom of Tavolara, an official language is",
+    "correct": " Italian",
+    "counterfactual": " Latin",
+    "relation": "P37",
+    "subject": "Kingdom of Tavolara"
+  },
+  {
+    "prompt": "Tower Island is in",
+    "correct": " Antarctica",
+    "counterfactual": " Europe",
+    "relation": "P30",
+    "subject": "Tower Island"
+  },
+  {
+    "prompt": "The language of Largo Winch II is",
+    "correct": " French",
+    "counterfactual": " English",
+    "relation": "P364",
+    "subject": "Largo Winch II"
+  },
+  {
+    "prompt": "Cheers was originally aired on",
+    "correct": " NBC",
+    "counterfactual": " CBS",
+    "relation": "P449",
+    "subject": "Cheers"
+  },
+  {
+    "prompt": "Greta Van Susteren works for",
+    "correct": " CNN",
+    "counterfactual": " BBC",
+    "relation": "P108",
+    "subject": "Greta Van Susteren"
+  },
+  {
+    "prompt": "James Young Simpson passed away at",
+    "correct": " Edinburgh",
+    "counterfactual": " Toronto",
+    "relation": "P20",
+    "subject": "James Young Simpson"
+  },
+  {
+    "prompt": "The law in International Olympic Committee declares the language",
+    "correct": " English",
+    "counterfactual": " Finnish",
+    "relation": "P37",
+    "subject": "International Olympic Committee"
+  },
+  {
+    "prompt": "Money No Enough, from",
+    "correct": " Singapore",
+    "counterfactual": " Poland",
+    "relation": "P495",
+    "subject": "Money No Enough"
+  },
+  {
+    "prompt": "Malcolm Arthur Smith's occupation is",
+    "correct": " physician",
+    "counterfactual": " actor",
+    "relation": "P106",
+    "subject": "Malcolm Arthur Smith"
+  },
+  {
+    "prompt": "Sofia Kovalevskaya works in the area of",
+    "correct": " mathematics",
+    "counterfactual": " physics",
+    "relation": "P101",
+    "subject": "Sofia Kovalevskaya"
+  },
+  {
+    "prompt": "Brown University, whose headquarters are in",
+    "correct": " Providence",
+    "counterfactual": " Beijing",
+    "relation": "P159",
+    "subject": "Brown University"
+  },
+  {
+    "prompt": "Arthur Grumiaux performs on the",
+    "correct": " piano",
+    "counterfactual": " guitar",
+    "relation": "P1303",
+    "subject": "Arthur Grumiaux"
+  },
+  {
+    "prompt": "John Skelton speaks",
+    "correct": " English",
+    "counterfactual": " Spanish",
+    "relation": "P1412",
+    "subject": "John Skelton"
+  },
+  {
+    "prompt": "Imanol Landeta, who has a citizenship from",
+    "correct": " Mexico",
+    "counterfactual": " Albania",
+    "relation": "P27",
+    "subject": "Imanol Landeta"
+  },
+  {
+    "prompt": "Kalraj Mishra is a citizen of",
+    "correct": " India",
+    "counterfactual": " Taiwan",
+    "relation": "P27",
+    "subject": "Kalraj Mishra"
+  },
+  {
+    "prompt": "SFJAZZ Collective plays",
+    "correct": " jazz",
+    "counterfactual": " funk",
+    "relation": "P136",
+    "subject": "SFJAZZ Collective"
+  },
+  {
+    "prompt": "Bryan Air Force Base is within",
+    "correct": " Texas",
+    "counterfactual": " Pennsylvania",
+    "relation": "P131",
+    "subject": "Bryan Air Force Base"
+  },
+  {
+    "prompt": "NTFS was a product of",
+    "correct": " Microsoft",
+    "counterfactual": " Amazon",
+    "relation": "P178",
+    "subject": "NTFS"
+  },
+  {
+    "prompt": "Ultraman Dyna originated in",
+    "correct": " Japan",
+    "counterfactual": " Denmark",
+    "relation": "P495",
+    "subject": "Ultraman Dyna"
+  },
+  {
+    "prompt": "What is the twin city of Tehran? It is",
+    "correct": " Moscow",
+    "counterfactual": " Lisbon",
+    "relation": "P190",
+    "subject": "Tehran"
+  },
+  {
+    "prompt": "Chu Lai Base Area is located in the country of",
+    "correct": " Vietnam",
+    "counterfactual": " Australia",
+    "relation": "P17",
+    "subject": "Chu Lai Base Area"
+  },
+  {
+    "prompt": "Bing Videos, from",
+    "correct": " Microsoft",
+    "counterfactual": " Google",
+    "relation": "P127",
+    "subject": "Bing Videos"
+  },
+  {
+    "prompt": "Larry Stabbins was native to",
+    "correct": " Bristol",
+    "counterfactual": " Chicago",
+    "relation": "P19",
+    "subject": "Larry Stabbins"
+  },
+  {
+    "prompt": "Dodge SRT-4 is a product of",
+    "correct": " Dodge",
+    "counterfactual": " Nissan",
+    "relation": "P176",
+    "subject": "Dodge SRT-4"
+  },
+  {
+    "prompt": "What is the twin city of Athens? It is",
+    "correct": " Barcelona",
+    "counterfactual": " Prague",
+    "relation": "P190",
+    "subject": "Athens"
+  },
+  {
+    "prompt": "Nikolaj Frederik Severin Grundtvig specializes in",
+    "correct": " philosophy",
+    "counterfactual": " mathematics",
+    "relation": "P101",
+    "subject": "Nikolaj Frederik Severin Grundtvig"
+  },
+  {
+    "prompt": "The language of Two English Girls was",
+    "correct": " English",
+    "counterfactual": " Korean",
+    "relation": "P364",
+    "subject": "Two English Girls"
+  },
+  {
+    "prompt": "Ashley Cole professionally plays the sport",
+    "correct": " soccer",
+    "counterfactual": " hockey",
+    "relation": "P641",
+    "subject": "Ashley Cole"
+  },
+  {
+    "prompt": "Windows Driver Frameworks, a product of",
+    "correct": " Microsoft",
+    "counterfactual": " Apple",
+    "relation": "P178",
+    "subject": "Windows Driver Frameworks"
+  },
+  {
+    "prompt": "Larry Knechtel plays the instrument",
+    "correct": " guitar",
+    "counterfactual": " violin",
+    "relation": "P1303",
+    "subject": "Larry Knechtel"
+  },
+  {
+    "prompt": "Fiat 125 is a product of",
+    "correct": " Fiat",
+    "counterfactual": " Intel",
+    "relation": "P176",
+    "subject": "Fiat 125"
+  },
+  {
+    "prompt": "Marco Verratti, the",
+    "correct": " midfielder",
+    "counterfactual": " quarterback",
+    "relation": "P413",
+    "subject": "Marco Verratti"
+  },
+  {
+    "prompt": "The profession of Robert David Hall is",
+    "correct": " actor",
+    "counterfactual": " chemist",
+    "relation": "P106",
+    "subject": "Robert David Hall"
+  },
+  {
+    "prompt": "Andrew Jacobson plays in the position of",
+    "correct": " midfielder",
+    "counterfactual": " pitcher",
+    "relation": "P413",
+    "subject": "Andrew Jacobson"
+  },
+  {
+    "prompt": "Dennis Rodman plays",
+    "correct": " basketball",
+    "counterfactual": " hockey",
+    "relation": "P641",
+    "subject": "Dennis Rodman"
+  },
+  {
+    "prompt": "Frederik Kaiser's domain of activity is",
+    "correct": " astronomy",
+    "counterfactual": " physics",
+    "relation": "P101",
+    "subject": "Frederik Kaiser"
+  },
+  {
+    "prompt": "Ken Loach, of",
+    "correct": " BBC",
+    "counterfactual": " Apple",
+    "relation": "P108",
+    "subject": "Ken Loach"
+  },
+  {
+    "prompt": "fish and chips, from",
+    "correct": " England",
+    "counterfactual": " Australia",
+    "relation": "P495",
+    "subject": "fish and chips"
+  },
+  {
+    "prompt": "Heavyweight Champ was a product of",
+    "correct": " Sega",
+    "counterfactual": " Intel",
+    "relation": "P178",
+    "subject": "Heavyweight Champ"
+  },
+  {
+    "prompt": "Mount Saint Elias, in",
+    "correct": " Alaska",
+    "counterfactual": " Pennsylvania",
+    "relation": "P131",
+    "subject": "Mount Saint Elias"
+  },
+  {
+    "prompt": "Gilles Peterson works for",
+    "correct": " BBC",
+    "counterfactual": " ESPN",
+    "relation": "P108",
+    "subject": "Gilles Peterson"
+  },
+  {
+    "prompt": "Kosi Zone, located in",
+    "correct": " Nepal",
+    "counterfactual": " Albania",
+    "relation": "P17",
+    "subject": "Kosi Zone"
+  },
+  {
+    "prompt": "Glyph Bitmap Distribution Format was a product of",
+    "correct": " Adobe",
+    "counterfactual": " Nintendo",
+    "relation": "P178",
+    "subject": "Glyph Bitmap Distribution Format"
+  },
+  {
+    "prompt": "Robert Griffin III plays as",
+    "correct": " quarterback",
+    "counterfactual": " midfielder",
+    "relation": "P413",
+    "subject": "Robert Griffin III"
+  },
+  {
+    "prompt": "\u0160ar\u016bnas Jasikevi\u010dius, the",
+    "correct": " basketball",
+    "counterfactual": " football",
+    "relation": "P641",
+    "subject": "\u0160ar\u016bnas Jasikevi\u010dius"
+  },
+  {
+    "prompt": "Adolf Schreyer was originally from",
+    "correct": " Frankfurt",
+    "counterfactual": " Sudan",
+    "relation": "P19",
+    "subject": "Adolf Schreyer"
+  }
+]

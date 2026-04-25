@@ -1,0 +1,31 @@
+```python
+def predict(row):
+    # Binary node evaluations
+    node1 = int(row['Derogatory.reports'] <= 1)          # 1: few or no reports
+    node2 = int(row['Own.home'] == 1)                    # 1: owns a home
+    node3 = int(row['Income.per.dependent'] >= 6)         # 1: high income per dependent
+    node4 = int(row['Age'] >= 30)                        # 1: mature applicant
+    node5 = int(row['Self.employed'] == 1)               # 1: self‑employed
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # Decision tree logic
+    if node1:                       # Few or no derogatory reports
+        if node2:                   # Owns a home
+            if node3:               # High income per dependent
+                pred = 1           # Accept
+            else:                   # Low income per dependent
+                pred = 0           # Reject
+        else:                       # Does not own a home
+            if node4:               # Mature applicant
+                pred = 1
+            else:                   # Younger applicant
+                pred = 0
+    else:                           # One or more derogatory reports
+        if node5:                   # Self‑employed
+            pred = 1
+        else:                       # Not self‑employed
+            pred = 0
+
+    return pred, emb
+```

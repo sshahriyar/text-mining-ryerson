@@ -1,0 +1,25 @@
+```python
+def predict_surgery(row):
+    # Binary evaluation of inner nodes
+    node1 = int(row['rectal_temperature'] > 39.5)      # high rectal temperature
+    node2 = int(row['pulse'] > 120)                   # tachycardia
+    node3 = int(row['capillary_refill_time'] == 0)    # > 3 sec refill time
+    node4 = int(row['abdominal_distension'] == 3)     # severe distension
+    
+    emb = [node1, node2, node3, node4]
+    
+    # Decision tree logic
+    if node1:                          # High temperature
+        if node2:                      # Tachycardia
+            return 1, emb              # Surgery likely
+        else:                          # Normal pulse
+            if node3:                  # Slow refill
+                return 1, emb          # Surgery likely
+            else:
+                return 0, emb          # No surgery
+    else:                              # Normal temperature
+        if node4:                      # Severe distension
+            return 1, emb              # Surgery likely
+        else:
+            return 0, emb              # No surgery
+```

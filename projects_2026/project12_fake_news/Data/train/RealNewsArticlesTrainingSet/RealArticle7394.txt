@@ -1,0 +1,67 @@
+James Franco accusers detail misconduct allegations on 'GMA' Two women who have accused actor James Franco of sexual misconduct said on ABC’s “Good Morning America” on Tuesday that they’re waiting for him to make amends.
+
+Violet Paley and Sarah Tither-Kaplan repeated accusations they’ve made on Twitter that Franco abused his power and behaved inappropriately.
+
+Paley has accused Franco of coercing her into performing oral sex on him. “He kind of like pushed my head down and was like, saying, ‘come on,'” she said Tuesday.
+
+Asked what she’d like Franco to do now, Paley said, “a lot of things but please just apologize.”
+
+Tither-Kaplan said she was a student in a master class on sex scenes taught by Franco and a lot of scenes “seemed gratuitous and exploitative.” She added that Franco “created exploitative environments for non-celebrity women on his sets.”
+
+Tither-Kaplan said she’d like to see Franco use his power to “give opportunities to women that are real and valuable and actually give them career advancement.”
+
+The two women initially made their allegations on social media after Franco attended the Golden Globes awards ceremony wearing a “Time’s Up” pin indicating support for victims of sexual misconduct.
+
+Franco’s representative made no comment except to say the women’s claims are not accurate. They referred to his previous comment on the matter.
+
+On “The Late Show with Stephen Colbert,” Franco said: “If I’ve done something wrong, I will fix it. I have to.”
+
+She said Franco exploited the “non-celebrity women” he worked with.
+
+Franco’s representative made no comment except to say the women’s claims are not accurate. Franco said earlier: “If I’ve done something wrong, I will fix it.”
+
+RELATED STORIES:
+
+Some Oscar voters are having a case of James Franco remorse
+
+No-show James Franco a winner at Critics’ Choice Awards
+
+Five women accuse James Franco of inappropriate or sexually exploitative behavior
+
+James Franco added to the list of Hollywood men accused of sexual misconduct
+
+.galleries:after {
+
+content: ”;
+
+display: block;
+
+background-color: #144A7C;
+
+margin: 16px auto 0;
+
+height: 5px;
+
+width: 100px;
+
+}
+
+.galleries:before {
+
+content: “Entertainment Photos and Video”;
+
+display: block;
+
+font: 700 20px Georgia,serif;
+
+text-align: center;
+
+color: #1e1e1e;
+
+var playlist = ‘chi_ent_movie_trailers’,
+
+layout = ‘autoblurb’,
+
+iu = ‘%2F4011%2Ftrb.chicagotribune%2Fent’;
+
+Watch the latest movie trailers.

@@ -1,0 +1,23 @@
+```python
+def predict(row):
+    # Precompute binary embeddings for the inner nodes
+    node1 = int(row['Judge'] == 'Associated Press')          # Judge is Associated Press ?
+    node2 = int(row['Round'] <= 6)                          # Round number <= 6 ?
+    node3 = int(row['Official'] == 1)                       # Official judge == Yes ?
+    
+    emb = [node1, node2, node3]
+    
+    # Decision tree logic
+    if node1:                     # If Judge is Associated Press
+        if node2:                 # Round <= 6
+            prediction = 1       # de la Hoya wins
+        else:                     # Round > 6
+            prediction = 0       # Trinidad wins
+    else:                         # Judge is not Associated Press
+        if node3:                 # Official judge is Yes
+            prediction = 1       # de la Hoya wins
+        else:                     # Official judge is No
+            prediction = 0       # Trinidad wins
+    
+    return prediction, emb
+```

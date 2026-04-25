@@ -1,0 +1,16 @@
+def func(row):
+    node1 = int(row['Round'] <= 6)
+    node2 = int(row['Official'] == 1)
+    node3 = int(row['Judge'] == 8)
+    emb = [node1, node2, node3]
+    if node1 == 1:
+        if node2 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+    else:
+        if node3 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+    return prediction, emb

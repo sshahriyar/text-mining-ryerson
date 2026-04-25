@@ -1,0 +1,46 @@
+def predict_surgery(row):
+    """
+    Predict whether a horse requires surgical intervention based on key clinical signs.
+
+    Parameters
+    ----------
+    row : dict
+        Dictionary containing the horse's clinical measurements. Expected keys are:
+        - 'rectal_temperature' (float, in °C)
+        - 'pulse' (int, beats per minute)
+        - 'capillary_refill_time' (int, encoded as 0=>3 sec, 1=<3 sec, 2=missing, 3=unknown)
+        - 'peripheral_pulse' (int, 1=strong, 2=moderate, 3=weak, 4=reduced)
+        - 'temp_extremities' (int, 1=cold, 2=normal, 3=warm, 4=hot)
+
+    Returns
+    -------
+    pred : int
+        1 if surgery is recommended, 0 otherwise.
+    emb : list of int
+        Binary embedding of internal node activations (in order of computation).
+    """
+    # Internal node evaluations
+    node1 = int(row['rectal_temperature'] > 39.0)          # High fever
+    node2 = int(row['pulse'] > 120)                       # Tachycardia
+    node3 = int(row['capillary_refill_time'] == 0)        # Prolonged refill (>3 sec)
+    node4 = int(row['peripheral_pulse'] == 4)             # Reduced peripheral pulse
+    node5 = int(row['temp_extremities'] == 4)             # Warm extremities
+
+    emb = [node1, node2, node3, node4, node5]
+
+    # Decision logic
+    if node1:  # High rectal temperature
+        if node2:  # Tachycardia
+            if node3:  # Prolonged capillary refill
+                pred = 1  # Surgery recommended
+            else:
+                pred = 0  # No surgery
+        else:
+            pred = 0  # No surgery
+    else:  # Normal temperature
+        if node4 or node5:  # Shock indicators
+            pred = 1  # Surgery recommended
+        else:
+            pred = 0  # No surgery
+
+    return pred, emb

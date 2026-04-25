@@ -1,0 +1,61 @@
+```python
+def classify_round_winner(Judge, Official_judge, Round):
+    """
+    Induces a decision tree classifier to predict the winner of a boxing round
+    between Lewis and Holyfield, based on "world knowledge" without real-world data.
+
+    The tree classifies the winner of a specific round based on who was scoring
+    (an official judge or media) and, if official, which judge it was.
+    This decision tree is built with a maximum depth of 2.
+
+    Args:
+        Judge (str): The name of the judge (e.g., 'E. Williams', 'HBO-Lederman').
+                     Possible values: 'E. Williams', 'L. O\'Connell', 'S. Christodoulu',
+                     'HBO-Lederman', 'Sportsticker', 'Boxing Times', 'Sportsline',
+                     'Associated Press', 'ESPN', 'Boxing Monthly-Leach'.
+        Official_judge (str): 'yes' if the judge is an official fight judge, 'no' otherwise.
+        Round (int): The round number (1 to 12). This feature is not used in this
+                     depth-2 tree due to higher importance of other features.
+
+    Returns:
+        tuple:
+            - str: The predicted winner of the round ('Lewis' or 'Holyfield').
+            - list: A list representing the truth values of the inner nodes traversed.
+                    Each entry is 1 if the condition of the corresponding inner node
+                    is satisfied, and 0 otherwise.
+                    The list reflects the specific path taken through the decision tree.
+    """
+    inner_node_truth_values = []
+    
+    # Root Node (Depth 1): Is the scoring from an official judge?
+    # Based on world knowledge, official judges' scores directly determine the fight outcome
+    # and are subject to different dynamics than media scorecards.
+    # Condition 1: Official_judge == 'yes'
+    if Official_judge == 'yes':
+        inner_node_truth_values.append(1) # Condition 1 is true
+        
+        # Second Level Node (Depth 2, Left Branch): Which specific official judge?
+        # Based on world knowledge of the controversial Lewis-Holyfield I fight,
+        # Judge E. Williams was notable for scoring the fight for Holyfield.
+        # Condition 2: Judge == 'E. Williams'
+        if Judge == 'E. Williams':
+            inner_node_truth_values.append(1) # Condition 2 is true
+            prediction = 'Holyfield'
+        else:
+            inner_node_truth_values.append(0) # Condition 2 is false (other official judge)
+            # For other official judges (e.g., L. O'Connell, S. Christodoulu, or others),
+            # many considered Lewis to have won more rounds or the fight overall.
+            prediction = 'Lewis'
+            
+    else: # Official_judge == 'no'
+        inner_node_truth_values.append(0) # Condition 1 is false (unofficial/media judge)
+        
+        # For unofficial scorecards (media, pundits), the prevailing sentiment
+        # after Lewis-Holyfield I was that Lewis had won the fight.
+        prediction = 'Lewis'
+        
+        # No further internal node is evaluated on this path as max depth is 2,
+        # and this branch terminates after the root node decision.
+    
+    return prediction, inner_node_truth_values
+```

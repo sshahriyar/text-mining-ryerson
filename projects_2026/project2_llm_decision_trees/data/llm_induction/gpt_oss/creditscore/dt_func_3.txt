@@ -1,0 +1,12 @@
+def credit_decision(row):
+    # Precompute binary vector embeddings for inner nodes
+    node1 = int(row['Derogatory.reports'] <= 1)
+    emb = [node1]
+    
+    # Decision tree logic
+    if node1 == 1:
+        prediction = 1  # application accepted
+    else:
+        prediction = 0  # application rejected
+    
+    return prediction, emb

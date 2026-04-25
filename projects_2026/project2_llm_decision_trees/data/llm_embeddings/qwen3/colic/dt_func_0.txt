@@ -1,0 +1,24 @@
+def func(row):
+    node1 = int(row['rectal_temperature'] <= 38.5)
+    node2 = int(row['pulse'] <= 60)
+    node3 = int(row['respiratory_rate'] <= 20)
+    node4 = int(row['packed_cell_volume'] <= 40)
+    node5 = int(row['total_protein'] <= 6.5)
+    emb = [node1, node2, node3, node4, node5]
+    
+    if node1 == 1:
+        if node2 == 1:
+            if node3 == 1:
+                return 0, emb
+            else:
+                return 1, emb
+        else:
+            if node4 == 1:
+                return 0, emb
+            else:
+                return 1, emb
+    else:
+        if node5 == 1:
+            return 1, emb
+        else:
+            return 0, emb

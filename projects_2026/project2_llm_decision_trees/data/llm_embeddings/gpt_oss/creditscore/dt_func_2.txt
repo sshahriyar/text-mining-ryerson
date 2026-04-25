@@ -1,0 +1,35 @@
+```python
+def predict(row):
+    # Precompute node conditions (binary embeddings)
+    node1 = int(row['Derogatory.reports'] <= 1)          # 1 if <=1 reports
+    node2 = int(row['Own.home'] == 1)                    # 1 if owns a home
+    node3 = int(row['Income.per.dependent'] >= 5)         # 1 if high income per dependent
+    node4 = int(row['Monthly.credit.card.exp'] <= 100)   # 1 if credit card expenses are low
+    node5 = int(row['Monthly.credit.card.exp'] <= 50)    # 1 if credit card expenses are very low
+    node6 = int(row['Self.employed'] == 1)               # 1 if self‑employed
+
+    emb = [node1, node2, node3, node4, node5, node6]
+
+    # Decision tree logic
+    if node1:                      # <=1 derogatory reports
+        if node2:                  # owns a home
+            if node3:              # high income per dependent
+                prediction = 1    # accepted
+            else:                  # low income per dependent
+                if node4:          # low credit card expenses
+                    prediction = 1
+                else:
+                    prediction = 0
+        else:                      # does not own a home
+            if node5:              # very low credit card expenses
+                prediction = 1
+            else:
+                prediction = 0
+    else:                          # >1 derogatory reports
+        if node6:                  # self‑employed
+            prediction = 0
+        else:
+            prediction = 1
+
+    return prediction, emb
+```

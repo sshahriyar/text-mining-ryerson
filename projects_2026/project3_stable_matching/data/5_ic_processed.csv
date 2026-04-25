@@ -1,0 +1,714 @@
+pref_type,n_man,n_woman,combined_pref_json,man_pref_string,woman_pref_string,men_opt,women_opt,lattice,random_1,random_2,random_5,random,level1_q,level1_a,level2_q,level2_a,level2n_q,level2n_a
+impartial culture,5,5,"{
+M: {
+M1: [W5,W3,W4,W2,W1],
+M2: [W2,W3,W5,W1,W4],
+M3: [W5,W3,W1,W4,W2],
+M4: [W1,W3,W2,W5,W4],
+M5: [W2,W3,W4,W1,W5],
+},
+W: {
+W1: [M3,M5,M4,M1,M2],
+W2: [M1,M3,M4,M5,M2],
+W3: [M3,M2,M4,M1,M5],
+W4: [M4,M2,M3,M5,M1],
+W5: [M2,M4,M5,M1,M3],
+}}","5,3,4,2,1
+2,3,5,1,4
+5,3,1,4,2
+1,3,2,5,4
+2,3,4,1,5","3,5,4,1,2
+1,3,4,5,2
+3,2,4,1,5
+4,2,3,5,1
+2,4,5,1,3","[[M1, W4],[M2, W5],[M3, W3],[M4, W1],[M5, W2],]","[[M1, W2],[M2, W5],[M3, W3],[M4, W4],[M5, W1],]","[[M1, W2],[M2, W5],[M3, W3],[M4, W1],[M5, W4],]","[[M1, W4],[M2, W5],[M3, W3],[M4, W2],[M5, W1],]","[[M1, W4],[M2, W5],[M3, W1],[M4, W3],[M5, W2],]","[[M1, W4],[M2, W5],[M3, W2],[M4, W1],[M5, W3],]","[[M1, W2],[M2, W3],[M3, W5],[M4, W4],[M5, W1],]","Who is agent W2's, 1-most preferred agent?",M1,"Would agent W1, prefer M3 or M2 over M4?",yes,"If agent W1 is currently engaged to M4, would she accept proposals from M3 or M2?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W5,W3,W4,W2,W1],
+M2: [W3,W4,W1,W2,W5],
+M3: [W5,W1,W4,W2,W3],
+M4: [W3,W2,W5,W1,W4],
+M5: [W3,W4,W2,W1,W5],
+},
+W: {
+W1: [M1,M4,M3,M5,M2],
+W2: [M2,M4,M5,M1,M3],
+W3: [M1,M2,M4,M5,M3],
+W4: [M3,M5,M1,M4,M2],
+W5: [M5,M3,M4,M2,M1],
+}}","5,3,4,2,1
+3,4,1,2,5
+5,1,4,2,3
+3,2,5,1,4
+3,4,2,1,5","1,4,3,5,2
+2,4,5,1,3
+1,2,4,5,3
+3,5,1,4,2
+5,3,4,2,1","[[M1, W3],[M2, W1],[M3, W5],[M4, W2],[M5, W4],]","[[M1, W3],[M2, W2],[M3, W4],[M4, W1],[M5, W5],]","[[M1, W3],[M2, W2],[M3, W5],[M4, W1],[M5, W4],]","[[M1, W1],[M2, W3],[M3, W5],[M4, W2],[M5, W4],]","[[M1, W3],[M2, W5],[M3, W1],[M4, W2],[M5, W4],]","[[M1, W3],[M2, W5],[M3, W2],[M4, W1],[M5, W4],]","[[M1, W2],[M2, W5],[M3, W3],[M4, W4],[M5, W1],]","Who is agent W2's, 3-most preferred agent?",M5,"Would agent W1, prefer M1 and M2 over M3?",no,"If agent W1 is currently engaged to M3, would she accept proposals from M1 and M2?",no
+impartial culture,5,5,"{
+M: {
+M1: [W3,W2,W1,W4,W5],
+M2: [W2,W5,W1,W3,W4],
+M3: [W3,W1,W4,W2,W5],
+M4: [W2,W3,W5,W4,W1],
+M5: [W2,W5,W4,W1,W3],
+},
+W: {
+W1: [M2,M1,M3,M5,M4],
+W2: [M1,M4,M5,M2,M3],
+W3: [M5,M4,M1,M2,M3],
+W4: [M2,M4,M3,M1,M5],
+W5: [M3,M1,M4,M2,M5],
+}}","3,2,1,4,5
+2,5,1,3,4
+3,1,4,2,5
+2,3,5,4,1
+2,5,4,1,3","2,1,3,5,4
+1,4,5,2,3
+5,4,1,2,3
+2,4,3,1,5
+3,1,4,2,5","[[M1, W3],[M2, W5],[M3, W1],[M4, W2],[M5, W4],]","[[M1, W2],[M2, W1],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W2],[M2, W1],[M3, W4],[M4, W5],[M5, W3],]","[[M1, W3],[M2, W5],[M3, W4],[M4, W2],[M5, W1],]","[[M1, W3],[M2, W4],[M3, W1],[M4, W2],[M5, W5],]","[[M1, W4],[M2, W1],[M3, W2],[M4, W5],[M5, W3],]","[[M1, W5],[M2, W3],[M3, W2],[M4, W4],[M5, W1],]","Who is agent W4's, 3-most preferred agent?",M3,"Would agent W5, prefer M2 and M4 over M3?",no,"If agent W5 is currently engaged to M3, would she accept proposals from M2 and M4?",no
+impartial culture,5,5,"{
+M: {
+M1: [W2,W3,W1,W5,W4],
+M2: [W5,W1,W3,W4,W2],
+M3: [W2,W5,W1,W4,W3],
+M4: [W4,W2,W3,W1,W5],
+M5: [W4,W3,W1,W5,W2],
+},
+W: {
+W1: [M4,M5,M1,M3,M2],
+W2: [M5,M1,M2,M4,M3],
+W3: [M2,M1,M5,M4,M3],
+W4: [M3,M5,M1,M4,M2],
+W5: [M5,M4,M3,M2,M1],
+}}","2,3,1,5,4
+5,1,3,4,2
+2,5,1,4,3
+4,2,3,1,5
+4,3,1,5,2","4,5,1,3,2
+5,1,2,4,3
+2,1,5,4,3
+3,5,1,4,2
+5,4,3,2,1","[[M1, W2],[M2, W1],[M3, W5],[M4, W3],[M5, W4],]","[[M1, W2],[M2, W3],[M3, W4],[M4, W1],[M5, W5],]","[[M1, W2],[M2, W3],[M3, W5],[M4, W1],[M5, W4],]","[[M1, W2],[M2, W1],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W2],[M2, W1],[M3, W4],[M4, W5],[M5, W3],]","[[M1, W4],[M2, W3],[M3, W1],[M4, W5],[M5, W2],]","[[M1, W5],[M2, W1],[M3, W2],[M4, W4],[M5, W3],]","Who is agent W5's, 1-most preferred agent?",M5,"Would agent W1, prefer M4 and M2 over M3?",no,"If agent W1 is currently engaged to M3, would she accept proposals from M4 and M2?",no
+impartial culture,5,5,"{
+M: {
+M1: [W3,W2,W5,W1,W4],
+M2: [W4,W3,W5,W1,W2],
+M3: [W2,W4,W5,W3,W1],
+M4: [W4,W3,W1,W2,W5],
+M5: [W4,W2,W1,W3,W5],
+},
+W: {
+W1: [M3,M4,M1,M5,M2],
+W2: [M4,M1,M3,M2,M5],
+W3: [M3,M5,M4,M1,M2],
+W4: [M1,M3,M4,M2,M5],
+W5: [M5,M2,M4,M1,M3],
+}}","3,2,5,1,4
+4,3,5,1,2
+2,4,5,3,1
+4,3,1,2,5
+4,2,1,3,5","3,4,1,5,2
+4,1,3,2,5
+3,5,4,1,2
+1,3,4,2,5
+5,2,4,1,3","[[M1, W3],[M2, W5],[M3, W2],[M4, W4],[M5, W1],]","[[M1, W2],[M2, W5],[M3, W4],[M4, W1],[M5, W3],]","[[M1, W2],[M2, W5],[M3, W4],[M4, W3],[M5, W1],]","[[M1, W2],[M2, W5],[M3, W3],[M4, W4],[M5, W1],]","[[M1, W3],[M2, W1],[M3, W2],[M4, W4],[M5, W5],]","[[M1, W5],[M2, W4],[M3, W1],[M4, W3],[M5, W2],]","[[M1, W3],[M2, W4],[M3, W5],[M4, W1],[M5, W2],]","Who is agent W2's, 4-most preferred agent?",M2,"Would agent W3, prefer M4 and M2 over M1?",no,"If agent W3 is currently engaged to M1, would she accept proposals from M4 and M2?",no
+impartial culture,5,5,"{
+M: {
+M1: [W1,W3,W4,W5,W2],
+M2: [W4,W3,W1,W2,W5],
+M3: [W4,W3,W2,W5,W1],
+M4: [W2,W3,W1,W4,W5],
+M5: [W5,W4,W3,W2,W1],
+},
+W: {
+W1: [M2,M5,M1,M3,M4],
+W2: [M4,M2,M1,M3,M5],
+W3: [M4,M5,M3,M2,M1],
+W4: [M1,M5,M2,M3,M4],
+W5: [M3,M1,M4,M2,M5],
+}}","1,3,4,5,2
+4,3,1,2,5
+4,3,2,5,1
+2,3,1,4,5
+5,4,3,2,1","2,5,1,3,4
+4,2,1,3,5
+4,5,3,2,1
+1,5,2,3,4
+3,1,4,2,5","[[M1, W1],[M2, W4],[M3, W3],[M4, W2],[M5, W5],]","[[M1, W4],[M2, W1],[M3, W5],[M4, W2],[M5, W3],]","[[M1, W4],[M2, W1],[M3, W3],[M4, W2],[M5, W5],]","[[M1, W1],[M2, W3],[M3, W4],[M4, W2],[M5, W5],]","[[M1, W4],[M2, W1],[M3, W5],[M4, W3],[M5, W2],]","[[M1, W5],[M2, W4],[M3, W2],[M4, W1],[M5, W3],]","[[M1, W5],[M2, W1],[M3, W2],[M4, W4],[M5, W3],]","Who is agent W1's, 3-most preferred agent?",M1,"Would agent W5, prefer M1 and M3 over M4?",yes,"If agent W5 is currently engaged to M4, would she accept proposals from M1 and M3?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W2,W1,W4,W3,W5],
+M2: [W2,W5,W3,W1,W4],
+M3: [W3,W2,W4,W1,W5],
+M4: [W5,W3,W2,W4,W1],
+M5: [W2,W1,W4,W3,W5],
+},
+W: {
+W1: [M2,M3,M5,M1,M4],
+W2: [M5,M2,M1,M3,M4],
+W3: [M4,M5,M1,M2,M3],
+W4: [M3,M4,M2,M1,M5],
+W5: [M5,M1,M4,M2,M3],
+}}","2,1,4,3,5
+2,5,3,1,4
+3,2,4,1,5
+5,3,2,4,1
+2,1,4,3,5","2,3,5,1,4
+5,2,1,3,4
+4,5,1,2,3
+3,4,2,1,5
+5,1,4,2,3","[[M1, W1],[M2, W3],[M3, W4],[M4, W5],[M5, W2],]","[[M1, W5],[M2, W1],[M3, W4],[M4, W3],[M5, W2],]","[[M1, W3],[M2, W1],[M3, W4],[M4, W5],[M5, W2],]","[[M1, W1],[M2, W5],[M3, W4],[M4, W3],[M5, W2],]","[[M1, W3],[M2, W4],[M3, W1],[M4, W5],[M5, W2],]","[[M1, W1],[M2, W4],[M3, W2],[M4, W5],[M5, W3],]","[[M1, W2],[M2, W3],[M3, W4],[M4, W5],[M5, W1],]","Who is agent W1's, 5-most preferred agent?",M4,"Would agent W1, prefer M4 and M3 over M1?",no,"If agent W1 is currently engaged to M1, would she accept proposals from M4 and M3?",no
+impartial culture,5,5,"{
+M: {
+M1: [W1,W3,W4,W5,W2],
+M2: [W4,W2,W5,W3,W1],
+M3: [W3,W5,W4,W2,W1],
+M4: [W3,W5,W1,W2,W4],
+M5: [W4,W3,W2,W1,W5],
+},
+W: {
+W1: [M5,M4,M3,M2,M1],
+W2: [M2,M3,M5,M1,M4],
+W3: [M1,M2,M3,M4,M5],
+W4: [M1,M4,M2,M5,M3],
+W5: [M3,M2,M4,M1,M5],
+}}","1,3,4,5,2
+4,2,5,3,1
+3,5,4,2,1
+3,5,1,2,4
+4,3,2,1,5","5,4,3,2,1
+2,3,5,1,4
+1,2,3,4,5
+1,4,2,5,3
+3,2,4,1,5","[[M1, W1],[M2, W4],[M3, W3],[M4, W5],[M5, W2],]","[[M1, W3],[M2, W2],[M3, W5],[M4, W4],[M5, W1],]","[[M1, W3],[M2, W4],[M3, W5],[M4, W1],[M5, W2],]","[[M1, W1],[M2, W2],[M3, W3],[M4, W5],[M5, W4],]","[[M1, W1],[M2, W2],[M3, W5],[M4, W3],[M5, W4],]","[[M1, W3],[M2, W2],[M3, W4],[M4, W1],[M5, W5],]","[[M1, W4],[M2, W1],[M3, W3],[M4, W5],[M5, W2],]","Who is agent W4's, 4-most preferred agent?",M5,"Would agent W4, prefer M3 or M1 over M4?",yes,"If agent W4 is currently engaged to M4, would she accept proposals from M3 or M1?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W5,W1,W3,W4,W2],
+M2: [W5,W1,W4,W3,W2],
+M3: [W5,W3,W4,W2,W1],
+M4: [W3,W4,W1,W2,W5],
+M5: [W5,W2,W3,W4,W1],
+},
+W: {
+W1: [M5,M3,M4,M1,M2],
+W2: [M4,M2,M3,M5,M1],
+W3: [M3,M5,M1,M2,M4],
+W4: [M5,M3,M4,M2,M1],
+W5: [M3,M4,M5,M2,M1],
+}}","5,1,3,4,2
+5,1,4,3,2
+5,3,4,2,1
+3,4,1,2,5
+5,2,3,4,1","5,3,4,1,2
+4,2,3,5,1
+3,5,1,2,4
+5,3,4,2,1
+3,4,5,2,1","[[M1, W1],[M2, W4],[M3, W5],[M4, W3],[M5, W2],]","[[M1, W1],[M2, W2],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W1],[M2, W3],[M3, W5],[M4, W4],[M5, W2],]","[[M1, W3],[M2, W4],[M3, W5],[M4, W1],[M5, W2],]","[[M1, W1],[M2, W4],[M3, W5],[M4, W2],[M5, W3],]","[[M1, W2],[M2, W4],[M3, W3],[M4, W5],[M5, W1],]","[[M1, W5],[M2, W4],[M3, W3],[M4, W1],[M5, W2],]","Who is agent W5's, 2-most preferred agent?",M4,"Would agent W1, prefer M3 or M1 over M4?",yes,"If agent W1 is currently engaged to M4, would she accept proposals from M3 or M1?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W2,W4,W3,W1,W5],
+M2: [W4,W5,W2,W1,W3],
+M3: [W3,W1,W2,W4,W5],
+M4: [W2,W3,W1,W4,W5],
+M5: [W5,W1,W3,W4,W2],
+},
+W: {
+W1: [M2,M1,M4,M3,M5],
+W2: [M3,M2,M5,M4,M1],
+W3: [M5,M2,M4,M1,M3],
+W4: [M5,M1,M4,M2,M3],
+W5: [M2,M3,M1,M5,M4],
+}}","2,4,3,1,5
+4,5,2,1,3
+3,1,2,4,5
+2,3,1,4,5
+5,1,3,4,2","2,1,4,3,5
+3,2,5,4,1
+5,2,4,1,3
+5,1,4,2,3
+2,3,1,5,4","[[M1, W4],[M2, W5],[M3, W3],[M4, W2],[M5, W1],]","[[M1, W4],[M2, W5],[M3, W2],[M4, W1],[M5, W3],]","[[M1, W4],[M2, W5],[M3, W1],[M4, W2],[M5, W3],]","[[M1, W4],[M2, W5],[M3, W2],[M4, W3],[M5, W1],]","[[M1, W3],[M2, W5],[M3, W2],[M4, W1],[M5, W4],]","[[M1, W4],[M2, W3],[M3, W5],[M4, W2],[M5, W1],]","[[M1, W5],[M2, W2],[M3, W1],[M4, W3],[M5, W4],]","Who is agent W3's, 4-most preferred agent?",M1,"Would agent W2, prefer M2 or M3 over M1?",yes,"If agent W2 is currently engaged to M1, would she accept proposals from M2 or M3?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W1,W3,W5,W2,W4],
+M2: [W2,W4,W3,W5,W1],
+M3: [W5,W2,W1,W3,W4],
+M4: [W3,W4,W2,W1,W5],
+M5: [W1,W5,W2,W4,W3],
+},
+W: {
+W1: [M3,M4,M5,M1,M2],
+W2: [M3,M4,M1,M2,M5],
+W3: [M5,M3,M2,M1,M4],
+W4: [M2,M4,M1,M3,M5],
+W5: [M5,M4,M3,M1,M2],
+}}","1,3,5,2,4
+2,4,3,5,1
+5,2,1,3,4
+3,4,2,1,5
+1,5,2,4,3","3,4,5,1,2
+3,4,1,2,5
+5,3,2,1,4
+2,4,1,3,5
+5,4,3,1,2","[[M1, W3],[M2, W2],[M3, W5],[M4, W4],[M5, W1],]","[[M1, W3],[M2, W4],[M3, W2],[M4, W1],[M5, W5],]","[[M1, W3],[M2, W4],[M3, W5],[M4, W2],[M5, W1],]","[[M1, W2],[M2, W3],[M3, W5],[M4, W4],[M5, W1],]","[[M1, W1],[M2, W2],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W3],[M2, W2],[M3, W4],[M4, W1],[M5, W5],]","[[M1, W5],[M2, W2],[M3, W4],[M4, W1],[M5, W3],]","Who is agent W3's, 1-most preferred agent?",M5,"Would agent W5, prefer M4 and M2 over M1?",no,"If agent W5 is currently engaged to M1, would she accept proposals from M4 and M2?",no
+impartial culture,5,5,"{
+M: {
+M1: [W2,W4,W1,W5,W3],
+M2: [W5,W4,W3,W1,W2],
+M3: [W3,W5,W4,W2,W1],
+M4: [W1,W3,W5,W2,W4],
+M5: [W4,W2,W5,W1,W3],
+},
+W: {
+W1: [M1,M3,M4,M2,M5],
+W2: [M2,M4,M5,M1,M3],
+W3: [M5,M4,M2,M1,M3],
+W4: [M4,M1,M3,M5,M2],
+W5: [M2,M5,M3,M4,M1],
+}}","2,4,1,5,3
+5,4,3,1,2
+3,5,4,2,1
+1,3,5,2,4
+4,2,5,1,3","1,3,4,2,5
+2,4,5,1,3
+5,4,2,1,3
+4,1,3,5,2
+2,5,3,4,1","[[M1, W2],[M2, W5],[M3, W3],[M4, W1],[M5, W4],]","[[M1, W4],[M2, W5],[M3, W1],[M4, W2],[M5, W3],]","[[M1, W4],[M2, W5],[M3, W3],[M4, W1],[M5, W2],]","[[M1, W2],[M2, W5],[M3, W4],[M4, W1],[M5, W3],]","[[M1, W3],[M2, W5],[M3, W4],[M4, W1],[M5, W2],]","[[M1, W2],[M2, W1],[M3, W4],[M4, W5],[M5, W3],]","[[M1, W5],[M2, W3],[M3, W4],[M4, W2],[M5, W1],]","Who is agent W4's, 2-most preferred agent?",M1,"Would agent W3, prefer M4 or M3 over M2?",yes,"If agent W3 is currently engaged to M2, would she accept proposals from M4 or M3?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W5,W1,W2,W4,W3],
+M2: [W1,W2,W5,W4,W3],
+M3: [W4,W2,W3,W1,W5],
+M4: [W5,W1,W2,W4,W3],
+M5: [W3,W5,W4,W2,W1],
+},
+W: {
+W1: [M2,M3,M5,M4,M1],
+W2: [M5,M2,M4,M3,M1],
+W3: [M2,M1,M3,M5,M4],
+W4: [M1,M4,M5,M3,M2],
+W5: [M4,M3,M5,M2,M1],
+}}","5,1,2,4,3
+1,2,5,4,3
+4,2,3,1,5
+5,1,2,4,3
+3,5,4,2,1","2,3,5,4,1
+5,2,4,3,1
+2,1,3,5,4
+1,4,5,3,2
+4,3,5,2,1","[[M1, W2],[M2, W1],[M3, W4],[M4, W5],[M5, W3],]","[[M1, W4],[M2, W1],[M3, W3],[M4, W5],[M5, W2],]","[[M1, W4],[M2, W1],[M3, W2],[M4, W5],[M5, W3],]","[[M1, W2],[M2, W1],[M3, W3],[M4, W5],[M5, W4],]","[[M1, W3],[M2, W1],[M3, W4],[M4, W5],[M5, W2],]","[[M1, W2],[M2, W3],[M3, W1],[M4, W4],[M5, W5],]","[[M1, W4],[M2, W2],[M3, W1],[M4, W5],[M5, W3],]","Who is agent W2's, 3-most preferred agent?",M4,"Would agent W1, prefer M4 and M3 over M2?",no,"If agent W1 is currently engaged to M2, would she accept proposals from M4 and M3?",no
+impartial culture,5,5,"{
+M: {
+M1: [W2,W3,W4,W5,W1],
+M2: [W5,W4,W2,W1,W3],
+M3: [W1,W5,W2,W3,W4],
+M4: [W3,W5,W4,W2,W1],
+M5: [W3,W2,W4,W1,W5],
+},
+W: {
+W1: [M1,M3,M2,M4,M5],
+W2: [M2,M3,M4,M1,M5],
+W3: [M2,M5,M4,M3,M1],
+W4: [M5,M4,M3,M1,M2],
+W5: [M3,M4,M2,M5,M1],
+}}","2,3,4,5,1
+5,4,2,1,3
+1,5,2,3,4
+3,5,4,2,1
+3,2,4,1,5","1,3,2,4,5
+2,3,4,1,5
+2,5,4,3,1
+5,4,3,1,2
+3,4,2,5,1","[[M1, W2],[M2, W4],[M3, W1],[M4, W5],[M5, W3],]","[[M1, W1],[M2, W2],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W4],[M2, W2],[M3, W1],[M4, W5],[M5, W3],]","[[M1, W2],[M2, W3],[M3, W1],[M4, W5],[M5, W4],]","[[M1, W2],[M2, W1],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W1],[M2, W4],[M3, W2],[M4, W3],[M5, W5],]","[[M1, W3],[M2, W2],[M3, W1],[M4, W4],[M5, W5],]","Who is agent W3's, 2-most preferred agent?",M5,"Would agent W1, prefer M3 and M2 over M4?",yes,"If agent W1 is currently engaged to M4, would she accept proposals from M3 and M2?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W3,W1,W5,W4,W2],
+M2: [W1,W5,W4,W2,W3],
+M3: [W4,W3,W2,W1,W5],
+M4: [W3,W5,W4,W2,W1],
+M5: [W1,W2,W3,W5,W4],
+},
+W: {
+W1: [M4,M2,M5,M3,M1],
+W2: [M4,M2,M3,M5,M1],
+W3: [M3,M5,M1,M2,M4],
+W4: [M5,M4,M1,M3,M2],
+W5: [M1,M3,M4,M5,M2],
+}}","3,1,5,4,2
+1,5,4,2,3
+4,3,2,1,5
+3,5,4,2,1
+1,2,3,5,4","4,2,5,3,1
+4,2,3,5,1
+3,5,1,2,4
+5,4,1,3,2
+1,3,4,5,2","[[M1, W3],[M2, W1],[M3, W4],[M4, W5],[M5, W2],]","[[M1, W5],[M2, W1],[M3, W3],[M4, W2],[M5, W4],]","[[M1, W5],[M2, W1],[M3, W3],[M4, W4],[M5, W2],]","[[M1, W5],[M2, W1],[M3, W4],[M4, W3],[M5, W2],]","[[M1, W3],[M2, W1],[M3, W5],[M4, W4],[M5, W2],]","[[M1, W3],[M2, W4],[M3, W5],[M4, W1],[M5, W2],]","[[M1, W4],[M2, W1],[M3, W2],[M4, W3],[M5, W5],]","Who is agent W5's, 2-most preferred agent?",M3,"Would agent W1, prefer M3 and M2 over M4?",no,"If agent W1 is currently engaged to M4, would she accept proposals from M3 and M2?",no
+impartial culture,5,5,"{
+M: {
+M1: [W4,W1,W5,W3,W2],
+M2: [W2,W4,W3,W5,W1],
+M3: [W2,W3,W4,W1,W5],
+M4: [W4,W2,W5,W1,W3],
+M5: [W3,W2,W1,W4,W5],
+},
+W: {
+W1: [M2,M5,M3,M4,M1],
+W2: [M3,M2,M5,M4,M1],
+W3: [M4,M5,M2,M1,M3],
+W4: [M3,M5,M2,M1,M4],
+W5: [M1,M5,M2,M4,M3],
+}}","4,1,5,3,2
+2,4,3,5,1
+2,3,4,1,5
+4,2,5,1,3
+3,2,1,4,5","2,5,3,4,1
+3,2,5,4,1
+4,5,2,1,3
+3,5,2,1,4
+1,5,2,4,3","[[M1, W1],[M2, W4],[M3, W2],[M4, W5],[M5, W3],]","[[M1, W5],[M2, W1],[M3, W2],[M4, W3],[M5, W4],]","[[M1, W5],[M2, W4],[M3, W2],[M4, W1],[M5, W3],]","[[M1, W1],[M2, W2],[M3, W4],[M4, W5],[M5, W3],]","[[M1, W1],[M2, W5],[M3, W2],[M4, W4],[M5, W3],]","[[M1, W2],[M2, W4],[M3, W1],[M4, W5],[M5, W3],]","[[M1, W3],[M2, W4],[M3, W1],[M4, W2],[M5, W5],]","Who is agent W4's, 4-most preferred agent?",M1,"Would agent W4, prefer M4 or M3 over M2?",yes,"If agent W4 is currently engaged to M2, would she accept proposals from M4 or M3?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W4,W3,W5,W2,W1],
+M2: [W5,W4,W3,W1,W2],
+M3: [W5,W4,W1,W2,W3],
+M4: [W5,W4,W2,W1,W3],
+M5: [W2,W4,W5,W3,W1],
+},
+W: {
+W1: [M5,M2,M3,M4,M1],
+W2: [M3,M4,M5,M1,M2],
+W3: [M4,M1,M2,M5,M3],
+W4: [M5,M1,M4,M3,M2],
+W5: [M1,M4,M5,M3,M2],
+}}","4,3,5,2,1
+5,4,3,1,2
+5,4,1,2,3
+5,4,2,1,3
+2,4,5,3,1","5,2,3,4,1
+3,4,5,1,2
+4,1,2,5,3
+5,1,4,3,2
+1,4,5,3,2","[[M1, W4],[M2, W3],[M3, W1],[M4, W5],[M5, W2],]","[[M1, W5],[M2, W1],[M3, W2],[M4, W3],[M5, W4],]","[[M1, W3],[M2, W1],[M3, W2],[M4, W5],[M5, W4],]","[[M1, W4],[M2, W3],[M3, W2],[M4, W5],[M5, W1],]","[[M1, W4],[M2, W3],[M3, W1],[M4, W2],[M5, W5],]","[[M1, W4],[M2, W2],[M3, W1],[M4, W3],[M5, W5],]","[[M1, W4],[M2, W1],[M3, W2],[M4, W5],[M5, W3],]","Who is agent W2's, 5-most preferred agent?",M2,"Would agent W3, prefer M4 and M2 over M3?",yes,"If agent W3 is currently engaged to M3, would she accept proposals from M4 and M2?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W5,W1,W4,W3,W2],
+M2: [W2,W5,W4,W1,W3],
+M3: [W1,W5,W3,W4,W2],
+M4: [W4,W1,W2,W5,W3],
+M5: [W3,W5,W1,W2,W4],
+},
+W: {
+W1: [M5,M4,M3,M2,M1],
+W2: [M1,M4,M2,M5,M3],
+W3: [M3,M1,M2,M5,M4],
+W4: [M4,M2,M5,M3,M1],
+W5: [M3,M5,M2,M1,M4],
+}}","5,1,4,3,2
+2,5,4,1,3
+1,5,3,4,2
+4,1,2,5,3
+3,5,1,2,4","5,4,3,2,1
+1,4,2,5,3
+3,1,2,5,4
+4,2,5,3,1
+3,5,2,1,4","[[M1, W5],[M2, W2],[M3, W1],[M4, W4],[M5, W3],]","[[M1, W3],[M2, W2],[M3, W5],[M4, W4],[M5, W1],]","[[M1, W3],[M2, W2],[M3, W1],[M4, W4],[M5, W5],]","[[M1, W1],[M2, W2],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W5],[M2, W2],[M3, W3],[M4, W4],[M5, W1],]","[[M1, W5],[M2, W1],[M3, W2],[M4, W4],[M5, W3],]","[[M1, W2],[M2, W3],[M3, W1],[M4, W5],[M5, W4],]","Who is agent W3's, 2-most preferred agent?",M1,"Would agent W4, prefer M3 and M1 over M2?",no,"If agent W4 is currently engaged to M2, would she accept proposals from M3 and M1?",no
+impartial culture,5,5,"{
+M: {
+M1: [W3,W5,W4,W1,W2],
+M2: [W5,W4,W2,W1,W3],
+M3: [W2,W4,W5,W3,W1],
+M4: [W4,W3,W5,W1,W2],
+M5: [W1,W2,W3,W4,W5],
+},
+W: {
+W1: [M5,M3,M4,M2,M1],
+W2: [M2,M1,M4,M5,M3],
+W3: [M5,M3,M4,M2,M1],
+W4: [M3,M2,M1,M4,M5],
+W5: [M3,M1,M2,M4,M5],
+}}","3,5,4,1,2
+5,4,2,1,3
+2,4,5,3,1
+4,3,5,1,2
+1,2,3,4,5","5,3,4,2,1
+2,1,4,5,3
+5,3,4,2,1
+3,2,1,4,5
+3,1,2,4,5","[[M1, W3],[M2, W5],[M3, W2],[M4, W4],[M5, W1],]","[[M1, W5],[M2, W2],[M3, W4],[M4, W3],[M5, W1],]","[[M1, W5],[M2, W4],[M3, W2],[M4, W3],[M5, W1],]","[[M1, W3],[M2, W5],[M3, W4],[M4, W2],[M5, W1],]","[[M1, W3],[M2, W4],[M3, W2],[M4, W5],[M5, W1],]","[[M1, W3],[M2, W5],[M3, W2],[M4, W1],[M5, W4],]","[[M1, W3],[M2, W4],[M3, W2],[M4, W5],[M5, W1],]","Who is agent W3's, 2-most preferred agent?",M3,"Would agent W2, prefer M2 or M4 over M1?",yes,"If agent W2 is currently engaged to M1, would she accept proposals from M2 or M4?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W5,W1,W3,W4,W2],
+M2: [W5,W2,W4,W1,W3],
+M3: [W2,W3,W4,W5,W1],
+M4: [W3,W2,W1,W5,W4],
+M5: [W4,W5,W2,W3,W1],
+},
+W: {
+W1: [M2,M5,M4,M3,M1],
+W2: [M3,M4,M1,M5,M2],
+W3: [M5,M3,M2,M1,M4],
+W4: [M3,M2,M4,M5,M1],
+W5: [M4,M5,M3,M2,M1],
+}}","5,1,3,4,2
+5,2,4,1,3
+2,3,4,5,1
+3,2,1,5,4
+4,5,2,3,1","2,5,4,3,1
+3,4,1,5,2
+5,3,2,1,4
+3,2,4,5,1
+4,5,3,2,1","[[M1, W1],[M2, W5],[M3, W2],[M4, W3],[M5, W4],]","[[M1, W3],[M2, W4],[M3, W2],[M4, W1],[M5, W5],]","[[M1, W1],[M2, W4],[M3, W2],[M4, W3],[M5, W5],]","[[M1, W1],[M2, W5],[M3, W3],[M4, W2],[M5, W4],]","[[M1, W5],[M2, W1],[M3, W2],[M4, W3],[M5, W4],]","[[M1, W3],[M2, W2],[M3, W4],[M4, W5],[M5, W1],]","[[M1, W5],[M2, W1],[M3, W3],[M4, W2],[M5, W4],]","Who is agent W4's, 2-most preferred agent?",M2,"Would agent W3, prefer M4 and M3 over M1?",no,"If agent W3 is currently engaged to M1, would she accept proposals from M4 and M3?",no
+impartial culture,5,5,"{
+M: {
+M1: [W5,W4,W3,W1,W2],
+M2: [W4,W1,W5,W2,W3],
+M3: [W3,W2,W4,W5,W1],
+M4: [W1,W4,W2,W5,W3],
+M5: [W2,W5,W1,W4,W3],
+},
+W: {
+W1: [M1,M2,M5,M3,M4],
+W2: [M2,M3,M4,M1,M5],
+W3: [M3,M2,M1,M5,M4],
+W4: [M5,M3,M4,M1,M2],
+W5: [M5,M2,M1,M4,M3],
+}}","5,4,3,1,2
+4,1,5,2,3
+3,2,4,5,1
+1,4,2,5,3
+2,5,1,4,3","1,2,5,3,4
+2,3,4,1,5
+3,2,1,5,4
+5,3,4,1,2
+5,2,1,4,3","[[M1, W5],[M2, W4],[M3, W3],[M4, W1],[M5, W2],]","[[M1, W1],[M2, W2],[M3, W3],[M4, W4],[M5, W5],]","[[M1, W1],[M2, W5],[M3, W3],[M4, W4],[M5, W2],]","[[M1, W4],[M2, W5],[M3, W3],[M4, W1],[M5, W2],]","[[M1, W2],[M2, W4],[M3, W3],[M4, W1],[M5, W5],]","[[M1, W3],[M2, W4],[M3, W1],[M4, W2],[M5, W5],]","[[M1, W5],[M2, W1],[M3, W4],[M4, W3],[M5, W2],]","Who is agent W1's, 5-most preferred agent?",M4,"Would agent W5, prefer M4 and M3 over M1?",no,"If agent W5 is currently engaged to M1, would she accept proposals from M4 and M3?",no
+impartial culture,5,5,"{
+M: {
+M1: [W5,W2,W4,W1,W3],
+M2: [W5,W2,W4,W1,W3],
+M3: [W2,W4,W5,W3,W1],
+M4: [W2,W1,W3,W5,W4],
+M5: [W3,W2,W1,W5,W4],
+},
+W: {
+W1: [M5,M2,M4,M3,M1],
+W2: [M5,M2,M1,M4,M3],
+W3: [M4,M1,M2,M3,M5],
+W4: [M1,M5,M4,M3,M2],
+W5: [M3,M4,M2,M5,M1],
+}}","5,2,4,1,3
+5,2,4,1,3
+2,4,5,3,1
+2,1,3,5,4
+3,2,1,5,4","5,2,4,3,1
+5,2,1,4,3
+4,1,2,3,5
+1,5,4,3,2
+3,4,2,5,1","[[M1, W2],[M2, W5],[M3, W4],[M4, W1],[M5, W3],]","[[M1, W4],[M2, W1],[M3, W5],[M4, W3],[M5, W2],]","[[M1, W4],[M2, W2],[M3, W5],[M4, W1],[M5, W3],]","[[M1, W3],[M2, W5],[M3, W4],[M4, W1],[M5, W2],]","[[M1, W1],[M2, W5],[M3, W4],[M4, W2],[M5, W3],]","[[M1, W2],[M2, W5],[M3, W1],[M4, W4],[M5, W3],]","[[M1, W2],[M2, W1],[M3, W3],[M4, W5],[M5, W4],]","Who is agent W2's, 4-most preferred agent?",M4,"Would agent W4, prefer M3 or M2 over M4?",no,"If agent W4 is currently engaged to M4, would she accept proposals from M3 or M2?",no
+impartial culture,5,5,"{
+M: {
+M1: [W4,W3,W2,W5,W1],
+M2: [W5,W4,W2,W3,W1],
+M3: [W5,W2,W4,W3,W1],
+M4: [W2,W1,W4,W3,W5],
+M5: [W5,W3,W4,W2,W1],
+},
+W: {
+W1: [M2,M5,M4,M1,M3],
+W2: [M2,M3,M4,M5,M1],
+W3: [M2,M4,M5,M1,M3],
+W4: [M2,M3,M4,M5,M1],
+W5: [M1,M2,M4,M5,M3],
+}}","4,3,2,5,1
+5,4,2,3,1
+5,2,4,3,1
+2,1,4,3,5
+5,3,4,2,1","2,5,4,1,3
+2,3,4,5,1
+2,4,5,1,3
+2,3,4,5,1
+1,2,4,5,3","[[M1, W4],[M2, W5],[M3, W2],[M4, W1],[M5, W3],]","[[M1, W5],[M2, W4],[M3, W2],[M4, W3],[M5, W1],]","[[M1, W5],[M2, W4],[M3, W2],[M4, W1],[M5, W3],]","[[M1, W3],[M2, W5],[M3, W2],[M4, W1],[M5, W4],]","[[M1, W1],[M2, W5],[M3, W2],[M4, W4],[M5, W3],]","[[M1, W3],[M2, W5],[M3, W1],[M4, W4],[M5, W2],]","[[M1, W2],[M2, W5],[M3, W3],[M4, W1],[M5, W4],]","Who is agent W1's, 1-most preferred agent?",M2,"Would agent W2, prefer M3 or M1 over M4?",yes,"If agent W2 is currently engaged to M4, would she accept proposals from M3 or M1?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W1,W5,W3,W2,W4],
+M2: [W3,W4,W1,W5,W2],
+M3: [W5,W4,W3,W2,W1],
+M4: [W4,W3,W1,W2,W5],
+M5: [W5,W2,W4,W3,W1],
+},
+W: {
+W1: [M4,M2,M3,M1,M5],
+W2: [M2,M1,M3,M5,M4],
+W3: [M5,M1,M2,M4,M3],
+W4: [M1,M3,M2,M5,M4],
+W5: [M3,M2,M4,M5,M1],
+}}","1,5,3,2,4
+3,4,1,5,2
+5,4,3,2,1
+4,3,1,2,5
+5,2,4,3,1","4,2,3,1,5
+2,1,3,5,4
+5,1,2,4,3
+1,3,2,5,4
+3,2,4,5,1","[[M1, W1],[M2, W3],[M3, W5],[M4, W4],[M5, W2],]","[[M1, W4],[M2, W2],[M3, W5],[M4, W1],[M5, W3],]","[[M1, W3],[M2, W4],[M3, W5],[M4, W1],[M5, W2],]","[[M1, W1],[M2, W4],[M3, W5],[M4, W3],[M5, W2],]","[[M1, W1],[M2, W3],[M3, W5],[M4, W2],[M5, W4],]","[[M1, W1],[M2, W5],[M3, W2],[M4, W4],[M5, W3],]","[[M1, W2],[M2, W3],[M3, W1],[M4, W4],[M5, W5],]","Who is agent W4's, 3-most preferred agent?",M2,"Would agent W3, prefer M3 and M1 over M2?",no,"If agent W3 is currently engaged to M2, would she accept proposals from M3 and M1?",no
+impartial culture,5,5,"{
+M: {
+M1: [W2,W3,W1,W5,W4],
+M2: [W4,W5,W2,W3,W1],
+M3: [W5,W1,W2,W3,W4],
+M4: [W4,W1,W2,W3,W5],
+M5: [W1,W2,W3,W5,W4],
+},
+W: {
+W1: [M1,M5,M3,M2,M4],
+W2: [M3,M4,M2,M5,M1],
+W3: [M2,M5,M4,M1,M3],
+W4: [M5,M3,M1,M2,M4],
+W5: [M4,M5,M2,M1,M3],
+}}","2,3,1,5,4
+4,5,2,3,1
+5,1,2,3,4
+4,1,2,3,5
+1,2,3,5,4","1,5,3,2,4
+3,4,2,5,1
+2,5,4,1,3
+5,3,1,2,4
+4,5,2,1,3","[[M1, W3],[M2, W4],[M3, W5],[M4, W2],[M5, W1],]","[[M1, W1],[M2, W3],[M3, W2],[M4, W5],[M5, W4],]","[[M1, W1],[M2, W4],[M3, W2],[M4, W5],[M5, W3],]","[[M1, W2],[M2, W4],[M3, W5],[M4, W3],[M5, W1],]","[[M1, W3],[M2, W2],[M3, W5],[M4, W4],[M5, W1],]","[[M1, W1],[M2, W2],[M3, W3],[M4, W5],[M5, W4],]","[[M1, W4],[M2, W2],[M3, W5],[M4, W1],[M5, W3],]","Who is agent W3's, 2-most preferred agent?",M5,"Would agent W4, prefer M4 and M2 over M3?",no,"If agent W4 is currently engaged to M3, would she accept proposals from M4 and M2?",no
+impartial culture,5,5,"{
+M: {
+M1: [W1,W5,W4,W2,W3],
+M2: [W3,W1,W5,W2,W4],
+M3: [W5,W2,W1,W3,W4],
+M4: [W4,W3,W1,W5,W2],
+M5: [W2,W4,W5,W3,W1],
+},
+W: {
+W1: [M5,M3,M1,M4,M2],
+W2: [M1,M5,M3,M2,M4],
+W3: [M1,M4,M5,M3,M2],
+W4: [M5,M1,M3,M2,M4],
+W5: [M2,M3,M5,M1,M4],
+}}","1,5,4,2,3
+3,1,5,2,4
+5,2,1,3,4
+4,3,1,5,2
+2,4,5,3,1","5,3,1,4,2
+1,5,3,2,4
+1,4,5,3,2
+5,1,3,2,4
+2,3,5,1,4","[[M1, W1],[M2, W3],[M3, W5],[M4, W4],[M5, W2],]","[[M1, W2],[M2, W5],[M3, W1],[M4, W3],[M5, W4],]","[[M1, W4],[M2, W5],[M3, W1],[M4, W3],[M5, W2],]","[[M1, W1],[M2, W4],[M3, W5],[M4, W3],[M5, W2],]","[[M1, W1],[M2, W3],[M3, W5],[M4, W2],[M5, W4],]","[[M1, W5],[M2, W4],[M3, W2],[M4, W3],[M5, W1],]","[[M1, W1],[M2, W2],[M3, W3],[M4, W4],[M5, W5],]","Who is agent W5's, 1-most preferred agent?",M2,"Would agent W2, prefer M3 and M1 over M2?",yes,"If agent W2 is currently engaged to M2, would she accept proposals from M3 and M1?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W2,W1,W3,W4,W5],
+M2: [W2,W4,W5,W1,W3],
+M3: [W3,W2,W4,W5,W1],
+M4: [W1,W4,W5,W3,W2],
+M5: [W4,W1,W2,W3,W5],
+},
+W: {
+W1: [M2,M5,M4,M3,M1],
+W2: [M3,M1,M2,M4,M5],
+W3: [M5,M4,M2,M1,M3],
+W4: [M4,M3,M1,M5,M2],
+W5: [M1,M5,M4,M2,M3],
+}}","2,1,3,4,5
+2,4,5,1,3
+3,2,4,5,1
+1,4,5,3,2
+4,1,2,3,5","2,5,4,3,1
+3,1,2,4,5
+5,4,2,1,3
+4,3,1,5,2
+1,5,4,2,3","[[M1, W2],[M2, W5],[M3, W3],[M4, W1],[M5, W4],]","[[M1, W5],[M2, W1],[M3, W2],[M4, W4],[M5, W3],]","[[M1, W3],[M2, W5],[M3, W2],[M4, W4],[M5, W1],]","[[M1, W2],[M2, W1],[M3, W3],[M4, W5],[M5, W4],]","[[M1, W2],[M2, W5],[M3, W4],[M4, W1],[M5, W3],]","[[M1, W2],[M2, W5],[M3, W1],[M4, W3],[M5, W4],]","[[M1, W4],[M2, W2],[M3, W5],[M4, W3],[M5, W1],]","Who is agent W5's, 1-most preferred agent?",M1,"Would agent W3, prefer M3 or M4 over M2?",yes,"If agent W3 is currently engaged to M2, would she accept proposals from M3 or M4?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W2,W4,W1,W3,W5],
+M2: [W4,W3,W1,W5,W2],
+M3: [W5,W1,W3,W2,W4],
+M4: [W3,W2,W4,W5,W1],
+M5: [W1,W3,W4,W2,W5],
+},
+W: {
+W1: [M4,M5,M1,M2,M3],
+W2: [M2,M1,M3,M5,M4],
+W3: [M3,M5,M1,M4,M2],
+W4: [M1,M2,M3,M5,M4],
+W5: [M4,M2,M5,M1,M3],
+}}","2,4,1,3,5
+4,3,1,5,2
+5,1,3,2,4
+3,2,4,5,1
+1,3,4,2,5","4,5,1,2,3
+2,1,3,5,4
+3,5,1,4,2
+1,2,3,5,4
+4,2,5,1,3","[[M1, W2],[M2, W4],[M3, W5],[M4, W3],[M5, W1],]","[[M1, W4],[M2, W2],[M3, W3],[M4, W5],[M5, W1],]","[[M1, W2],[M2, W4],[M3, W3],[M4, W5],[M5, W1],]","[[M1, W2],[M2, W4],[M3, W5],[M4, W1],[M5, W3],]","[[M1, W2],[M2, W1],[M3, W5],[M4, W4],[M5, W3],]","[[M1, W1],[M2, W4],[M3, W2],[M4, W3],[M5, W5],]","[[M1, W4],[M2, W1],[M3, W2],[M4, W3],[M5, W5],]","Who is agent W5's, 3-most preferred agent?",M5,"Would agent W4, prefer M2 or M1 over M4?",yes,"If agent W4 is currently engaged to M4, would she accept proposals from M2 or M1?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W1,W4,W2,W5,W3],
+M2: [W3,W4,W1,W2,W5],
+M3: [W5,W4,W3,W1,W2],
+M4: [W2,W3,W1,W5,W4],
+M5: [W2,W5,W3,W4,W1],
+},
+W: {
+W1: [M3,M2,M5,M1,M4],
+W2: [M5,M1,M3,M2,M4],
+W3: [M5,M1,M4,M3,M2],
+W4: [M4,M5,M3,M1,M2],
+W5: [M1,M5,M2,M4,M3],
+}}","1,4,2,5,3
+3,4,1,2,5
+5,4,3,1,2
+2,3,1,5,4
+2,5,3,4,1","3,2,5,1,4
+5,1,3,2,4
+5,1,4,3,2
+4,5,3,1,2
+1,5,2,4,3","[[M1, W1],[M2, W4],[M3, W5],[M4, W3],[M5, W2],]","[[M1, W5],[M2, W1],[M3, W4],[M4, W3],[M5, W2],]","[[M1, W4],[M2, W1],[M3, W5],[M4, W3],[M5, W2],]","[[M1, W1],[M2, W5],[M3, W4],[M4, W3],[M5, W2],]","[[M1, W1],[M2, W4],[M3, W5],[M4, W2],[M5, W3],]","[[M1, W1],[M2, W5],[M3, W3],[M4, W2],[M5, W4],]","[[M1, W2],[M2, W4],[M3, W3],[M4, W1],[M5, W5],]","Who is agent W1's, 3-most preferred agent?",M5,"Would agent W1, prefer M2 and M4 over M1?",no,"If agent W1 is currently engaged to M1, would she accept proposals from M2 and M4?",no
+impartial culture,5,5,"{
+M: {
+M1: [W4,W3,W5,W2,W1],
+M2: [W3,W4,W2,W5,W1],
+M3: [W1,W2,W5,W3,W4],
+M4: [W2,W4,W3,W1,W5],
+M5: [W5,W1,W4,W3,W2],
+},
+W: {
+W1: [M5,M1,M4,M2,M3],
+W2: [M3,M5,M4,M2,M1],
+W3: [M3,M2,M4,M1,M5],
+W4: [M1,M5,M3,M2,M4],
+W5: [M4,M3,M2,M1,M5],
+}}","4,3,5,2,1
+3,4,2,5,1
+1,2,5,3,4
+2,4,3,1,5
+5,1,4,3,2","5,1,4,2,3
+3,5,4,2,1
+3,2,4,1,5
+1,5,3,2,4
+4,3,2,1,5","[[M1, W4],[M2, W3],[M3, W1],[M4, W2],[M5, W5],]","[[M1, W4],[M2, W3],[M3, W2],[M4, W5],[M5, W1],]","[[M1, W4],[M2, W3],[M3, W2],[M4, W1],[M5, W5],]","[[M1, W4],[M2, W3],[M3, W5],[M4, W2],[M5, W1],]","[[M1, W3],[M2, W4],[M3, W1],[M4, W2],[M5, W5],]","[[M1, W4],[M2, W2],[M3, W5],[M4, W1],[M5, W3],]","[[M1, W1],[M2, W4],[M3, W2],[M4, W3],[M5, W5],]","Who is agent W3's, 4-most preferred agent?",M1,"Would agent W5, prefer M4 and M3 over M1?",yes,"If agent W5 is currently engaged to M1, would she accept proposals from M4 and M3?",yes
+impartial culture,5,5,"{
+M: {
+M1: [W2,W1,W3,W4,W5],
+M2: [W1,W5,W2,W4,W3],
+M3: [W5,W2,W4,W1,W3],
+M4: [W3,W5,W2,W1,W4],
+M5: [W2,W3,W4,W5,W1],
+},
+W: {
+W1: [M3,M4,M5,M1,M2],
+W2: [M4,M2,M1,M3,M5],
+W3: [M1,M3,M4,M2,M5],
+W4: [M2,M5,M4,M1,M3],
+W5: [M4,M5,M3,M1,M2],
+}}","2,1,3,4,5
+1,5,2,4,3
+5,2,4,1,3
+3,5,2,1,4
+2,3,4,5,1","3,4,5,1,2
+4,2,1,3,5
+1,3,4,2,5
+2,5,4,1,3
+4,5,3,1,2","[[M1, W2],[M2, W1],[M3, W5],[M4, W3],[M5, W4],]","[[M1, W3],[M2, W2],[M3, W1],[M4, W5],[M5, W4],]","[[M1, W1],[M2, W2],[M3, W5],[M4, W3],[M5, W4],]","[[M1, W2],[M2, W1],[M3, W3],[M4, W5],[M5, W4],]","[[M1, W3],[M2, W1],[M3, W5],[M4, W2],[M5, W4],]","[[M1, W2],[M2, W3],[M3, W5],[M4, W1],[M5, W4],]","[[M1, W2],[M2, W5],[M3, W3],[M4, W1],[M5, W4],]","Who is agent W3's, 3-most preferred agent?",M4,"Would agent W1, prefer M2 or M1 over M3?",no,"If agent W1 is currently engaged to M3, would she accept proposals from M2 or M1?",no

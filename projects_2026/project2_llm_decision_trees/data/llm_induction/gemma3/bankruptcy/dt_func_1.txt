@@ -1,0 +1,30 @@
+```python
+def bankruptcy_prediction(row):
+    """
+    Predicts bankruptcy based on financial ratios.
+
+    Args:
+        row (dict): A dictionary containing the financial ratios.
+
+    Returns:
+        tuple: A tuple containing the prediction (0 or 1) and a list of binary node values.
+    """
+    node1 = int(row['BVE/BVL'] < 0.5)
+    node2 = int(row['EBIT/TA'] < 0.1)
+    node3 = int(row['RE/TA'] < 0.1)
+
+    emb = [node1, node2, node3]
+
+    if node1 == 1:
+        if node2 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+    else:
+        if node3 == 1:
+            prediction = 1
+        else:
+            prediction = 0
+
+    return prediction, emb
+```

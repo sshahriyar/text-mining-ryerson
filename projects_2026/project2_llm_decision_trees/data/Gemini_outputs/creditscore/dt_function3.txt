@@ -1,0 +1,41 @@
+```python
+def classify_credit_application(age, income_per_dependent, monthly_credit_card_expenses, owning_a_home, self_employed, number_of_derogatory_reports):
+    """
+    Classifies whether a credit application is accepted or not based on
+    a decision tree induced from world knowledge.
+
+    Args:
+        age (int): Applicant's age in years.
+        income_per_dependent (float): Income per dependent, ranging from 1.5 to 10.
+        monthly_credit_card_expenses (float): Monthly credit card expenses in dollars.
+        owning_a_home (str): 'yes' or 'no' indicating home ownership.
+        self_employed (str): 'yes' or 'no' indicating self-employment status.
+        number_of_derogatory_reports (int): Number of derogatory reports on credit history.
+
+    Returns:
+        tuple: (prediction, node_truth_values)
+               prediction (str): 'Accepted' or 'Denied'.
+               node_truth_values (list): List of 1s and 0s representing truth values
+                                         of inner nodes. 1 if condition satisfied, 0 otherwise.
+    """
+    node_truth_values = []
+
+    # Node 1: Check for derogatory reports (most critical factor for credit denial)
+    # Condition: number_of_derogatory_reports > 0
+    if number_of_derogatory_reports > 0:
+        node_truth_values.append(1)  # Condition satisfied (derogatory reports exist)
+        prediction = 'Denied'
+    else:
+        node_truth_values.append(0)  # Condition not satisfied (no derogatory reports)
+
+        # Node 2: If no derogatory reports, check income per dependent (key indicator of repayment capacity)
+        # Condition: income_per_dependent >= 5.0
+        if income_per_dependent >= 5.0:
+            node_truth_values.append(1)  # Condition satisfied (sufficient income per dependent)
+            prediction = 'Accepted'
+        else:
+            node_truth_values.append(0)  # Condition not satisfied (low income per dependent)
+            prediction = 'Denied'
+
+    return prediction, node_truth_values
+```
