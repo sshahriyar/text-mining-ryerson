@@ -1,6 +1,6 @@
 # List of Projects
 
-### Project 1: EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis
+### Project 1: EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis*
 
 ### Project 2: Oh LLM, I’m Asking Thee, Please Give Me a Decision Tree: Zero-Shot Decision Tree Induction and Embedding with Large Language Models
 
@@ -14,7 +14,7 @@
 
 ### Project 7: Text Classification using Large Language Models for Edit Intent Detection
 
-### Project 8: Adapting Large Vision-Language Models to Visually-Aware Conversational Recommendation
+### Project 8: Adapting Large Vision-Language Models to Visually-Aware Conversational Recommendation*
 
 ### Project 9: RAGCHECKER: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation
 
